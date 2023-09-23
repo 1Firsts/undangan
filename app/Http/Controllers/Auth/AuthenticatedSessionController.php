@@ -45,4 +45,27 @@ class AuthenticatedSessionController extends Controller
 
         return redirect('/');
     }
+
+    /**
+     * Display the lock screen view.
+     */
+    public function showLockScreen(): View
+    {
+        return view('auth.lockscreen');
+    }
+
+    /**
+     * Unlock the user's session.
+     */
+    public function unlock(Request $request): RedirectResponse
+    {
+        // Validate the user's password
+        if (Auth::guard('web')->attempt(['email' => Auth::user()->email, 'password' => $request->password])) {
+            // Password is correct, redirect to the intended page or dashboard
+            return redirect()->intended(RouteServiceProvider::HOME);
+        }
+
+        // Password is incorrect, redirect back to the lock screen with an error message
+        return redirect()->route('lockscreen')->with('error', 'Incorrect password. Please try again.');
+    }
 }

@@ -77,7 +77,7 @@
                             </div>
                               </form>
                               <div class="authent-login">
-                                  <a href="login.html">{{ __('Already registered?') }}</a>
+                                  <a href="{{ url('login') }}">{{ __('Already registered?') }}</a>
                               </div>
                         </div>
                     </div>

@@ -48,11 +48,20 @@ $(document).ready(function () {
     );
 
     chart1.render();
+    
+    var data_order = {
+        count: {
+            column: {
+                customer: [10, 20, 30, 40, 50, 60, 70]
+            }
+        },
+        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July']
+    };
 
     var options2 = {
         series: [{
-            name: 'Series 1',
-            data: [20, 100, 40, 30, 50, 80, 33]
+            name: 'Jumlah Order',
+            data: data_order.count.column.customer
         }],
         chart: {
             height: 337,
@@ -90,7 +99,7 @@ $(document).ready(function () {
             }
         },
         xaxis: {
-            categories: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+            categories: data_order.labels
         },
         yaxis: {
             tickAmount: 7,

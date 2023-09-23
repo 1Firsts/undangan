@@ -6,8 +6,8 @@
                   <div class="col">
                       <div class="card">
                           <div class="card-body">
-                              <h5 class="card-title">Summary Tables</h5>
-                              <p>When using tables to display data, you will often wish to display column information in groups. DataTables fully supports colspan and rowspan in the table's header, assigning the required order listeners to the TH element suitable for that column.</p>
+                              <h5 class="card-title">Rangkuman Transaksi</h5>
+                              <p>Table ini merangkum semua transaksi tema menjadi 1 agar mudah dibaca</p>
                               <table id="complex-header" class="display" style="width:100%">
                                   <thead>
                                       <tr>

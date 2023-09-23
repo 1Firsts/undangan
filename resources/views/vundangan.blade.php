@@ -386,31 +386,31 @@
 									<div class="col-md-7">
 										<div class="gift-carousel fromleft">
 											<div class="gift-post">
-												<img src="http://placehold.it/202x134" alt="" />
+												<img src="{{ asset('undangan/images/resource/logobank.png') }}" alt="" />
 												<div class="gift-info">
-													<img class="fr-img" src="{{ asset('undangan/images/resource/bni.svg') }}" alt="" />
-													<img class="bk-img" src="{{ asset('undangan/images/resource/bri.svg') }}" alt="" />
+													<img class="fr-img" src="{{ asset('undangan/images/resource/dana.png') }}" alt="" />
+													<img class="bk-img" src="{{ asset('undangan/images/resource/bni.png') }}" alt="" />
 												</div>
 											</div>
 											<div class="gift-post">
-												<img src="http://placehold.it/202x134" alt="" />
+												<img src="{{ asset('undangan/images/resource/logobank.png') }}" alt="" />
 												<div class="gift-info">
-													<img class="bk-img" src="{{ asset('undangan/images/resource/dana.svg') }}" alt="" />
-													<img class="fr-img" src="{{ asset('undangan/images/resource/linkaja.svg') }}" alt="" />
+													<img class="fr-img" src="{{ asset('undangan/images/resource/dana.png') }}" alt="" />
+													<img class="bk-img" src="{{ asset('undangan/images/resource/linkaja.png') }}" alt="" />
 												</div>
 											</div>
 											<div class="gift-post">
-												<img src="http://placehold.it/202x134" alt="" />
+												<img src="{{ asset('undangan/images/resource/logobank.png') }}" alt="" />
 												<div class="gift-info">
-													<img class="bk-img" src="{{ asset('undangan/images/resource/mandiri.svg') }}" alt="" />
-													<img class="fr-img" src="{{ asset('undangan/images/resource/ovo.svg') }}" alt="" />
+													<img class="fr-img" src="{{ asset('undangan/images/resource/mandiri.png') }}" alt="" />
+													<img class="bk-img" src="{{ asset('undangan/images/resource/ovo.png') }}" alt="" />
 												</div>
 											</div>
 											<div class="gift-post">
-												<img src="http://placehold.it/202x134" alt="" />
+												<img src="{{ asset('undangan/images/resource/logobank.png') }}" alt="" />
 												<div class="gift-info">
-													<img class="bk-img" src="{{ asset('undangan/images/resource/permata.svg') }}" alt="" />
-													<img class="fr-img" src="{{ asset('undangan/images/resource/qris.svg') }}" alt="" />
+													<img class="fr-img" src="{{ asset('undangan/images/resource/permata.png') }}" alt="" />
+													<img class="bk-img" src="{{ asset('undangan/images/resource/qris.png') }}" alt="" />
 												</div>
 											</div>
 										</div>
@@ -432,7 +432,7 @@
 			</div>
 		</section>
 
-		<section class="scroll-sction" id="scroll-blog-section">
+		<section>
 			<div class="block">
 				<div class="container">
 					<div class="row">
@@ -441,85 +441,55 @@
 								<div class="row">
 
 									<div class="col-md-6">
-										<div class="blog-post intro-div fromright">
-											<div class="title">
-												<h4>Pilih <span>Tema <br /> Kesukaanmu</span></h4>
+										<div class="blog-post post-carousel fromleft">
+											<div class="carousel-post">
+												<span>Pesan Sekarang</span>
+												<h2>Yukk!</h2>
+												<img src="{{ asset('undangan/images/resource/wait1.png') }}" alt="" />
 											</div>
-											<p>Kami mempunyai banyak pilihan tema terbaik dari berbagai ragam pilihan.</p>
+											<div class="carousel-post">
+												<span>Pesan Sekarang</span>
+												<h2>Yukk!</h2>
+												<img src="{{ asset('undangan/images/resource/wait2.png') }}" alt="" />
+											</div>
+											<div class="carousel-post">
+												<span>Pesan Sekarang</span>
+												<h2>Yukk!</h2>
+												<img src="{{ asset('undangan/images/resource/wait3.png') }}" alt="" />
+											</div>
 										</div>
 									</div>
 									
 									<div class="col-md-6">
-										<div class="blog-post img-post fromleft">
-											<img src="http://placehold.it/673x517" alt="" />
-											<div class="blog-post-padd">
-												<div class="blog-post-padd-inner">
-													<div class="post-detail">
-														<ul class="post-meta">
-															<li><i class="fa fa-comments"></i> 6</li>
-															<li><i class="fa fa-clock-o"></i> 23 jun 2010</li>
-														</ul>
-														<h2><a href="#" title="">He Purpose first!</a></h2>
-														<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give.</p>
-														<div class="post-author">
-															<img src="http://placehold.it/61x61" alt="" />
-															<span>Posted by</span>
-															<strong>Lisa Joan</strong>
-														</div>
-														<a href="#" title="">Continue</a>
-													</div>
-												</div>
+										<div class="blog-post intro-div fromright">
+											<div class="title">
+												<h4>Pilihan <span><br /> Undangan</span></h4>
 											</div>
+											<p>Pilih dan Bagikan Undanganmu kepada Keluarga dan Teman-Teman, sedang ada Promo untuk sekarang ini jika membeli Undangan Online.</p>
+											<a href="#" title="" class="btn2">Pesan Sekarang!</a>
 										</div>
 									</div>
-
+									
+									@foreach ($undangans as $undangan)
 									<div class="col-md-6">
-										<div class="blog-post img-post fromleft">
-											<img src="http://placehold.it/673x517" alt="" />
-											<div class="blog-post-padd">
-												<div class="blog-post-padd-inner">
-													<div class="post-detail">
-														<ul class="post-meta">
-															<li><i class="fa fa-comments"></i> 6</li>
-															<li><i class="fa fa-clock-o"></i> 23 jun 2010</li>
-														</ul>
-														<h2><a href="#" title="">He Purpose first!</a></h2>
-														<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give.</p>
-														<div class="post-author">
-															<img src="http://placehold.it/61x61" alt="" />
-															<span>Posted by</span>
-															<strong>Lisa Joan</strong>
-														</div>
-														<a href="#" title="">Continue</a>
-													</div>
-												</div>
+										<div class="blog-post author-post">
+										<img src="{{ asset('/' . $undangan->file) }}" alt="" />
+										<div class="blog-post-padd">
+											<div class="blog-post-padd-inner">
+											<div class="post-detail">
+												<ul class="post-meta">
+												@foreach ($dataLinks as $dataLink)
+												<h1><a href="{{ $dataLink->link }}">{{ $undangan->judul }}</a></h1>
+												@endforeach
+												<h6>Posted by {{ $undangan->quote }}</h6>
+												</ul>
+												<h2>{{ $undangan->deskripsi }}</h2>
+											</div>
 											</div>
 										</div>
-									</div>
-
-									<div class="col-md-6">
-										<div class="blog-post author-post fromright">
-											<img src="http://placehold.it/673x517" alt="" />
-											<div class="blog-post-padd">
-												<div class="blog-post-padd-inner">
-													<div class="post-detail">
-														<ul class="post-meta">
-															<li><i class="fa fa-comments"></i> 5</li>
-															<li><i class="fa fa-clock-o"></i> 25 sep 2016</li>
-														</ul>
-														<h2><a href="#" title="">We enjoyed our first dating!</a></h2>
-														<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give.</p>
-														<div class="post-author">
-															<img src="http://placehold.it/61x61" alt="" />
-															<span>Posted by</span>
-															<strong>Alisa lisa</strong>
-														</div>
-														<a href="#" title="">Continue</a>
-													</div>
-												</div>
-											</div>
 										</div>
 									</div>
+									@endforeach
 
 								</div>
 							</div><!-- Our Blog -->
@@ -578,10 +548,10 @@
 										<div class="col-md-6">
 											<div class="contect-form fromright">
 												<img src="{{ asset('undangan/images/contact-img2.png') }}" alt="" />
-													<div id="message"></div>
+													<div id="message">Undangan Online</div>
 													<div class="event-time">
 														<p>Promo Segera Berakhir</p>
-														<h2>Sebelum harga naik</h2>
+														<h2>Rp. 70.000</h2>
 														<span class="time" id="timer">Friday</span>
 													</div>
 												<span class="envelop-btn">
@@ -624,7 +594,11 @@
 											<h4>Berbagi Undangan Jadi Lebih Mudah & Cepat​</h4>										
 										</div>
 										<p>Anda Sudah Tidak Sabar Lagi Untuk Segera Membagikan Undangan Pernikahan Digitalnya, Kan</p>
-										<span class="pricing-btn"><a href="#" title="">Hubungi Kami via Whatsapp</a></span>
+										<span class="pricing-btn">
+											@foreach ($dataLinks as $dataLink)
+												<a href="{{ $dataLink->link }}" title="{{ $dataLink->title }}">Hubungi Kami via WhatsApp</a>
+											@endforeach
+										</span>
 									</div>
 								
 							</div>
@@ -669,8 +643,6 @@
 			</div>		
 		</div>
 
-
-
 	<!-- Scripts -->
 	<script src="{{ asset('undangan/js/jquery.min.js') }}" type="text/javascript"></script><!-- jQuery -->
 	<script src="{{ asset('undangan/js/bootstrap.min.js') }}" type="text/javascript"></script><!-- Bootstrap -->
@@ -699,7 +671,7 @@
 	<script src="{{ asset('undangan/js/onscreen.js') }}" type="text/javascript"></script><!-- OnScreen -->
 	<script src="{{ asset('undangan/js/map-int1.js') }}" type="text/javascript"></script><!-- Map Int -->
 	<script src="{{ asset('undangan/js/script.js') }}" type="text/javascript"></script><!-- Custom -->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script><!-- Google Map -->
-	<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+    <script src="{{ url('https://maps.googleapis.com/maps/api/js?v=3.exp') }}"></script><!-- Google Map -->
+	<script src="{{ url('https://w.soundcloud.com/player/api.js" type="text/javascript') }}"></script>
 </body>
 </html>

@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Coba extends Model
 {
-    use HasFactory;
+    protected $table = 'undangans'; // Specify the table name
+
+    protected $fillable = ['judul', 'deskripsi', 'quote', 'file']; 
+
 }

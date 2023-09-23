@@ -7,6 +7,7 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
+        "intervention/image": "^2.7",
         "laravel/breeze": "^1.23",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
@@ -18,7 +19,7 @@
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
-        "phpunit/phpunit": "^10.1",
+        "phpunit/phpunit": "^10.3",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
@@ -26,7 +27,13 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/Helpers/CountNewCustomersHelper.php",
+            "app/Helpers/CountSelesaiCustomersHelper.php",
+            "app/Helpers/CountDikerjakanCustomersHelper.php",
+            "app/Helpers/CountJumlahCustomersHelper.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

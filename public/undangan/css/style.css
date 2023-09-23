@@ -1983,7 +1983,7 @@ header.sticky .logomenu-sec > ul > li {
 }
 .gift-carousel .owl-item.center .gift-info > .bk-img {opacity: 1;}
 .gift-info > a {
-    background: #000 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
