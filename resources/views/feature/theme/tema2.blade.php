@@ -9,8 +9,8 @@
                               <h5 class="card-title">Buat Tema 2</h5>
                               <p class="card-description">Form Pembuatan Tema Kategori 2</p>
                               
-                              <form action="{{ route('buat_tema_1') }}" enctype="multipart/form-data" method="POST">
-                                @csrf    
+                              <form action="{{ route('buat_tema', 2) }}" enctype="multipart/form-data" method="POST">
+                                @csrf
                                 
                                 <div class="row mb-3">
                                     <label for="nama_lengkap" class="col-sm-2 col-form-label">Nama Lengkap</label>
@@ -109,7 +109,7 @@
                                   </div>
                                   
                                   <input type="hidden" name="link_undangan" id="link_undangan" value="test.com">
-                                  <input type="hidden" name="tema_category" id="tema_category" value="Tema 1">
+                                  <input type="hidden" name="tema_category" id="tema_category" value="Tema 2">
 
                                   <button type="submit" class="btn btn-success">Buat</button>
                                 </form>

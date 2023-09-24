@@ -9,9 +9,8 @@
                               <h5 class="card-title">Buat Tema 34</h5>
                               <p class="card-description">Form Pembuatan Tema Kategori 34</p>
                               
-                              <form action="{{ route('buat_tema_1') }}" enctype="multipart/form-data" method="POST">
-                                @csrf    
-                                
+                              <form action="{{ route('buat_tema', 34) }}" enctype="multipart/form-data" method="POST">
+                                @csrf
                                 <div class="row mb-3">
                                     <label for="nama_lengkap" class="col-sm-2 col-form-label">Nama Lengkap</label>
                                     <div class="col-sm-10">

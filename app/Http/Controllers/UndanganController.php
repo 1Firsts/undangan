@@ -29,13 +29,13 @@ class UndanganController extends Controller
         ]); // Pass the data to the view
     }
 
-    public function buat_tema_1(Request $request)
+    public function createTheme(Request $request, $themeNumber)
     {
         $imageManager = new ImageManager([
             'driver' => 'gd',
         ]);
 
-         // Validate the request data
+        // Validate the request data
         $request->validate([
             'nama_lengkap' => 'required',
             'nama_panggilan' => 'required',
@@ -53,24 +53,23 @@ class UndanganController extends Controller
         $image = $imageManager->make($request->file('foto'))->resize(673, 517)->crop(673, 517);
 
         // Save the image to the `uploads` directory
-        $imagePath = $request->file('foto')->store('storage/uploads/tema1', 'public');
+        $imagePath = $request->file('foto')->store("storage/uploads/tema{$themeNumber}", 'public');
 
         // Create a new theme record in the database
-        $tema1 = new Tema();
-        $tema1->nama_lengkap = $request->input('nama_lengkap');
-        $tema1->nama_panggilan = $request->input('nama_panggilan');
-        $tema1->foto = $imagePath;
-        $tema1->media_sosial = $request->input('media_sosial');
-        $tema1->hari_tgl = $request->input('hari_tgl');
-        $tema1->waktu = $request->input('waktu');
-        $tema1->lokasi = $request->input('lokasi');
-        $tema1->tema_pernikahan = $request->input('tema_pernikahan');
-        $tema1->link_undangan = $request->input('link_undangan');
-        $tema1->tema_category = $request->input('tema_category');
+        $theme = new Tema();
+        $theme->nama_lengkap = $request->input('nama_lengkap');
+        $theme->nama_panggilan = $request->input('nama_panggilan');
+        $theme->foto = $imagePath;
+        $theme->media_sosial = $request->input('media_sosial');
+        $theme->hari_tgl = $request->input('hari_tgl');
+        $theme->waktu = $request->input('waktu');
+        $theme->lokasi = $request->input('lokasi');
+        $theme->tema_pernikahan = $request->input('tema_pernikahan');
+        $theme->link_undangan = $request->input('link_undangan');
+        $theme->tema_category = $request->input('tema_category');
 
         // Save the theme data to the database
-        $tema1->save();
-        dd($tema1);
+        $theme->save();
 
         return view('feature/table');
     }
