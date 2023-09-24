@@ -15,14 +15,14 @@
 	<meta name="author" content="">
     
     <!-- ======================= CSS - stylesheets ======================= -->
-    <link href="style.css" rel="stylesheet" media="all">
-    <link href="css/shortcodes.css" rel="stylesheet" media="all">
-    <link href="css/responsive.css" rel="stylesheet" media="all">
-    <link href="skins/yellow/yellow.css" rel="stylesheet" media="all" id="color_skin_css">
+    <link href="{{ asset('theme/theme14/style.css') }}" rel="stylesheet" media="all">
+    <link href="{{ asset('theme/theme14/css/shortcodes.css') }}" rel="stylesheet" media="all">
+    <link href="{{ asset('theme/theme14/css/responsive.css') }}" rel="stylesheet" media="all">
+    <link href="{{ asset('theme/theme14/skins/yellow/yellow.css') }}" rel="stylesheet" media="all" id="color_skin_css">
     
-    <link href="js/isotope/isotope-style.css" rel="stylesheet" type="text/css">
-    <link href="js/prettyphoto/prettyPhoto.css" rel="stylesheet" type="text/css">    
-    <link rel="stylesheet" href="js/layerslider/layerslider.css" type="text/css">
+    <link href="{{ asset('theme/theme14/js/isotope/isotope-style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('theme/theme14/js/prettyphoto/prettyPhoto.css') }}" rel="stylesheet" type="text/css">    
+    <link rel="stylesheet" href="{{ asset('theme/theme14/js/layerslider/layerslider.css') }}" type="text/css">
     
     <!-- ======================= Color Picker ======================= -->
 	<!-- <link type="text/css" href="js/controlpanel/control-panel.css" rel="stylesheet"> -->
@@ -34,11 +34,11 @@
     <![endif]-->
     
 	<!-- ======================= Favicon ======================= -->
-	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="{{ url('favicon.ico') }}" rel="shortcut icon" type="image/x-icon">
     
         
 	<!-- ======================= Font Awesome ======================= -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('theme/theme14/css/font-awesome.min.css') }}">
     
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" href="css/ie7.css">
@@ -46,11 +46,11 @@
     <![endif]-->
     
     <!-- ======================= Google Fonts ======================= -->
-    <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href="{{ url('http://fonts.googleapis.com/css?family=Bitter:400,700') }}" rel='stylesheet' type='text/css'>
+    <link href="{{ url('http://fonts.googleapis.com/css?family=Oswald:300,400,700') }}" rel='stylesheet' type='text/css'>
+    <link href="{{ url('http://fonts.googleapis.com/css?family=Domine') }}" rel='stylesheet' type='text/css'>
+    <link href="{{ url('http://fonts.googleapis.com/css?family=Great+Vibes') }}" rel='stylesheet' type='text/css'>
+    <link href="{{ url('http://fonts.googleapis.com/css?family=Courgette') }}" rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -581,25 +581,25 @@
     <!-- wrapper Div Ends here -->
     
     <!-- ======================= jQuery ======================= -->
-    <script type="text/javascript" src="js/jquery.js"></script>    
+    <script type="text/javascript" src="{{ asset('theme/theme14/js/jquery.js') }}"></script>    
     
-    <script src="js/jquery.visualNav.js"></script>
-    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="{{ asset('theme/theme14/js/jquery.visualNav.js') }}"></script>
+    <script src="{{ asset('theme/theme14/js/jquery.mobilemenu.js') }}"></script>
     
-	<script src="js/jquery-easing-1.3.js" type="text/javascript"></script>
-	<script src="js/layerslider/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+	<script src="{{ asset('theme/theme14/js/jquery-easing-1.3.js') }}" type="text/javascript"></script>
+	<script src="{{ asset('theme/theme14/js/layerslider/layerslider.kreaturamedia.jquery.js') }}" type="text/javascript"></script>
       
-	<script type="text/javascript" src="js/customInput.jquery.js"></script>
+	<script type="text/javascript" src="{{ asset('theme/theme14/js/customInput.jquery.js') }}"></script>
     
-	<script type="text/javascript" src="js/isotope/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="{{ asset('theme/theme14/js/isotope/jquery.isotope.min.js') }}"></script>
     
-	<script type="text/javascript" src="js/prettyphoto/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="{{ asset('theme/theme14/js/prettyphoto/jquery.prettyPhoto.js') }}"></script>
     
-	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="{{ asset('theme/theme14/js/jquery.validate.min.js') }}"></script>
     
-	<script type="text/javascript" src="js/greyScale.min.js"></script>
+	<script type="text/javascript" src="{{ asset('theme/theme14/js/greyScale.min.js') }}"></script>
     
-	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="{{ asset('theme/theme14/js/custom.js') }}"></script>
     
 	<!-- <script type="text/javascript" src="js/controlpanel/jquery.cookie.js"></script>
 	<script type="text/javascript" src="js/controlpanel/control-panel.js"></script> -->

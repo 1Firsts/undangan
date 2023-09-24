@@ -8,17 +8,17 @@
     <meta name="description" content="Our Love - Responsive Wedding Template" />
     <meta name="keywords" content="retina, responsive, wedding, rsvp, Our Love" />
     <meta name="author" content="lmpixels (Linar Miftakhov)" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('theme/theme18/favicon.ico') }}">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('theme/theme18/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('theme/theme18/css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ asset('theme/theme18/css/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('theme/theme18/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('theme/theme18/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('theme/theme18/css/main.css') }}" type="text/css">
 
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+    <script src="{{ asset('theme/theme18/js/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/modernizr.custom.js') }}"></script>
   </head>
 
   <body>
@@ -432,13 +432,13 @@
     </div>
     <!-- /Main Container -->
     
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{ asset('theme/theme18/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/jquery.stellar.min.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/validator.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/jquery.countdown.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/jquery.malihu.PageScroll2id.min.js') }}"></script>
+    <script src="{{ asset('theme/theme18/js/main.js') }}"></script>
   </body>
 </html>

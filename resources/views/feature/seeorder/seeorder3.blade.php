@@ -1,13 +1,13 @@
 @extends('feature/layout/main')
-@section('title', 'Home')
+@section('title', 'Seeorder')
 
 @section('content')
                 <div class="row">
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Data Theme 1</h5>
-                                <p>DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function: <code>$().DataTable();</code>.</p>
+                                <h5 class="card-title">Data Tema 3</h5>
+                                <p>Data dari Kategori Tema 3.</p>
                                 <table id="zero-conf" class="display" style="width:100%">
                                     <thead>
                                         <tr>
@@ -20,66 +20,33 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                   
+                                    @php
+                                    use App\Models\Tema;
+                                    $seeorders1 = Tema::latest()->paginate(5);
+                                    @endphp
+
+									    @foreach ($seeorders1 as $seeorders1)
                                         <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>Theme 1</td>
-                                            <td>www.test.com</td>
+                                            <td>{{ $seeorders1->nama_lengkap }}</td>
+                                            <td>{{ $seeorders1->tema_category }}</td>
+                                            <td>{{ $seeorders1->link_undangan }}</td>
                                             <td>2011/04/25</td>
                                             <td>2012/04/25</td>
                                             <td>
-                                                <button type="button" class="btn btn-danger m-b-xs">Delete</button>
-                                                <button type="button" class="btn btn-warning m-b-xs">Ubah</button>
-                                                <button type="button" class="btn btn-info m-b-xs">Lihat</button>
+                                                <form action="{{ route('seeorders1.delete', $seeorders1->id) }}" method="POST">
+                                                    @csrf
+                                                    @method('DELETE')
+                                                    <button type="submit" class="btn btn-danger">Hapus</button>
+                                                </form>
+                                                <form action="{{ route('posts.show1', $seeorders1->id) }}">
+                                                    @csrf
+                                                    <button type="submit" class="btn btn-info">Lihat</button>
+                                                </form>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>Theme 1</td>
-                                            <td>www.test.com</td>
-                                            <td>2011/04/25</td>
-                                            <td>2012/04/25</td>
-                                            <td>
-                                                <button type="button" class="btn btn-danger m-b-xs">Delete</button>
-                                                <button type="button" class="btn btn-warning m-b-xs">Ubah</button>
-                                                <button type="button" class="btn btn-info m-b-xs">Lihat</button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>Theme 1</td>
-                                            <td>www.test.com</td>
-                                            <td>2011/04/25</td>
-                                            <td>2012/04/25</td>
-                                            <td>
-                                                <button type="button" class="btn btn-danger m-b-xs">Delete</button>
-                                                <button type="button" class="btn btn-warning m-b-xs">Ubah</button>
-                                                <button type="button" class="btn btn-info m-b-xs">Lihat</button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>Theme 1</td>
-                                            <td>www.test.com</td>
-                                            <td>2011/04/25</td>
-                                            <td>2012/04/25</td>
-                                            <td>
-                                                <button type="button" class="btn btn-danger m-b-xs">Delete</button>
-                                                <button type="button" class="btn btn-warning m-b-xs">Ubah</button>
-                                                <button type="button" class="btn btn-info m-b-xs">Lihat</button>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>Theme 1</td>
-                                            <td>www.test.com</td>
-                                            <td>2011/04/25</td>
-                                            <td>2012/04/25</td>
-                                            <td>
-                                                <button type="button" class="btn btn-danger m-b-xs">Delete</button>
-                                                <button type="button" class="btn btn-warning m-b-xs">Ubah</button>
-                                                <button type="button" class="btn btn-info m-b-xs">Lihat</button>
-                                            </td>
-                                        </tr>
+                                        @endforeach
+
                                     </tbody>
                                 </table>
                             </div>

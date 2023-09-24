@@ -5,19 +5,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Home 4 - Tilia </title>
 		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="{{ url('https://fonts.googleapis.com') }}">
+		<link rel="preconnect" href="{{ url('https://fonts.gstatic.com') }}" crossorigin>
+		<link href="{{ url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap') }}" rel="stylesheet">
 		<!-- Bootstrap CSS -->
-		<link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='bootstrap-css'  href="{{ asset('theme/theme13/css/bootstrap/css/bootstrap.min.css') }}" type='text/css' media='all' />
 		<!-- Font Awesome Icons CSS -->
-		<link rel='stylesheet' id='font-awesome'  href='css/fontawesome/css/font-awesome.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='font-awesome'  href="{{ asset('theme/theme13/css/fontawesome/css/font-awesome.min.css') }}" type='text/css' media='all' />
 		<!-- Main CSS File -->
-		<link rel='stylesheet' id='tilia-style-css'  href='style.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='tilia-style-css'  href="{{ asset('theme/theme13/style.css') }}" type='text/css' media='all' />
 		<!-- favicons -->
-		<link rel="icon" href="images/icons/favicon-32x32.png" sizes="32x32" />
-		<link rel="icon" href="images/icons/favicon-192x192.png" sizes="192x192" />
-		<link rel="apple-touch-icon-precomposed" href="images/icons/favicon-180x180.png" />
+		<link rel="icon" href="{{ asset('theme/theme13/images/icons/favicon-32x32.png') }}" sizes="32x32" />
+		<link rel="icon" href="{{ asset('theme/theme13/images/icons/favicon-192x192.png') }}" sizes="192x192" />
+		<link rel="apple-touch-icon-precomposed" href="{{ asset('theme/theme13/images/icons/favicon-180x180.png') }}" />
 	</head>
 	<body class="home home-4">
 		<div class="menu-mask">
@@ -367,15 +367,15 @@
 		<!-- /WRAP CONTENT -->
 		
 		<!-- JS --> 
-		<script src='js/jquery.js'></script>
-		<script src='js/jquery-migrate.min.js'></script>
-		<script src='css/bootstrap/js/popper.min.js'></script>
-		<script src='css/bootstrap/js/bootstrap.min.js'></script>
-		<script src='js/jquery.easing.min.js'></script>
-		<script src='js/swiper.js'></script>
-		<script src='js/isotope.js'></script>
-		<script src='js/simple-lightbox.js'></script>
+		<script src="{{ asset('theme/theme13/js/jquery.js') }}"></script>
+		<script src="{{ asset('theme/theme13/js/jquery-migrate.min.js') }}"></script>
+		<script src="{{ asset('theme/theme13/css/bootstrap/js/popper.min.js') }}"></script>
+		<script src="{{ asset('theme/theme13/css/bootstrap/js/bootstrap.min.js') }}"></script>
+		<script src="{{ asset('theme/theme13/js/jquery.easing.min.js') }}"></script>
+		<script src="{{ asset('theme/theme13/js/swiper.js') }}"></script>
+		<script src="{{ asset('theme/theme13/js/isotope.js') }}"></script>
+		<script src="{{ asset('theme/theme13/js/simple-lightbox.js') }}"></script>
 		<!-- MAIN JS -->
-		<script src='js/init.js'></script>
+		<script src="{{ asset('theme/theme13/js/init.js') }}"></script>
 	</body>
 </html>
