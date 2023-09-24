@@ -9,14 +9,18 @@ use Illuminate\Http\Request;
 
 class SeeorderController extends Controller
 {
-    public function index()
+    public function mseeorder1()
     {
-        return view('feature/seeorder');
+        $seeorders1 = Tema::latest()->paginate(5);
+                                    
+        return view('feature.seeorder.seeorder1', compact('seeorders1'));
     }
 
-    public function show_seeorder1()
+    public function show_seeorder1($id)
     {
-        return view('posts/show1');
+        $seeorders1 = Tema::find($id);
+        
+        return view('posts.show1', compact('seeorders1'));
     }
 
     public function delete_seeorder1(Request $request, $id)

@@ -38,8 +38,8 @@
                                 <img src="{{ asset('coba/images/logo@2x.png') }}" alt="">
                             </div>
                             <div class="authent-text">
-                                <p>Welcome </p>
-                                <p>Please Sign-in to your account.</p>
+                                <p>Selamat datang! </p>
+                                <p>Silahkan Login dengan akun yang ada.</p>
                             </div>
                             
                             <x-auth-session-status class="mb-4" :status="session('status')" />
@@ -68,11 +68,9 @@
                                 <button type="submit" class="btn btn-info m-b-xs">{{ __('Log in') }}</button>
                             </div>
                               </form>
-                              <div class="authent-reg">
-                                @if (Route::has('password.request'))
-                                  <a href="{{ route('password.request') }}">{{ __('Forgot your password?') }}</a>
-                                @endif
-                              </div>
+                              <!-- <div class="authent-reg">
+                                <a href="{{ route('password.request') }}">{{ __('Forgot your password?') }}</a>
+                              </div> -->
                         </div>
                     </div>
                 </div>

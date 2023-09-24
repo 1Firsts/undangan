@@ -20,12 +20,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                   
-                                    @php
-                                    use App\Models\Tema;
-                                    $seeorders1 = Tema::latest()->paginate(5);
-                                    @endphp
-
+                        
 									    @foreach ($seeorders1 as $seeorders1)
                                         <tr>
                                             <td>{{ $seeorders1->nama_lengkap }}</td>
