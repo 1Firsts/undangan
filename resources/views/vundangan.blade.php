@@ -481,7 +481,7 @@
 												@foreach ($dataLinks as $dataLink)
 												<h1><a href="{{ $dataLink->link }}">{{ $undangan->judul }}</a></h1>
 												@endforeach
-												<h6>Posted by {{ $undangan->quote }}</h6>
+												<h6>Kategori {{ $undangan->category }}</h6>
 												</ul>
 												<h2>{{ $undangan->deskripsi }}</h2>
 											</div>

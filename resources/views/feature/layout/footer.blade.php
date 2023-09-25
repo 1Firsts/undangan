@@ -7,7 +7,7 @@
 <script src="{{ asset('coba/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('coba/plugins/perfectscroll/perfect-scrollbar.min.js') }}"></script>
 
-<script src="{{ asset('coba/plugins/apexcharts/apexcharts.min.js') }}"></script>
+<!-- <script src="{{ asset('coba/plugins/apexcharts/apexcharts.min.js') }}"></script> -->
 <script src="{{ asset('coba/plugins/DataTables/datatables.min.js') }}"></script>
 <script src="{{ asset('coba/js/pages/datatables.js') }}"></script>
 

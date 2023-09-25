@@ -22,14 +22,16 @@ class UndanganController extends Controller
     {
         $undangans = Undangan::all(); // Retrieve all records from the 'Undangan' model
         $dataLinks = Link::all(); // Retrieve all records from the 'Undangan' model
+        $tables = Tema::all();
         
         return view('vundangan', [
             'undangans' => $undangans,
             'dataLinks' => $dataLinks,
+            'tables' => $tables,
         ]); // Pass the data to the view
     }
 
-    public function createTheme(Request $request, $themeNumber)
+    public function buat_tema(Request $request, $themeNumber)
     {
         $imageManager = new ImageManager([
             'driver' => 'gd',
@@ -70,7 +72,8 @@ class UndanganController extends Controller
 
         // Save the theme data to the database
         $theme->save();
+        // dd($theme);
 
-        return view('feature/table');
+        return view('feature.table');
     }
 }

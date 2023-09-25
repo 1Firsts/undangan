@@ -20,7 +20,7 @@
     <link href="{{ asset('coba/plugins/font-awesome/css/all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('coba/plugins/perfectscroll/perfect-scrollbar.css') }}" rel="stylesheet">
     
-    <link href="{{ asset('coba/plugins/apexcharts/apexcharts.css') }}" rel="stylesheet">
+    <!-- <link href="{{ asset('coba/plugins/apexcharts/apexcharts.css') }}" rel="stylesheet"> -->
     <link href="{{ asset('coba/plugins/DataTables/datatables.min.css') }}" rel="stylesheet">   
     
     <!-- Theme Styles -->

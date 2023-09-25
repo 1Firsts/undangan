@@ -39,15 +39,21 @@
                                             @enderror
                                         </div>
                                     </div>
+
                                     <div class="row mb-3">
-                                        <label for="quote" class="col-sm-2 col-form-label">Quoteby</label>
+                                        <label for="category" class="col-sm-2 col-form-label">Kategori</label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="quote" name="quote" placeholder="Quoteby">
-                                            @error('quote')
-                                                <span class="text-danger">{{ $message }}</span>
+                                            <select class="form-select" name="category" aria-label="Pilih Tema">
+                                            @for ($i = 1; $i <= 46; $i++)
+                                                <option value="Tema {{ $i }}">Tema {{ $i }}</option>
+                                            @endfor
+                                            </select>
+                                            @error('category')
+                                            <span class="text-danger">{{ $message }}</span>
                                             @enderror
                                         </div>
                                     </div>
+
                                     <div class="row mb-3">
                                         <label for="photo" class="col-sm-2 col-form-label">Photo</label>
                                         <div class="col-sm-10">

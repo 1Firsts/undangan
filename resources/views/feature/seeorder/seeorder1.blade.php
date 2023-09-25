@@ -2,6 +2,7 @@
 @section('title', 'Seeorder')
 
 @section('content')
+
                 <div class="row">
                     <div class="col">
                         <div class="card">
@@ -21,26 +22,27 @@
                                     </thead>
                                     <tbody>
                         
-									    @foreach ($seeorders1 as $seeorders1)
+                                    @foreach ($seeorders1 as $seeorder)
                                         <tr>
-                                            <td>{{ $seeorders1->nama_lengkap }}</td>
-                                            <td>{{ $seeorders1->tema_category }}</td>
-                                            <td>{{ $seeorders1->link_undangan }}</td>
+                                            <td>{{ $seeorder->nama_lengkap }}</td>
+                                            <td>{{ $seeorder->tema_category }}</td>
+                                            <td>{{ $seeorder->link_undangan }}</td>
                                             <td>2011/04/25</td>
                                             <td>2012/04/25</td>
                                             <td>
-                                                <form action="{{ route('seeorders1.delete', $seeorders1->id) }}" method="POST">
+                                                <form action="{{ route('seeorder1.delete', ['id' => $seeorder->id]) }}" method="POST">
                                                     @csrf
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-danger">Hapus</button>
                                                 </form>
-                                                <form action="{{ route('posts.show1', $seeorders1->id) }}">
+                                                <form action="{{ route('posts.show1', ['id' => $seeorder->id]) }}">
                                                     @csrf
                                                     <button type="submit" class="btn btn-info">Lihat</button>
                                                 </form>
                                             </td>
                                         </tr>
-                                        @endforeach
+                                    @endforeach
+
 
                                     </tbody>
                                 </table>

@@ -108,7 +108,7 @@
                                   </div>
                                   
                                   <input type="hidden" name="link_undangan" id="link_undangan" value="test.com">
-                                  <input type="hidden" name="tema_category" id="tema_category" value="Tema 1">
+                                  <input type="hidden" name="tema_category" id="tema_category" value="Tema 45">
 
                                   <button type="submit" class="btn btn-success">Buat</button>
                                 </form>

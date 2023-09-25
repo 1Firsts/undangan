@@ -3,15 +3,28 @@
 namespace App\Http\Controllers;
 
 use App\Models\Order;
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class OrderController extends Controller
 {
     public function index()
     {
-        $orders = Order::all();
+        // Chart laporan
+        $selesaiCount = DB::table('data_order')->where('status', 'Selesai')->count();
+        $dikerjakanCount = DB::table('data_order')->where('status', 'Dikerjakan')->count();
+        // @dd($selesaiCount, $dikerjakanCount);
+
+        $orders = Order::all();;
         
-        return view('feature/order', compact('orders'));
+        return view('feature/order', [
+            'orders' => $orders,
+
+            // Chart Laporan
+            'selesaiCount' => $selesaiCount,
+            'dikerjakanCount' => $dikerjakanCount,
+        ]);
     }
 
     public function create_order()

@@ -1,7 +1,7 @@
 @extends('feature/layout/main')
 @section('title', 'Table')
-
 @section('content')
+
                 <div class="row">
                   <div class="col">
                       <div class="card">
@@ -21,36 +21,20 @@
                                       </tr>
                                   </thead>
                                   <tbody>
+                                      
+                                  @php
+                                    use App\Models\Tema;
+                                    $tables = Tema::all();
+                                  @endphp
+                                  @foreach ($tables as $table)
                                       <tr>
-                                          <td>Tiger Nixon</td>
-                                          <td>System Architect</td>
+                                          <td>{{ $table->nama_lengkap }}</td>
+                                          <td>{{ $table->tema_category }}</td>
                                           <td>2011/04/25</td>
                                           <td>2011/04/25</td>
                                       </tr>
-                                      <tr>
-                                        <td>Tiger Nixon</td>
-                                        <td>System Architect</td>
-                                        <td>2011/04/25</td>
-                                        <td>2011/04/25</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tiger Nixon</td>
-                                        <td>System Architect</td>
-                                        <td>2011/04/25</td>
-                                        <td>2011/04/25</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tiger Nixon</td>
-                                        <td>System Architect</td>
-                                        <td>2011/04/25</td>
-                                        <td>2011/04/25</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tiger Nixon</td>
-                                        <td>System Architect</td>
-                                        <td>2011/04/25</td>
-                                        <td>2011/04/25</td>
-                                    </tr>
+                                  @endforeach
+                                      
                                   </tbody>
                               </table>
                           </div>

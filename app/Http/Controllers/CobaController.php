@@ -40,7 +40,7 @@ class CobaController extends Controller
         $request->validate([
             'judul' => 'required',
             'deskripsi' => 'required',
-            'quote' => 'required',
+            'category' => 'required',
             'file' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048', // Image validation rules
         ]);
 
@@ -54,7 +54,7 @@ class CobaController extends Controller
         $coba = new Coba();
         $coba->judul = $request->input('judul');
         $coba->deskripsi = $request->input('deskripsi');
-        $coba->quote = $request->input('quote');
+        $coba->category = $request->input('category');
         $coba->file = $imagePath;
 
         // Save the theme data to the database
@@ -65,10 +65,42 @@ class CobaController extends Controller
 
     public function index()
     {
+        // Chart laporan
+        $selesaiCount = DB::table('data_order')->where('status', 'Selesai')->count();
+        $dikerjakanCount = DB::table('data_order')->where('status', 'Dikerjakan')->count();
+        // @dd($selesaiCount, $dikerjakanCount);
+
+        // Progress Bar
+        $newCustomerCount = CountNewCustomersHelper::countNewCustomersInLastMonth();
+        $selesaiOrdersCount = CountSelesaiCustomersHelper::countSelesaiCustomers();
+        $jumlahOrdersCount = CountJumlahCustomersHelper::countJumlahCustomers();
+        $dikerjakanOrdersCount = CountDikerjakanCustomersHelper::countDikerjakanCustomers();
+
+        $maxCount = 1000; // Replace with the maximum value for your progress bar
+
+        $progressNewCustomer = ($newCustomerCount / $maxCount) * 100;
+        $progressSelesaiOrders = ($selesaiOrdersCount / $maxCount) * 100;
+        $progressJumlahOrders = ($jumlahOrdersCount / $maxCount) * 100;
+        $progressDikerjakanOrders = ($dikerjakanOrdersCount / $maxCount) * 100;
+
         $orders = Order::latest()->paginate(5);
-        
+
         return view('vcoba', [
             'orders' => $orders,
+
+            // Chart Laporan
+            'selesaiCount' => $selesaiCount,
+            'dikerjakanCount' => $dikerjakanCount,
+        
+            // Progress Bar
+            'newCustomerCount' => $newCustomerCount,
+            'selesaiOrdersCount' => $selesaiOrdersCount,
+            'jumlahOrdersCount' => $jumlahOrdersCount,
+            'dikerjakanOrdersCount' => $dikerjakanOrdersCount,
+            'progressNewCustomer' => $progressNewCustomer,
+            'progressSelesaiOrders' => $progressSelesaiOrders,
+            'progressJumlahOrders' => $progressJumlahOrders,
+            'progressDikerjakanOrders' => $progressDikerjakanOrders,
         ]);
     }
     
