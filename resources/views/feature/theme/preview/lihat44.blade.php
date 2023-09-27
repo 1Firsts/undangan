@@ -142,7 +142,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-12">
-                            <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="assets/img/logo-1.svg" alt=""></a>
+                            <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="{{ asset('theme/theme20/assets/img/logo-1.svg')}}" alt=""></a>
                             <a class="mobile-toggle padding-15px background-main-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                         </div>
 
@@ -160,7 +160,7 @@
 
                                     <div class="media">
                                         <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="http://placehold.it/200x200" alt="Generic placeholder image">
+										<img class="d-flex align-self-start mr-3 width-50px" src="{{ url('http://placehold.it/200x200')}}" alt="Generic placeholder image">
 									  </a>
                                         <div class="media-body">
                                             <a href="#" class="close"><i class="fa fa-window-close"></i></a>
@@ -171,7 +171,7 @@
 
                                     <div class="media">
                                         <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="http://placehold.it/200x200" alt="Generic placeholder image">
+										<img class="d-flex align-self-start mr-3 width-50px" src="{{ url('http://placehold.it/200x200')}}" alt="Generic placeholder image">
 									  </a>
                                         <div class="media-body">
                                             <a href="#" class="close"><i class="fa fa-window-close"></i></a>
@@ -183,7 +183,7 @@
 
                                     <div class="media">
                                         <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="http://placehold.it/200x200" alt="Generic placeholder image">
+										<img class="d-flex align-self-start mr-3 width-50px" src="{{ url('http://placehold.it/200x200')}}" alt="Generic placeholder image">
 									  </a>
                                         <div class="media-body">
                                             <a href="#" class="close"><i class="fa fa-window-close"></i></a>
@@ -233,7 +233,7 @@
         <!-- item -->
         <div class="blog-slider-item layout-1">
             <div class="img_in">
-                <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
             </div>
             <div class="content">
                 <ul class="meta">
@@ -250,7 +250,7 @@
         <!-- item -->
         <div class="blog-slider-item layout-1">
             <div class="img_in">
-                <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
             </div>
             <div class="content">
                 <ul class="meta">
@@ -267,7 +267,7 @@
         <!-- item -->
         <div class="blog-slider-item layout-1">
             <div class="img_in">
-                <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
             </div>
             <div class="content">
                 <ul class="meta">
@@ -284,7 +284,7 @@
         <!-- item -->
         <div class="blog-slider-item layout-1">
             <div class="img_in">
-                <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
             </div>
             <div class="content">
                 <ul class="meta">
@@ -311,7 +311,7 @@
                     <!-- Blog item -->
                     <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
                         <div class="img-in">
-                            <img src="http://placehold.it/500x500" alt="">
+                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
                             <!--  Social -->
                             <ul class="social-media">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -336,7 +336,7 @@
                     <!-- Blog item -->
                     <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
                         <div class="img-in">
-                            <img src="http://placehold.it/500x500" alt="">
+                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
                             <!--  Social -->
                             <ul class="social-media">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -361,7 +361,7 @@
                     <!-- Blog item -->
                     <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
                         <div class="img-in">
-                            <img src="http://placehold.it/500x500" alt="">
+                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
                             <!--  Social -->
                             <ul class="social-media">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -386,7 +386,7 @@
                     <!-- Blog item -->
                     <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
                         <div class="img-in">
-                            <img src="http://placehold.it/500x500" alt="">
+                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
                             <!--  Social -->
                             <ul class="social-media">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -411,7 +411,7 @@
                     <!-- Blog item -->
                     <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
                         <div class="img-in">
-                            <img src="http://placehold.it/500x500" alt="">
+                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
                             <!--  Social -->
                             <ul class="social-media">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -436,7 +436,7 @@
                     <!-- Blog item -->
                     <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
                         <div class="img-in">
-                            <img src="http://placehold.it/500x500" alt="">
+                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
                             <!--  Social -->
                             <ul class="social-media">
                                 <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -482,7 +482,7 @@
                         <div class="nile-widget layout-1 widget_about">
                             <div class="about-out">
                                 <div class="img_in">
-                                    <img src="http://placehold.it/320x320" alt="">
+                                    <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                                 </div>
                                 <h3>I am a Cemmet Moh</h3>
                                 <div class="content">
@@ -518,7 +518,7 @@
 
                             <!-- post item -->
                             <div class="post">
-                                <div class="post-thum"><a href="#"><img src="http://placehold.it/120x120" alt=""></a></div>
+                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
                                 <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
                                 <a href="#" class="title">7 Ways to Stimulate Creative Thinking</a>
                             </div>
@@ -526,7 +526,7 @@
 
                             <!-- post item -->
                             <div class="post">
-                                <div class="post-thum"><a href="#"><img src="http://placehold.it/120x120" alt=""></a></div>
+                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
                                 <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
                                 <a href="#" class="title">Fun and Family Stimulates Creative Thinking</a>
                             </div>
@@ -534,7 +534,7 @@
 
                             <!-- post item -->
                             <div class="post">
-                                <div class="post-thum"><a href="#"><img src="http://placehold.it/120x120" alt=""></a></div>
+                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
                                 <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
                                 <a href="#" class="title">4 Factors to Consider While Choosing Right PRP Kit</a>
                             </div>
@@ -542,7 +542,7 @@
 
                             <!-- post item -->
                             <div class="post">
-                                <div class="post-thum"><a href="#"><img src="http://placehold.it/120x120" alt=""></a></div>
+                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
                                 <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
                                 <a href="#" class="title">How EcoAllene Can Stimulate Sales of Personalised Pens</a>
                             </div>
@@ -613,7 +613,7 @@
 
     <a href="#" class="go-top box-shadow background-main-color"><span class="arrow_carrot-up"></span></a>
 
-    <!-- preloader --> <div class="nile-preloader"> <div class="logo"> <img src="assets/img/loading-1.svg" alt=""> </div> </div> <!-- end preloader --> <footer class="layout-3">
+    <!-- preloader --> <div class="nile-preloader"> <div class="logo"> <img src="{{ asset('theme/theme20/assets/img/loading-1.svg')}}" alt=""> </div> </div> <!-- end preloader --> <footer class="layout-3">
         <div class="output padding-tb-100px">
             <div class="container">
 
@@ -622,7 +622,7 @@
                     <div class="col-lg-3">
                         <div class="nile-widget about-me-widget">
                             <div class="about-me">
-                                <div class="image"><img src="assets/img/logo-1.svg" alt=""></div>
+                                <div class="image"><img src="{{ asset('theme/theme20/assets/img/logo-1.svg')}}" alt=""></div>
 
                                 <div class="text-about margin-tb-25px">
                                     A great city, whose image dwells in the memory of man, is the type of some great idea. Rome represents conquest; Faith hovers over the towers of Jerusalem; and Athens embodies the pre-eminent quality of the antique world, Art.
@@ -640,7 +640,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">How To Market Your Consulting Business ...</a>
@@ -650,7 +650,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">SAP Business One Technical Versus Functional ...</a>
@@ -660,7 +660,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">How To Choose An IT Consulting Firm</a>
@@ -687,15 +687,15 @@
                         <div class="nile-widget layout-1 niletheme_projects_widget">
                             <h2 class="title">Our Projects</h2>
                             <ul class="projects-feed">
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -731,7 +731,7 @@
 
         <div class="nile-widget about-me-widget">
             <div class="about-me">
-                <div class="image"><img src="assets/img/logo-light.svg" alt=""></div>
+                <div class="image"><img src="{{ asset('theme/theme20/assets/img/logo-light.svg')}}" alt=""></div>
 
                 <div class="text-about margin-tb-25px">
                     A great city, whose image dwells in the memory of man, is the type of some great idea. Rome represents conquest; Faith hovers over the towers of Jerusalem; and Athens embodies the pre-eminent quality of the antique world, Art.
@@ -748,7 +748,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">How To Market Your Consulting Business ...</a>
@@ -758,7 +758,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">SAP Business One Technical Versus Functional ...</a>
@@ -768,7 +768,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">How To Choose An IT Consulting Firm</a>
@@ -791,15 +791,15 @@
         <div class="nile-widget layout-1 niletheme_projects_widget">
             <h2 class="title">Our Projects</h2>
             <ul class="projects-feed">
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
             </ul>
         </div>
 

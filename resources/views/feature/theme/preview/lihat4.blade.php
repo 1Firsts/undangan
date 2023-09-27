@@ -19,7 +19,7 @@
       <div class="loader">
          <!-- Preloader inner -->
          <div class="loader-inner">
-            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}">
                <circle class="spinner" cx="50" cy="50" r="21" fill="#ffffff" stroke-width="2" />
             </svg>
          </div>
@@ -35,8 +35,8 @@
                <div class="container-fluid ">
                   <nav class="navbar navbar-expand-lg header-navbar ml-0 ml-lg-5">
                      <a class=" navbar-brand navbar-logo scroll" href="#wrapper">
-                     <img class="mb-0 logo-light" src="assets/svg/logo-light.svg" alt="">
-                     <img class="mb-0 logo-dark" src="assets/svg/logo-dark.svg" alt="">
+                     <img class="mb-0 logo-light" src="{{ asset('theme/theme4/assets/svg/logo-light.svg')}}" alt="">
+                     <img class="mb-0 logo-dark" src="{{ asset('theme/theme4/assets/svg/logo-dark.svg')}}" alt="">
                      </a>
                      <button class="navbar-toggler btn-navbar-toggler" type="button" data-toggle="collapse" data-target=".nav-menu" aria-expanded="true" aria-label="Toggle navigation">
                      <span class="fa fa-bars"></span>
@@ -61,7 +61,7 @@
          <!--End header-->
          <!--Hero section-->
          <section class="gradient-overlay gradient-overlay-dark ">
-            <img class="bg-image" src="assets/img/1.jpg" alt="">
+            <img class="bg-image" src="{{ asset('theme/theme4/assets/img/1.jpg')}}" alt="">
             <div class="container">
                <!--row-->
                <div class="row min-vh-80 align-items-center z-index-2 position-relative text-center">
@@ -77,7 +77,7 @@
             <div class="curved-decoration ">
 
 
-              <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              <svg width="100%" height="100%" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
@@ -103,7 +103,7 @@
                   </div>
                   <div class="col-md-6">
                      <div class="svg-mask-container">
-                        <svg version="1.1" id="p.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 980.2914 884.5557" enable-background="new 0 0 980.2914 884.5557" xml:space="preserve">
+                        <svg version="1.1" id="p.svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 980.2914 884.5557" enable-background="new 0 0 980.2914 884.5557" xml:space="preserve">
                            <path opacity="0.05" fill="#E35D5D" d="M493.9887,130.1238L493.9887,130.1238C419.5373,4.797,257.8407-37.3296,131.6182,36.1312
                               C4.3062,110.2269-37.5245,274.4576,36.6059,401.6698l215.8423,370.3983c28.1165,48.2495,90.0233,64.5706,138.2729,36.4541
                               l368.4115-214.6845c127.2958-74.1791,172.7084-240.1479,98.7059-367.5465C783.976,99.1337,621.0024,56.1091,493.9887,130.1238z" />
@@ -137,7 +137,7 @@
                </div>
             </div>
             <div class="curved-decoration">
-<svg  width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg  width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
@@ -172,7 +172,7 @@
                   <div class="col-md-3 d-flex flex-column align-items-center">
                      <div class="mb-3 pb-3 px-4">
                         <div class="svg-mask-container">
-                           <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
+                           <svg width="100%" height="100%" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
                               <defs>
                                  <mask id="mask-small-1">
                                     <path fill="#FFFFFF" d="M303.2954,55.7655L303.2954,55.7655c-68.9887-68.3032-180.269-68.3601-249.3155,0.1402
@@ -191,7 +191,7 @@
                      <ol class="story mb-0">
                         <li>
                            <div class="story-icon bg-icon-primary">
-                              <svg version="1.1" class="icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
+                              <svg version="1.1" class="icon-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
                                  <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
                                     c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
                                     c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z" />
@@ -204,7 +204,7 @@
                         </li>
                         <li>
                            <div class="story-icon bg-icon-primary">
-                              <svg version="1.1" class="icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
+                              <svg version="1.1" class="icon-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
                                  <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
                                     c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
                                     c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z" />
@@ -217,7 +217,7 @@
                         </li>
                         <li>
                            <div class="story-icon bg-icon-primary">
-                              <svg  version="1.1" class="icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
+                              <svg  version="1.1" class="icon-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
                                  <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
                                     c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
                                     c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z" />
@@ -230,7 +230,7 @@
                         </li>
                         <li>
                            <div class="story-icon bg-icon-primary">
-                              <svg version="1.1" class="icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
+                              <svg version="1.1" class="icon-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
                                  <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
                                     c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
                                     c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z" />
@@ -243,7 +243,7 @@
                         </li>
                         <li>
                            <div class="story-icon bg-icon-primary">
-                              <svg version="1.1" class="icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
+                              <svg version="1.1" class="icon-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 107 93" enable-background="new 0 0 107 93" xml:space="preserve">
                                  <path fill="#E25D5D" d="M53.6825,9.4436L53.6825,9.4436C41.6532-2.4793,22.2392-2.5,10.1866,9.4439
                                     c-12.1565,12.0471-12.07,31.7375-0.0219,43.8819l35.08,35.3601c4.5697,4.6061,12.0081,4.6357,16.6142,0.0661l35.1704-34.8918
                                     c12.1523-12.056,12.4179-32.0464,0.3787-44.2154C85.3917-2.5013,65.8078-2.5857,53.6825,9.4436z" />
@@ -261,7 +261,7 @@
                   <div class="col-md-3 d-flex flex-column align-items-center">
                      <div class="mb-3 pb-3 mt-3 pt-3 px-4">
                         <div class="svg-mask-container">
-                           <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
+                           <svg width="100%" height="100%" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
                               <defs>
                                  <mask id="mask-small-2">
                                     <path fill="#FFFFFF" d="M303.2954,55.7655L303.2954,55.7655c-68.9887-68.3032-180.269-68.3601-249.3155,0.1402
@@ -269,7 +269,7 @@
                                        l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z" />
                                  </mask>
                               </defs>
-                              <image mask="url(#mask-small-2)" width="607" height="532" xlink:href="assets/img/mask-md.jpg" />
+                              <image mask="url(#mask-small-2)" width="607" height="532" xlink:href="{{ asset('theme/theme4/assets/img/mask-md.jpg')}}" />
                            </svg>
                         </div>
                      </div>
@@ -284,7 +284,7 @@
             </div>
             <!--End container-->
             <div class="curved-decoration ">
-               <svg width="100%" height="100%" class="bg-white-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               <svg width="100%" height="100%" class="bg-white-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
@@ -318,7 +318,7 @@
                   <div class="col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
                      <div class="card card-body justify-content-between">
                         <div class="icon-round mb-5 mb-md-5  bg-icon-primary">
-                           <svg class="icon-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 156.016 144" enable-background="new 0 0 156.016 144" xml:space="preserve">
+                           <svg class="icon-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 156.016 144" enable-background="new 0 0 156.016 144" xml:space="preserve">
                               <g>
                                  <g>
                                     <g>
@@ -461,7 +461,7 @@
                   <div class="col-md-6 col-lg-4 d-flex ">
                      <div class="card card-body justify-content-between bg-primary text-light">
                         <div class="icon-round mb-3 mb-md-5  bg-icon-white">
-                           <svg class="icon-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 460" enable-background="new 0 0 512 460;" xml:space="preserve">
+                           <svg class="icon-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 512 460" enable-background="new 0 0 512 460;" xml:space="preserve">
                               <g>
                                  <g>
                                     <path fill="#FFFFFF" d="M240.8,110.7c-0.1-4.5-3.1-8.3-7.4-9.4L138,76.1c0,0,0,0,0,0L102,66.7c-4.3-1.1-8.8,0.7-11.1,4.4
@@ -552,7 +552,7 @@
                <!--End container-->
             </div>
             <div class="curved-decoration">
-               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
+               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
 <g>
@@ -571,7 +571,7 @@
                            <img class="img-fluid" src="assets/img/offset/1.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
-                                 <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 <svg version="1.1"  xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
                                     viewBox="0 0 73.6404 64.5606" enable-background="new 0 0 73.6404 64.5606" xml:space="preserve">
                                     <g>
                                        <path fill="#E25D5D" d="M36.904,6.66L36.904,6.66C28.5329-1.7395,14.9401-1.8373,6.4502,6.4736
@@ -593,7 +593,7 @@
                            <img class="img-fluid" src="assets/img/offset/2.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
-                                 <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 <svg version="1.1"  xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
                                     viewBox="0 0 73.6404 64.5606" enable-background="new 0 0 73.6404 64.5606" xml:space="preserve">
                                     <g>
                                        <path fill="#E25D5D" d="M36.904,6.66L36.904,6.66C28.5329-1.7395,14.9401-1.8373,6.4502,6.4736
@@ -615,7 +615,7 @@
                            <img class="img-fluid" src="assets/img/offset/3.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
-                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 <svg version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
                                     viewBox="0 0 73.6404 64.5606" enable-background="new 0 0 73.6404 64.5606" xml:space="preserve">
                                     <g>
                                        <path fill="#E25D5D" d="M36.904,6.66L36.904,6.66C28.5329-1.7395,14.9401-1.8373,6.4502,6.4736
@@ -637,7 +637,7 @@
                            <img class="img-fluid" src="assets/img/offset/4.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
-                                 <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 <svg version="1.1"  xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
                                     viewBox="0 0 73.6404 64.5606" enable-background="new 0 0 73.6404 64.5606" xml:space="preserve">
                                     <g>
                                        <path fill="#E25D5D" d="M36.904,6.66L36.904,6.66C28.5329-1.7395,14.9401-1.8373,6.4502,6.4736
@@ -659,7 +659,7 @@
                            <img class="img-fluid" src="assets/img/offset/5.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
-                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 <svg version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
                                     viewBox="0 0 73.6404 64.5606" enable-background="new 0 0 73.6404 64.5606" xml:space="preserve">
                                     <g>
                                        <path fill="#E25D5D" d="M36.904,6.66L36.904,6.66C28.5329-1.7395,14.9401-1.8373,6.4502,6.4736
@@ -680,7 +680,7 @@
                </div>
             </div>
             <div class="curved-decoration ">
-               <svg width="100%" height="100%" class="bg-primary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
+               <svg width="100%" height="100%" class="bg-primary-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
 <g>
@@ -703,7 +703,7 @@
                         
                        
                         <li class="mr-4 mb-5 ">
-<svg version="1.1" class=" icon-logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" class=" icon-logo-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 91.6685 19.1649" enable-background="new 0 0 91.6685 19.1649" xml:space="preserve">
 <g>
    <path d="M6.9955,5.5138v2.7933H4.858v10.6632H1.4573V8.3071H0V5.5138h1.4573V4.7607c0-1.6189,0.429-2.801,1.2876-3.5464
@@ -755,7 +755,7 @@
 
       <li class="mr-4 mb-5 ">
 
-                        <svg version="1.1" class=" icon-logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        <svg version="1.1" class=" icon-logo-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 102.1 44.5" enable-background=" 0 0 102.1 44.5;" xml:space="preserve">
 
 <g>
@@ -826,7 +826,7 @@
 
 
 
-<svg version="1.1" class=" icon-logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" class=" icon-logo-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 99.244 15.5394" enable-background="new 0 0 99.244 15.5394" xml:space="preserve">
 <g>
    <path fill="#FFFFFF" d="M97.823,12.6509L97.823,12.6509c-0.7848,0-1.421-0.6362-1.421-1.421v-0.6502
@@ -928,7 +928,7 @@
 
 
 
-<svg version="1.1" class=" icon-logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" class=" icon-logo-svg" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 145.9316 32.8701" enable-background="new 0 0 145.9316 32.8701" xml:space="preserve">
 <g>
    <path d="M24.8613,22.5029H8.1069c0.5405,3.1934,2.3584,4.4707,5.1592,4.4707c2.4565,0,3.9795-0.9824,4.52-2.7012l6.7808,2.1611
@@ -973,7 +973,7 @@
                </div>
             </div>
             <div class="curved-decoration z-index-3">
-              <svg width="100%" height="100%" class="bg-white-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
+              <svg width="100%" height="100%" class="bg-white-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
 <g>
@@ -1001,7 +1001,7 @@
                   <div class="col-md-4 d-flex flex-column align-items-center">
                      <div class="px-5 mb-4 pb-4 ">
                         <div class="svg-mask-container px-3">
-                        <svg  width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
+                        <svg  width="100%" height="100%" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
                            <defs>
                               <mask id="mask-middle-1">
                                  <path fill="#FFFFFF" d="M303.2954,55.7655L303.2954,55.7655c-68.9887-68.3032-180.269-68.3601-249.3155,0.1402
@@ -1021,7 +1021,7 @@
                   <div class="col-md-4 d-flex flex-column align-items-center">
                      <div class=" px-5 mb-4 pb-4 ">
                         <div class="svg-mask-container px-3">
-                        <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
+                        <svg width="100%" height="100%" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
                            <defs>
                               <mask id="mask-middle-2">
                                  <path fill="#FFFFFF" d="M303.2954,55.7655L303.2954,55.7655c-68.9887-68.3032-180.269-68.3601-249.3155,0.1402
@@ -1044,7 +1044,7 @@
                   <div class="col-md-6">
                      <div class="text-center">
                         <div class="mx-auto icon-round mb-4 mb-md-4  bg-icon-primary">
-                           <svg class="icon-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70.8 102.2" enable-background="new 0 0 70.8 102.2;" xml:space="preserve">
+                           <svg class="icon-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 70.8 102.2" enable-background="new 0 0 70.8 102.2;" xml:space="preserve">
                               <path class="st0" opacity="0.3" d="M35.4,70.8c5.4,0,10-1.9,13.9-5.8c3.8-3.8,5.8-8.5,5.8-13.9V19.7c0-5.4-1.9-10-5.8-13.9C45.4,1.9,40.8,0,35.4,0
                                  c-5.4,0-10,1.9-13.9,5.8c-3.8,3.8-5.8,8.5-5.8,13.9v31.5c0,5.4,1.9,10,5.8,13.9C25.4,68.8,30,70.8,35.4,70.8z" fill="#E25D5D" />
                               <path class="st1" d="M69.6,40.5c-0.8-0.8-1.7-1.2-2.8-1.2c-1.1,0-2,0.4-2.8,1.2c-0.8,0.8-1.2,1.7-1.2,2.8v7.9
@@ -1063,7 +1063,7 @@
             </div>
             <!--End container-->
             <div class="curved-decoration ">
-               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
+               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
 <g>
@@ -1130,7 +1130,7 @@
             </div>
             <!--End container-->
             <div class="curved-decoration">
-               <svg width="100%" height="100%" class="bg-white-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
+               <svg width="100%" height="100%" class="bg-white-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
 <g>
@@ -1141,7 +1141,7 @@
             </div>
             <div class="svg-decoration-container">
                <div class="svg-decoration middle-left ">
-                  <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 135.7427 125.4471" enable-background="new 0 0 135.7427 125.4471" xml:space="preserve">
+                  <svg width="100%" height="100%" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 135.7427 125.4471" enable-background="new 0 0 135.7427 125.4471" xml:space="preserve">
                      <g>
                         <path fill="#E25D5D" d="M46.3709,123.4824c-0.718-1.036-1.9904-1.1435-3.1008-1.5854c-1.2856-0.5117-2.4638-1.1784-3.5942-1.9727
                            c-1.5318-1.0764-3.2602,1.2297-1.742,2.334c1.2495,0.9086,2.5876,1.7014,4.0061,2.3174c1.2267,0.5326,2.7301,1.2758,4.0077,0.6047
@@ -1198,7 +1198,7 @@
                   </svg>
                </div>
                <div class="svg-decoration bottom-right">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 61.0903 58.3236" enable-background="new 0 0 61.0903 58.3236" xml:space="preserve">
+                  <svg version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 61.0903 58.3236" enable-background="new 0 0 61.0903 58.3236" xml:space="preserve">
                      <g>
                         <g>
                            <path fill="#E25D5D" d="M35.9444,45.3305c-10.4863,0.4059-23.3154,1.1544-24.786-9.9408
@@ -1250,7 +1250,7 @@
                <!--End row-->
                <div class="row text-center">
                   <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="assets/img/accommodation/1.jpg" alt="Image" class=" rounded img-fluid">
+                     <img src="{{ asset('theme/theme4/assets/img/accommodation/1.jpg')}}" alt="Image" class=" rounded img-fluid">
                      <div class="badge-overlap">
                         <span class="badge">Venue</span>
                      </div>
@@ -1262,7 +1262,7 @@
                      <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span></a>
                   </div>
                   <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="assets/img/accommodation/2.jpg" alt="" class="rounded img-fluid">
+                     <img src="{{ asset('theme/theme4/assets/img/accommodation/2.jpg')}}" alt="" class="rounded img-fluid">
                      <div class="badge-overlap">
                         <span class="badge">Accommodation</span>
                      </div>
@@ -1274,7 +1274,7 @@
                      <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span></a>
                   </div>
                   <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="assets/img/accommodation/3.jpg" alt="" class="rounded img-fluid">
+                     <img src="{{ asset('theme/theme4/assets/img/accommodation/3.jpg')}}" alt="" class="rounded img-fluid">
                      <div class="badge-overlap ">
                         <span class="badge">After Party</span>
                      </div>
@@ -1292,14 +1292,14 @@
          </section>
          <!--Hero section-->
          <section class="gradient-overlay ">
-            <img class="bg-image" src="assets/img/2.jpg" alt="">
+            <img class="bg-image" src="{{ asset('theme/theme4/assets/img/2.jpg')}}" alt="">
             <div class="container">
                <!--row-->
                <div class="row  min-vh-80 align-items-center z-index-2 position-relative text-center">
                   <div class="col-12">
                      <div class=" play-btn-container mb-4">
-                        <a href="https://www.youtube.com/watch?v=Gc2en3nHxA4" class="btn btn-primary btn-play popup-youtube">
-                           <svg class="icon-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 168.7 270.7" enable-background="new 0 0 168.7 270.7;" xml:space="preserve">
+                        <a href="{{ url('https://www.youtube.com/watch?v=Gc2en3nHxA4')}}" class="btn btn-primary btn-play popup-youtube">
+                           <svg class="icon-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 168.7 270.7" enable-background="new 0 0 168.7 270.7;" xml:space="preserve">
                               <path class="st0" d="M0,252.5V18.2C0,2,21.5-6.1,34.1,5.4l128.7,117.1c7.8,7.1,7.8,18.6,0,25.7L34.1,265.3
                                  C21.5,276.8,0,268.7,0,252.5z" fill="#FFFFFF" />
                            </svg>
@@ -1313,7 +1313,7 @@
             </div>
             <!--End container-->
             <div class="curved-decoration ">
-               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
+               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
 <g>
@@ -1330,7 +1330,7 @@
                <div class="row justify-content-center">
                   <div class="col-md-4">
                      <div class="signature mb-3">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        <svg version="1.1" id="Layer_1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px"
     viewBox="0 0 136.1218 25.9217" enable-background="new 0 0 136.1218 25.9217" xml:space="preserve">
 <g>
    <path d="M21.4923,6.404c0.0899,0.0226,0.1351,0.0794,0.1351,0.1693c0,0.091-0.0452,0.1357-0.1351,0.1357
@@ -1561,13 +1561,13 @@
          </footer>
          <section class="footer-copyright spacer-double-sm bg-white text-center">
             <p class="text-uppercase small text-muted d-block mb-0">&copy; 2019 all right reserved - a product of mutationthemes.</p>
-            <p class="text-muted small d-block mb-0">Font generated by</span> <a  href="https://www.flaticon.com">flaticon.com</a><br>
-                      <a data-file="001-toast" href="https://www.flaticon.com/authors/dave-gandy">dave-gandy</a> - <a href=" https://www.freepik.com/  " rel="nofollow">freepik</a><br>
-                      Under: <a href="http://creativecommons.org/licenses/by/3.0/">CC</a></p>
+            <p class="text-muted small d-block mb-0">Font generated by</span> <a  href="{{ url('https://www.flaticon.com')}}">flaticon.com</a><br>
+                      <a data-file="001-toast" href="{{ url('https://www.flaticon.com/authors/dave-gandy')}}">dave-gandy</a> - <a href=" {{ url('https://www.freepik.com/')}}  " rel="nofollow">freepik</a><br>
+                      Under: <a href="{{ url('http://creativecommons.org/licenses/by/3.0/')}}">CC</a></p>
          </section>
          <!--To the top-->
          <a class="scroll-to-top scroll" href="#wrapper">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 273.1091 238.2098" enable-background="new 0 0 273.1091 238.2098" xml:space="preserve">
+            <svg version="1.1" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 273.1091 238.2098" enable-background="new 0 0 273.1091 238.2098" xml:space="preserve">
                <path fill="#E25D5D" d="M136.7428,23.457L136.7428,23.457C105.6324-7.6197,55.2286-7.8699,23.8161,23.0177
                   c-31.6835,31.1545-31.6582,82.277-0.501,113.9287l90.7191,92.1591c11.8174,12.005,31.1293,12.1571,43.1343,0.3396l91.6648-90.2325
                   c31.6726-31.1777,32.5645-83.0754,1.4308-114.7912C219.1893-7.2342,168.3452-7.6516,136.7428,23.457z" />

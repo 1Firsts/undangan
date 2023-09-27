@@ -48,7 +48,7 @@
                     <div class="position-relative">
                         <div class="row">
                             <div class="col-lg-3 col-md-12">
-                                <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="assets/img/logo-1.svg" alt=""></a>
+                                <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="{{ asset('theme/theme20/assets/img/logo-1.svg')}}" alt=""></a>
                                 <a class="mobile-toggle padding-15px background-main-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                             </div>
                             <div class="col-lg-7 col-md-12 position-inherit">
@@ -87,7 +87,7 @@
                     <!-- SLIDE  -->
                     <li data-index="rs-21" data-transition="papercut" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="http://placehold.it/1920x900" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="{{ url('http://placehold.it/1920x900')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -129,7 +129,7 @@
                         <div class="line"><i class="fa fa-heart-o box-shadow"></i></div>
 
                         <div class="img_in">
-                            <img src="http://placehold.it/350x350" alt="">
+                            <img src="{{ url('http://placehold.it/350x350')}}" alt="">
                         </div>
                         <div class="content">
                             <h2 class="name">Cennet Moh</h2>
@@ -148,7 +148,7 @@
                 <div class="col-lg-6">
                     <div class="bride-item layout-1 right">
                         <div class="img_in">
-                            <img src="http://placehold.it/350x350" alt="">
+                            <img src="{{ url('http://placehold.it/350x350')}}" alt="">
                         </div>
                         <div class="content">
                             <h2 class="name">Rabie Elkheir</h2>
@@ -187,10 +187,10 @@
                 <li>
                     <div class="story-item layout-1">
                         <div class="icon">
-                            <img src="assets/icons/timeline-1.svg" alt="">
+                            <img src="{{ asset('theme/theme20/assets/icons/timeline-1.svg')}}" alt="">
                         </div>
                         <div class="img_in">
-                            <img src="http://placehold.it/320x320" alt="">
+                            <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         </div>
                         <div class="content">
                             <div class="date">20 MAY 2010</div>
@@ -206,10 +206,10 @@
                 <li>
                     <div class="story-item layout-1">
                         <div class="icon">
-                            <img src="assets/icons/timeline-2.svg" alt="">
+                            <img src="{{ asset('theme/theme20/assets/icons/timeline-2.svg')}}" alt="">
                         </div>
                         <div class="img_in">
-                            <img src="http://placehold.it/320x320" alt="">
+                            <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         </div>
                         <div class="content">
                             <div class="date">20 MAY 2010</div>
@@ -225,10 +225,10 @@
                 <li>
                     <div class="story-item layout-1">
                         <div class="icon">
-                            <img src="assets/icons/timeline-3.svg" alt="">
+                            <img src="{{ asset('theme/theme20/assets/icons/timeline-3.svg')}}" alt="">
                         </div>
                         <div class="img_in">
-                            <img src="http://placehold.it/320x320" alt="">
+                            <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         </div>
                         <div class="content">
                             <div class="date">20 MAY 2010</div>
@@ -244,10 +244,10 @@
                 <li>
                     <div class="story-item layout-1">
                         <div class="icon">
-                            <img src="assets/icons/timeline-4.svg" alt="">
+                            <img src="{{ asset('theme/theme20/assets/icons/timeline-4.svg')}}" alt="">
                         </div>
                         <div class="img_in">
-                            <img src="http://placehold.it/320x320" alt="">
+                            <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         </div>
                         <div class="content">
                             <div class="date">20 MAY 2010</div>
@@ -299,55 +299,55 @@
             <div class="row masonry-container">
                 <!-- item -->
                 <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
                 </div>
                 <!--// item -->
 
                 <!-- item -->
                 <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
                 </div>
                 <!--// item -->
 
                 <!-- item -->
                 <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
                 </div>
                 <!--// item -->
 
                 <!-- item -->
                 <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
                 </div>
                 <!--// item -->
                 <!-- item -->
                 <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
-                </div>
-                <!--// item -->
-
-                <!-- item -->
-                <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
-                </div>
-                <!--// item -->
-
-
-                <!-- item -->
-                <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
                 </div>
                 <!--// item -->
 
                 <!-- item -->
                 <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
+                </div>
+                <!--// item -->
+
+
+                <!-- item -->
+                <div class="col-lg-4 col-md-6 item">
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
                 </div>
                 <!--// item -->
 
                 <!-- item -->
                 <div class="col-lg-4 col-md-6 item">
-                    <a class="firo-gallery-item layout-1" href="http://placehold.it/600x465" data-toggle="lightbox" data-gallery="example-gallery"><img src="http://placehold.it/600x465" alt=""></a>
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
+                </div>
+                <!--// item -->
+
+                <!-- item -->
+                <div class="col-lg-4 col-md-6 item">
+                    <a class="firo-gallery-item layout-1" href="{{ url('http://placehold.it/600x465')}}" data-toggle="lightbox" data-gallery="example-gallery"><img src="{{ url('http://placehold.it/600x465')}}" alt=""></a>
                 </div>
                 <!--// item -->
 
@@ -375,7 +375,7 @@
 
                 <div class="team layout-1 sm-mb-35px">
                     <div class="img-out">
-                        <img src="http://placehold.it/320x320" alt="">
+                        <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         <!--  Social -->
                         <ul class="social-media">
                             <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -391,7 +391,7 @@
 
                 <div class="team layout-1 sm-mb-35px">
                     <div class="img-out">
-                        <img src="http://placehold.it/320x320" alt="">
+                        <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         <!--  Social -->
                         <ul class="social-media">
                             <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -407,7 +407,7 @@
 
                 <div class="team layout-1 sm-mb-35px">
                     <div class="img-out">
-                        <img src="http://placehold.it/320x320" alt="">
+                        <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         <!--  Social -->
                         <ul class="social-media">
                             <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -423,7 +423,7 @@
 
                 <div class="team layout-1 sm-mb-35px">
                     <div class="img-out">
-                        <img src="http://placehold.it/320x320" alt="">
+                        <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         <!--  Social -->
                         <ul class="social-media">
                             <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -439,7 +439,7 @@
 
                 <div class="team layout-1 sm-mb-35px">
                     <div class="img-out">
-                        <img src="http://placehold.it/320x320" alt="">
+                        <img src="{{ url('http://placehold.it/320x320')}}" alt="">
                         <!--  Social -->
                         <ul class="social-media">
                             <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -475,7 +475,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -495,7 +495,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -514,7 +514,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -534,7 +534,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -606,7 +606,7 @@
 
     <!-- preloader -->
     <div class="nile-preloader">
-        <div class="logo"> <img src="assets/img/loading-1.svg" alt=""> </div>
+        <div class="logo"> <img src="{{ asset('theme/theme20/assets/img/loading-1.svg')}}" alt=""> </div>
     </div>
     <!-- end preloader -->
     <footer class="layout-1 padding-tb-130px">
@@ -615,7 +615,7 @@
                 <div class="col-lg-6">
                     <div class="footer-about">
                         <div class="logo-footer">
-                            <a href="#"><img src="assets/img/logo-light.svg" alt=""></a>
+                            <a href="#"><img src="{{ asset('theme/theme20/assets/img/logo-light.svg')}}" alt=""></a>
                         </div>
                         <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in interdum neque, vitae hendrerit sem. Etiam at neque pellentesque, lobortis quam sed, facilisis metus.
                         </div>

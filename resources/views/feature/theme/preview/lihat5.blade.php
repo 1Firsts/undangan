@@ -120,7 +120,7 @@
                   </nav>
                   <div class="header__logo logo">
                      <a href="index.html">
-                     <img class="img-svg" src="img/logo/logo.svg" alt="logo">
+                     <img class="img-svg" src="{{ asset('theme/theme5/img/logo/logo.svg')}}" alt="logo">
                      </a>
                   </div>
                   <div class="header__action">
@@ -130,30 +130,30 @@
                               <input id="search" type="text" class="form-search__input" placeholder="">
                               <label for="search" class="form-search__label">
                               <span>
-                              <img src="img/icons/search.svg" alt="search">
+                              <img src="{{ asset('theme/theme5/img/icons/search.svg')}}" alt="search">
                               </span>
                               </label>
                               <button type="submit" class="form-search__submit">
                               <span>
-                              <img src="img/icons/search.svg" alt="submit">
+                              <img src="{{ asset('theme/theme5/img/icons/search.svg')}}" alt="submit">
                               </span>
                               </button>
                            </form>
                         </li>
                         <li>
                            <a href="profile.html" class="header__action-link">
-                           <span class="header__action-icon-wrap"><img src="img/icons/user.svg" alt="user"></span>
+                           <span class="header__action-icon-wrap"><img src="{{ url('img/icons/user.svg')}}" alt="user"></span>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="header__action-link">
-                           <span class="header__action-icon-wrap"><img src="img/icons/heart.svg" alt="user"></span>
+                           <span class="header__action-icon-wrap"><img src="{{ url('img/icons/heart.svg')}}" alt="user"></span>
                            <span class="header__action-count">0</span>
                            </a>
                         </li>
                         <li>
                            <a href="cart.html" class="header__action-link">
-                           <span class="header__action-icon-wrap"><img src="img/icons/shopping-bag.svg" alt="user"></span>
+                           <span class="header__action-icon-wrap"><img src="{{ url('img/icons/shopping-bag.svg')}}" alt="user"></span>
                            <span class="header__action-count">0</span>
                            </a>
                         </li>
@@ -168,21 +168,21 @@
             <!-- == PROMO SLIDER ================== -->
             <section class="promo-slider _parallax">
                <div class="promo-slider__decor_1 layer" data-depth="0.30">
-                  <img src="img/promo-slider/flowers1.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/promo-slider/flowers1.jpg')}}" alt="flowers">
                </div>
                <div class="promo-slider__decor_2 layer" data-depth="0.15">
-                  <img src="img/promo-slider/flowers2.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/promo-slider/flowers2.jpg')}}" alt="flowers">
                </div>
                <div class="promo-slider__bg swiper-container">
                   <div class="swiper-wrapper">
                      <div class="swiper-slide ibg">
-                        <img data-src="img/placeholder/1920x970.jpg" src="img/promo-slider/1x1.png" class="swiper-lazy" alt="bg">
+                        <img data-src="{{ asset('theme/theme5/img/placeholder/1920x970.jpg')}}" src="{{ asset('theme/theme5/img/promo-slider/1x1.png')}}" class="swiper-lazy" alt="bg">
                      </div>
                      <div class="swiper-slide ibg">
-                        <img data-src="img/placeholder/1920x970.jpg" src="img/promo-slider/1x1.png" class="swiper-lazy" alt="bg">
+                        <img data-src="{{ asset('theme/theme5/img/placeholder/1920x970.jpg')}}" src="{{ asset('theme/theme5/img/promo-slider/1x1.png')}}" class="swiper-lazy" alt="bg">
                      </div>
                      <div class="swiper-slide ibg">
-                        <img data-src="img/placeholder/1920x970.jpg" src="img/promo-slider/1x1.png" class="swiper-lazy" alt="bg">
+                        <img data-src="{{ asset('theme/theme5/img/placeholder/1920x970.jpg')}}" src="{{ asset('theme/theme5/img/promo-slider/1x1.png')}}" class="swiper-lazy" alt="bg">
                      </div>
                   </div>
                </div>
@@ -192,7 +192,7 @@
                         <div class="swiper-slide">
                            <div class="promo-slider__inner">
                               <div class="promo-slider__suptitle suptitle">
-                                 <span><img src="img/icons/icon-circles.svg" alt="circles"></span>
+                                 <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="circles"></span>
                                  get your chance
                               </div>
                               <h1 class="promo-slider__title title-1">
@@ -210,7 +210,7 @@
                         <div class="swiper-slide">
                            <div class="promo-slider__inner">
                               <div class="promo-slider__suptitle suptitle">
-                                 <span><img src="img/icons/icon-circles.svg" alt="circles"></span>
+                                 <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="circles"></span>
                                  get your chance
                               </div>
                               <h1 class="promo-slider__title title-1">
@@ -228,7 +228,7 @@
                         <div class="swiper-slide">
                            <div class="promo-slider__inner">
                               <div class="promo-slider__suptitle suptitle">
-                                 <span><img src="img/icons/icon-circles.svg" alt="circles"></span>
+                                 <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="circles"></span>
                                  get your chance
                               </div>
                               <h1 class="promo-slider__title title-1">
@@ -249,12 +249,12 @@
                      <div class="promo-slider__pagination slider-pagination"></div>
                      <div class="promo-slider__btn-wrap">
                         <div class="promo-slider__btn-prev btn-prev">
-                           <span><img src="img/icons/Arrow-left.svg" alt="arrow"></span>
+                           <span><img src="{{ asset('theme/theme5/img/icons/Arrow-left.svg')}}" alt="arrow"></span>
                            prev
-                           <span><img src="img/icons/Arrow-right.svg" alt="arrow"></span>
+                           <span><img src="{{ asset('theme/theme5/img/icons/Arrow-right.svg')}}" alt="arrow"></span>
                         </div>
                         <div class="promo-slider__btn-next btn-next">
-                           next <span><img src="img/icons/Arrow-right.svg" alt="arrow"></span>
+                           next <span><img src="{{ asset('theme/theme5/img/icons/Arrow-right.svg')}}" alt="arrow"></span>
                         </div>
                      </div>
                   </div>
@@ -267,27 +267,27 @@
                   <ul class="logos-block__list">
                      <li>
                         <a class="logos-block__item" href="#">
-                        <img src="img/logo/logo1.svg" alt="logo">
+                        <img src="{{ asset('theme/theme5/img/logo/logo1.svg')}}" alt="logo">
                         </a>
                      </li>
                      <li>
                         <a class="logos-block__item" href="#">
-                        <img src="img/logo/logo2.svg" alt="logo"> 
+                        <img src="{{ asset('theme/theme5/img/logo/logo2.svg')}}" alt="logo"> 
                         </a>
                      </li>
                      <li>
                         <a class="logos-block__item" href="#">
-                        <img src="img/logo/logo3.svg" alt="logo">
+                        <img src="{{ asset('theme/theme5/img/logo/logo3.svg')}}" alt="logo">
                         </a>
                      </li>
                      <li>
                         <a class="logos-block__item" href="#">
-                        <img src="img/logo/logo4.svg" alt="logo">
+                        <img src="{{ asset('theme/theme5/img/logo/logo4.svg')}}" alt="logo">
                         </a>
                      </li>
                      <li>
                         <a class="logos-block__item" href="#">
-                        <img src="img/logo/logo5.svg" alt="logo">
+                        <img src="{{ asset('theme/theme5/img/logo/logo5.svg')}}" alt="logo">
                         </a>
                      </li>
                   </ul>
@@ -300,7 +300,7 @@
                   <div class="products-category__head head">
                      <div class="head__suptitle suptitle">
                         get your
-                        <span><img src="img/icons/icon-circles.svg" alt="icon"></span>
+                        <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
                         chance
                      </div>
                      <h3 class="head__title title-3"> 
@@ -315,22 +315,22 @@
                         <a href="shop.html" class="products-category__item category-card">
                            <div class="category-card__front">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">accessories</h5>
                               </div>
                            </div>
                            <div class="category-card__back">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">accessories</h5>
                                  <span class="btn-default">View Products</span>
@@ -342,22 +342,22 @@
                         <a href="shop.html" class="products-category__item category-card">
                            <div class="category-card__front">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">wedding dresses</h5>
                               </div>
                            </div>
                            <div class="category-card__back">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">wedding dresses</h5>
                                  <span class="btn-default">View Products</span>
@@ -369,22 +369,22 @@
                         <a href="shop.html" class="products-category__item category-card">
                            <div class="category-card__front">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">decorations</h5>
                               </div>
                            </div>
                            <div class="category-card__back">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">decorations</h5>
                                  <span class="btn-default">View Products</span>
@@ -396,22 +396,22 @@
                         <a href="shop.html" class="products-category__item category-card">
                            <div class="category-card__front">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">wedding suits</h5>
                               </div>
                            </div>
                            <div class="category-card__back">
                               <div class="category-card__img ibg">
-                                 <img class="lazy" data-src="img/placeholder/478x700.jpg" src="img/products-category/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/478x700.jpg')}}" src="{{ asset('theme/theme5/img/products-category/placeholder.jpg')}}" alt="img">
                               </div>
                               <div class="category-card__content">
                                  <div class="category-card__icon">
-                                    <img src="img/icons/icon-circles.svg" alt="icon">
+                                    <img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon">
                                  </div>
                                  <h5 class="category-card__title">wedding suits</h5>
                                  <span class="btn-default">View Products</span>
@@ -427,16 +427,16 @@
             <!-- == POPULARS PRODUCTS ================== -->
             <section class="popular-products _parallax">
                <div class="popular-products__decor_1 layer" data-depth="0.30">
-                  <img src="img/populsr-products/decor1.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/populsr-products/decor1.jpg')}}" alt="flowers">
                </div>
                <div class="popular-products__decor_2 layer" data-depth="0.30">
-                  <img src="img/populsr-products/decor2.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/populsr-products/decor2.jpg')}}" alt="flowers">
                </div>
                <div class="container">
                   <div class="popular-products__head head">
                      <div class="head__suptitle suptitle">
                         look
-                        <span><img src="img/icons/icon-circles.svg" alt="icon"></span>
+                        <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
                         here
                      </div>
                      <h3 class="head__title title-3"> 
@@ -474,14 +474,14 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
                                  <div class="card__title text">White Long Dress With Train</div>
                                  <span class="card__price">$2.285</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -492,7 +492,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -500,7 +500,7 @@
                                  <span class="card__price">$1.855</span>
                                  <span class="card__old-price">$2169</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -511,7 +511,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -519,7 +519,7 @@
                                  <span class="card__price">$168</span>
                                  <span class="card__old-price">$239</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -530,14 +530,14 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
                                  <div class="card__title text">Candles For The Ceremony</div>
                                  <span class="card__price">$69</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -548,14 +548,14 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
                                  <div class="card__title text">White Long Dress With Train</div>
                                  <span class="card__price">$2.795</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -566,7 +566,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -574,7 +574,7 @@
                                  <span class="card__price">$1,318</span>
                                  <span class="card__old-price">$1.995</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -589,14 +589,14 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
                                  <div class="card__title text">White Long Dress With Train</div>
                                  <span class="card__price">$2.285</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -607,7 +607,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -615,7 +615,7 @@
                                  <span class="card__price">$1.855</span>
                                  <span class="card__old-price">$2169</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -630,7 +630,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -638,7 +638,7 @@
                                  <span class="card__price">$1.855</span>
                                  <span class="card__old-price">$2169</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -653,7 +653,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -661,7 +661,7 @@
                                  <span class="card__price">$1.855</span>
                                  <span class="card__old-price">$2169</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -676,7 +676,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -684,7 +684,7 @@
                                  <span class="card__price">$1.855</span>
                                  <span class="card__old-price">$2169</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -699,7 +699,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -707,7 +707,7 @@
                                  <span class="card__price">$1.855</span>
                                  <span class="card__old-price">$2169</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -722,7 +722,7 @@
                                  <div class="card__label-wrap">
                                  </div>
                                  <a href="product-page.html">
-                                 <img class="lazy" data-src="img/placeholder/360x500.jpg" src="img/card/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x500.jpg')}}" src="{{ asset('theme/theme5/img/card/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card__bottom">
@@ -730,7 +730,7 @@
                                  <span class="card__price">$1.855</span>
                                  <span class="card__old-price">$2169</span>
                                  <a href="#" class="card__like">
-                                 <img class="img-svg" src="img/icons/heart.svg" alt="icon">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/heart.svg')}}" alt="icon">
                                  </a>
                               </div>
                            </div>
@@ -744,14 +744,14 @@
             <!-- == TEXT VIDEO BLOCK ================== -->
             <section class="text-video-block _parallax">
                <div class="text-video-block__decor layer" data-depth="0.15">
-                  <img src="img/text-video-block/decor.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/text-video-block/decor.jpg')}}" alt="flowers">
                </div>
                <div class="text-video-block__body">
                   <div class="text-video-block__column">
                      <div class="text-video-block__text-wrap">
                         <div class="text-video-block__text head">
                            <div class="head__suptitle suptitle">
-                              <span><img src="img/icons/icon-circles.svg" alt="icon"></span>
+                              <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
                               find your beauty
                            </div>
                            <h3 class="head__title title-3"> 
@@ -765,8 +765,8 @@
                   </div>
                   <div class="text-video-block__column">
                      <div class="video-block">
-                        <video id="player" class="video-block__video" loop poster="img/placeholder/950x700.jpg">
-                           <source src="img/videoForTest.mp4" type="video/mp4" />
+                        <video id="player" class="video-block__video" loop poster="{{ asset('theme/theme5/img/placeholder/950x700.jpg')}}">
+                           <source src="{{ asset('theme/theme5/img/videoForTest.mp4')}}" type="video/mp4" />
                         </video>
                         <div class="video-block__play-pause">
                            <span class="icon-play3"></span>
@@ -783,7 +783,7 @@
                      <li>
                         <div class="advantages__item">
                            <div class="advantages__icon">
-                              <img src="img/advantages/icon-dress.svg" alt="icon">
+                              <img src="{{ asset('theme/theme5/img/advantages/icon-dress.svg')}}" alt="icon">
                            </div>
                            <h5 class="advantages__title title-5">wide selection</h5>
                            <div class="advantages__text text">А huge number of products for your celebration day.</div>
@@ -792,7 +792,7 @@
                      <li>
                         <div class="advantages__item">
                            <div class="advantages__icon">
-                              <img src="img/advantages/icon-delivery.svg" alt="icon">
+                              <img src="{{ asset('theme/theme5/img/advantages/icon-delivery.svg')}}" alt="icon">
                            </div>
                            <h5 class="advantages__title title-5">fast Delivery</h5>
                            <div class="advantages__text text">We deliver the next day after the order, as you wish.</div>
@@ -801,7 +801,7 @@
                      <li>
                         <div class="advantages__item">
                            <div class="advantages__icon">
-                              <img src="img/advantages/icon-girl.svg" alt="icon">
+                              <img src="{{ asset('theme/theme5/img/advantages/icon-girl.svg')}}" alt="icon">
                            </div>
                            <h5 class="advantages__title title-5">individual approach</h5>
                            <div class="advantages__text text">We discuss all the little things you need and want.</div>
@@ -810,7 +810,7 @@
                      <li>
                         <div class="advantages__item">
                            <div class="advantages__icon">
-                              <img src="img/advantages/icon-idea.svg" alt="icon">
+                              <img src="{{ asset('theme/theme5/img/advantages/icon-idea.svg')}}" alt="icon">
                            </div>
                            <h5 class="advantages__title title-5">Creative ideas</h5>
                            <div class="advantages__text text">Our designers are full of new creative ideas for you.</div>
@@ -823,17 +823,17 @@
             <!-- == GET YOUR GIFT BLOCK ================== -->
             <section class="get-your-gift-block _parallax">
                <div class="get-your-gift-block__decor_1 layer" data-depth="0.15">
-                  <img src="img/get-your-gift-block/decor1.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/get-your-gift-block/decor1.jpg')}}" alt="flowers">
                </div>
                <div class="get-your-gift-block__decor_2 layer" data-depth="0.15">
-                  <img src="img/get-your-gift-block/decor2.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/get-your-gift-block/decor2.jpg')}}" alt="flowers">
                </div>
                <div class="get-your-gift-block__img ibg">
-                  <img class="lazy" data-src="img/placeholder/1920x900.jpg" src="img/get-your-gift-block/placeholder.jpg" alt="bg">
+                  <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/1920x900.jpg')}}" src="img/get-your-gift-block/placeholder.jpg')}}" alt="bg">
                </div>
                <div class="get-your-gift-block__body">
                   <div class="get-your-gift-block__suptitle suptitle">
-                     <span><img src="img/icons/icon-circles.svg" alt="icon"></span>
+                     <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
                      mega sale 2020
                   </div>
                   <h2 class="get-your-gift-block__title title-1">
@@ -865,13 +865,13 @@
             <!-- == LATEST ARTICLES ================== -->
             <section class="latest-articles _parallax">
                <div class="latest-articles__decor layer" data-depth="0.15">
-                  <img src="img/photo/decor.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/photo/decor.jpg')}}" alt="flowers">
                </div>
                <div class="container">
                   <div class="latest-articles__head head">
                      <div class="head__suptitle suptitle">
                         our
-                        <span><img src="img/icons/icon-circles.svg" alt="icon"></span>
+                        <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
                         blog
                      </div>
                      <h3 class="head__title title-3"> 
@@ -885,17 +885,17 @@
                            <div class="latest-articles__item card-article">
                               <div class="card-article__img ibg">
                                  <a href="blog-detail.html">
-                                 <img class="lazy" data-src="img/placeholder/360x250.jpg" src="img/card-article/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x250.jpg')}}" src="{{ asset('theme/theme5/img/card-article/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card-article__row">
                                  <div class="card-article__photo">
-                                    <img src="img/card-article/author-mini.png" alt="photo">
+                                    <img src="{{ asset('theme/theme5/img/card-article/author-mini.png')}}" alt="photo">
                                  </div>
                                  <div class="card-article__author">Mary Lanoris</div>
                                  <div class="card-article__date">Sep 22, 2020</div>
                                  <a href="#" class="card-article__share">
-                                 <img class="img-svg" src="img/icons/icon-share.svg" alt="share">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/icon-share.svg')}}" alt="share">
                                  </a>
                               </div>
                               <h5 class="card-article__title title-5">
@@ -907,17 +907,17 @@
                            <div class="latest-articles__item card-article">
                               <div class="card-article__img ibg">
                                  <a href="blog-detail.html">
-                                 <img class="lazy" data-src="img/placeholder/360x250.jpg" src="img/card-article/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x250.jpg')}}" src="{{ asset('theme/theme5/img/card-article/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card-article__row">
                                  <div class="card-article__photo">
-                                    <img src="img/card-article/author-mini.png" alt="photo">
+                                    <img src="{{ asset('theme/theme5/img/card-article/author-mini.png')}}" alt="photo">
                                  </div>
                                  <div class="card-article__author">Mary Lanoris</div>
                                  <div class="card-article__date">Sep 22, 2020</div>
                                  <a href="#" class="card-article__share">
-                                 <img class="img-svg" src="img/icons/icon-share.svg" alt="share">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/icon-share.svg')}}" alt="share">
                                  </a>
                               </div>
                               <h5 class="card-article__title title-5">
@@ -929,17 +929,17 @@
                            <div class="latest-articles__item card-article">
                               <div class="card-article__img ibg">
                                  <a href="blog-detail.html">
-                                 <img class="lazy" data-src="img/placeholder/360x250.jpg" src="img/card-article/placeholder.jpg" alt="img">
+                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x250.jpg')}}" src="{{ asset('theme/theme5/img/card-article/placeholder.jpg')}}" alt="img">
                                  </a>
                               </div>
                               <div class="card-article__row">
                                  <div class="card-article__photo">
-                                    <img src="img/card-article/author-mini.png" alt="photo">
+                                    <img src="{{ asset('theme/theme5/img/card-article/author-mini.png')}}" alt="photo">
                                  </div>
                                  <div class="card-article__author">Mary Lanoris</div>
                                  <div class="card-article__date">Sep 22, 2020</div>
                                  <a href="#" class="card-article__share">
-                                 <img class="img-svg" src="img/icons/icon-share.svg" alt="share">
+                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/icon-share.svg')}}" alt="share">
                                  </a>
                               </div>
                               <h5 class="card-article__title title-5">
@@ -956,13 +956,13 @@
             <!-- == TESTIMONIALS SLIDER ================== -->
             <section class="testimonials-slider _parallax">
                <div class="testimonials-slider__decor layer" data-depth="0.15">
-                  <img src="img/photo/decor1.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/photo/decor1.jpg')}}" alt="flowers">
                </div>
                <div class="container">
                   <div class="testimonials-slider__head head">
                      <div class="head__suptitle suptitle">
                         they
-                        <span><img src="img/icons/icon-circles.svg" alt="icon"></span>
+                        <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
                         say
                      </div>
                      <h3 class="head__title title-3"> 
@@ -975,7 +975,7 @@
                            <div class="testimonials-slider__item swiper-slide">
                               <div class="testimonials-slider__photo ibg">
                                  <span>
-                                 <img src="img/photo/avatar.png" alt="phtoto">
+                                 <img src="{{ asset('theme/theme5/img/photo/avatar.png')}}" alt="phtoto">
                                  </span>
                               </div>
                               <div class="testimonials-slider__name">Milena Purcle</div>
@@ -986,7 +986,7 @@
                            <div class="testimonials-slider__item swiper-slide">
                               <div class="testimonials-slider__photo ibg">
                                  <span>
-                                 <img src="img/photo/avatar.png" alt="phtoto">
+                                 <img src="{{ asset('theme/theme5/img/photo/avatar.png')}}" alt="phtoto">
                                  </span> 
                               </div>
                               <div class="testimonials-slider__name">Milena Purcle</div>
@@ -998,7 +998,7 @@
                            <div class="testimonials-slider__item swiper-slide">
                               <div class="testimonials-slider__photo ibg">
                                  <span>
-                                 <img src="img/photo/avatar.png" alt="phtoto">
+                                 <img src="{{ asset('theme/theme5/img/photo/avatar.png')}}" alt="phtoto">
                                  </span>
                               </div>
                               <div class="testimonials-slider__name">Milena Purcle</div>
@@ -1011,12 +1011,12 @@
                      </div>
                      <div class="testimonials-slider__btn-wrap">
                         <div class="testimonials-slider__btn-prev btn-prev">
-                           <span><img src="img/icons/Arrow-left.svg" alt="arrow"></span>
+                           <span><img src="{{ asset('theme/theme5/img/icons/Arrow-left.svg')}}" alt="arrow"></span>
                            prev
-                           <span><img src="img/icons/Arrow-right.svg" alt="arrow"></span>
+                           <span><img src="{{ asset('theme/theme5/img/icons/Arrow-right.svg')}}" alt="arrow"></span>
                         </div>
                         <div class="testimonials-slider__btn-next btn-next">
-                           next <span><img src="img/icons/Arrow-right.svg" alt="arrow"></span>
+                           next <span><img src="{{ asset('theme/theme5/img/icons/Arrow-right.svg')}}" alt="arrow"></span>
                         </div>
                      </div>
                   </div>
@@ -1026,13 +1026,13 @@
             <!-- == INSTAGRAM BLOCK ================== -->
             <section class="instagram-block _parallax">
                <div class="instagram-block__decor layer" data-depth="0.15">
-                  <img src="img/photo/decor2.jpg" alt="flowers">
+                  <img src="{{ asset('theme/theme5/img/photo/decor2.jpg')}}" alt="flowers">
                </div>
                <div class="instagram-block__column_1">
                   <div class="instagram-block__text-wrap">
                      <div class="instagram-block__head head">
                         <div class="head__suptitle suptitle">
-                           <span><img src="img/icons/icon-circles.svg" alt="icon"></span>
+                           <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
                            <span class="left">our</span> instagram
                         </div>
                         <h3 class="head__title title-3"> 
@@ -1041,7 +1041,7 @@
                         <div class="head__text text">More actions and bonuses you can find in our Instagram.</div>
                      </div>
                      <a href="#" class="instagram-block__link">
-                     follow us <span><img class="img-svg" src="img/icons/Arrow-right.svg" alt="arrow"></span>
+                     follow us <span><img class="img-svg" src="{{ asset('theme/theme5/img/icons/Arrow-right.svg')}}" alt="arrow"></span>
                      </a>
                   </div>
                </div>
@@ -1049,22 +1049,22 @@
                   <ul class="instagram-block__img-list">
                      <li>
                         <a href="#" class="instagram-block__img ibg">
-                        <img class="lazy" data-src="img/placeholder/283x283.jpg" src="img/instagram-block/placeholder.jpg" alt="img">
+                        <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/283x283.jpg')}}" src="{{ asset('theme/theme5/img/instagram-block/placeholder.jpg')}}" alt="img">
                         </a>
                      </li>
                      <li>
                         <a href="#" class="instagram-block__img ibg">
-                        <img class="lazy" data-src="img/placeholder/283x283.jpg" src="img/instagram-block/placeholder.jpg" alt="img">
+                        <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/283x283.jpg')}}" src="{{ asset('theme/theme5/img/instagram-block/placeholder.jpg')}}" alt="img">
                         </a>
                      </li>
                      <li>
                         <a href="#" class="instagram-block__img ibg">
-                        <img class="lazy" data-src="img/placeholder/283x283.jpg" src="img/instagram-block/placeholder.jpg" alt="img">
+                        <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/283x283.jpg')}}" src="{{ asset('theme/theme5/img/instagram-block/placeholder.jpg')}}" alt="img">
                         </a>
                      </li>
                      <li>
                         <a href="#" class="instagram-block__img ibg">
-                        <img class="lazy" data-src="img/placeholder/283x283.jpg" src="img/instagram-block/placeholder.jpg" alt="img">
+                        <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/283x283.jpg')}}" src="{{ asset('theme/theme5/img/instagram-block/placeholder.jpg')}}" alt="img">
                         </a>
                      </li>
                   </ul>
@@ -1076,16 +1076,16 @@
          <!-- == FOOTER ================== -->
          <footer class="footer _parallax">
             <div class="footer__decor layer" data-depth="0.15">
-               <img src="img/footer/decor.jpg" alt="flowers">
+               <img src="{{ asset('theme/theme5/img/footer/decor.jpg')}}" alt="flowers">
             </div>
             <div class="footer__bg ibg">
-               <img class="lazy" data-src="img/placeholder/1920x500.jpg" src="img/footer/placeholder.jpg" alt="img">
+               <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/1920x500.jpg')}}" src="{{ asset('theme/theme5/img/footer/placeholder.jpg')}}" alt="img">
             </div>
             <div class="footer__body container">
                <div class="footer__row footer__row_1">
                   <div class="footer__logo logo">
                      <a href="#">
-                     <img class="img-svg" src="img/logo/logo.svg" alt="logo">
+                     <img class="img-svg" src="{{ asset('theme/theme5/img/logo/logo.svg')}}" alt="logo">
                      </a>
                   </div>
                </div>
@@ -1097,7 +1097,7 @@
                         <div class="footer__form-inner">
                            <input class="footer__form-input input" type="email" placeholder="Enter your email">
                            <button class="footer__form-submit" type="submit"><span>
-                           <img class="img-svg" src="img/icons/icon-send.svg" alt="icon send">
+                           <img class="img-svg" src="{{ asset('theme/theme5/img/icons/icon-send.svg')}}" alt="icon send">
                            </span></button> 
                         </div>
                      </form>

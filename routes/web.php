@@ -1,12 +1,13 @@
 <?php
 
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UndanganController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\CobaController;
 use App\Http\Controllers\SeeorderController;
 use App\Http\Controllers\TableController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Auth\RegisteredUserController;
 
 use Illuminate\Support\Facades\Route;
 /*
@@ -38,17 +39,19 @@ Route::view('/feature/order', 'feature/order');
 
 Route::get("/feature/table", [TableController::class, "index"]);
 
+
 Route::middleware('auth')->group(function () {
     Route::get('/vcoba', [CobaController::class, 'index'])->name('vcoba');
     
     Route::view('/feature/profile/main-profile', 'feature/profile/main-profile');
-    Route::get('/feature/profile/main-profile', [ProfileController::class, 'edit'])->name('feature/profile/main-profile.edit');
-    Route::patch('/feature/profile/main-profile', [ProfileController::class, 'update'])->name('feature/profile/main-profile.update');
-    Route::delete('/feature/profile/main-profile', [ProfileController::class, 'destroy'])->name('feature/profile/main-profile.destroy');
-    
-    Route::post('/store_theme', [CobaController::class, 'store_theme'])->name('store_theme');  
-    Route::post('/buat_tema/{theme}', [UndanganController::class, 'buat_tema'])->name('buat_tema');
+    Route::post('/feature/profile/main-profile', [RegisteredUserController::class, 'store'])->name('main-profile.store');
+    Route::get('/feature/profile/main-profile', [ProfileController::class, 'edit'])->name('main-profile.edit');
+    Route::patch('/feature/profile/main-profile', [ProfileController::class, 'update'])->name('main-profile.update');
+    Route::delete('/feature/profile/main-profile', [ProfileController::class, 'destroy'])->name('main-profile.destroy');
 });
+
+Route::post('/store_theme', [CobaController::class, 'store_theme'])->name('store_theme');  
+Route::post('/buat_tema/{theme}', [UndanganController::class, 'buat_tema'])->name('buat_tema');
 
 // Create Data Theme Routes
 for ($i = 1; $i <= 46; $i++) {

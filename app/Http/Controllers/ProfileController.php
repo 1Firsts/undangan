@@ -34,7 +34,7 @@ class ProfileController extends Controller
 
         $request->user()->save();
 
-        return Redirect::route('feature/profile/main-profile')->with('status', 'update-profile');
+        return Redirect::route('main-profile.edit')->with('status', 'update-profile');
     }
 
     /**

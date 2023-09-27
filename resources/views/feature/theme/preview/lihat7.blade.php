@@ -49,7 +49,7 @@
                <div class="navbar-brand navbar-brand-centered page-scroll">
                   <a href="#page-top">
                      <!-- logo  -->  
-                     <img src="img/logo.png" class="img-responsive" alt="">
+                     <img src="{{ asset('theme/theme6/img/logo.png')}}" class="img-responsive" alt="">
                   </a>
                </div>
                <!--/navbar-brand -->
@@ -224,8 +224,8 @@
                   <li class="polaroid-item"  
                      data-0="transform:translatey(0%);"
                      data-center="transform:translatey(0%);transform:rotate(-4deg)" >
-                     <a href="img/polaroid1.jpg" data-gal="prettyPhoto[gallery]">
-                        <img alt="" src="img/polaroid1.jpg" class="img-responsive"/>
+                     <a href="{{ asset('theme/theme6/img/polaroid1.jpg')}}" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="{{ asset('theme/theme6/img/polaroid1.jpg')}}" class="img-responsive"/>
                         <span>2010</span>
                         <p>Our first trip together after dating for 3 Months</p>
                      </a>
@@ -233,8 +233,8 @@
                   <!-- image2 -->
                   <li class="polaroid-item" data-0="transform:translatey(-0%);"
                      data-center="transform:translatey(0%);transform:rotate(8deg)">
-                     <a href="img/polaroid2.jpg" data-gal="prettyPhoto[gallery]">
-                        <img alt="" src="img/polaroid2.jpg" class="img-responsive"/>
+                     <a href="{{ asset('theme/theme6/img/polaroid2.jpg')}}" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="{{ asset('theme/theme6/img/polaroid2.jpg')}}" class="img-responsive"/>
                         <span>2012</span>
                         <p>Moving Together...</p>
                      </a>
@@ -242,8 +242,8 @@
                   <!-- image3 -->
                   <li class="polaroid-item" data-0="transform:translatey(0%);rotate:0;"
                      data-center="transform:translatey(0%); transform:rotate(-2deg)" >
-                     <a href="img/polaroid3.jpg" data-gal="prettyPhoto[gallery]">
-                        <img alt="" src="img/polaroid3.jpg" class="img-responsive"/>
+                     <a href="{{ asset('theme/theme6/img/polaroid3.jpg')}}" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="{{ asset('theme/theme6/img/polaroid3.jpg')}}" class="img-responsive"/>
                         <span>2014</span>
                         <p>We even got a dog!</p>
                      </a>
@@ -251,8 +251,8 @@
                   <!-- image4 -->
                   <li class="polaroid-item" data-0="transform:translatey(0%);"
                      data-center="transform:translatey(0%);transform:rotate(-12deg)">
-                     <a href="img/polaroid4.jpg" data-gal="prettyPhoto[gallery]">
-                        <img alt="" src="img/polaroid4.jpg" class="img-responsive"/>
+                     <a href="{{ asset('theme/theme6/img/polaroid4.jpg')}}" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="{{ asset('theme/theme6/img/polaroid4.jpg')}}" class="img-responsive"/>
                         <span>2016</span>
                         <p>Valentines Day Surprise</p>
                      </a>
@@ -260,8 +260,8 @@
                   <!-- image5 -->
                   <li class="polaroid-item" data-0="transform:translatey(0%);"
                      data-center="transform:translatey(0%);transform:rotate(-12deg)">
-                     <a href="img/polaroid5.jpg" data-gal="prettyPhoto[gallery]">
-                        <img alt="" src="img/polaroid5.jpg" class="img-responsive"/>
+                     <a href="{{ asset('theme/theme6/img/polaroid5.jpg')}}" data-gal="prettyPhoto[gallery]">
+                        <img alt="" src="{{ asset('theme/theme6/img/polaroid5.jpg')}}" class="img-responsive"/>
                         <span>2017</span>
                         <p>The Proposal</p>
                      </a>
@@ -308,7 +308,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant1.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant1.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Jolie Smith</h5>
@@ -326,7 +326,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant2.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant2.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Maria Smith</h5>
@@ -343,7 +343,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant3.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant3.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Paula Larson</h5>
@@ -361,7 +361,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant4.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant4.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Anna Luise </h5>
@@ -379,7 +379,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant5.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant5.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Jane Mars</h5>
@@ -405,7 +405,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant6.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant6.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Jonas Smith</h5>
@@ -423,7 +423,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant7.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant7.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Lucas Fonseca</h5>
@@ -440,7 +440,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant8.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant8.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">Paul Larson</h5>
@@ -458,7 +458,7 @@
                               <div class="member text-center">
                                  <div class="wrap">
                                     <!-- image -->
-                                    <img src="img/attendant9.jpg" alt="" class="img-circle img-responsive">
+                                    <img src="{{ asset('theme/theme6/img/attendant9.jpg')}}" alt="" class="img-circle img-responsive">
                                     <!-- Info -->
                                     <div class="info">
                                        <h5 class="name">John Doe </h5>
@@ -475,7 +475,7 @@
                            <div class="attendants-wrap col-md-12">
                               <div class="member text-center">
                                  <!-- image -->
-                                 <img src="img/attendant10.jpg" alt="" class="img-circle img-responsive">
+                                 <img src="{{ asset('theme/theme6/img/attendant10.jpg')}}" alt="" class="img-circle img-responsive">
                                  <div class="wrap">
                                     <!-- Info -->
                                     <div class="info">
@@ -516,7 +516,7 @@
                <div class="col-md-6" data--100-start="transform:translatey(-60%);"
                   data-center-bottom="transform:translatey(20%);">
                   <!-- image -->
-                  <img src="img/party2.jpg" alt="" class="img-photo rotate1 img-responsive">
+                  <img src="{{ asset('theme/theme6/img/party2.jpg')}}" alt="" class="img-photo rotate1 img-responsive">
                </div>
                <!-- paper well -->
                <div class="well col-md-6">
@@ -544,7 +544,7 @@
                <div class="col-md-5" data--100-start="transform:translatey(-60%);"
                   data-center-bottom="transform:translatey(20%);">
                   <!-- image -->
-                  <img src="img/party1.jpg" alt="" class="img-photo rotate2 img-responsive">
+                  <img src="{{ asset('theme/theme6/img/party1.jpg')}}" alt="" class="img-photo rotate2 img-responsive">
                </div>
                <!-- /col-md-5 -->
             </div>
@@ -596,19 +596,19 @@
             <div class="row">
                <!-- Brand 1 -->
                <div class="col-sm-6 col-md-3">
-                  <a href="#"><img src="img/brand1.png" alt="" class="brand col-centered img-responsive"/></a>
+                  <a href="#"><img src="{{ asset('theme/theme6/img/brand1.png')}}" alt="" class="brand col-centered img-responsive"/></a>
                </div>
                <!-- Brand 2 -->
                <div class="col-sm-6 col-md-3 res-margin">
-                  <a href="#"><img src="img/brand2.png" alt="" class="brand col-centered img-responsive"/></a>
+                  <a href="#"><img src="{{ asset('theme/theme6/img/brand2.png')}}" alt="" class="brand col-centered img-responsive"/></a>
                </div>
                <!-- Brand 3 -->
                <div class="col-sm-6 col-md-3 res-margin">
-                  <a href="#"><img src="img/brand3.png" alt="" class="brand col-centered img-responsive"/></a>
+                  <a href="#"><img src="{{ asset('theme/theme6/img/brand3.png')}}" alt="" class="brand col-centered img-responsive"/></a>
                </div>
                <!-- Brand 4 -->
                <div class="col-sm-6 col-md-3 res-margin">
-                  <a href="#"><img src="img/brand4.png" alt="" class="brand col-centered img-responsive"/></a>
+                  <a href="#"><img src="{{ asset('theme/theme6/img/brand4.png')}}" alt="" class="brand col-centered img-responsive"/></a>
                </div>
             </div>
             <!-- /row -->		  
@@ -643,7 +643,7 @@
                         <div class="isotope-item">
                            <div class="gallery-thumb">
                               <img class="img-responsive" src="img/gallery1.jpg" alt="">
-                              <a href="img/gallery1.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <a href="{{ asset('theme/theme6/img/gallery1.jpg')}}" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
                               <span class="overlay-mask"></span>
                               </a>							  							  
                            </div>
@@ -654,7 +654,7 @@
                         <div class="isotope-item">
                            <div class="gallery-thumb">
                               <img class="img-responsive" src="img/gallery2.jpg" alt="">
-                              <a href="img/gallery2.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <a href="{{ asset('theme/theme6/img/gallery2.jpg')}}" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
                               <span class="overlay-mask"></span>
                               </a>							  							  
                            </div>
@@ -665,7 +665,7 @@
                         <div class="isotope-item">
                            <div class="gallery-thumb">
                               <img class="img-responsive" src="img/gallery3.jpg" alt="">
-                              <a href="img/gallery3.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <a href="{{ asset('theme/theme6/img/gallery3.jpg')}}" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
                               <span class="overlay-mask"></span>
                               </a>							  							  
                            </div>
@@ -676,7 +676,7 @@
                         <div class="isotope-item">
                            <div class="gallery-thumb">
                               <img class="img-responsive" src="img/gallery4.jpg" alt="">
-                              <a href="img/gallery4.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <a href="{{ asset('theme/theme6/img/gallery4.jpg')}}" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
                               <span class="overlay-mask"></span>
                               </a>							  							  
                            </div>
@@ -687,7 +687,7 @@
                         <div class="isotope-item">
                            <div class="gallery-thumb">
                               <img class="img-responsive" src="img/gallery5.jpg" alt="">
-                              <a href="img/gallery5.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <a href="{{ asset('theme/theme6/img/gallery5.jpg')}}" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
                               <span class="overlay-mask"></span>
                               </a>							  							  
                            </div>
@@ -698,7 +698,7 @@
                         <div class="isotope-item">
                            <div class="gallery-thumb">
                               <img class="img-responsive" src="img/gallery6.jpg" alt="">
-                              <a href="img/gallery6.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <a href="{{ asset('theme/theme6/img/gallery6.jpg')}}" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
                               <span class="overlay-mask"></span>
                               </a>							  							  
                            </div>
@@ -709,7 +709,7 @@
                         <div class="isotope-item">
                            <div class="gallery-thumb">
                               <img class="img-responsive" src="img/gallery7.jpg" alt="">
-                              <a href="img/gallery7.jpg" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
+                              <a href="{{ asset('theme/theme6/img/gallery7.jpg')}}" data-gal="prettyPhoto[gallery]"  title="You can add caption to pictures.">
                               <span class="overlay-mask"></span>
                               </a>							  							  
                            </div>
@@ -748,7 +748,7 @@
             <!-- /section-heading -->
             <div class="col-lg-5">
                <!-- image -->
-               <img src="img/rsvp.jpg" alt="" class="margin1 img-photo rotate2 img-responsive">
+               <img src="{{ asset('theme/theme6/img/rsvp.jpg')}}" alt="" class="margin1 img-photo rotate2 img-responsive">
             </div>
             <!-- well -->
             <div class="col-lg-7 well">
@@ -803,12 +803,12 @@
          <div class="container">
             <div class="col-md-12 text-center">
                <!-- Footer logo -->
-               <img src="img/logo.png" alt="" class="center-block img-responsive">
+               <img src="{{ asset('theme/theme6/img/logo.png')}}" alt="" class="center-block img-responsive">
             </div>
             <!-- /col-md-12 -->        
             <!-- Credits-->
             <div class="credits col-md-12 text-center">
-               Copyright © 2022 - Designed by <a href="http://www.ingridkuhn.com">Ingrid Kuhn</a>
+               Copyright © 2022 - Designed by <a href="{{ url('http://www.ingridkuhn.com')}}">Ingrid Kuhn</a>
                <!-- Go To Top Link -->
                <div class="page-scroll hidden-sm hidden-xs">
                   <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>

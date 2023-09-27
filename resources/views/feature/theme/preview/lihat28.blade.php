@@ -26,7 +26,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<button class="exit-mobile">
-							<svg version="1.1" id="btn-menu-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+							<svg version="1.1" id="btn-menu-close" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 								<path d="M15.4,15.3l-0.1,0.1c-0.7,0.7-1.9,0.7-2.6,0L0.6,3.3c-0.7-0.7-0.7-1.9,0-2.6l0.1-0.1c0.7-0.7,1.9-0.7,2.6,0l12.1,12.1
 									C16.2,13.4,16.2,14.6,15.4,15.3z"></path>
 								<path d="M0.7,15.4l-0.1-0.1c-0.7-0.7-0.7-1.9,0-2.6L12.7,0.6c0.7-0.7,1.9-0.7,2.6,0l0.1,0.1c0.7,0.7,0.7,1.9,0,2.6L3.3,15.4
@@ -200,13 +200,13 @@
 							<li><a class="social-email" href="mailto:#" target="_blank"><i class="far fa-envelope"></i></a></li>
 						</ul>
 					</div>
-					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="images/logo-tilia.png" alt="Tilia" width="139" height="90"></a></div>
-					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="images/logo-dark-tilia.png" alt="Tilia" width="139" height="90"></a></div>
+					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
+					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
-							<svg version="1.1" id="btn-menu-open" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+							<svg version="1.1" id="btn-menu-open" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 								<g>
 									<path d="M2,4L2,4C0.9,4,0,3.1,0,2v0c0-1.1,0.9-2,2-2h0c1.1,0,2,0.9,2,2v0C4,3.1,3.1,4,2,4z"></path>
 									<path d="M8,4L8,4C6.9,4,6,3.1,6,2v0c0-1.1,0.9-2,2-2h0c1.1,0,2,0.9,2,2v0C10,3.1,9.1,4,8,4z"></path>
@@ -364,7 +364,7 @@
 					<div class="row">
 						<div class="col-lg-12 alignc">
 							<div class="padding-lr200">
-								<img class="img-fluid img-circle width30 margin-b30" src="images/portfolio/gal-grid/gal-grid-08.jpg" alt=" " />
+								<img class="img-fluid img-circle width30 margin-b30" src="{{ asset('theme/theme13/images/portfolio/gal-grid/gal-grid-08.jpg')}}" alt=" " />
 								<h2 class="display-4 margin-b30">Hi I'm April Ryan, a wedding photographer based in New York</h2>
 								<p>Ad graeci theophrastus, libris timeam sapientem. Pellentes faucibus sollicitudin ante,at porta felisrutrum eget. Sed ut nisl urna,e get convallis purus pretium facilisis. Interdum et malesuada varius mauris eu commodo.</p>
 								<ul class="social-media social-aboutme">
@@ -391,7 +391,7 @@
 							<div class="portfolio-masonry-container">
 							<div class="portfolio-masonry portfolio-layout-masonry">
 								<div class="item-portfolio item-3cols wedding">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-1-masonry.jpg" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-masonry-3-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-1-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-masonry-3-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-masonry-3-cols.html">Tracy &amp; Aaron</a></h2>
 										<ul class="portfolio-categ">
@@ -401,7 +401,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols wedding">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-2-masonry.jpg" class="img-fluid" alt=" "  width="750" height="833"> <a class="cursor-eye" href="gallery-masonry-4-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-2-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="833"> <a class="cursor-eye" href="gallery-masonry-4-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-masonry-4-cols.html">Jane &amp; Paul</a></h2>
 										<ul class="portfolio-categ">
@@ -411,7 +411,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols wedding">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-3-masonry.jpg" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-grid-4-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-3-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-grid-4-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-grid-4-cols.html">Angela &amp; Zach</a></h2>
 										<ul class="portfolio-categ">
@@ -421,7 +421,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols wedding">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-4-masonry.jpg" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-grid-3-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-4-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-grid-3-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-grid-3-cols.html">Diana &amp; Max</a></h2>
 										<ul class="portfolio-categ">
@@ -431,7 +431,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols lifestyle wedding">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-5-masonry.jpg" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-masonry-2-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-5-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-masonry-2-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-masonry-2-cols.html">Tina &amp; Robi</a></h2>
 										<ul class="portfolio-categ">
@@ -442,7 +442,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols lifestyle wedding">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-6-masonry.jpg" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-masonry-3-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-6-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-masonry-3-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-masonry-3-cols.html">Clara &amp; Andrew</a></h2>
 										<ul class="portfolio-categ">
@@ -453,7 +453,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols portrait">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-7-masonry.jpg" class="img-fluid" alt=" "  width="750" height="1000"> <a class="cursor-eye" href="gallery-masonry-4-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-7-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="1000"> <a class="cursor-eye" href="gallery-masonry-4-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-masonry-4-cols.html">Street People</a></h2>
 										<ul class="portfolio-categ">
@@ -463,7 +463,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols lifestyle">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-8-masonry.jpg" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-grid-4-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-8-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="500"> <a class="cursor-eye" href="gallery-grid-4-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-grid-4-cols.html">Ballet Dancers</a></h2>
 										<ul class="portfolio-categ">
@@ -473,7 +473,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols lifestyle portrait">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-9-masonry.jpg" class="img-fluid" alt=" "  width="750" height="1000"> <a class="cursor-eye" href="gallery-masonry-3-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-9-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="1000"> <a class="cursor-eye" href="gallery-masonry-3-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-masonry-3-cols.html">Black & White</a></h2>
 										<ul class="portfolio-categ">
@@ -484,7 +484,7 @@
 								</div>
 								<!-- /item-portfolio -->
 								<div class="item-portfolio item-3cols portrait">
-									<div class="post-image item-grid-image"><img loading="lazy" src="images/portfolio/featured-images/gal-10-masonry.jpg" class="img-fluid" alt=" "  width="750" height="422"> <a class="cursor-eye" href="gallery-masonry-5-cols.html"> </a></div>
+									<div class="post-image item-grid-image"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-10-masonry.jpg')}}" class="img-fluid" alt=" "  width="750" height="422"> <a class="cursor-eye" href="gallery-masonry-5-cols.html"> </a></div>
 									<div class="item-text-holder">
 										<h2 class="article-title display-6"><a href="gallery-masonry-5-cols.html">Studio Photos</a></h2>
 										<ul class="portfolio-categ">											
@@ -531,14 +531,14 @@
 		<!-- FOOTER -->
 		<div id="footer-instagram">
 			<ul class="instagram-pics instagram-size-small">
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-1.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-2.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-3.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-4.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-5.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-6.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-7.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-8.jpg" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-1.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-2.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-3.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-4.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-5.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-6.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-7.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-8.jpg')}}" alt=""/></a></li>
 			</ul>
 			<p class="clear"><a href="#" rel="me" target="_blank" class="">Follow Us!</a></p>
 		</div>

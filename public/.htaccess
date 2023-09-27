@@ -18,4 +18,10 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+    # Add the custom rewrite rule for /posts/show1/32
+    RewriteRule ^posts/show1/(\d+)/?$ /index.php [L,QSA]
+
+    # Leave Laravel's public folder accessible (if applicable)
+    RewriteRule ^public/.*$ - [L,NC]
 </IfModule>

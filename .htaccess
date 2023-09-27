@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  Options -MultiViews
+  RewriteEngine On
+  RewriteBase /
+
+  # Add your existing Laravel rewrite rule for clean URLs
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.php [L]
+
+  # Add the custom rewrite rule for /posts/show1/32
+  RewriteRule ^posts/show1/(\d+)/?$ /index.php [L,QSA]
+</IfModule>

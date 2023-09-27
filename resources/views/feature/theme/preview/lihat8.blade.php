@@ -46,8 +46,8 @@
                                 </div>
                                 <div class="column-3_5 contact_logo">
                                     <div class="logo">
-                                        <a href="#"><img src="images/logo.png" class="logo_main" alt="">
-                                        <img src="images/logo.png" class="logo_fixed" alt=""></a>
+                                        <a href="#"><img src="{{ asset('theme/theme7/images/logo.png')}}" class="logo_main" alt="">
+                                        <img src="{{ asset('theme/theme7/images/logo.png')}}" class="logo_fixed" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="column-1_5 contact_field contact_cart">
@@ -66,11 +66,11 @@
                                                         <!-- product list -->
                                                         <ul class="cart_list product_list_widget ">
                                                             <li class="mini_cart_item"> <a href="#" class="remove" title="Remove this item">×</a>
-                                                                <a href="#"><img src="images/product4-180x180.jpg">Flower Decor&nbsp; </a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>55.00</span>
+                                                                <a href="#"><img src="{{ asset('theme/theme7/images/product4-180x180.jpg')}}">Flower Decor&nbsp; </a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>55.00</span>
                                                                 </span>
                                                             </li>
                                                             <li class="mini_cart_item"> <a href="#" class="remove" title="Remove this item">×</a>
-                                                                <a href="#"><img src="images/product1-180x180.jpg">Love Balloons&nbsp; </a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>65.00</span>
+                                                                <a href="#"><img src="{{ asset('theme/theme7/images/product1-180x180.jpg')}}">Love Balloons&nbsp; </a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>65.00</span>
                                                                 </span>
                                                             </li>
                                                         </ul>
@@ -162,7 +162,7 @@
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
-                        <a href="#"><img src="images/logo.png" class="logo_main" alt=""></a>
+                        <a href="#"><img src="{{ asset('theme/theme7/images/logo.png')}}" class="logo_main" alt=""></a>
                     </div>
                     <div class="menu_main_cart top_panel_icon">
                         <a href="#" class="top_panel_cart_button"> <span class="contact_icon icon-icon_cart"></span><span class="contact_label contact_cart_label">Your cart:</span> <span class="contact_cart_totals">
@@ -176,11 +176,11 @@
                                             <!-- product list -->
                                             <ul class="cart_list product_list_widget ">
                                                 <li class="mini_cart_item"><a href="#" class="remove" title="Remove this item">×</a>
-                                                    <a href="#"><img src="images/product4-180x180.jpg">Flower Decor&nbsp; </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>55.00</span>
+                                                    <a href="#"><img src="{{ asset('theme/theme7/images/product4-180x180.jpg')}}">Flower Decor&nbsp; </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>55.00</span>
                                                     </span>
                                                 </li>
                                                 <li class="mini_cart_item"><a href="#" class="remove" title="Remove this item">×</a>
-                                                    <a href="#"><img src="images/product1-180x180.jpg">Love Balloons&nbsp; </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>65.00</span>
+                                                    <a href="#"><img src="{{ asset('theme/theme7/images/product1-180x180.jpg')}}">Love Balloons&nbsp; </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>65.00</span>
                                                     </span>
                                                 </li>
                                             </ul>
@@ -366,7 +366,7 @@
                                      data-paddingright="[0,0,0,0]" 
                                      data-paddingbottom="[0,0,0,0]" 
                                      data-paddingleft="[0,0,0,0]">
-                                     <img src="images/divider_white.png" alt="" data-ww="260px" data-hh="26px" width="260" height="26" data-no-retina>
+                                     <img src="{{ asset('theme/theme7/images/divider_white.png')}}" alt="" data-ww="260px" data-hh="26px" width="260" height="26" data-no-retina>
                                 </div>
                             </li>
                             <!-- SLIDE  -->
@@ -409,7 +409,7 @@
                                      data-paddingright="[0,0,0,0]" 
                                      data-paddingbottom="[0,0,0,0]" 
                                      data-paddingleft="[0,0,0,0]">
-                                     <img src="images/divider_white.png" alt="" data-ww="260px" data-hh="26px" width="260" height="26" data-no-retina> 
+                                     <img src="{{ asset('theme/theme7/images/divider_white.png')}}" alt="" data-ww="260px" data-hh="26px" width="260" height="26" data-no-retina> 
                                 </div>
                             </li>
                         </ul>
@@ -516,7 +516,7 @@
                                                             <div class="column-5_9 sc_column_item  odd first span_5">
                                                                 <h6 class="sc_title sc_title_regular margin_top_null sc_home-margin-type-b">about us</h6>
                                                                 <h2 class="sc_title sc_title_iconed margin_top_tiny margin_bottom_null sc_home-margin-type-c fsz_cust">We Plan &amp; Design Weddings<br />
-                                                                That Capture the Imagination<span class="sc_title_icon sc_title_icon_bottom  sc_title_icon_small"><img src="images/vector-smart-object-copy-12.png" alt="" /></span></h2>
+                                                                That Capture the Imagination<span class="sc_title_icon sc_title_icon_bottom  sc_title_icon_small"><img src="{{ asset('theme/theme7/images/vector-smart-object-copy-12.png')}}" alt="" /></span></h2>
                                                                 <div class="m_text_column m_content_element ">
                                                                     <div class="m_wrapper">
                                                                         <p>Weddings are significant events in people&#8217;s lives and as such, couples are often willing to spend considerable amount of money to ensure that their weddings are well-organized. Wedding planners are often used by couples who work long hours and have little spare time available for sourcing and managing wedding venues.</p>
@@ -526,9 +526,9 @@
                                                                     <div class="cq-coverslider-area btn-large square">
                                                                         <div class="cq-coverslider-cover">
                                                                             <div class="cq-coverslider-itemcontainer">
-                                                                                <div class="cq-coverslider-imageitem"><img src="images/welcome_gallery_img1.jpg" class="cq-coverslider-image" alt=""></div>
-                                                                                <div class="cq-coverslider-imageitem"><img src="images/welcome_gallery_img2-1.jpg" class="cq-coverslider-image" alt=""></div>
-                                                                                <div class="cq-coverslider-imageitem"><img src="images/welcome_gallery_img3.jpg" class="cq-coverslider-image" alt=""></div>
+                                                                                <div class="cq-coverslider-imageitem"><img src="{{ asset('theme/theme7/images/welcome_gallery_img1.jpg')}}" class="cq-coverslider-image" alt=""></div>
+                                                                                <div class="cq-coverslider-imageitem"><img src="{{ asset('theme/theme7/images/welcome_gallery_img2-1.jpg')}}" class="cq-coverslider-image" alt=""></div>
+                                                                                <div class="cq-coverslider-imageitem"><img src="{{ asset('theme/theme7/images/welcome_gallery_img3.jpg')}}" class="cq-coverslider-image" alt=""></div>
                                                                             </div>
                                                                         </div>
                                                                         <div class="cq-coverslider-content">
@@ -620,7 +620,7 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img  src="images/product4-555x615.jpg" class="attachment-shop_catalog size-shop_catalog post-image" alt="product4" title="product4" srcset="images/product4-555x615.jpg 555w, images/product4-271x300.jpg 271w, images/product4-768x851.jpg 768w, images/product4-924x1024.jpg 924w, images/product4-706x783.jpg 706w, images/product4.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img  src="{{ asset('theme/theme7/images/product4-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product4" title="product4" srcset="images/product4-555x615.jpg 555w, images/product4-271x300.jpg 271w, images/product4-768x851.jpg 768w, images/product4-924x1024.jpg 924w, images/product4-706x783.jpg 706w, images/product4.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -633,7 +633,7 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="images/product1-555x615.jpg" class="attachment-shop_catalog size-shop_catalog post-image" alt="product1" title="product1" srcset="images/product1-555x615.jpg 555w, images/product1-271x300.jpg 271w, images/product1-768x851.jpg 768w, images/product1-924x1024.jpg 924w, images/product1-706x783.jpg 706w, images/product1.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product1-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product1" title="product1" srcset="images/product1-555x615.jpg 555w, images/product1-271x300.jpg 271w, images/product1-768x851.jpg 768w, images/product1-924x1024.jpg 924w, images/product1-706x783.jpg 706w, images/product1.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -646,7 +646,7 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="images/product2-555x615.jpg" class="attachment-shop_catalog size-shop_catalog post-image" alt="product2" title="product2" srcset="images/product2-555x615.jpg 555w, images/product2-271x300.jpg 271w, images/product2-768x851.jpg 768w, images/product2-924x1024.jpg 924w, images/product2-706x783.jpg 706w, images/product2.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product2-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product2" title="product2" srcset="images/product2-555x615.jpg 555w, images/product2-271x300.jpg 271w, images/product2-768x851.jpg 768w, images/product2-924x1024.jpg 924w, images/product2-706x783.jpg 706w, images/product2.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -659,7 +659,7 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="images/product5-555x615.jpg" class="attachment-shop_catalog size-shop_catalog post-image" alt="product5" title="product5" srcset="images/product5-555x615.jpg 555w, images/product5-271x300.jpg 271w, images/product5-768x851.jpg 768w, images/product5-924x1024.jpg 924w, images/product5-706x783.jpg 706w, images/product5.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product5-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product5" title="product5" srcset="images/product5-555x615.jpg 555w, images/product5-271x300.jpg 271w, images/product5-768x851.jpg 768w, images/product5-924x1024.jpg 924w, images/product5-706x783.jpg 706w, images/product5.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -672,7 +672,7 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="images/product3-555x615.jpg" class="attachment-shop_catalog size-shop_catalog post-image" alt="product3" title="product3" srcset="images/product3-555x615.jpg 555w, images/product3-271x300.jpg 271w, images/product3-768x851.jpg 768w, images/product3-924x1024.jpg 924w, images/product3-706x783.jpg 706w, images/product3.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product3-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product3" title="product3" srcset="images/product3-555x615.jpg 555w, images/product3-271x300.jpg 271w, images/product3-768x851.jpg 768w, images/product3-924x1024.jpg 924w, images/product3-706x783.jpg 706w, images/product3.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -685,7 +685,7 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="#"> <img src="images/product6-555x615.jpg" class="attachment-shop_catalog size-shop_catalog post-image" alt="product6" title="product6" srcset="images/product6-555x615.jpg 555w, images/product6-271x300.jpg 271w, images/product6-768x851.jpg 768w, images/product6-924x1024.jpg 924w, images/product6-706x783.jpg 706w, images/product6.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                            <a class="hover_icon hover_icon_link" href="#"> <img src="{{ asset('theme/theme7/images/product6-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product6" title="product6" srcset="images/product6-555x615.jpg 555w, images/product6-271x300.jpg 271w, images/product6-768x851.jpg 768w, images/product6-924x1024.jpg 924w, images/product6-706x783.jpg 706w, images/product6.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -743,7 +743,7 @@
                                                                 <div class="slides swiper-wrapper">
                                                                     <div class="swiper-slide w100" data-style="width:100%;">
                                                                         <div class="sc_testimonial_item">
-                                                                            <div class="sc_testimonial_avatar"><img class="post-image" alt="Alison &#038; Mark Priston" src="images/testimonials-1-102x102.jpg"></div>
+                                                                            <div class="sc_testimonial_avatar"><img class="post-image" alt="Alison &#038; Mark Priston" src="{{ asset('theme/theme7/images/testimonials-1-102x102.jpg')}}"></div>
                                                                             <div class="sc_testimonial_content">
                                                                                 <p>The wedding was truly fantastic. Thank you for making our dream come true!</p>
                                                                             </div>
@@ -752,7 +752,7 @@
                                                                     </div>
                                                                     <div class="swiper-slide w100" data-style="width:100%;">
                                                                         <div class="sc_testimonial_item">
-                                                                            <div class="sc_testimonial_avatar"><img class="post-image" alt="Kelly &#038; Brandon Walsh" src="images/testimonials-2-102x102.jpg"></div>
+                                                                            <div class="sc_testimonial_avatar"><img class="post-image" alt="Kelly &#038; Brandon Walsh" src="{{ asset('theme/theme7/images/testimonials-2-102x102.jpg')}}"></div>
                                                                             <div class="sc_testimonial_content">
                                                                                 <p>We were extremely excited, but everything was even more that we hoped for!</p>
                                                                             </div>
@@ -826,7 +826,7 @@
                                                                     <div class="post_item post_item_classic post_item_classic_3	post_format_standard even">
                                                                         <div class="post_featured">
                                                                             <div class="post_thumb" data-image="images/blog_img2.jpg" data-title="The role of your bouquette in wedding compositions">
-                                                                                <a class="hover_icon hover_icon_link" href="blog-standart-post.html"><img class="post-image" alt="The role of your bouquette in wedding compositions" src="images/blog_img2-370x240.jpg"></a>
+                                                                                <a class="hover_icon hover_icon_link" href="blog-standart-post.html"><img class="post-image" alt="The role of your bouquette in wedding compositions" src="{{ asset('theme/theme7/images/blog_img2-370x240.jpg')}}"></a>
                                                                             </div>
                                                                         </div>
                                                                         <!--.post_content -->
@@ -852,7 +852,7 @@
                                                                     <div class="post_item post_item_classic post_item_classic_3 post_format_standard odd last">
                                                                         <div class="post_featured">
                                                                             <div class="post_thumb" data-image="images/blog_img3.jpg" data-title="10 reasons why you should hire a wedding planner">
-                                                                                <a class="hover_icon hover_icon_link" href="blog-standart-post.html"><img class="post-image" alt="10 reasons why you should hire a wedding planner" src="images/blog_img3-370x240.jpg"></a>
+                                                                                <a class="hover_icon hover_icon_link" href="blog-standart-post.html"><img class="post-image" alt="10 reasons why you should hire a wedding planner" src="{{ asset('theme/theme7/images/blog_img3-370x240.jpg')}}"></a>
                                                                             </div>
                                                                         </div>
                                                                         <!--.post_content -->
@@ -918,7 +918,7 @@
                                                                     <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3">
                                                                         <div class="column-1_3 sc_column_item odd first">
                                                                             <div class="sc_price_block sc_price_block_style_1">
-                                                                                <div class="featured_image"><img alt="Bouquets" src="images/depositphotos-80370732-original.jpg"></div>
+                                                                                <div class="featured_image"><img alt="Bouquets" src="{{ asset('theme/theme7/images/depositphotos-80370732-original.jpg')}}"></div>
                                                                                 <div class="sc_price_block_title"><span>Bouquets</span></div>
                                                                                 <div class="sc_price_block_description">
                                                                                     <ul>
@@ -937,7 +937,7 @@
                                                                             </div>
                                                                         </div><div class="column-1_3 sc_column_item even">
                                                                             <div class="sc_price_block sc_price_block_style_1">
-                                                                                <div class="featured_image"><img alt="Ceremony+ Bouquets" src="images/depositphotos-70525293-original.jpg"></div>
+                                                                                <div class="featured_image"><img alt="Ceremony+ Bouquets" src="{{ asset('theme/theme7/images/depositphotos-70525293-original.jpg')}}"></div>
                                                                                 <div class="sc_price_block_title"><span>Ceremony+ Bouquets</span></div>
                                                                                 <div class="sc_price_block_description">
                                                                                     <ul>
@@ -955,7 +955,7 @@
                                                                             </div>
                                                                         </div><div class="column-1_3 sc_column_item odd">
                                                                             <div class="sc_price_block sc_price_block_style_1">
-                                                                                <div class="featured_image"><img alt="Full Package" src="images/depositphotos-99534020-original.jpg"></div>
+                                                                                <div class="featured_image"><img alt="Full Package" src="{{ asset('theme/theme7/images/depositphotos-99534020-original.jpg')}}"></div>
                                                                                 <div class="sc_price_block_title"><span>Full Package</span></div>
                                                                                 <div class="sc_price_block_description">
                                                                                     <ul>
@@ -1034,13 +1034,13 @@
                                                                 <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
                                                                 <div class="esg-media-cover-wrapper">
                                                                     <!-- THE MEDIA OF THE ENTRY -->
-                                                                    <div class="esg-entry-media"><img src="images/gallery-12.jpg" alt=""></div>
+                                                                    <div class="esg-entry-media"><img src="{{ asset('theme/theme7/images/gallery-12.jpg')}}" alt=""></div>
                                                                     <!-- THE CONTENT OF THE ENTRY -->
                                                                     <div class="esg-entry-cover esg-fade" data-delay="0">
                                                                         <!-- THE COLORED OVERLAY -->
                                                                         <div class="esg-overlay esg-flipup eg-vanburen-container" data-delay="0"></div>
                                                                         <div class="esg-center eg-vanburen-element-5-a esg-falldown" data-delay="0.2">
-                                                                            <a class="eg-vanburen-element-5 esgbox" href="images/gallery-9.jpg">
+                                                                            <a class="eg-vanburen-element-5 esgbox" href="{{ asset('theme/theme7/images/gallery-9.jpg')}}">
                                                                                 <i class="eg-icon-search"></i>
                                                                             </a>
                                                                         </div>
@@ -1063,13 +1063,13 @@
                                                                 <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
                                                                 <div class="esg-media-cover-wrapper">
                                                                     <!-- THE MEDIA OF THE ENTRY -->
-                                                                    <div class="esg-entry-media"><img src="images/gallery-11.jpg" alt=""></div>
+                                                                    <div class="esg-entry-media"><img src="{{ asset('theme/theme7/images/gallery-11.jpg')}}" alt=""></div>
                                                                     <!-- THE CONTENT OF THE ENTRY -->
                                                                     <div class="esg-entry-cover esg-fade" data-delay="0">
                                                                         <!-- THE COLORED OVERLAY -->
                                                                         <div class="esg-overlay esg-flipup eg-vanburen-container" data-delay="0"></div>
                                                                         <div class="esg-center eg-vanburen-element-5-a esg-falldown" data-delay="0.2">
-                                                                            <a class="eg-vanburen-element-5 esgbox" href="images/gallery-9.jpg">
+                                                                            <a class="eg-vanburen-element-5 esgbox" href="{{ asset('theme/theme7/images/gallery-9.jpg')}}">
                                                                                 <i class="eg-icon-search"></i>
                                                                             </a>
                                                                         </div>
@@ -1092,13 +1092,13 @@
                                                                 <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
                                                                 <div class="esg-media-cover-wrapper">
                                                                     <!-- THE MEDIA OF THE ENTRY -->
-                                                                    <div class="esg-entry-media"><img src="images/gallery-10.jpg" alt=""></div>
+                                                                    <div class="esg-entry-media"><img src="{{ asset('theme/theme7/images/gallery-10.jpg')}}" alt=""></div>
                                                                     <!-- THE CONTENT OF THE ENTRY -->
                                                                     <div class="esg-entry-cover esg-fade" data-delay="0">
                                                                         <!-- THE COLORED OVERLAY -->
                                                                         <div class="esg-overlay esg-flipup eg-vanburen-container" data-delay="0"></div>
                                                                         <div class="esg-center eg-vanburen-element-5-a esg-falldown" data-delay="0.2">
-                                                                            <a class="eg-vanburen-element-5 esgbox" href="images/gallery-9.jpg">
+                                                                            <a class="eg-vanburen-element-5 esgbox" href="{{ asset('theme/theme7/images/gallery-9.jpg')}}">
                                                                                 <i class="eg-icon-search"></i>
                                                                             </a>
                                                                         </div>
@@ -1121,13 +1121,13 @@
                                                                 <!-- THE CONTAINER FOR THE MEDIA AND THE COVER EFFECTS -->
                                                                 <div class="esg-media-cover-wrapper">
                                                                     <!-- THE MEDIA OF THE ENTRY -->
-                                                                    <div class="esg-entry-media"><img src="images/gallery_img4.jpg" alt=""></div>
+                                                                    <div class="esg-entry-media"><img src="{{ asset('theme/theme7/images/gallery_img4.jpg')}}" alt=""></div>
                                                                     <!-- THE CONTENT OF THE ENTRY -->
                                                                     <div class="esg-entry-cover esg-fade" data-delay="0">
                                                                         <!-- THE COLORED OVERLAY -->
                                                                         <div class="esg-overlay esg-flipup eg-vanburen-container" data-delay="0"></div>
                                                                         <div class="esg-center eg-vanburen-element-5-a esg-falldown" data-delay="0.2">
-                                                                            <a class="eg-vanburen-element-5 esgbox" href="images/gallery-9.jpg">
+                                                                            <a class="eg-vanburen-element-5 esgbox" href="{{ asset('theme/theme7/images/gallery-9.jpg')}}">
                                                                                 <i class="eg-icon-search"></i>
                                                                             </a>
                                                                         </div>
@@ -1238,7 +1238,7 @@
                         <aside id="lovestory_widget_socials-2" class="widget_number_1 widget widget_socials">
                             <div class="widget_inner">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo_2x.png" class="logo_main" alt=""></a>
+                                    <a href="index.html"><img src="{{ asset('theme/theme7/images/logo_2x.png')}}" class="logo_main" alt=""></a>
                                 </div>
                                 <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
                                     <div class="sc_socials_item"><a href="#" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div><div class="sc_socials_item"><a href="#" class="social_icons social_instagramm"><span class="icon-instagramm"></span></a></div><div class="sc_socials_item"><a href="#" class="social_icons social_gplus"><span class="icon-gplus"></span></a></div>

@@ -65,7 +65,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-12">
-                            <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="assets/img/logo-1.svg" alt=""></a>
+                            <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="{{ asset('theme/theme20/assets/img/logo-1.svg')}}" alt=""></a>
                             <a class="mobile-toggle padding-15px background-main-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                         </div>
 
@@ -83,7 +83,7 @@
 
                                     <div class="media">
                                         <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="http://placehold.it/200x200" alt="Generic placeholder image">
+										<img class="d-flex align-self-start mr-3 width-50px" src="{{ url('http://placehold.it/200x200')}}" alt="Generic placeholder image">
 									  </a>
                                         <div class="media-body">
                                             <a href="#" class="close"><i class="fa fa-window-close"></i></a>
@@ -94,7 +94,7 @@
 
                                     <div class="media">
                                         <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="http://placehold.it/200x200" alt="Generic placeholder image">
+										<img class="d-flex align-self-start mr-3 width-50px" src="{{ url('http://placehold.it/200x200')}}" alt="Generic placeholder image">
 									  </a>
                                         <div class="media-body">
                                             <a href="#" class="close"><i class="fa fa-window-close"></i></a>
@@ -106,7 +106,7 @@
 
                                     <div class="media">
                                         <a href="#">
-										<img class="d-flex align-self-start mr-3 width-50px" src="http://placehold.it/200x200" alt="Generic placeholder image">
+										<img class="d-flex align-self-start mr-3 width-50px" src="{{ url('http://placehold.it/200x200')}}" alt="Generic placeholder image">
 									  </a>
                                         <div class="media-body">
                                             <a href="#" class="close"><i class="fa fa-window-close"></i></a>
@@ -232,7 +232,7 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-26" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
-                    <img src="http://placehold.it/1920x900" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="{{ url('http://placehold.it/1920x900')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -262,7 +262,7 @@
                 <!-- item banner -->
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="shop-banner layout-1">
-                        <div class="img-in"><img src="http://placehold.it/600x400" alt=""></div>
+                        <div class="img-in"><img src="{{ url('http://placehold.it/600x400')}}" alt=""></div>
                         <div class="content">
                             <h2>Wedding Dresses</h2>
                             <div class="text">Trumpet/Mermaid Scoop Neck Court Train Stretch Crepe Wedding Dress</div>
@@ -275,7 +275,7 @@
                 <!-- item banner -->
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="shop-banner layout-1">
-                        <div class="img-in"><img src="http://placehold.it/600x400" alt=""></div>
+                        <div class="img-in"><img src="{{ url('http://placehold.it/600x400')}}" alt=""></div>
                         <div class="content">
                             <h2>Wedding Flowers</h2>
                             <div class="text">Trumpet/Mermaid Scoop Neck Court Train Stretch Crepe Wedding Dress</div>
@@ -288,7 +288,7 @@
                 <!-- item banner -->
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="shop-banner layout-1">
-                        <div class="img-in"><img src="http://placehold.it/600x400" alt=""></div>
+                        <div class="img-in"><img src="{{ url('http://placehold.it/600x400')}}" alt=""></div>
                         <div class="content">
                             <h2>Wedding Jewelry</h2>
                             <div class="text">Trumpet/Mermaid Scoop Neck Court Train Stretch Crepe Wedding Dress</div>
@@ -301,7 +301,7 @@
                 <!-- item banner -->
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="shop-banner layout-1">
-                        <div class="img-in"><img src="http://placehold.it/600x400" alt=""></div>
+                        <div class="img-in"><img src="{{ url('http://placehold.it/600x400')}}" alt=""></div>
                         <div class="content">
                             <h2>Wedding Gifts</h2>
                             <div class="text">Trumpet/Mermaid Scoop Neck Court Train Stretch Crepe Wedding Dress</div>
@@ -326,7 +326,7 @@
                 <!-- partners item -->
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="partners-item margin-tb-15px text-center">
-                        <img src="http://placehold.it/120x80" alt="">
+                        <img src="{{ url('http://placehold.it/120x80')}}" alt="">
                     </div>
                 </div>
                 <!--//  partners item -->
@@ -335,7 +335,7 @@
                 <!-- partners item -->
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="partners-item margin-tb-15px text-center">
-                        <img src="http://placehold.it/120x80" alt="">
+                        <img src="{{ url('http://placehold.it/120x80')}}" alt="">
                     </div>
                 </div>
                 <!--//  partners item -->
@@ -344,7 +344,7 @@
                 <!-- partners item -->
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="partners-item margin-tb-15px text-center">
-                        <img src="http://placehold.it/120x80" alt="">
+                        <img src="{{ url('http://placehold.it/120x80')}}" alt="">
                     </div>
                 </div>
                 <!--//  partners item -->
@@ -353,7 +353,7 @@
                 <!-- partners item -->
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="partners-item margin-tb-15px text-center">
-                        <img src="http://placehold.it/120x80" alt="">
+                        <img src="{{ url('http://placehold.it/120x80')}}" alt="">
                     </div>
                 </div>
                 <!--//  partners item -->
@@ -362,7 +362,7 @@
                 <!-- partners item -->
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="partners-item margin-tb-15px text-center">
-                        <img src="http://placehold.it/120x80" alt="">
+                        <img src="{{ url('http://placehold.it/120x80')}}" alt="">
                     </div>
                 </div>
                 <!--//  partners item -->
@@ -371,7 +371,7 @@
                 <!-- partners item -->
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="partners-item margin-tb-15px text-center">
-                        <img src="http://placehold.it/120x80" alt="">
+                        <img src="{{ url('http://placehold.it/120x80')}}" alt="">
                     </div>
                 </div>
                 <!--//  partners item -->
@@ -396,7 +396,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">Tulle Lace Wedding Dress</a></h3>
@@ -410,7 +410,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">With Beading Sequins</a></h3>
@@ -424,7 +424,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">Dress With Ruffle</a></h3>
@@ -438,7 +438,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">Train Tulle Lace</a></h3>
@@ -451,7 +451,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">Tulle Lace Wedding Dress</a></h3>
@@ -465,7 +465,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">With Beading Sequins</a></h3>
@@ -479,7 +479,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">Dress With Ruffle</a></h3>
@@ -493,7 +493,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="shop-item layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/450x600" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
                             <a href="#" class="add_cart">Add to cart</a>
                         </div>
                         <h3 class="title"><a href="#">Train Tulle Lace</a></h3>
@@ -549,7 +549,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -569,7 +569,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -588,7 +588,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -608,7 +608,7 @@
                 <div class="col-lg-6">
                     <div class="nile-blog-home layout-1">
                         <div class="img_in">
-                            <a href="#"><img src="http://placehold.it/320x320" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/320x320')}}" alt=""></a>
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -636,7 +636,7 @@
                 <!-- item -->
                 <div class="col-lg-4">
                     <div class="icon-text layout-5 clearfix sm-mb-35px">
-                        <div class="icon"><img src="assets/icons/store-1.svg" alt=""></div>
+                        <div class="icon"><img src="{{ asset('theme/theme20/assets/icons/store-1.svg')}}" alt=""></div>
                         <h4><a class="title">Free Shipping</a></h4>
                         <div class="text">Free shipping on all orders over $100</div>
                     </div>
@@ -646,7 +646,7 @@
                 <!-- item -->
                 <div class="col-lg-4">
                     <div class="icon-text layout-5 clearfix sm-mb-35px">
-                        <div class="icon"><img src="assets/icons/store-2.svg" alt=""></div>
+                        <div class="icon"><img src="{{ asset('theme/theme20/assets/icons/store-2.svg')}}" alt=""></div>
                         <h4><a class="title">Money Back</a></h4>
                         <div class="text">Free shipping on all orders over $100</div>
                     </div>
@@ -656,7 +656,7 @@
                 <!-- item -->
                 <div class="col-lg-4">
                     <div class="icon-text layout-5 clearfix sm-mb-35px">
-                        <div class="icon"><img src="assets/icons/store-3.svg" alt=""></div>
+                        <div class="icon"><img src="{{ asset('theme/theme20/assets/icons/store-3.svg')}}" alt=""></div>
                         <h4><a class="title">Online Support</a></h4>
                         <div class="text">Free shipping on all orders over $100</div>
                     </div>
@@ -669,7 +669,7 @@
 
     <!-- preloader -->
     <div class="nile-preloader">
-        <div class="logo"> <img src="assets/img/loading-1.svg" alt=""> </div>
+        <div class="logo"> <img src="{{ asset('theme/theme20/assets/img/loading-1.svg')}}" alt=""> </div>
     </div>
     <!-- end preloader -->
     <footer class="layout-3">
@@ -681,7 +681,7 @@
                     <div class="col-lg-3">
                         <div class="nile-widget about-me-widget">
                             <div class="about-me">
-                                <div class="image"><img src="assets/img/logo-1.svg" alt=""></div>
+                                <div class="image"><img src="{{ asset('theme/theme20/assets/img/logo-1.svg')}}" alt=""></div>
 
                                 <div class="text-about margin-tb-25px">
                                     A great city, whose image dwells in the memory of man, is the type of some great idea. Rome represents conquest; Faith hovers over the towers of Jerusalem; and Athens embodies the pre-eminent quality of the antique world, Art.
@@ -699,7 +699,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">How To Market Your Consulting Business ...</a>
@@ -709,7 +709,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">SAP Business One Technical Versus Functional ...</a>
@@ -719,7 +719,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">How To Choose An IT Consulting Firm</a>
@@ -746,15 +746,15 @@
                         <div class="nile-widget layout-1 niletheme_projects_widget">
                             <h2 class="title">Our Projects</h2>
                             <ul class="projects-feed">
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -807,7 +807,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">How To Market Your Consulting Business ...</a>
@@ -817,7 +817,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">SAP Business One Technical Versus Functional ...</a>
@@ -827,7 +827,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">How To Choose An IT Consulting Firm</a>
@@ -850,15 +850,15 @@
         <div class="nile-widget layout-1 niletheme_projects_widget">
             <h2 class="title">Our Projects</h2>
             <ul class="projects-feed">
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
             </ul>
         </div>
 

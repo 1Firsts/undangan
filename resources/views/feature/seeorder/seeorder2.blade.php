@@ -1,7 +1,7 @@
 @extends('feature/layout/main')
 @section('title', 'Seeorder')
-
 @section('content')
+
                 <div class="row">
                     <div class="col">
                         <div class="card">
@@ -34,8 +34,7 @@
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-danger">Hapus</button>
                                                 </form>
-                                                <form action="{{ route('posts.show2', ['id' => $seeorder->id]) }}">
-                                                    @csrf
+                                                <form action="{{ route('posts.show2', ['id' => $seeorder->id], false) }}">
                                                     <button type="submit" class="btn btn-info">Lihat</button>
                                                 </form>
                                             </td>

@@ -26,7 +26,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<button class="exit-mobile">
-							<svg version="1.1" id="btn-menu-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+							<svg version="1.1" id="btn-menu-close" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 								<path d="M15.4,15.3l-0.1,0.1c-0.7,0.7-1.9,0.7-2.6,0L0.6,3.3c-0.7-0.7-0.7-1.9,0-2.6l0.1-0.1c0.7-0.7,1.9-0.7,2.6,0l12.1,12.1
 									C16.2,13.4,16.2,14.6,15.4,15.3z"></path>
 								<path d="M0.7,15.4l-0.1-0.1c-0.7-0.7-0.7-1.9,0-2.6L12.7,0.6c0.7-0.7,1.9-0.7,2.6,0l0.1,0.1c0.7,0.7,0.7,1.9,0,2.6L3.3,15.4
@@ -200,13 +200,13 @@
 							<li><a class="social-email" href="mailto:#" target="_blank"><i class="far fa-envelope"></i></a></li>
 						</ul>
 					</div>
-					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="images/logo-tilia.png" alt="Tilia" width="139" height="90"></a></div>
-					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="images/logo-dark-tilia.png" alt="Tilia" width="139" height="90"></a></div>
+					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
+					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
-							<svg version="1.1" id="btn-menu-open" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+							<svg version="1.1" id="btn-menu-open" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 								<g>
 									<path d="M2,4L2,4C0.9,4,0,3.1,0,2v0c0-1.1,0.9-2,2-2h0c1.1,0,2,0.9,2,2v0C4,3.1,3.1,4,2,4z"></path>
 									<path d="M8,4L8,4C6.9,4,6,3.1,6,2v0c0-1.1,0.9-2,2-2h0c1.1,0,2,0.9,2,2v0C10,3.1,9.1,4,8,4z"></path>
@@ -359,7 +359,7 @@
 		<!-- HOME SLIDER -->
 		<div class="swiper-mt">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide slider-img" style="background-image: url('images/home/slider-1.jpg');">
+				<div class="swiper-slide slider-img" style="background-image: url('{{ asset('theme/theme13/images/home/slider-1.jpg')}}');">
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Wedding Photography</h1>
@@ -368,7 +368,7 @@
 					</div>
 				</div>
 				<!-- /slider-img -->
-				<div class="swiper-slide slider-img" style="background-image: url('images/home/slider-2.jpg');">
+				<div class="swiper-slide slider-img" style="background-image: url('{{ asset('theme/theme13/images/home/slider-2.jpg')}}');">
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Timeless Locations</h1>
@@ -377,7 +377,7 @@
 					</div>
 				</div>
 				<!-- /slider-img -->
-				<div class="swiper-slide slider-img" style="background-image: url('images/home/slider-3.jpg');">
+				<div class="swiper-slide slider-img" style="background-image: url('{{ asset('theme/theme13/images/home/slider-3.jpg')}}');">
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Family Portraits</h1>
@@ -389,7 +389,7 @@
 			</div>
 			<!-- /swiper-wrapper -->
 			<div class="swiper-mt-button-prev" tabindex="0" role="button" aria-label="Previous slide">
-				<svg version="1.1" class="arrow-slider" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve">
+				<svg version="1.1" class="arrow-slider" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve">
 					<path d="M33.2,28.3l-8.8,8.8c-0.4,0.4-1.1,0.4-1.5,0l-1-1c-0.4-0.4-0.4-1.1,0-1.5l7-7l-7-7c-0.4-0.4-0.4-1.1,0-1.5l1-1
 						c0.4-0.4,1.1-0.4,1.5,0l8.8,8.8C33.6,27.2,33.6,27.8,33.2,28.3z"></path>
 					<path d="M27.5,55C12.3,55,0,42.7,0,27.5S12.3,0,27.5,0S55,12.3,55,27.5S42.7,55,27.5,55z M27.5,5C15.1,5,5,15.1,5,27.5
@@ -398,7 +398,7 @@
 			</div>
 			<!-- /swiper-mt-button-prev -->
 			<div class="swiper-mt-button-next" tabindex="0" role="button" aria-label="Next slide">
-				<svg version="1.1" class="arrow-slider" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve">
+				<svg version="1.1" class="arrow-slider" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 55 55" style="enable-background:new 0 0 55 55;" xml:space="preserve">
 					<path d="M33.2,28.3l-8.8,8.8c-0.4,0.4-1.1,0.4-1.5,0l-1-1c-0.4-0.4-0.4-1.1,0-1.5l7-7l-7-7c-0.4-0.4-0.4-1.1,0-1.5l1-1
 						c0.4-0.4,1.1-0.4,1.5,0l8.8,8.8C33.6,27.2,33.6,27.8,33.2,28.3z"></path>
 					<path d="M27.5,55C12.3,55,0,42.7,0,27.5S12.3,0,27.5,0S55,12.3,55,27.5S42.7,55,27.5,55z M27.5,5C15.1,5,5,15.1,5,27.5
@@ -417,8 +417,8 @@
 					<div class="row align-items-center">
 						<div class="col-lg-3 section-hide-mobile">
 							<div class="margin-r50">
-								<img class="img-fluid radius10 margin-b30" src="images/home/home2-img1.jpg" alt=" " />
-								<img class="img-fluid radius10" src="images/home/home2-img3.jpg" alt=" " />
+								<img class="img-fluid radius10 margin-b30" src="{{ asset('theme/theme13/images/home/home2-img1.jpg')}}" alt=" " />
+								<img class="img-fluid radius10" src="{{ asset('theme/theme13/images/home/home2-img3.jpg')}}" alt=" " />
 							</div>
 							<!-- /margin-r50 -->	
 						</div>
@@ -434,8 +434,8 @@
 						<!-- /col-lg-6 -->	
 						<div class="col-lg-3 section-hide-mobile">
 							<div class="margin-l50">
-								<img class="img-fluid radius10 margin-t30" src="images/home/home2-img2.jpg" alt=" " />
-								<img class="img-fluid radius10  margin-t30" src="images/home/home2-img4.jpg" alt=" " />
+								<img class="img-fluid radius10 margin-t30" src="{{ asset('theme/theme13/images/home/home2-img2.jpg')}}" alt=" " />
+								<img class="img-fluid radius10  margin-t30" src="{{ asset('theme/theme13/images/home/home2-img4.jpg')}}" alt=" " />
 							</div>
 							<!-- /margin-l50 -->	
 						</div>
@@ -452,7 +452,7 @@
 					<div class="portfolio-grid portfolio-grid-v2 portfolio-layout-masonry">
 						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-1-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-1-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Tracy &amp; Aaron</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -464,7 +464,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-2-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-4-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-2-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-4-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-4-cols.html">Jane &amp; Paul</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -476,7 +476,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-3-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-2-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-3-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-2-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-2-cols.html">Angela &amp; Zach</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -488,7 +488,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-4-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-5-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-4-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-5-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-5-cols.html">Diana &amp; Max</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -500,7 +500,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle wedding">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-5-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-5-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Tina &amp; Robi</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -513,7 +513,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle wedding">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-6-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-4-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-6-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-4-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-4-cols.html">Clara &amp; Andrew</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -526,7 +526,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols portrait">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-7-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-2-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-7-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-2-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-2-cols.html">Street People</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -538,7 +538,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-8-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-8-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Ballet Dancers</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -550,7 +550,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle portrait">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-9-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-9-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Black & White</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -563,7 +563,7 @@
 						<!-- /item-portfolio -->
 						<div class="item-portfolio item-portfolio-v2 item-5cols portrait">
 							<div class="item-portfolio-holder-v2">
-								<div class="post-image item-grid-image-v2"><img loading="lazy" src="images/portfolio/featured-images/gal-10-grid.jpg" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-5-cols.html"> </a></div>
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-10-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-5-cols.html"> </a></div>
 								<div class="item-text-holder-v2">
 									<h2 class="item-title display-6"><a href="gallery-grid-5-cols.html">Studio Photos</a></h2>
 									<ul class="portfolio-categ portfolio-categ-v2">
@@ -586,14 +586,14 @@
 			<div id="home-section-3-3" class="section-holder home-section-3-3 margin-b50">
 				<div class="row g-0 align-items-center">
 					<div class="col-lg-6 margin-bm50">
-						<img class="img-fluid radius-right250" src="images/pages/contact-page.jpg" alt=" ">
+						<img class="img-fluid radius-right250" src="{{ asset('theme/theme13/images/pages/contact-page.jpg')}}" alt=" ">
 					</div>
 					<!-- /col-lg-6 -->
 					<div class="col-lg-6">
 						<div class="padding-50">
 							<div class="testimonials">
 								<div class="testimonial-quote">
-									<svg version="1.1" class="icon-quote2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+									<svg version="1.1" class="icon-quote2" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 										<g>
 											<g>
 												<path d="M84.2,437.2c-7.2,0-14.2-3.2-18.9-9.1c-6.7-8.4-6.9-20.3-0.7-29c16.6-22.9,28-49.4,33.1-77C72,316.2,48.6,302.3,31,282.2
@@ -667,7 +667,7 @@
 					<div class="row layout-masonry margin-b50less">
 						<div class="col-md-6 col-lg-4 blog-item-masonry">
 							<article class="blog-item blog-item-2col-grid">
-								<div class="post-image"> <img loading="lazy" src="images/blog/blog-9.jpg" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
+								<div class="post-image"> <img loading="lazy" src="{{ asset('theme/theme13/images/blog/blog-9.jpg')}}" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
 								<div class="post-holder">
 									<h2 class="article-title display-6"><a href="blog-single-post.html">Into the Forest: Katy Evening Dress</a></h2>
 									<div class="meta-info">
@@ -682,7 +682,7 @@
 						<!-- /blog-item-masonry -->
 						<div class="col-md-6 col-lg-4 blog-item-masonry">
 							<article class="blog-item blog-item-2col-grid">
-								<div class="post-image"> <img loading="lazy" src="images/blog/blog-8.jpg" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
+								<div class="post-image"> <img loading="lazy" src="{{ asset('theme/theme13/images/blog/blog-8.jpg')}}" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
 								<div class="post-holder">
 									<h2 class="article-title display-6"><a href="blog-single-post.html">Jessica & Jake : Love Story in New York</a></h2>
 									<div class="meta-info">
@@ -697,7 +697,7 @@
 						<!-- /blog-item-masonry -->
 						<div class="col-md-6 col-lg-4 blog-item-masonry">
 							<article class="blog-item blog-item-2col-grid">
-								<div class="post-image"> <img loading="lazy" src="images/blog/blog-7.jpg" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
+								<div class="post-image"> <img loading="lazy" src="{{ asset('theme/theme13/images/blog/blog-7.jpg')}}" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
 								<div class="post-holder">
 									<h2 class="article-title display-6"><a href="blog-single-post.html">Lovely Engagement Photos of Sandra & Peter</a></h2>
 									<div class="meta-info">
@@ -740,14 +740,14 @@
 		<!-- FOOTER -->
 		<div id="footer-instagram">
 			<ul class="instagram-pics instagram-size-small">
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-1.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-2.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-3.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-4.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-5.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-6.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-7.jpg" alt=""/></a></li>
-				<li class=""><a href="#" target="_blank" class=""><img src="images/insta/insta-8.jpg" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-1.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-2.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-3.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-4.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-5.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-6.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-7.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-8.jpg')}}" alt=""/></a></li>
 			</ul>
 			<p class="clear"><a href="#" rel="me" target="_blank" class="">Follow Us!</a></p>
 		</div>

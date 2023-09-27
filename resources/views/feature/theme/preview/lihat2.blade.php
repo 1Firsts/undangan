@@ -46,13 +46,13 @@
         <!-- Header slider section -->
         <div class="home-slider">
             <div class="single-slider">
-                <img src="images/slider-img/slide-1.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/slider-img/slide-1.jpg')}}" alt="">
             </div>
             <div class="single-slider">
-                <img src="images/slider-img/slide-2.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/slider-img/slide-2.jpg')}}" alt="">
             </div>
             <div class="single-slider">
-                <img src="images/slider-img/slide-3.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/slider-img/slide-3.jpg')}}" alt="">
             </div>
         </div>
         <!-- END Header slider section -->
@@ -82,12 +82,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#home"><img src="images/logo.png" alt=""></a>
+                        <a class="navbar-brand" href="#home"><img src="{{ asset('theme/theme2/images/logo.png')}}" alt=""></a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav appointment navbar-right">
                             <li>
-                                <a href="#appointment"><span><img src="images/pencil.png" alt=""> </span>Make an appointment</a>
+                                <a href="#appointment"><span><img src="{{ asset('theme/theme2/images/pencil.png')}}" alt=""> </span>Make an appointment</a>
                             </li>
                         </ul>
                         <ul class="nav menu navbar-nav navbar-right">
@@ -112,25 +112,25 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="single-features wow fadeInUp" data-wow-duration="1s">
-                        <img src="images/feature-img-1.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/feature-img-1.png')}}" alt="">
                         <div class="img-up">
-                            <img src="images/flower.png" alt="">
+                            <img src="{{ asset('theme/theme2/images/flower.png')}}" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="single-features wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                        <img src="images/feature-img-2.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/feature-img-2.png')}}" alt="">
                         <div class="img-up">
-                            <img src="images/flower.png" alt="">
+                            <img src="{{ asset('theme/theme2/images/flower.png')}}" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="single-features wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                        <img src="images/feature-img-3.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/feature-img-3.png')}}" alt="">
                         <div class="img-up">
-                            <img src="images/flower.png" alt="">
+                            <img src="{{ asset('theme/theme2/images/flower.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -170,19 +170,19 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="about-image wow slideInLeft">
-                        <img src="images/about-img-1.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/about-img-1.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="about-image wow slideInRight">
-                        <img src="images/about-img-2.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/about-img-2.png')}}" alt="">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 text-center">
                     <div class="about-flow">
-                        <img src="images/about-flower.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/about-flower.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -203,7 +203,7 @@
                 <div class="col-sm-11 testimonial-slider">
                     <div class="single-testimonial">
                         <div class="testimonial-img">
-                            <img src="images/testimonial.png" alt="">
+                            <img src="{{ asset('theme/theme2/images/testimonial.png')}}" alt="">
                         </div>
                         <div class="tesitmonial-content">
                             <h3>Thank you for everything that you (and your lovely staff) did during the whole process. You were all so friendly and helpful and it was always such a lovely experience coming.</h3>
@@ -212,7 +212,7 @@
                     </div>
                     <div class="single-testimonial">
                         <div class="testimonial-img">
-                            <img src="images/testimonial.png" alt="">
+                            <img src="{{ asset('theme/theme2/images/testimonial.png')}}" alt="">
                         </div>
                         <div class="tesitmonial-content">
                             <h3>Thank you for everything that you (and your lovely staff) did during the whole process. You were all so friendly and helpful and it was always such a lovely experience coming.</h3>
@@ -259,13 +259,13 @@
                 <div class="col-sm-6">
                     <div class="dress-slider">
                         <div class="dress-single-slider">
-                            <img src="images/dress-slide-1.jpg" alt="">
+                            <img src="{{ asset('theme/theme2/images/dress-slide-1.jpg')}}" alt="">
                         </div>
                         <div class="dress-single-slider">
-                            <img src="images/dress-slide-2.jpg" alt="">
+                            <img src="{{ asset('theme/theme2/images/dress-slide-2.jpg')}}" alt="">
                         </div>
                         <div class="dress-single-slider">
-                            <img src="images/dress-slide-3.jpg" alt="">
+                            <img src="{{ asset('theme/theme2/images/dress-slide-3.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -277,45 +277,45 @@
     <div class="gallery-section clearfix" id="gallery">
         <div class="gallery-slider">
             <div class="single-gallery">
-                <img src="images/gallery/gallery-thumb-1.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-1.jpg')}}" alt="">
                 <div class="gallhover">
-                    <a class="maginfic" href="images/gallery/gallery-photo-1.jpg"><img src="images/plus.png" alt=""></a>
+                    <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-1.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="images/gallery/gallery-thumb-2.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-2.jpg')}}" alt="">
                 <div class="gallhover">
-                    <a class="maginfic" href="images/gallery/gallery-photo-2.jpg"><img src="images/plus.png" alt=""></a>
+                    <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-2.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="images/gallery/gallery-thumb-3.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-3.jpg')}}" alt="">
                 <div class="gallhover">
-                    <a class="maginfic" href="images/gallery/gallery-photo-3.jpg"><img src="images/plus.png" alt=""></a>
+                    <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-3.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="images/gallery/gallery-thumb-4.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-4.jpg')}}" alt="">
                 <div class="gallhover">
-                    <a class="maginfic" href="images/gallery/gallery-photo-4.jpg"><img src="images/plus.png" alt=""></a>
+                    <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-4.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="images/gallery/gallery-thumb-5.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-5.jpg')}}" alt="">
                 <div class="gallhover">
-                    <a class="maginfic" href="images/gallery/gallery-photo-5.jpg"><img src="images/plus.png" alt=""></a>
+                    <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-5.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="images/gallery/gallery-thumb-3.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-3.jpg" alt="">
                 <div class="gallhover">
-                    <a class="maginfic" href="images/gallery/gallery-photo-3.jpg"><img src="images/plus.png" alt=""></a>
+                    <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-3.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="images/gallery/gallery-thumb-2.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-2.jpg" alt="">
                 <div class="gallhover">
-                    <a class="maginfic" href="images/gallery/gallery-photo-2.jpg"><img src="images/plus.png" alt=""></a>
+                    <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-2.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
         </div>
@@ -352,27 +352,27 @@
             <div class="row brand-slider text-center">
                 <div class="col-sm-2">
                     <div class="single-designer">
-                        <a href=""><img src="images/designers/brandname.png" alt=""></a>
+                        <a href=""><img src="{{ asset('theme/theme2/images/designers/brandname.png')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-designer">
-                        <a href=""><img src="images/designers/hosoreno.png" alt=""></a>
+                        <a href=""><img src="{{ asset('theme/theme2/images/designers/hosoreno.png')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-designer">
-                        <a href=""><img src="images/designers/premium.png" alt=""></a>
+                        <a href=""><img src="{{ asset('theme/theme2/images/designers/premium.png')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-designer">
-                        <a href=""><img src="images/designers/premium_product.png" alt=""></a>
+                        <a href=""><img src="{{ asset('theme/theme2/images/designers/premium_product.png')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="single-designer">
-                        <a href=""><img src="images/designers/prestige.png" alt=""></a>
+                        <a href=""><img src="{{ asset('theme/theme2/images/designers/prestige.png')}}" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -386,7 +386,7 @@
                 <div class="col-xs-12 text-center">
                     <div class="section-title contact-title">
                         <h2>Make an Appointment</h2>
-                        <img src="images/contact-flower.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/contact-flower.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -499,12 +499,12 @@
             <div class="row">
                 <div class="col-sm-4 text-center">
                     <div class="footer-content">
-                        <p>&copy; 2016 DEAR BRIDE <span class="fa fa-heart"></span> <a href="https://themeforest.net/user/envalab/portfolio?ref=envalab">ENVALAB</a> </p>
+                        <p>&copy; 2016 DEAR BRIDE <span class="fa fa-heart"></span> <a href="{{ url('https://themeforest.net/user/envalab/portfolio?ref=envalab')}}">ENVALAB</a> </p>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center">
                     <div class="footer-content">
-                        <img src="images/footer_flower.png" alt="">
+                        <img src="{{ asset('theme/theme2/images/footer_flower.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-sm-4 text-center">

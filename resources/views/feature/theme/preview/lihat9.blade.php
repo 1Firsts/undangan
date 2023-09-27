@@ -27,10 +27,10 @@
     <link rel="stylesheet" href="{{ asset('theme/theme8/rsvp/form.css') }}">
 
     <!-- custom background -->
-    <link rel="stylesheet" href="css/bg.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('theme/theme8/css/bg.css')}}" type="text/css">
 
     <!-- color scheme -->
-    <link rel="stylesheet" href="css/color.css" type="text/css" id="colors">
+    <link rel="stylesheet" href="{{ asset('theme/theme8/css/color.css')}}" type="text/css" id="colors">
 </head>
 
 <body id="homepage">
@@ -173,7 +173,7 @@
                         <div class="row">
                             <div class="spacer-double"></div>
                             <div class="col-md-4 col-md-offset-4">
-                                <img src="images/misc/7.jpg" class="img-circle" alt="">
+                                <img src="{{ asset('theme/theme8/images/misc/7.jpg')}}" class="img-circle" alt="">
                             </div>
 
                             <div class="col-md-8 col-md-offset-2">
@@ -286,12 +286,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images/gallery/category-1/1.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images/gallery/category-1/1.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images/gallery/category-1/1.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images/gallery/category-1/1.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -299,12 +299,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images/gallery/category-1/2.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images/gallery/category-1/2.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images/gallery/category-1/2.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images/gallery/category-1/2.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -312,12 +312,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images/gallery/category-1/3.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images/gallery/category-1/3.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images/gallery/category-1/3.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images/gallery/category-1/3.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -325,12 +325,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images/gallery/category-1/4.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images/gallery/category-1/4.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images/gallery/category-1/4.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images/gallery/category-1/4.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -338,12 +338,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images/gallery/category-1/5.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images/gallery/category-1/5.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images/gallery/category-1/5.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images/gallery/category-1/5.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -351,12 +351,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images/gallery/category-1/6.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images/gallery/category-1/6.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images/gallery/category-1/6.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images/gallery/category-1/6.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -383,13 +383,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="images/misc/3.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft">
+                            <img src="{{ asset('theme/theme8/images/misc/3.jpg')}}" alt="" class="img-responsive img-rounded wow fadeInLeft">
                         </div>
 
                         <div class="col-md-5 col-md-offset-1 pt40 pb40 wow fadeIn" data-wow-delay=".5s">
                             <h3>Wedding Ceremony</h3>
                             Saturday, 27 November 2021<br> 13:00 PM - 14:00 PM<br> 100 Mainstreet Center, Sydney<br>
-                            <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+                            <a href="{{ url('https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom')}}"
                                 class="btn btn-custom mt30 popup-gmaps">View on map</a>
                         </div>
                     </div>
@@ -400,12 +400,12 @@
                         <div class="col-md-5 pt40 pb40 text-right wow fadeIn" data-wow-delay=".5s">
                             <h3>Wedding Reception</h3>
                             Saturday, 27 November 2021<br> 14:00 PM - 16:00 PM<br> 100 Mainstreet Center, Sydney<br>
-                            <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+                            <a href="{{ url('https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom')}}"
                                 class="btn btn-custom mt30 popup-gmaps">View on map</a>
                         </div>
 
                         <div class="col-md-6 col-md-offset-1">
-                            <img src="images/misc/4.jpg" alt="" class="img-responsive img-rounded wow fadeInRight">
+                            <img src="{{ asset('theme/theme8/images/misc/4.jpg')}}" alt="" class="img-responsive img-rounded wow fadeInRight">
                         </div>
                     </div>
                 </div>

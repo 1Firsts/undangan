@@ -43,8 +43,8 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo" src="images_02/logo-2.png" alt="">
-								<img class="logo-2" src="images_02/logo.png" alt="">
+                                <img class="logo" src="{{ asset('theme/theme8/images_02/logo-2.png')}}" alt="">
+								<img class="logo-2" src="{{ asset('theme/theme8/images_02/logo.png')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -93,7 +93,7 @@
                         <div class="row">
                             <div class="col-md-12 text-center">
 									<div class="spacer-double"></div>
-                                   <img src="images_02/logo-big.png" class="img-responsive img-auto" alt="">
+                                   <img src="{{ asset('theme/theme8/images_02/logo-big.png')}}" class="img-responsive img-auto" alt="">
 								   <div class="spacer-double"></div>
 								   <h1 class='s2'>Serena Laurie</h1>
 								   <h4 class='s3'>Wedding Planner</h4>
@@ -170,25 +170,25 @@
 								</div>
 								
                                 <div class="col-md-3 text-center">
-									<img src="images_02/services/1.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/1.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Make Up</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
 								
 								<div class="col-md-3 text-center">
-									<img src="images_02/services/2.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/2.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Venues</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
 								
 								<div class="col-md-3 text-center">
-									<img src="images_02/services/3.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/3.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Decoration</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
 								
 								<div class="col-md-3 text-center">
-									<img src="images_02/services/4.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/4.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Cars</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
@@ -221,12 +221,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images_02/gallery/1.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images_02/gallery/1.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images_02/gallery/1.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images_02/gallery/1.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -234,12 +234,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images_02/gallery/2.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images_02/gallery/2.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images_02/gallery/2.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images_02/gallery/2.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -247,12 +247,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images_02/gallery/3.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images_02/gallery/3.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images_02/gallery/3.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images_02/gallery/3.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -260,12 +260,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images_02/gallery/4.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images_02/gallery/4.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images_02/gallery/4.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images_02/gallery/4.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -273,12 +273,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images_02/gallery/5.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images_02/gallery/5.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images_02/gallery/5.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images_02/gallery/5.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -286,12 +286,12 @@
                     <!-- gallery carousel-item -->
                     <div class="carousel-item">
                         <figure class="picframe">
-                            <a class="image-popup" href="images_02/gallery/6.jpg">
+                            <a class="image-popup" href="{{ asset('theme/theme8/images_02/gallery/6.jpg')}}">
 							<span class="overlay-v">
 							<i></i>
 							</span>
 						</a>
-                            <img src="images_02/gallery/6.jpg" class="img-responsive" alt="">
+                            <img src="{{ asset('theme/theme8/images_02/gallery/6.jpg')}}" class="img-responsive" alt="">
                         </figure>
                     </div>
                     <!-- close gallery carousel-item -->
@@ -308,7 +308,7 @@
             <div class="container text-center text-light">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="images_02/logo-med.png" alt="">
+                        <img src="{{ asset('theme/theme8/images_02/logo-med.png')}}" alt="">
                     </div>
                 </div>
             </div>

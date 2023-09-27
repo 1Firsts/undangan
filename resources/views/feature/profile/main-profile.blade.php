@@ -73,48 +73,47 @@
                                         </div>
                                     @endif
                                     
-                                    <form action="{{ route('register') }}" enctype="multipart/form-data" method="POST">
-                                    @csrf
-                                    @method('delete')
+                                    <form action="{{ route('main-profile.store') }}" method="POST">
+                                        @csrf
 
-                                    <div class="row mb-3">
-                                        <label for="name" class="col-sm-2 col-form-label">Fullname</label>
-                                        <div class="col-sm-10">
-                                            <input type="name" class="form-control" id="name" name="name" required autofocus autocomplete="name" placeholder="Fullname">
-                                            @error('name')
-                                                <span class="text-danger">{{ $message }}</span>
-                                            @enderror
+                                        <div class="row mb-3">
+                                            <label for="name" class="col-sm-2 col-form-label">Full Name</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}" required autofocus placeholder="Full Name">
+                                                @error('name')
+                                                    <span class="text-danger">{{ $message }}</span>
+                                                @enderror
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <label for="email" class="col-sm-2 col-form-label">Email address</label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="email" name="email" required autocomplete="username" placeholder="name@example.com">
-                                            @error('email')
-                                                <span class="text-danger">{{ $message }}</span>
-                                            @enderror
+                                        <div class="row mb-3">
+                                            <label for="email" class="col-sm-2 col-form-label">Email Address</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="email" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="name@example.com">
+                                                @error('email')
+                                                    <span class="text-danger">{{ $message }}</span>
+                                                @enderror
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <label for="password" class="col-sm-2 col-form-label">Password</label>
-                                        <div class="col-sm-10">
-                                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required autocomplete="new-password">
-                                            @error('password')
-                                                <span class="text-danger">{{ $message }}</span>
-                                            @enderror
+                                        <div class="row mb-3">
+                                            <label for="password" class="col-sm-2 col-form-label">Password</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="password" name="password" required autocomplete="new-password" placeholder="Password">
+                                                @error('password')
+                                                    <span class="text-danger">{{ $message }}</span>
+                                                @enderror
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mb-3">
-                                        <label for="password_confirmation" class="col-sm-2 col-form-label">Confirm Password</label>
-                                        <div class="col-sm-10">
-                                            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Confirm Password" required autocomplete="new-password">
-                                            @error('password_confirmation')
-                                                <span class="text-danger">{{ $message }}</span>
-                                            @enderror
+                                        <div class="row mb-3">
+                                            <label for="password_confirmation" class="col-sm-2 col-form-label">Confirm Password</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required autocomplete="new-password" placeholder="Confirm Password">
+                                                @error('password_confirmation')
+                                                    <span class="text-danger">{{ $message }}</span>
+                                                @enderror
+                                            </div>
                                         </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-success">Register</button>
-                                </form>
+                                        <button type="submit" class="btn btn-success">Register</button>
+                                    </form>
                                 
                                 </div>
                             </div>
@@ -138,7 +137,7 @@
                                         </div>
                                     @endif
                                     
-                                    <form action="{{ route('feature/profile/main-profile.destroy') }}" enctype="multipart/form-data" method="POST">
+                                    <form action="{{ route('main-profile.destroy') }}" method="POST">
                                     @csrf
                                     @method('delete')
 
@@ -176,14 +175,14 @@
                                         </div>
                                     @endif
                                     
-                                    <form action="feature/profile/main-profile.update" enctype="multipart/form-data" method="POST">
+                                    <form action="{{ route('main-profile.update') }}" method="POST">
                                     @csrf
-                                    @method('put')
+                                    @method('patch')
 
                                     <div class="row mb-3">
                                         <label for="current_password" class="col-sm-2 col-form-label">Current Password</label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="current_password" name="current_password" autocomplete="current-password">
+                                            <input type="password" class="form-control" id="current_password" name="current_password" autocomplete="current-password">
                                             @error('current_password')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
@@ -192,7 +191,7 @@
                                     <div class="row mb-3">
                                         <label for="new-password" class="col-sm-2 col-form-label">New Password</label>
                                         <div class="col-sm-10">
-                                            <input type="new-password" class="form-control" id="new-password" name="new-password" autocomplete="new-password">
+                                            <input type="password" class="form-control" id="new-password" name="new-password" autocomplete="new-password">
                                             @error('new-password')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror
@@ -201,7 +200,7 @@
                                     <div class="row mb-3">
                                         <label for="password_confirmation" class="col-sm-2 col-form-label">Confirm Password</label>
                                         <div class="col-sm-10">
-                                            <input type="password_confirmation" class="form-control" id="password_confirmation" name="password_confirmation" autocomplete="new-password">
+                                            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" autocomplete="new-password">
                                             @error('password_confirmation')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror

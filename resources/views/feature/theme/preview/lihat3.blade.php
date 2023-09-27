@@ -64,31 +64,31 @@
                 <span class="live-t">Color</span>
                 <ul>
                     <li class="home1 iconclick" data-option-value="themecolor1">
-                        <img src="images/livedemo/homecolor1.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor1.jpg')}}" alt="color 2">
                     </li>
                     <li class="home2 iconclick" data-option-value="themecolor2">
-                        <img src="images/livedemo/homecolor2.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor2.jpg')}}" alt="color 2">
                     </li>
                     <li class="home3 iconclick" data-option-value="themecolor3">
-                        <img src="images/livedemo/homecolor3.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor3.jpg')}}" alt="color 2">
                     </li>
                     <li class="home4 iconclick" data-option-value="themecolor4">
-                        <img src="images/livedemo/homecolor4.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor4.jpg')}}" alt="color 2">
                     </li>
                     <li class="home5 iconclick" data-option-value="themecolor5">
-                        <img src="images/livedemo/homecolor5.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor5.jpg')}}" alt="color 2">
                     </li>
                     <li class="home6 iconclick" data-option-value="themecolor6">
-                        <img src="images/livedemo/homecolor6.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor6.jpg')}}" alt="color 2">
                     </li>
                     <li class="home7 iconclick" data-option-value="themecolor7">
-                        <img src="images/livedemo/homecolor7.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor7.jpg')}}" alt="color 2">
                     </li>
                     <li class="home8 iconclick" data-option-value="themecolor8">
-                        <img src="images/livedemo/homecolor8.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor8.jpg')}}" alt="color 2">
                     </li>
                     <li class="home9 iconclick" data-option-value="themecolor">
-                        <img src="images/livedemo/homecolor9.jpg" alt="color 2">
+                        <img src="{{ asset('theme/theme3/images/livedemo/homecolor9.jpg')}}" alt="color 2">
                     </li>
                 </ul>
                 <span class="live-t">Site Layout</span>
@@ -103,36 +103,36 @@
                 <div class="live-bkcontro">
                     <span class="live-bk">Background</span>
                     <ul class="live-patterns">
-                        <li data-option-text="patterns/60degree_gray.png">
-                            <img src="images/patterns/60degree_gray.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/60degree_gray.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/60degree_gray.png')}}" alt="patterns 2">
                         </li>
-                        <li data-option-text="patterns/absurdidad.png">
-                            <img src="images/patterns/absurdidad.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/absurdidad.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/absurdidad.png')}}" alt="patterns 2">
                         </li>
-                        <li data-option-text="patterns/always_grey.png">
-                            <img src="images/patterns/always_grey.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/always_grey.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/always_grey.png')}}" alt="patterns 2">
                         </li>
-                        <li data-option-text="patterns/back_pattern.png">
-                            <img src="images/patterns/back_pattern.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/back_pattern.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/back_pattern.png')}}" alt="patterns 2">
                         </li>
-                        <li data-option-text="patterns/black_mamba.png">
-                            <img src="images/patterns/black_mamba.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/black_mamba.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/black_mamba.png')}}" alt="patterns 2">
                         </li>
-                        <li data-option-text="patterns/silver_scales.png">
-                            <img src="images/patterns/silver_scales.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/silver_scales.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/silver_scales.png')}}" alt="patterns 2">
                         </li>
-                        <li data-option-text="patterns/norwegian_rose.png">
-                            <img src="images/patterns/norwegian_rose.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/norwegian_rose.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/norwegian_rose.png')}}" alt="patterns 2">
                         </li>
-                        <li data-option-text="patterns/tiny_grid.png">
-                            <img src="images/patterns/tiny_grid.png" alt="patterns 2">
+                        <li data-option-text="{{ asset('theme/theme3/patterns/tiny_grid.png')}}">
+                            <img src="{{ asset('theme/theme3/images/patterns/tiny_grid.png')}}" alt="patterns 2">
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div id="tzloadding">
-           <img class="loadding_img" src="images/loadding.GIF" alt="Image">
+           <img class="loadding_img" src="{{ asset('theme/theme3/images/loadding.GIF')}}" alt="Image">
         </div>
         <div class="everline_boxed">
             <div class="vc_row wpb_row vc_row-fluid">
@@ -147,7 +147,7 @@
                                         </button>
                                         <h3 class="tzlogo pull-left">
                                             <a href="#" title="Everline">
-                                                <img src="images/Everline_logo.png" alt="Everline">
+                                                <img src="{{ asset('theme/theme3/images/Everline_logo.png')}}" alt="Everline">
                                             </a>
                                         </h3>
                                         <button class="tz-search pull-right"> <i class="fa fa-search"></i></button>
@@ -331,7 +331,7 @@
                                 </div>
                             </header>
                             <div class="tzform-search">
-                                <img class="tzcontro_search" src="images/icon_search_delete.png" alt="icon search">
+                                <img class="tzcontro_search" src="{{ asset('theme/theme3/images/icon_search_delete.png')}}" alt="icon search">
                                 <form method="get" id="searchform" action="#">
                                     <label class="icon-search">&nbsp;</label>
                                     <label for="s" class="assistive-text assistive-tzsearch">Search</label>
@@ -355,7 +355,7 @@
                                             <!-- SLIDE  -->
                                             <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
                                                 <!-- MAIN IMAGE -->
-                                                <img src="http://placehold.it/1920x923"  alt="everline"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                                                <img src="{{ url('http://placehold.it/1920x923')}}"  alt="everline"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                                 <!-- LAYERS -->
 
                                                 <!-- LAYER NR. 1 -->
@@ -414,7 +414,7 @@
                                             <!-- SLIDE  -->
                                             <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
                                                 <!-- MAIN IMAGE -->
-                                                <img src="http://placehold.it/1920x926"  alt="home121"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="110" data-bgfitend="100" data-bgpositionend="center center">
+                                                <img src="{{ url('http://placehold.it/1920x926')}}"  alt="home121"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="110" data-bgfitend="100" data-bgpositionend="center center">
                                                 <!-- LAYERS -->
 
                                                 <!-- LAYER NR. 1 -->
@@ -430,7 +430,7 @@
                                                      data-endelementdelay="0.1"
                                                      data-endspeed="400"
                                                      data-endeasing="Power0.easeOut">
-                                                    <img src="images/wrapcontent1.png" alt="Images">
+                                                    <img src="{{ asset('theme/theme3/images/wrapcontent1.png')}}" alt="Images">
                                                 </div>
 
                                                 <!-- LAYER NR. 2 -->
@@ -458,7 +458,7 @@
                                                      data-elementdelay="0.1"
                                                      data-endelementdelay="0.1"
                                                      data-endspeed="400"
-                                                     data-endeasing="Power0.easeOut"><img src="images/line.png" alt="">
+                                                     data-endeasing="Power0.easeOut"><img src="{{ asset('theme/theme3/images/line.png')}}" alt="">
                                                 </div>
 
                                                 <!-- LAYER NR. 4 -->
@@ -511,7 +511,7 @@
                                             <!-- SLIDE  -->
                                             <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
                                                 <!-- MAIN IMAGE -->
-                                                <img src="http://placehold.it/1920x1104"  alt="home212"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                                                <img src="{{ url('http://placehold.it/1920x1104')}}"  alt="home212"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                                 <!-- LAYERS -->
 
                                                 <!-- LAYER NR. 1 -->
@@ -647,7 +647,7 @@
                                 <div class="tzintroduct">
                                     <h3>WEDDING DECOR</h3>
                                     <div class="tzintroduct-img">
-                                        <img src="http://placehold.it/370x370" class="attachment-full" alt="introduct1" />
+                                        <img src="{{ url('http://placehold.it/370x370')}}" class="attachment-full" alt="introduct1" />
                                     </div>
                                     <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly appreciated!</p>
                                 </div>
@@ -658,7 +658,7 @@
                                 <div class="tzintroduct">
                                     <h3>BRIDE &amp; GROOM</h3>
                                     <div class="tzintroduct-img">
-                                        <img src="http://placehold.it/370x370" class="attachment-full" alt="introduct2" />
+                                        <img src="{{ url('http://placehold.it/370x370')}}" class="attachment-full" alt="introduct2" />
                                     </div>
                                     <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly appreciated!</p>
                                 </div>
@@ -669,7 +669,7 @@
                                 <div class="tzintroduct">
                                     <h3>THE PROPOSE</h3>
                                     <div class="tzintroduct-img">
-                                        <img src="http://placehold.it/370x370" class="attachment-full" alt="introduct3" />
+                                        <img src="{{ url('http://placehold.it/370x370')}}" class="attachment-full" alt="introduct3" />
                                     </div>
                                     <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly appreciated!</p>
                                 </div>
@@ -686,7 +686,7 @@
                                 <div id="post-50" class="post-50 portfolio type-portfolio status-publish has-post-thumbnail hentry element">
                                     <div class="portfolio-item portfolio-padding">
                                         <div class="item-image">
-                                            <img src="http://placehold.it/640x370" class="attachment-full wp-post-image" alt="portfolio6" />
+                                            <img src="{{ url('http://placehold.it/640x370')}}" class="attachment-full wp-post-image" alt="portfolio6" />
                                         </div>
                                         <div class="tzitem-content">
                                             <i class="fa fa-heart-o tzicon"></i>
@@ -703,7 +703,7 @@
                                 <div id="post-48" class="post-48 portfolio type-portfolio status-publish has-post-thumbnail hentry element">
                                     <div class="portfolio-item portfolio-padding">
                                         <div class="item-image">
-                                            <img src="http://placehold.it/640x370" class="attachment-full wp-post-image" alt="portfolio5" />
+                                            <img src="{{ url('http://placehold.it/640x370')}}" class="attachment-full wp-post-image" alt="portfolio5" />
                                         </div>
                                         <div class="tzitem-content">
                                             <i class="fa fa-heart-o tzicon"></i>
@@ -720,7 +720,7 @@
                                 <div id="post-46" class="post-46 portfolio type-portfolio status-publish has-post-thumbnail hentry element">
                                     <div class="portfolio-item portfolio-padding">
                                         <div class="item-image">
-                                            <img src="http://placehold.it/640x370" class="attachment-full wp-post-image" alt="portfolio4" />
+                                            <img src="{{ url('http://placehold.it/640x370')}}" class="attachment-full wp-post-image" alt="portfolio4" />
                                         </div>
                                         <div class="tzitem-content">
                                             <i class="fa fa-heart-o tzicon"></i>
@@ -737,7 +737,7 @@
                                 <div id="post-44" class="post-44 portfolio type-portfolio status-publish has-post-thumbnail hentry element">
                                     <div class="portfolio-item portfolio-padding">
                                         <div class="item-image">
-                                            <img src="http://placehold.it/640x370" class="attachment-full wp-post-image" alt="portfolio3" />
+                                            <img src="{{ url('http://placehold.it/640x370')}}" class="attachment-full wp-post-image" alt="portfolio3" />
                                         </div>
                                         <div class="tzitem-content">
                                             <i class="fa fa-heart-o tzicon"></i>
@@ -754,7 +754,7 @@
                                 <div id="post-42" class="post-42 portfolio type-portfolio status-publish has-post-thumbnail hentry element">
                                     <div class="portfolio-item portfolio-padding">
                                         <div class="item-image">
-                                            <img src="http://placehold.it/640x370" class="attachment-full wp-post-image" alt="portfolio2" />
+                                            <img src="{{ url('http://placehold.it/640x370')}}" class="attachment-full wp-post-image" alt="portfolio2" />
                                         </div>
                                         <div class="tzitem-content">
                                             <i class="fa fa-heart-o tzicon"></i>
@@ -771,7 +771,7 @@
                                 <div id="post-36" class="post-36 portfolio type-portfolio status-publish has-post-thumbnail hentry element">
                                     <div class="portfolio-item portfolio-padding">
                                         <div class="item-image">
-                                            <img src="http://placehold.it/640x370" class="attachment-full wp-post-image" alt="portfolio1" />
+                                            <img src="{{ url('http://placehold.it/640x370')}}" class="attachment-full wp-post-image" alt="portfolio1" />
                                         </div>
                                         <div class="tzitem-content">
                                             <i class="fa fa-heart-o tzicon"></i>
@@ -848,7 +848,7 @@
                                     <form name="" action="#" method="post" class="wpcf7-form" novalidate="novalidate">
                                         <div class="form7-wrap">
                                             <div class="form7-logo">
-                                                <img class="logo_form" src="images/logo-contact.png" alt="logo" />
+                                                <img class="logo_form" src="{{ asset('theme/theme3/images/logo-contact.png')}}" alt="logo" />
                                             </div>
                                             <div class="content-form7">
                                                 <div class="form7-item">
@@ -900,9 +900,9 @@
                                 </div>
                                 <div class="bg-video bg-video-home-1"></div>
                                 <video class="videoID">
-                                    <source type="video/mp4" src="video/video.mp4" />
-                                    <source type="video/ogg" src="video/video.ogv" />
-                                    <source type="video/webm" src="video/video.webm" />
+                                    <source type="video/mp4" src="{{ asset('theme/theme3/video/video.mp4')}}" />
+                                    <source type="video/ogg" src="{{ asset('theme/theme3/video/video.ogv')}}" />
+                                    <source type="video/webm" src="{{ asset('theme/theme3/video/video.webm')}}" />
                                 </video>
                             </div>
                         </div>
@@ -920,7 +920,7 @@
                                         <div class="col-md-3 col-sm-6">
                                             <div class="blog-item ">
                                                 <div class="blog-image">
-                                                    <img src="http://placehold.it/270x170" class="attachment-medium wp-post-image" alt="bloghome4" />
+                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome4" />
                                                 </div>
                                                 <div class="blog-description">
                                                     <h3><a href="#">Nulla facilisis vitae</a></h3>
@@ -936,7 +936,7 @@
                                         <div class="col-md-3 col-sm-6">
                                             <div class="blog-item ">
                                                 <div class="blog-image">
-                                                    <img src="http://placehold.it/270x170" class="attachment-medium wp-post-image" alt="bloghome3" />
+                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome3" />
                                                 </div>
                                                 <div class="blog-description">
                                                     <h3><a href="#">Mauris viverra ipsum</a></h3>
@@ -952,7 +952,7 @@
                                         <div class="col-md-3 col-sm-6">
                                             <div class="blog-item ">
                                                 <div class="blog-image">
-                                                    <img src="http://placehold.it/270x170" class="attachment-medium wp-post-image" alt="bloghome2" />
+                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome2" />
                                                 </div>
                                                 <div class="blog-description">
                                                     <h3><a href="#">YOUR HONEYMOON</a></h3>
@@ -968,7 +968,7 @@
                                         <div class="col-md-3 col-sm-6">
                                             <div class="blog-item ">
                                                 <div class="blog-image">
-                                                    <img src="http://placehold.it/270x170" class="attachment-medium wp-post-image" alt="bloghome1" />
+                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome1" />
                                                 </div>
                                                 <div class="blog-description">
                                                     <h3><a href="#">PLAN YOUR TRIP</a></h3>
@@ -1005,7 +1005,7 @@
                             <aside id="widget_logo-2" class="widget_widget_logo widget">
                                 <div class="tz_logo_widget">
                                     <a href="#">
-                                        <img src="images/EverlineTheme.png" alt="Everline">
+                                        <img src="{{ asset('theme/theme3/images/EverlineTheme.png')}}" alt="Everline">
                                     </a>
                                     <p>All right server. Copyright by  TemPlaza.com</p>
                                 </div>

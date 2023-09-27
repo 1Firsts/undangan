@@ -34,7 +34,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                 <canvas id="demo-canvas"></canvas>
             </div>
             <div class="wd_img_overlay text-center">
-                <img src="assets/images/Heart.svg" alt="" class="wd_svg_response" />
+                <img src="{{ asset('theme/theme10/assets/images/Heart.svg')}}" alt="" class="wd_svg_response" />
                 <div class="wd_responsive">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -84,19 +84,19 @@ Purchase: http://themeforest.net/user/kamleshyadav
                         <ul>
                             <!-- SLIDE  -->
                             <li data-transition="fade">
-                                <img src="http://placehold.it/1600x768" alt="">
+                                <img src="{{ url('http://placehold.it/1600x768')}}" alt="">
                             </li>
                             <!-- SLIDE  -->
                             <li data-transition="fade">
-                                <img src="http://placehold.it/1600x768" alt="">
+                                <img src="{{ url('http://placehold.it/1600x768')}}" alt="">
                             </li>
                             <!-- SLIDE  -->
                             <li data-transition="fade">
-                                <img src="http://placehold.it/1600x768" alt="">
+                                <img src="{{ url('http://placehold.it/1600x768')}}" alt="">
                             </li>
                             <!-- SLIDE  -->
                             <li data-transition="fade">
-                                <img src="http://placehold.it/1600x768" alt="">
+                                <img src="{{ url('http://placehold.it/1600x768')}}" alt="">
                             </li>
                         </ul>
 
@@ -118,9 +118,9 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         <div class="row align-items-center">
                                             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="wd_img_round">
-                                                    <img src="http://placehold.it/370x370" alt="" />
+                                                    <img src="{{ url('http://placehold.it/370x370')}}" alt="" />
                                                     <div class="overlay">
-                                                        <span><a href="assets/images/our_story/01.jpg"
+                                                        <span><a href="{{ asset('theme/theme10/assets/images/our_story/01.jpg')}}"
                                                                 class="fancybox"><i class="fa fa-search"></i></a></span>
                                                     </div>
                                                 </div>
@@ -149,9 +149,9 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                             <div
                                                 class="col-lg-4 col-md-12 col-lg-push-8 col-md-push-8 col-sm-12 col-xs-12">
                                                 <div class="wd_img_round">
-                                                    <img src="http://placehold.it/370x370" alt="" />
+                                                    <img src="{{ url('http://placehold.it/370x370')}}" alt="" />
                                                     <div class="overlay">
-                                                        <span><a href="assets/images/our_story/02.jpg"
+                                                        <span><a href="{{ asset('theme/theme10/assets/images/our_story/02.jpg')}}"
                                                                 class="fancybox"><i class="fa fa-search"></i></a></span>
                                                     </div>
                                                 </div>
@@ -181,9 +181,9 @@ Purchase: http://themeforest.net/user/kamleshyadav
 
                                             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="wd_img_round">
-                                                    <img src="http://placehold.it/370x370" alt="" />
+                                                    <img src="{{ url('http://placehold.it/370x370')}}" alt="" />
                                                     <div class="overlay">
-                                                        <span><a href="assets/images/our_story/03.jpg"
+                                                        <span><a href="{{ asset('theme/theme10/assets/images/our_story/03.jpg')}}"
                                                                 class="fancybox"><i class="fa fa-search"></i></a></span>
                                                     </div>
                                                 </div>
@@ -211,9 +211,9 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                             <div
                                                 class="col-lg-4 col-md-12 col-lg-push-8 col-md-push-8 col-sm-12 col-xs-12">
                                                 <div class="wd_img_round">
-                                                    <img src="http://placehold.it/370x370" alt="" />
+                                                    <img src="{{ url('http://placehold.it/370x370')}}" alt="" />
                                                     <div class="overlay">
-                                                        <span><a href="assets/images/our_story/04.jpg"
+                                                        <span><a href="{{ asset('theme/theme10/assets/images/our_story/04.jpg')}}"
                                                                 class="fancybox"><i class="fa fa-search"></i></a></span>
                                                     </div>
                                                 </div>
@@ -303,7 +303,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Bill Swan</h3>
                                                 <h4>Father</h4>
@@ -312,7 +312,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         <div class="swiper-slide">
 
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Christena Swan</h3>
                                                 <h4>Mother</h4>
@@ -320,7 +320,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Max Swan</h3>
                                                 <h4>Brother</h4>
@@ -328,7 +328,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Marry Swan</h3>
                                                 <h4>Sister</h4>
@@ -342,7 +342,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                             </div>
                             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center">
                                 <div class="wd_family_section">
-                                    <img src="http://placehold.it/275x543" alt="" />
+                                    <img src="{{ url('http://placehold.it/275x543')}}" alt="" />
                                 </div>
                             </div>
 
@@ -353,7 +353,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Bill Swan</h3>
                                                 <h4>Father</h4>
@@ -362,7 +362,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         <div class="swiper-slide">
 
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Christena Swan</h3>
                                                 <h4>Mother</h4>
@@ -370,7 +370,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Max Swan</h3>
                                                 <h4>Brother</h4>
@@ -378,7 +378,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="wd_family_member">
-                                                <img class="img-responsive" src="http://placehold.it/155x155"
+                                                <img class="img-responsive" src="{{ url('http://placehold.it/155x155')}}"
                                                     alt="" />
                                                 <h3>Marry Swan</h3>
                                                 <h4>Sister</h4>
@@ -414,7 +414,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                     <h2>Ceremony</h2>
                                     <div class="wd_item wd_square effect9 bottom_to_top">
                                         <a href="javascript:void(0);">
-                                            <div class="img"><img src="http://placehold.it/336x336" alt="">
+                                            <div class="img"><img src="{{ url('http://placehold.it/336x336')}}" alt="">
                                             </div>
                                             <div class="wd_event_info">
                                                 <div class="wd_event_info_back">
@@ -439,11 +439,11 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                                         <div class="map_fancybox">
                                                             <div id="mapBox2">
                                                                 <iframe
-                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.911215166146!2d-97.74762068496076!3d30.26811081492685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50916d8f039%3A0x951d29b2e5bb77da!2s522+Lavaca+St%2C+Austin%2C+TX+78701%2C+USA!5e0!3m2!1sen!2s!4v1455343431264"
+                                                                    src="{{ url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.911215166146!2d-97.74762068496076!3d30.26811081492685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50916d8f039%3A0x951d29b2e5bb77da!2s522+Lavaca+St%2C+Austin%2C+TX+78701%2C+USA!5e0!3m2!1sen!2s!4v1455343431264')}}"
                                                                     width="600" height="450" frameborder="0"
                                                                     style="border:0"
                                                                     allowfullscreen></iframe><br /><small><a
-                                                                        href="https://www.google.com/maps?ll=30.268106,-97.745432&z=16&t=m&hl=en-GB&gl=US&mapclient=embed&q=522+Lavaca+St+Austin,+TX+78701+USA"
+                                                                        href="{{ url('https://www.google.com/maps?ll=30.268106,-97.745432&z=16&t=m&hl=en-GB&gl=US&mapclient=embed&q=522+Lavaca+St+Austin,+TX+78701+USA')}}"
                                                                         target="_blank">View Larger Map</a></small>
                                                             </div>
                                                         </div>
@@ -463,7 +463,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                     <h2>Reception</h2>
                                     <div class="wd_item wd_square effect9 bottom_to_top">
                                         <a href="javascript:void(0);">
-                                            <div class="img"><img src="http://placehold.it/336x336" alt="">
+                                            <div class="img"><img src="{{ url('http://placehold.it/336x336')}}" alt="">
                                             </div>
                                             <div class="wd_event_info">
                                                 <div class="wd_event_info_back">
@@ -488,11 +488,11 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                                         <div style="display:none;">
                                                             <div id="mapBox1">
                                                                 <iframe
-                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.911215166146!2d-97.74762068496076!3d30.26811081492685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50916d8f039%3A0x951d29b2e5bb77da!2s522+Lavaca+St%2C+Austin%2C+TX+78701%2C+USA!5e0!3m2!1sen!2s!4v1455343431264"
+                                                                    src="{{ url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.911215166146!2d-97.74762068496076!3d30.26811081492685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50916d8f039%3A0x951d29b2e5bb77da!2s522+Lavaca+St%2C+Austin%2C+TX+78701%2C+USA!5e0!3m2!1sen!2s!4v1455343431264')}}"
                                                                     width="600" height="450" frameborder="0"
                                                                     style="border:0"
                                                                     allowfullscreen></iframe><br /><small><a
-                                                                        href="https://www.google.com/maps?ll=30.268106,-97.745432&z=16&t=m&hl=en-GB&gl=US&mapclient=embed&q=522+Lavaca+St+Austin,+TX+78701+USA"
+                                                                        href="{{ url('https://www.google.com/maps?ll=30.268106,-97.745432&z=16&t=m&hl=en-GB&gl=US&mapclient=embed&q=522+Lavaca+St+Austin,+TX+78701+USA')}}"
                                                                         target="_blank">View Larger Map</a></small>
                                                             </div>
                                                         </div>
@@ -512,7 +512,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                     <h2>Party</h2>
                                     <div class="wd_item wd_square effect9 bottom_to_top">
                                         <a href="javascript:void(0);">
-                                            <div class="img"><img src="http://placehold.it/336x336" alt="">
+                                            <div class="img"><img src="{{ url('http://placehold.it/336x336')}}" alt="">
                                             </div>
                                             <div class="wd_event_info">
                                                 <div class="wd_event_info_back">
@@ -537,11 +537,11 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                                         <div style="display:none;">
                                                             <div id="mapBox">
                                                                 <iframe
-                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.911215166146!2d-97.74762068496076!3d30.26811081492685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50916d8f039%3A0x951d29b2e5bb77da!2s522+Lavaca+St%2C+Austin%2C+TX+78701%2C+USA!5e0!3m2!1sen!2s!4v1455343431264"
+                                                                    src="{{ url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.911215166146!2d-97.74762068496076!3d30.26811081492685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50916d8f039%3A0x951d29b2e5bb77da!2s522+Lavaca+St%2C+Austin%2C+TX+78701%2C+USA!5e0!3m2!1sen!2s!4v1455343431264')}}"
                                                                     width="600" height="450" frameborder="0"
                                                                     style="border:0"
                                                                     allowfullscreen></iframe><br /><small><a
-                                                                        href="https://www.google.com/maps?ll=30.268106,-97.745432&z=16&t=m&hl=en-GB&gl=US&mapclient=embed&q=522+Lavaca+St+Austin,+TX+78701+USA"
+                                                                        href="{{ url('https://www.google.com/maps?ll=30.268106,-97.745432&z=16&t=m&hl=en-GB&gl=US&mapclient=embed&q=522+Lavaca+St+Austin,+TX+78701+USA')}}"
                                                                         target="_blank">View Larger Map</a></small>
                                                             </div>
                                                         </div>
@@ -581,7 +581,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                             <div class="col-lg-4 col-md-4">
                                 <div class="row mb-3">
                                     <div class="wd_gal_img">
-                                        <img src="http://placehold.it/450x299" alt=""
+                                        <img src="{{ url('http://placehold.it/450x299')}}" alt=""
                                             class="img-responsive" />
                                         <div class="wd_gal_overlay">
                                             <div class="wd_gal_center">
@@ -600,30 +600,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         </div>
                                     </div>
                                     <div class="wd_gal_img">
-                                        <img src="http://placehold.it/450x299" alt=""
-                                            class="img-responsive" />
-                                        <div class="wd_gal_overlay">
-                                            <div class="wd_gal_center">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <ul class="wd_social_icons">
-                                                    <li><a href="javascript:void(0);"><span
-                                                                class="fa fa-facebook"></span></a></li>
-                                                    <li><a href="javascript:void(0);"><span
-                                                                class="fa fa-twitter"></span></a></li>
-                                                    <li><a href="javascript:void(0);"><span
-                                                                class="fa fa-google-plus fa-lg"></span></a></li>
-                                                    <li><a href="javascript:void(0);"><span
-                                                                class="fa fa-instagram"></span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                                <div class="row mb-3">
-                                    <div class="wd_gal_img">
-                                        <img src="http://placehold.it/450x596" alt=""
+                                        <img src="{{ url('http://placehold.it/450x299')}}" alt=""
                                             class="img-responsive" />
                                         <div class="wd_gal_overlay">
                                             <div class="wd_gal_center">
@@ -646,7 +623,30 @@ Purchase: http://themeforest.net/user/kamleshyadav
                             <div class="col-lg-4 col-md-4">
                                 <div class="row mb-3">
                                     <div class="wd_gal_img">
-                                        <img src="http://placehold.it/450x299" alt=""
+                                        <img src="{{ url('http://placehold.it/450x596')}}" alt=""
+                                            class="img-responsive" />
+                                        <div class="wd_gal_overlay">
+                                            <div class="wd_gal_center">
+                                                <h4>Lorem ipsum dolor sit amet</h4>
+                                                <ul class="wd_social_icons">
+                                                    <li><a href="javascript:void(0);"><span
+                                                                class="fa fa-facebook"></span></a></li>
+                                                    <li><a href="javascript:void(0);"><span
+                                                                class="fa fa-twitter"></span></a></li>
+                                                    <li><a href="javascript:void(0);"><span
+                                                                class="fa fa-google-plus fa-lg"></span></a></li>
+                                                    <li><a href="javascript:void(0);"><span
+                                                                class="fa fa-instagram"></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="row mb-3">
+                                    <div class="wd_gal_img">
+                                        <img src="{{ url('http://placehold.it/450x299')}}" alt=""
                                             class="img-responsive" />
                                         <div class="wd_gal_overlay">
                                             <div class="wd_gal_center">
@@ -665,7 +665,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                                         </div>
                                     </div>
                                     <div class="wd_gal_img">
-                                        <img src="http://placehold.it/450x299" alt=""
+                                        <img src="{{ url('http://placehold.it/450x299')}}" alt=""
                                             class="img-responsive" />
                                         <div class="wd_gal_overlay">
                                             <div class="wd_gal_center">

@@ -43,8 +43,8 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo" src="images_02/logo-2.png" alt="">
-								<img class="logo-2" src="images_02/logo.png" alt="">
+                                <img class="logo" src="{{ asset('theme/theme8/images_02/logo-2.png')}}" alt="">
+								<img class="logo-2" src="{{ asset('theme/theme8/images_02/logo.png')}}" alt="">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -97,7 +97,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                   <img src="images_02/logo-big.png" class="img-responsive img-auto" alt="">
+                                   <img src="{{ asset('theme/theme8/images_02/logo-big.png')}}" class="img-responsive img-auto" alt="">
 								   <div class="spacer-double"></div>
 								   <h1 class='s2'>Serena Laurie</h1>
 								   <h4 class='s3'>Wedding Planner</h4>
@@ -109,10 +109,10 @@
 
                 <div id="custom-owl-slider" class="owl-slide" data-scroll-speed="2">
                     <div class="item">
-                        <img src="images_02/slider/1.jpg" alt="">
+                        <img src="{{ asset('theme/theme8/images_02/slider/1.jpg')}}" alt="">
                     </div>
                     <div class="item">
-                        <img src="images_02/slider/2.jpg" alt="">
+                        <img src="{{ asset('theme/theme8/images_02/slider/2.jpg')}}" alt="">
                     </div>
                 </div>
             </section>
@@ -296,25 +296,25 @@
 								</div>
 								
                                 <div class="col-md-3 text-center">
-									<img src="images_02/services/1.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/1.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Make Up</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
 								
 								<div class="col-md-3 text-center">
-									<img src="images_02/services/2.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/2.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Venues</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
 								
 								<div class="col-md-3 text-center">
-									<img src="images_02/services/3.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/3.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Decoration</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
 								
 								<div class="col-md-3 text-center">
-									<img src="images_02/services/4.jpg" alt="" class="img-circle mb30"/>
+									<img src="{{ asset('theme/theme8/images_02/services/4.jpg')}}" alt="" class="img-circle mb30"/>
                                     <h4>Wedding Cars</h4>
 									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
                                 </div>
@@ -337,7 +337,7 @@
                             <div class="col-md-6 item">
                                 <div class="de_testi opt-3">
 									<figure class="pic-hover img-rounded hover-scale mb30">
-											<img src="images_02/misc/w1.jpg" class="img-responsive" alt="">
+											<img src="{{ asset('theme/theme8/images_02/misc/w1.jpg')}}" class="img-responsive" alt="">
 									</figure>
                                     <blockquote>
                                         <p>Everything ran really smoothly and we all had a wonderful day. We couldn't have done it without you! I'd be happy to put up some photos on the website and recommend you to everybody. </p>
@@ -352,7 +352,7 @@
                             <div class="col-md-6 item">
                                 <div class="de_testi opt-3">
 									<figure class="pic-hover img-rounded hover-scale mb30">
-											<img src="images_02/misc/w2.jpg" class="img-responsive" alt="">
+											<img src="{{ asset('theme/theme8/images_02/misc/w2.jpg')}}" class="img-responsive" alt="">
 									</figure>
                                     <blockquote>
                                         <p>Everything ran really smoothly and we all had a wonderful day. We couldn't have done it without you! I'd be happy to put up some photos on the website and recommend you to everybody. </p>
@@ -366,7 +366,7 @@
                             <div class="col-md-6 item">
                                 <div class="de_testi opt-3">
 									<figure class="pic-hover img-rounded hover-scale mb30">
-											<img src="images_02/misc/w3.jpg" class="img-responsive" alt="">
+											<img src="{{ asset('theme/theme8/images_02/misc/w3.jpg')}}" class="img-responsive" alt="">
 									</figure>
                                     <blockquote>
                                         <p>Everything ran really smoothly and we all had a wonderful day. We couldn't have done it without you! I'd be happy to put up some photos on the website and recommend you to everybody. </p>
@@ -380,7 +380,7 @@
                             <div class="col-md-6 item">
                                 <div class="de_testi opt-3">
 									<figure class="pic-hover img-rounded hover-scale mb30">
-											<img src="images_02/misc/w4.jpg" class="img-responsive" alt="">
+											<img src="{{ asset('theme/theme8/images_02/misc/w4.jpg')}}" class="img-responsive" alt="">
 									</figure>
                                     <blockquote>
                                         <p>Everything ran really smoothly and we all had a wonderful day. We couldn't have done it without you! I'd be happy to put up some photos on the website and recommend you to everybody. </p>
@@ -424,7 +424,7 @@
             <div class="container text-center text-light">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="images_02/logo-med.png" alt="">
+                        <img src="{{ asset('theme/theme8/images_02/logo-med.png')}}" alt="">
                     </div>
                 </div>
             </div>

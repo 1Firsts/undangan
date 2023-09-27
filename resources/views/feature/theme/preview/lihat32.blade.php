@@ -104,12 +104,12 @@
                 </div>        
                 <div class="portfolio">
                     <div class="one-half column">
-                        <figure class="theme-border-big border"><a href="#"><img src="http://placehold.it/450x450" alt="" title="" class="border"></a></figure>
+                        <figure class="theme-border-big border"><a href="#"><img src="{{ url('http://placehold.it/450x450')}}" alt="" title="" class="border"></a></figure>
                         <h3 class="title-bg">Christene</h3>
                         <p><span class="dropcap-default">S</span>ed quis quam quam, quis fringilla lectus. Integer dapibus nunc sit amet quam sollicitudin a viverra sem iaculis. Donec suscipit sapien eget mauris ultrices quis dapibus sapien luctus. Nullam facilisis elit nulla. Proin pharetra fringilla mattis. Duis posuere sagittis dignissim. Nam malesuada dignissim massa quis egestas. Nullam ornare facilisis vulputate. Vivamus eu posuere urna. Pellentesque condimentum magna nec neque malesuada commodo. Nunc congue ultricies sem a interdum. Duis posuere sagittis dignissim. Nam malesuada dignissim massa quis egestas. Nullam ornare facilisis vulputate.</p>
                     </div>
                     <div class="one-half column last">
-                        <figure class="border theme-border-big"><a href="#"><img src="http://placehold.it/450x450" alt="" title="" class="border"></a></figure>
+                        <figure class="border theme-border-big"><a href="#"><img src="{{ url('http://placehold.it/450x450')}}" alt="" title="" class="border"></a></figure>
                         <h3 class="title-bg">William</h3>
                         <p><span class="dropcap-default">Q</span>uis quam quam, quis fringilla lectus. Integer dapibus nunc sit amet quam sollicitudin a viverra sem iaculis. Donec suscipit sapien eget mauris ultrices quis dapibus sapien luctus. Nullam facilisis elit nulla. Proin pharetra fringilla mattis. Duis posuere sagittis dignissim. Nam malesuada dignissim massa quis egestas. Nullam ornare facilisis vulputate. Vivamus eu posuere urna. Pellentesque condimentum magna nec neque malesuada commodo. Nunc congue ultricies sem a interdum. Duis posuere sagittis dignissim. Nam malesuada dignissim massa quis egestas. Nullam ornare facilisis vulputate.</p>
                     </div>
@@ -134,13 +134,13 @@
                     <div class="container">
                         <div id="layerslider" style="width:930px; height: 460px; margin: 0px auto;">
                             <div class="ls-layer" style="slidedirection: bottom; slidedelay: 7000; durationin: 1500; durationout: 1500; delayout: 500;">
-                                <img src="http://placehold.it/930x460&text=Banner1" class="ls-bg" height="460" width="930" alt="layerbg1" />
+                                <img src="{{ url('http://placehold.it/930x460&text=Banner1')}}" class="ls-bg" height="460" width="930" alt="layerbg1" />
                             </div>
                             <div class="ls-layer" style="slidedirection: right; slidedelay: 7000; durationin: 1500; durationout: 1500;">
-                                <img src="http://placehold.it/930x460&text=Banner2" class="ls-bg" height="460" width="930" alt="layerbg2" />
+                                <img src="{{ url('http://placehold.it/930x460&text=Banner2')}}" class="ls-bg" height="460" width="930" alt="layerbg2" />
                             </div>        
                             <div class="ls-layer" style="slidedirection: top; slidedelay: 7000; durationin: 1500; durationout: 1500; delayout: 500;">
-                                <img src="http://placehold.it/930x460&text=Banner3" class="ls-bg" height="460" width="930" alt="layerbg3" />
+                                <img src="{{ url('http://placehold.it/930x460&text=Banner3')}}" class="ls-bg" height="460" width="930" alt="layerbg3" />
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                         <div class="dt-sc-one-half column">    
                             <div class="post-thumb">
                                 <figure class="theme-border-big">
-                                    <a href="#"><img src="http://placehold.it/196" alt="" title="" width="196" height="196"></a>
+                                    <a href="#"><img src="{{ url('http://placehold.it/196')}}" alt="" title="" width="196" height="196"></a>
                                 </figure>
                             </div>
 						</div>
@@ -166,7 +166,7 @@
                     	<div class="dt-sc-one-half column first">
                             <div class="post-thumb">
                                 <figure class="theme-border-big">
-                                    <a href="#"><img src="http://placehold.it/196" alt="" title="" width="196" height="196"></a>
+                                    <a href="#"><img src="{{ url('http://placehold.it/196')}}" alt="" title="" width="196" height="196"></a>
                                 </figure>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                        <div class="dt-sc-one-half column"> 
                             <div class="post-thumb">
                                 <figure class="theme-border-big">
-                                    <a href="#"><img src="http://placehold.it/196" alt="" title="" width="196" height="196"></a>
+                                    <a href="#"><img src="{{ url('http://placehold.it/196')}}" alt="" title="" width="196" height="196"></a>
                                 </figure>
                             </div>
 						</div>
@@ -196,7 +196,7 @@
                     	<div class="dt-sc-one-half column first">
                             <div class="post-thumb">
                                 <figure class="theme-border-big">
-                                    <a href="#"><img src="http://placehold.it/196" alt="" title="" width="196" height="196"></a>
+                                    <a href="#"><img src="{{ url('http://placehold.it/196')}}" alt="" title="" width="196" height="196"></a>
                                 </figure>
                             </div>
 						</div>
@@ -321,7 +321,7 @@
             <div class="site-content">
                 <div class="container">
                     <div class="one-half column">
-                        <iframe width="445" height="370" src="http://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=iamdesigning,+Peelamedu,+Coimbatore,+Tamil+Nadu&amp;aq=0&amp;oq=iamdesigning,peelamedu,coi&amp;sll=11.020742,76.998185&amp;sspn=0.433369,0.837021&amp;ie=UTF8&amp;hq=iamdesigning,&amp;hnear=Peelamedu,+Coimbatore,+Tamil+Nadu&amp;t=m&amp;ll=11.026829,76.995931&amp;spn=0.009504,0.008455&amp;output=embed"></iframe>
+                        <iframe width="445" height="370" src="{{ url('http://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=iamdesigning,+Peelamedu,+Coimbatore,+Tamil+Nadu&amp;aq=0&amp;oq=iamdesigning,peelamedu,coi&amp;sll=11.020742,76.998185&amp;sspn=0.433369,0.837021&amp;ie=UTF8&amp;hq=iamdesigning,&amp;hnear=Peelamedu,+Coimbatore,+Tamil+Nadu&amp;t=m&amp;ll=11.026829,76.995931&amp;spn=0.009504,0.008455&amp;output=embed')}}"></iframe>
                     </div>
                     <div class="one-half column last">
                         <div class="contact-details">
@@ -375,8 +375,8 @@
                     <div class="portfolio-container">
                         <article class="location">
                             <figure class="grayscale">
-                            	<a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
-                                	<img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
+                            	<a href="{{ url('http://placehold.it/590x395')}}" title="portfolio11" class="prettyPhoto">
+                                	<img src="{{ url('http://placehold.it/290x205')}}" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
                             <h4><a href="#">Bride with Children</a></h4>
@@ -384,8 +384,8 @@
                         </article>
                         <article class="bachelor location">
                             <figure  class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
-	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
+                                <a href="{{ url('http://placehold.it/590x395')}}" title="portfolio11" class="prettyPhoto">
+	                                <img src="{{ url('http://placehold.it/290x205')}}" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
                             <h4><a href="#">Love Gloves</a></h4>
@@ -393,8 +393,8 @@
                         </article>
                         <article class="bridal pre-marriage">
                             <figure  class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
-	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
+                                <a href="{{ url('http://placehold.it/590x395')}}" title="portfolio11" class="prettyPhoto">
+	                                <img src="{{ url('http://placehold.it/290x205')}}" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
                             <h4><a href="#">Bride in her Pride</a></h4>
@@ -402,8 +402,8 @@
                         </article>
                         <article class="reception bachelor">
                             <figure class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
-	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
+                                <a href="{{ url('http://placehold.it/590x395')}}" title="portfolio11" class="prettyPhoto">
+	                                <img src="{{ url('http://placehold.it/290x205')}}" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
                             <h4><a href="#">United in Heaven</a></h4>
@@ -411,8 +411,8 @@
                         </article>
                         <article class="bachelor bridal">
                             <figure class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
-	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
+                                <a href="{{ url('http://placehold.it/590x395')}}" title="portfolio11" class="prettyPhoto">
+	                                <img src="{{ url('http://placehold.it/290x205')}}" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
                             <h4><a href="#">A better view</a></h4>
@@ -420,8 +420,8 @@
                         </article>
                         <article class="pre-marriage reception">
                             <figure class="grayscale">
-                                <a href="http://placehold.it/590x395" title="portfolio11" class="prettyPhoto">
-	                                <img src="http://placehold.it/290x205" alt="" title="" width="290" height="205">
+                                <a href="{{ url('http://placehold.it/590x395')}}" title="portfolio11" class="prettyPhoto">
+	                                <img src="{{ url('http://placehold.it/290x205')}}" alt="" title="" width="290" height="205">
                                 </a>
                             </figure>
                             <h4><a href="#">Happy Life</a></h4>
@@ -446,7 +446,7 @@
                     <article>
                         <figure class="float-right entry-thumb">
                         	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
+                                <a href="#"><img src="{{ url('http://placehold.it/180x235')}}" alt="" title=""></a>
                                 <div class="social">
                                     <a href="#" class="icon-facebook"></a>
                                     <a href="#" class="icon-twitter"></a>
@@ -462,7 +462,7 @@
                     <article>
                         <figure class="float-left entry-thumb">
                         	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
+                                <a href="#"><img src="{{ url('http://placehold.it/180x235')}}" alt="" title=""></a>
                                 <div class="social">
                                     <a href="#" class="icon-facebook"></a>
                                     <a href="#" class="icon-twitter"></a>
@@ -478,7 +478,7 @@
                     <article>
                         <figure class="float-right entry-thumb">
                         	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
+                                <a href="#"><img src="{{ url('http://placehold.it/180x235')}}" alt="" title=""></a>
                                 <div class="social">
                                     <a href="#" class="icon-facebook"></a>
                                     <a href="#" class="icon-twitter"></a>
@@ -509,7 +509,7 @@
                     <article>
                         <figure class="float-left entry-thumb">
                         	<div class="thumb">
-                                <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
+                                <a href="#"><img src="{{ url('http://placehold.it/180x235')}}" alt="" title=""></a>
                                 <div class="social">
                                     <a href="#" class="icon-facebook"></a>
                                     <a href="#" class="icon-twitter"></a>
@@ -530,7 +530,7 @@
                         </div>
                         <figure class="float-right entry-thumb">
                         	<div class="thumb">
-                            <a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/180x235')}}" alt="" title=""></a>
                             <div class="social">
                                 <a href="#" class="icon-facebook"></a>
                                 <a href="#" class="icon-twitter"></a>
@@ -541,7 +541,7 @@
                     <article>
                         <figure class="float-left entry-thumb">
                             <div class="thumb">
-								<a href="#"><img src="http://placehold.it/180x235" alt="" title=""></a>
+								<a href="#"><img src="{{ url('http://placehold.it/180x235')}}" alt="" title=""></a>
                                 <div class="social">
                                     <a href="#" class="icon-facebook"></a>
                                     <a href="#" class="icon-twitter"></a>

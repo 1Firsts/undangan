@@ -117,7 +117,7 @@
             <p class="downArrow"><a href="#theCouple"><i class="fa fa-chevron-down"></i></a></p> </div>
           <!--header text end--> 
           <!--header image start--> 
-          <img src="http://placehold.it/1920x1080&text=image1" alt="image01"> </div>
+          <img src="{{ url('http://placehold.it/1920x1080&text=image1')}}" alt="image01"> </div>
         <!--header image end-->
         <div class="slide"> 
           <!--header text2 start-->
@@ -133,7 +133,7 @@
             <p class="downArrow"><a href="#theCouple"><i class="fa fa-chevron-down"></i></a></p> </div>
           <!--header text end--> 
           <!--header image start--> 
-          <img src="http://placehold.it/1920x1080&text=image2" alt="image01"> </div>
+          <img src="{{ url('http://placehold.it/1920x1080&text=image2')}}" alt="image01"> </div>
         <!--header image end--> 
         <!--header slide end--> 
       </div>
@@ -154,7 +154,7 @@
         </div>
       </div>
       <div class="row clearfix theCouple">
-        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"> <img src="http://placehold.it/270x270&text=270px X 270px" alt=" " class="bigRound"/>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"> <img src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" alt=" " class="bigRound"/>
           <h3>Sophie takas</h3>
           <h5>Budapest, Hungary</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et pulvinar augue. Nullam dignissim condimentum purus, vitae feugiat augue ornare ut. Praesent imperdiet purus ante, sagittis efficitur leo vehicula nec.</p>
@@ -166,7 +166,7 @@
           </ul>
         </div>
         <div class="col-md-2 col-lg-2 line"> <i class="fa fa-heart"></i> </div>
-        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"> <img src="http://placehold.it/270x270&text=270px X 270px" alt=" " class="bigRound"/>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"> <img src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" alt=" " class="bigRound"/>
           <h3>Andy Collins</h3>
           <h5>San Francisco</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et pulvinar augue. Nullam dignissim condimentum purus, vitae feugiat augue ornare ut. Praesent imperdiet purus ante, sagittis efficitur leo vehicula nec.</p>
@@ -194,19 +194,19 @@
         </div>
       </div>
       <div class="row events clearfix">
-        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 events"> <img src="http://placehold.it/369x221&text=369px X 221px" alt=" "/>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 events"> <img src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}" alt=" "/>
           <div class="desc">
             <h4><a href="#">Engagement</a><span>September 14, 2015 3:00 pm</span></h4>
             <p>Tnsectetur adi pisi cing elit, sed do eiusmod tempor exercitationemut labore et dolore magna a aliqua</p>
           </div>
         </div>
-        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 events"> <img src="http://placehold.it/369x221&text=369px X 221px" alt=" "/>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 events"> <img src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}" alt=" "/>
           <div class="desc">
             <h4><a href="#">Wedding Ceremony</a><span>September 18, 2015 6:00 pm</span></h4>
             <p>Tnsectetur adi pisi cing elit, sed do eiusmod tempor exercitationemut labore et dolore magna a aliqua</p>
           </div>
         </div>
-        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4"> <img src="http://placehold.it/369x221&text=369px X 221px" alt=" "/>
+        <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4"> <img src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}" alt=" "/>
           <div class="desc">
             <h4><a href="#">Wedding Reception</a><span>September 18, 2015 6:00 pm</span></h4>
             <p>Tnsectetur adi pisi cing elit, sed do eiusmod tempor exercitationemut labore et dolore magna a aliqua</p>
@@ -232,13 +232,13 @@
           <li class="col-xs-12 col-sm-4 col-md-3 col-lg-3 pinkCircle">
             <div class="nameCircle"> <em>Bride <span class="smallTxt">Family</span></em> </div>
           </li>
-          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img src="http://placehold.it/270x270&text=270px X 270px" alt=" " class="smallRound"/>
+          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" alt=" " class="smallRound"/>
             <h4>Krisy Gabor<span>Bridemaid</span></h4>
           </li>
-          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="http://placehold.it/270x270&text=270px X 270px" class="smallRound"/>
+          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" class="smallRound"/>
             <h4>John Takas<span>Bride's Father</span></h4>
           </li>
-          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="http://placehold.it/270x270&text=270px X 270px" class="smallRound"/>
+          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" class="smallRound"/>
             <h4>Mary Takas<span>Bride's Mother</span></h4>
           </li>
         </ul>
@@ -248,13 +248,13 @@
           <li class="col-xs-12 col-sm-4 col-md-3 col-lg-3 blueCircle">
             <div class="nameCircle"> <em>Groom <span class="smallTxt">Family</span></em> </div>
           </li>
-          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img src="http://placehold.it/270x270&text=270px X 270px" alt=" " class="smallRound"/>
+          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" alt=" " class="smallRound"/>
             <h4>David William<span>Best man</span></h4>
           </li>
-          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="http://placehold.it/270x270&text=270px X 270px" class="smallRound"/>
+          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" class="smallRound"/>
             <h4>Ben Collins<span>Groom's Father</span></h4>
           </li>
-          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="http://placehold.it/270x270&text=270px X 270px" class="smallRound"/>
+          <li class="col-xs-12 col-sm-2 col-md-3 col-lg-3 circle"> <img alt="" src="{{ url('http://placehold.it/270x270&text=270px X 270px')}}" class="smallRound"/>
             <h4>Jenni Collins<span>Groom's Mother</span></h4>
           </li>
         </ul>
@@ -275,17 +275,17 @@
       </div>
       <div class="row gallery">
         <ul class="thumbnails">
-          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/1.jpg" title="Album Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
+          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="{{ asset('theme/theme11/images/gallery/big-images/1.jpg')}}" title="Album Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="{{ url('http://placehold.it/387x290&text=387px X 290px')}}" title="Image Title" /> </li>
           <!--end thumb -->
-          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/2.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
+          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="{{ asset('theme/theme11/images/gallery/big-images/2.jpg')}}" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="{{ url('http://placehold.it/387x290&text=387px X 290px')}}" title="Image Title" /> </li>
           <!--end thumb -->
-          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/3.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
+          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="{{ asset('theme/theme11/images/gallery/big-images/3.jpg')}}" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="{{ url('http://placehold.it/387x290&text=387px X 290px')}}" title="Image Title" /> </li>
           <!--end thumb -->
-          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/4.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
+          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="{{ asset('theme/theme11/images/gallery/big-images/4.jpg')}}" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="{{ url('http://placehold.it/387x290&text=387px X 290px')}}" title="Image Title" /> </li>
           <!--end thumb -->
-          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/5.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
+          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="{{ asset('theme/theme11/images/gallery/big-images/5.jpg')}}" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="{{ url('http://placehold.it/387x290&text=387px X 290px')}}" title="Image Title" /> </li>
           <!--end thumb -->
-          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/gallery/big-images/6.jpg" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="http://placehold.it/387x290&text=387px X 290px" title="Image Title" /> </li>
+          <li class="span3 col-xs-12 col-sm-4 col-md-4 col-lg-4"> <span class="hoverZoom"> <span class="smallIcon"> <a rel="lightbox-demo" href="{{ asset('theme/theme11/images/gallery/big-images/6.jpg')}}" title="Album Title" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> </span> </span> <img class="group1" src="{{ url('http://placehold.it/387x290&text=387px X 290px')}}" title="Image Title" /> </li>
           <!--end thumb -->
         </ul>
       </div>
@@ -309,7 +309,7 @@
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 isotope-item">
           <div class="lightCon">
             <figure>
-              <div class="img_hover"> <img alt=" " src="http://placehold.it/369x221&text=369px X 221px"> </div>
+              <div class="img_hover"> <img alt=" " src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}"> </div>
               <figcaption>
                 <h4><a href="#">Citationemut labore</a></h4>
                 <div class="metaInfo"> <span>By <a href="#" class="admin">Admin</a> </span> <span><a href="#">Wedding</a> </span> <span><a href="#" class="admin">5</a> Comments</span> </div>
@@ -323,7 +323,7 @@
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(453px, 0px, 0px);">
           <div class="lightCon">
             <figure>
-              <div class="img_hover"> <img alt=" " src="http://placehold.it/369x400&text=369px X 400px"> </div>
+              <div class="img_hover"> <img alt=" " src="{{ url('http://placehold.it/369x400&text=369px X 400px')}}"> </div>
               <figcaption>
                 <h4><a href="#">Exercitationemut labore</a></h4>
                 <div class="metaInfo"> <span>By <a href="#" class="admin">Admin</a> </span> <span><a href="#">Family, Wedding</a> </span> <span><a href="#" class="admin">5</a> Comments</span> </div>
@@ -335,7 +335,7 @@
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(906px, 0px, 0px);">
           <div class="lightCon">
             <figure>
-              <div class="img_hover"> <img alt=" " src="http://placehold.it/369x221&text=369px X 221px"> </div>
+              <div class="img_hover"> <img alt=" " src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}"> </div>
               <figcaption>
                 <h4><a href="#">Vestibulum a solli</a></h4>
                 <div class="metaInfo"> <span>By <a href="#" class="admin">Admin</a> </span> <span><a href="#">Love, Wedding</a> </span> <span><a href="#" class="admin">5</a> Comments</span> </div>
@@ -347,7 +347,7 @@
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
           <div class="lightCon">
             <figure>
-              <div class="img_hover"> <img alt=" " src="http://placehold.it/369x221&text=369px X 221px"> </div>
+              <div class="img_hover"> <img alt=" " src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}"> </div>
               <figcaption>
                 <h4><a href="#">Vestibulum a sollicitudin</a></h4>
                 <div class="metaInfo"> <span>By <a href="#" class="admin">Admin</a> </span> <span><a href="#">Wedding, Photography</a> </span> <span><a href="#" class="admin">5</a> Comments</span> </div>
@@ -361,7 +361,7 @@
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
           <div class="lightCon">
             <figure>
-              <div class="img_hover"> <img alt=" " src="http://placehold.it/369x221&text=369px X 221px"> </div>
+              <div class="img_hover"> <img alt=" " src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}"> </div>
               <figcaption>
                 <h4><a href="#">Praesent sit pharetra </a></h4>
                 <div class="metaInfo"> <span>By <a href="#" class="admin">Admin</a> </span> <span><a href="#">Wedding</a> </span> <span><a href="#" class="admin">5</a> Comments</span> </div>
@@ -375,7 +375,7 @@
         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(906px, 0px, 0px);">
           <div class="lightCon">
             <figure>
-              <div class="img_hover"> <img alt=" " src="http://placehold.it/369x221&text=369px X 221px"> </div>
+              <div class="img_hover"> <img alt=" " src="{{ url('http://placehold.it/369x221&text=369px X 221px')}}"> </div>
               <figcaption>
                 <h4><a href="#">Citationemut labore</a></h4>
                 <div class="metaInfo"> <span>By <a href="#" class="admin">Admin</a> </span> <span><a href="#">Wedding, event</a> </span> <span><a href="#" class="admin">5</a> Comments</span> </div>
@@ -489,15 +489,15 @@
 </script>  
 
 <!--for portfolio jquery--> 
-<script src="js/jquery.isotope.js" type="text/javascript"></script> 
-<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
-<link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
-<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> 
-<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script> 
+<script src="{{ asset('theme/theme11/js/jquery.isotope.js')}}" type="text/javascript"></script> 
+<link type="text/css" rel="stylesheet" id="theme" href="{{ asset('theme/theme11/css/jquery-ui-1.8.16.custom.css')}}">
+<link type="text/css" rel="stylesheet" href="{{ asset('theme/theme11/css/lightbox.min.css')}}">
+<script type="text/javascript" src="{{ asset('theme/theme11/js/jquery.ui.widget.min.js')}}"></script> 
+<script type="text/javascript" src="{{ asset('theme/theme11/js/jquery.ui.rlightbox.js')}}"></script> 
 
 <!--contact form js--> 
-<script type="text/javascript" src="js/jquery.contact.js"></script> 
-<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAjU0EJWnWPMv7oQ-jjS7dYxSPW5CJgpdgO_s4yyMovOaVh_KvvhSfpvagV18eOyDWu7VytS6Bi1CWxw" type="text/javascript"></script>
+<script type="text/javascript" src="{{ asset('theme/theme11/js/jquery.contact.js')}}"></script> 
+<script src="{{ url('http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAjU0EJWnWPMv7oQ-jjS7dYxSPW5CJgpdgO_s4yyMovOaVh_KvvhSfpvagV18eOyDWu7VytS6Bi1CWxw')}}" type="text/javascript"></script>
 <script type="text/javascript">
     //<![CDATA[
     var map;
@@ -523,11 +523,11 @@
 </script> 
 
 <!--about jquery--> 
-<script defer src="js/jquery.flexslider.js"></script> 
+<script defer src="{{ asset('theme/theme11/js/jquery.flexslider.js')}}"></script> 
 
-<script src="js/jquery.easing.js"></script> 
-<script src="js/jquery.mousewheel.js"></script> 
-<script defer src="js/slideroption.js"></script> 
+<script src="{{ asset('theme/theme11/js/jquery.easing.js')}}"></script> 
+<script src="{{ asset('theme/theme11/js/jquery.mousewheel.js')}}"></script> 
+<script defer src="{{ asset('theme/theme11/js/slideroption.js')}}"></script> 
     
 <script type="text/javascript">
 jQuery(function($) {

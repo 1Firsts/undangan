@@ -23,7 +23,7 @@
             <h3 class="cart-title">Your Cart</h3>
             <ul class="list">
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_1.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Beaded Flower Headband</p>
                         <p class="product-price">$145.00</p>
@@ -31,7 +31,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_2.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_2.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$145.00</p>
@@ -39,7 +39,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_1.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$85.00</p>
@@ -47,7 +47,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_2.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_2.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$85.00</p>
@@ -55,7 +55,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_1.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$85.00</p>
@@ -143,12 +143,12 @@
                                 </div>
                                 
                                 <div class="has-element popup-element">
-                                    <a href="#" class="cart open-cart"><img src="img/icon-cart.png" alt=""><span class="count cart-count v2">2</span></a>
-                                    <a href="#" class="search-popup dropdown " data-toggle="modal" data-target="#myModal"><img src="img/icon-search.png" alt=""></a>
+                                    <a href="#" class="cart open-cart"><img src="{{ asset('theme/theme12/img/icon-cart.png')}}" alt=""><span class="count cart-count v2">2</span></a>
+                                    <a href="#" class="search-popup dropdown " data-toggle="modal" data-target="#myModal"><img src="{{ asset('theme/theme12/img/icon-search.png')}}" alt=""></a>
                                 </div>
                             </div>
                             <div class="topbar-right">
-                                <div class="logo v3 hidden-md hidden-lg"><img src="img/vow-logo.png" alt="logo"></div>
+                                <div class="logo v3 hidden-md hidden-lg"><img src="{{ asset('theme/theme12/img/vow-logo.png')}}" alt="logo"></div>
                                 <button type="button" class="navbar-toggle vow-icon-menu v4 js-menu icon-mobile hidden-lg hidden-md" data-toggle="collapse">
                                     <span class="vow-iconbar"></span>
                                     <span class="vow-iconbar"></span>
@@ -197,12 +197,12 @@
                                 </div>
                                 
                                 <div class="has-element popup-element">
-                                    <a href="#" class="cart open-cart"><img src="img/icon-cart.png" alt=""><span class="count cart-count v2">2</span></a>
-                                    <a href="#" class="search-popup dropdown " data-toggle="modal" data-target="#myModal"><img src="img/icon-search.png" alt=""></a>
+                                    <a href="#" class="cart open-cart"><img src="{{ asset('theme/theme12/img/icon-cart.png')}}" alt=""><span class="count cart-count v2">2</span></a>
+                                    <a href="#" class="search-popup dropdown " data-toggle="modal" data-target="#myModal"><img src="{{ asset('theme/theme12/img/icon-search.png')}}" alt=""></a>
                                 </div>
                             </div>
                             <div class="topbar-right">
-                                <div class="logo v3"><img src="img/vow-logo.png" alt="logo"></div>
+                                <div class="logo v3"><img src="{{ asset('theme/theme12/img/vow-logo.png')}}" alt="logo"></div>
                                 <button type="button" class="navbar-toggle vow-icon-menu v4 js-menu icon-mobile hidden-lg hidden-md" data-toggle="collapse">
                                     <span class="vow-iconbar"></span>
                                     <span class="vow-iconbar"></span>
@@ -262,11 +262,11 @@
                                                     <li class="level2 col-4">
                                                         <a href="#">Banner 1</a>
                                                         <div class="mega-banner">
-                                                            <a href="#"><img src="img/Untitled-1.jpg" alt="" class="img-reponsive"></a>
+                                                            <a href="#"><img src="{{ asset('theme/theme12/img/Untitled-1.jpg')}}" alt="" class="img-reponsive"></a>
                                                         </div>
                                                         <a href="#">Banner 2</a>
                                                         <div class="mega-banner ">
-                                                            <a href="#"><img src="img/Untitled-2.jpg" alt="" class="img-reponsive"></a>
+                                                            <a href="#"><img src="{{ asset('theme/theme12/img/Untitled-2.jpg')}}" alt="" class="img-reponsive"></a>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -325,7 +325,7 @@
                                     <a href="#" data-toggle="modal" data-target="#myModal"><i class="ion-ios-search icon-rotate-90 f-24"></i></a>
                                 </div>
                                 <div class="element-mobile">
-                                    <a href="#" class="cart-mobile open-cart"><img src="img/icon-cart.png" alt=""><span class="count cart-count mobile v2">2</span></a>
+                                    <a href="#" class="cart-mobile open-cart"><img src="{{ asset('theme/theme12/img/icon-cart.png')}}" alt=""><span class="count cart-count mobile v2">2</span></a>
                                 </div>
                                 <div class="element-mobile">
                                     <a href="#"><i class="ion-ios-heart-outline f-24"></i></a>
@@ -335,7 +335,7 @@
                                 </div>
                             </div>
                             <div class="topbar-right">
-                                <div class="logo v3"><img src="img/vow-logo.png" alt="logo"></div>
+                                <div class="logo v3"><img src="{{ asset('theme/theme12/img/vow-logo.png')}}" alt="logo"></div>
                                 <button type="button" class="navbar-toggle vow-icon-menu v4 js-menu icon-mobile hidden-lg hidden-md" data-toggle="collapse" data-target="#myNavbar2">
                                     <span class="vow-iconbar"></span>
                                     <span class="vow-iconbar"></span>
@@ -395,11 +395,11 @@
                                                     <li class="level2 col-4">
                                                         <a href="#">Banner 1</a>
                                                         <div class="mega-banner">
-                                                            <a href="#"><img src="img/Untitled-1.jpg" alt="" class="img-reponsive"></a>
+                                                            <a href="#"><img src="{{ asset('theme/theme12/img/Untitled-1.jpg')}}" alt="" class="img-reponsive"></a>
                                                         </div>
                                                         <a href="#">Banner 2</a>
                                                         <div class="mega-banner ">
-                                                            <a href="#"><img src="img/Untitled-2.jpg" alt="" class="img-reponsive"></a>
+                                                            <a href="#"><img src="{{ asset('theme/theme12/img/Untitled-2.jpg')}}" alt="" class="img-reponsive"></a>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -428,7 +428,7 @@
             </header>
             <div class="page-left-sidebar">
                 <div class="navbar-wrapper">
-                    <div class="logo v3 hidden-xs hidden-sm"><img src="img/vow-logo.png" alt="logo"></div>
+                    <div class="logo v3 hidden-xs hidden-sm"><img src="{{ asset('theme/theme12/img/vow-logo.png')}}" alt="logo"></div>
                     <nav class="main-menu v3 hidden-xs hidden-sm">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav v3">
@@ -517,9 +517,9 @@
             <div class="page-right-content">
                 <div class="slider slider-home1">
                     <div class="js-slider-home1">
-                        <img src="img/slider_1_1.jpg" alt="">
-                        <img src="img/slider_1_2.jpg" alt="">
-                        <img src="img/slider_1_3.jpg" alt="">
+                        <img src="{{ asset('theme/theme12/img/slider_1_1.jpg')}}" alt="">
+                        <img src="{{ asset('theme/theme12/img/slider_1_2.jpg')}}" alt="">
+                        <img src="{{ asset('theme/theme12/img/slider_1_3.jpg')}}" alt="">
                     </div>
                     <div class="btn-slider">
                         <a href="#" class="btn-arrow top-arrow"></a>
@@ -528,7 +528,7 @@
                 </div>
             </div>
             <div class="video">
-                <a data-fancybox href="https://vimeo.com/242347548" class="hover-images image-video">
+                <a data-fancybox href="{{ url('https://vimeo.com/242347548')}}" class="hover-images image-video">
                     <img src="img/video.jpg" alt="" class="img-responsive">
                 </a>
                 <div class="video-title">
@@ -541,25 +541,25 @@
                     <div class="row">
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/home1_c1.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/home1_c1.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title">wedding</h3>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/home1_c2.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/home1_c2.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title">Groom</h3>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/home1_c3.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/home1_c3.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title">Bride</h3>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/home1_c4.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/home1_c4.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title">Secret garden</h3>
                         </div>
@@ -570,10 +570,10 @@
                 <div class="quote text-center">
                     <p>We help you plan the best for your dreams, <span class="vow-color">Opportunities don't happen</span>. You create them!</p>
                 </div>
-                <div class="text-center" style="background:url(img/ribbon_bg.png) no-repeat top center;background-size: contain">
+                <div class="text-center" style="background:url({{ asset('theme/theme12/img/ribbon_bg.png')}}) no-repeat top center;background-size: contain">
                     <div class="vow-img">
                         <a href="#" class="hover-images">
-                            <img src="img/home1_vows.jpg" alt="" class="img-reponsive">
+                            <img src="{{ asset('theme/theme12/img/home1_vows.jpg')}}" alt="" class="img-reponsive">
                         </a>
                     </div>
                     <div class="vow-desc">
@@ -589,7 +589,7 @@
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_1.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_1.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -610,7 +610,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_2.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_2.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -631,7 +631,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_3.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_3.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -652,7 +652,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_4.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_4.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -673,7 +673,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_5.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_5.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -694,7 +694,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_6.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_6.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -715,7 +715,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_7.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_7.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -736,7 +736,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item">
                             <div class="product-img v2">
-                                <a class="hover-images" href="#"><img src="img/products/pd_8.jpg" alt="" class="img-reponsive"></a>
+                                <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_8.jpg')}}" alt="" class="img-reponsive"></a>
                                 <div class="overlay-img box-content-center hover-price">
                                     <div class="product-price inovl">
                                         <p class="price-n">$58.00</p>
@@ -763,7 +763,7 @@
             </div>
             <div class="banner v2">
                 <div class="container">
-                    <a href="#" class="effect_img2"><img src="img/home1_banner.jpg" alt="" class="img-responsive"></a>
+                    <a href="#" class="effect_img2"><img src="{{ asset('theme/theme12/img/home1_banner.jpg')}}" alt="" class="img-responsive"></a>
                 </div>
             </div>
             <div class="blog">
@@ -787,7 +787,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4 blog-item">
-                            <a href="#" class="hover-images"><img src="img/home1_blog.jpg" alt="" class="img-responsive"></a>
+                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/home1_blog.jpg')}}" alt="" class="img-responsive"></a>
                         </div>
                     </div>
                 </div>
@@ -797,7 +797,7 @@
                     <div class="row">
                         <div class="col-xs-4 col-sm-4 col-md-3">
                             <div class="connect-img">
-                                <a href="#"><img src="img/home1_bt_1.jpg" alt="" class="img-reponsive">
+                                <a href="#"><img src="{{ asset('theme/theme12/img/home1_bt_1.jpg')}}" alt="" class="img-reponsive">
                                     <div class="box-content-left">
                                     <h3 class="connect-title v2">individual orders</h3>
                                 </div>
@@ -806,7 +806,7 @@
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-3">
                             <div class="connect-img">
-                                <a href="#" class="hover-images"><img src="img/home1_bt_2.jpg" alt="" class="img-reponsive">
+                                <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/home1_bt_2.jpg')}}" alt="" class="img-reponsive">
                                     <div class="box-content-left">
                                     <h3 class="connect-title">KIDS</h3>
                                 </div>
@@ -815,7 +815,7 @@
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-3">
                             <div class="connect-img">
-                                <a href="#" class="hover-images"><img src="img/home1_bt_3.jpg" alt="" class="img-reponsive">
+                                <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/home1_bt_3.jpg')}}" alt="" class="img-reponsive">
                                     <div class="box-content-left">
                                     <h3 class="connect-title">INSTAGRAM</h3>
                                 </div>

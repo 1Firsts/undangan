@@ -147,7 +147,7 @@
 					<div class="col-sm-12 col-md-6">
 						<div class="box-wedding">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">JOHN JOEL</div>
@@ -166,7 +166,7 @@
 					<div class="col-sm-12 col-md-6">
 						<div class="box-wedding">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">HAWA JOEL</div>
@@ -188,7 +188,7 @@
 	</div>
 
     <!-- OUR PEOPLE -->
-	<div class="section bgi-cover-center" data-background="images/dummy-img-1920x900-2.jpg">
+	<div class="section bgi-cover-center" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900-2.jpg') }}">
 		<div class="content-wrap">
 
 			<div class="container">
@@ -219,21 +219,21 @@
 						<div class="tab-content" id="pills-tabContent">
 						  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 						  	<div class="text-center">
-								<img src="images/dummy-img-600x400.jpg" alt="" class="shadow-lg img-fluid mb-3">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg') }}" alt="" class="shadow-lg img-fluid mb-3">
 								<h2>We meet in Bali</h2>
 								<p>Morbi cursus efficitur felis quis placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, Morbi cursus efficitur felis quis placerat. Duis posuere auctor erat nec lobortis. Morbi cursus efficitur felis quis placerat. Duis pellentesque fermentum ex sed auctor. In id enim imperdiet, mollis ante a, fringilla ligula. Pellentesque vel ipsum et nulla scelerisque eleifend nec id dui.</p>
 							</div>
 						  </div>
 						  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 							<div class="text-center">
-								<img src="images/dummy-img-600x400.jpg" alt="" class="shadow-lg img-fluid mb-3">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg') }}" alt="" class="shadow-lg img-fluid mb-3">
 								<h2>Endless park is our first date</h2>
 								<p>Morbi cursus efficitur felis quis placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, Morbi cursus efficitur felis quis placerat. Duis posuere auctor erat nec lobortis. Morbi cursus efficitur felis quis placerat. Duis pellentesque fermentum ex sed auctor. In id enim imperdiet, mollis ante a, fringilla ligula. Pellentesque vel ipsum et nulla scelerisque eleifend nec id dui.</p>
 							</div>
 						  </div>
 						  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 							<div class="text-center">
-								<img src="images/dummy-img-600x400.jpg" alt="" class="shadow-lg img-fluid mb-3">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg') }}" alt="" class="shadow-lg img-fluid mb-3">
 								<h2>The best moment for our</h2>
 								<p>Morbi cursus efficitur felis quis placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, Morbi cursus efficitur felis quis placerat. Duis posuere auctor erat nec lobortis. Morbi cursus efficitur felis quis placerat. Duis pellentesque fermentum ex sed auctor. In id enim imperdiet, mollis ante a, fringilla ligula. Pellentesque vel ipsum et nulla scelerisque eleifend nec id dui.</p>
 							</div>
@@ -251,7 +251,7 @@
 						</h2>
 						<!-- 1:1 aspect ratio -->
 						<div class="embed-responsive embed-responsive-1by1 audio-wrap">
-						  <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F34019569&auto_play=false&show_artwork=true&color=0066cc"></iframe>
+						  <iframe class="embed-responsive-item" src="{{ url('https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F34019569&auto_play=false&show_artwork=true&color=0066cc') }}"></iframe>
 						</div>
 
 					</div>
@@ -284,7 +284,7 @@
 						</div>
 						<div class="box-people row-reverse">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">JOHN JOEL</div>
@@ -294,7 +294,7 @@
 						</div>
 						<div class="box-people row-reverse">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">DONNA JOEL</div>
@@ -304,7 +304,7 @@
 						</div>
 						<div class="box-people row-reverse">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">MADAM JOEL</div>
@@ -322,7 +322,7 @@
 						</div>
 						<div class="box-people">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">LUFFY DOEL</div>
@@ -332,7 +332,7 @@
 						</div>
 						<div class="box-people">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">CATIKA DOEL</div>
@@ -342,7 +342,7 @@
 						</div>
 						<div class="box-people">
 							<div class="people">
-								<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
 							</div>
 							<div class="people-info">
 								<div class="name">RAMBO DOEL</div>
@@ -360,7 +360,7 @@
 	</div>
 
     <!-- CTA -->
-	<div class="section bgi-cover-center bg-overlay-secondary" data-background="images/dummy-img-1920x900.jpg">
+	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
 		<div class="content-wrap">
 			<div class="container">
 
@@ -396,7 +396,7 @@
 					<div class="col-sm-12 col-md-12">
 
 						<div class="box-events">
-							<div class="box-event bgi-cover-center" data-background="images/dummy-img-1920x900.jpg">
+							<div class="box-event bgi-cover-center" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
 								<div class="event-location">
 									<a href="#"><i class="fa fa-facebook"></i></a> Check location here
 								</div>
@@ -408,7 +408,7 @@
 								</div>
 							</div>
 
-							<div class="box-event bgi-cover-center" data-background="images/dummy-img-1920x900.jpg">
+							<div class="box-event bgi-cover-center" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
 								<div class="event-location">
 									<a href="#"><i class="fa fa-facebook"></i></a> Check location here
 								</div>
@@ -430,7 +430,7 @@
 	</div>
 
 	<!-- CTA -->
-	<div class="section bgi-cover-center bg-overlay-secondary" data-background="images/dummy-img-1920x900.jpg">
+	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
 		<div class="content-wrap">
 			<div class="container">
 
@@ -468,8 +468,8 @@
 					<!-- Item 1 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #1">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #1">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -481,8 +481,8 @@
 					<!-- Item 2 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #2">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #2">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -494,8 +494,8 @@
 					<!-- Item 3 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #3">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #3">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -507,8 +507,8 @@
 					<!-- Item 4 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #4">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #4">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -520,8 +520,8 @@
 					<!-- Item 5 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #5">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #5">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -533,8 +533,8 @@
 					<!-- Item 6 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #6">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #6">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -546,8 +546,8 @@
 					<!-- Item 7 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #7">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #7">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -559,8 +559,8 @@
 					<!-- Item 8 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #8">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #8">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -572,8 +572,8 @@
 					<!-- Item 9 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #9">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #9">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -585,8 +585,8 @@
 					<!-- Item 10 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #10">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #10">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -598,8 +598,8 @@
 					<!-- Item 11 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #11">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #11">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -611,8 +611,8 @@
 					<!-- Item 12 -->
 					<div class="col-sm-6 col-md-3">
 						<div class="box-gallery">
-							<a href="images/dummy-img-600x500.jpg" title="Gallery #12">
-								<img src="images/dummy-img-600x500.jpg" alt="" class="img-fluid">
+							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #12">
+								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
 								<div class="project-info">
 									<div class="project-icon">
 										<span class="fa fa-search"></span>
@@ -628,7 +628,7 @@
 	</div>	
 
 	<!-- OUR TESTIMONIALS -->
-	<div class="section bgi-cover-center bg-primary" data-background="images/dummy-img-1920x900-2.jpg">
+	<div class="section bgi-cover-center bg-primary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900-2.jpg')}}">
 		<div class="content-wrap">
 			<div class="container">
 				<div class="row">
@@ -652,7 +652,7 @@
 									<div class="quote-box">
 										<p class="uk24">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error <a href="#">@rometheme</a> sit voluptatem accusantium dolore mque laudantium, totam rem aperiam </p>
 										<div class="media mt-5">
-											<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+											<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
 										</div>
 										<p class="quote-name">
 											John Doel <span>Graphicriver</span>
@@ -667,7 +667,7 @@
 									<div class="quote-box">
 										<p class="uk24">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error <a href="#">@rometheme</a> sit voluptatem accusantium dolore mque laudantium, totam rem aperiam </p>
 										<div class="media mt-5">
-											<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+											<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
 										</div>
 										<p class="quote-name">
 											Laura Doel <span>Themeforest</span>
@@ -682,7 +682,7 @@
 									<div class="quote-box">
 										<p class="uk24">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error <a href="#">@rometheme</a> sit voluptatem accusantium dolore mque laudantium, totam rem aperiam </p>
 										<div class="media mt-5">
-											<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+											<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
 										</div>
 										<p class="quote-name">
 											Donju Doel <span>Petugas THR</span>
@@ -697,7 +697,7 @@
 									<div class="quote-box">
 										<p class="uk24">Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error <a href="#">@rometheme</a> sit voluptatem accusantium dolore mque laudantium, totam rem aperiam </p>
 										<div class="media mt-5">
-											<img src="images/dummy-img-600x600.jpg" alt="" class="rounded-circle">
+											<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
 										</div>
 										<p class="quote-name">
 											John Doel <span>Themeforest</span>
@@ -737,7 +737,7 @@
 						<div class="rs-news-1 mb-1">
 							<div class="media">
 								<a href="news-single.html">
-									<img src="images/dummy-img-600x400.jpg" alt="" class="img-fluid">
+									<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg')}}" alt="" class="img-fluid">
 								</a>
 							</div>
 							<div class="body">
@@ -753,7 +753,7 @@
 						<div class="rs-news-1 mb-1">
 							<div class="media">
 								<a href="news-single.html">
-									<img src="images/dummy-img-600x400.jpg" alt="" class="img-fluid">
+									<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg')}}" alt="" class="img-fluid">
 								</a>
 							</div>
 							<div class="body">
@@ -769,7 +769,7 @@
 						<div class="rs-news-1 mb-1">
 							<div class="media">
 								<a href="news-single.html">
-									<img src="images/dummy-img-600x400.jpg" alt="" class="img-fluid">
+									<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg')}}" alt="" class="img-fluid">
 								</a>
 							</div>
 							<div class="body">
@@ -789,7 +789,7 @@
 	</div>
 
 	<!-- RSVP -->
-	<div id="rsvp" class="section bgi-cover-center" data-background="images/dummy-img-1920x900-2.jpg">
+	<div id="rsvp" class="section bgi-cover-center" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900-2.jpg')}}">
 		<div class="content-wrap">
 			<div class="container">
 				
@@ -867,38 +867,38 @@
 					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 						<div class="client-img">
 							<a href="#">
-								<img src="images/client1.png" alt="" class="img-fluid">
+								<img src="{{ asset('theme/theme1/images/client1.png')}}" alt="" class="img-fluid">
 							</a>
 						</div>
 					</div>
 
 					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 						<div class="client-img">
-							<a href="#"><img src="images/client2.png" alt="" class="img-fluid"></a>
+							<a href="#"><img src="{{ asset('theme/theme1/images/client2.png')}}" alt="" class="img-fluid"></a>
 						</div>
 					</div>
 
 					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 						<div class="client-img">
-							<a href="#"><img src="images/client3.png" alt="" class="img-fluid"></a>
+							<a href="#"><img src="{{ asset('theme/theme1/images/client3.png')}}" alt="" class="img-fluid"></a>
 						</div>
 					</div>
 
 					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 						<div class="client-img">
-							<a href="#"><img src="images/client4.png" alt="" class="img-fluid"></a>
+							<a href="#"><img src="{{ asset('theme/theme1/images/client4.png')}}" alt="" class="img-fluid"></a>
 						</div>
 					</div>
 
 					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 						<div class="client-img">
-							<a href="#"><img src="images/client5.png" alt="" class="img-fluid"></a>
+							<a href="#"><img src="{{ asset('theme/theme1/images/client5.png')}}" alt="" class="img-fluid"></a>
 						</div>
 					</div>
 
 					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
 						<div class="client-img">
-							<a href="#"><img src="images/client6.png" alt="" class="img-fluid"></a>
+							<a href="#"><img src="{{ asset('theme/theme1/images/client6.png')}}" alt="" class="img-fluid"></a>
 						</div>
 					</div>
 					
@@ -909,7 +909,7 @@
 	</div>
 
 	<!-- CTA -->
-	<div class="section bgi-cover-center bg-overlay-secondary" data-background="images/dummy-img-1920x900.jpg">
+	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
 		<div class="content-wrap">
 			<div class="container">
 

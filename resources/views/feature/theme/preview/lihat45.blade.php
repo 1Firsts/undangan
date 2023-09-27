@@ -49,7 +49,7 @@
                     <div class="position-relative">
                         <div class="row">
                             <div class="col-lg-3 col-md-12">
-                                <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="assets/img/logo-1.svg" alt=""></a>
+                                <a id="logo" href="index.html" class="d-inline-block margin-tb-15px"><img src="{{ asset('theme/theme20/assets/img/logo-1.svg')}}" alt=""></a>
                                 <a class="mobile-toggle padding-15px background-main-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
                             </div>
                             <div class="col-lg-7 col-md-12 position-inherit">
@@ -136,7 +136,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Photographers</a></h3>
                     </div>
@@ -148,7 +148,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Invitations</a></h3>
                     </div>
@@ -160,7 +160,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Bands</a></h3>
                     </div>
@@ -172,7 +172,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Cakes</a></h3>
                     </div>
@@ -184,7 +184,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Photographers</a></h3>
                     </div>
@@ -196,7 +196,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Jewelers</a></h3>
                     </div>
@@ -208,7 +208,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Caterers</a></h3>
                     </div>
@@ -220,7 +220,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Photographers</a></h3>
                     </div>
@@ -232,7 +232,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item layout-1">
                         <div class="img-in">
-                            <a href="#"><img src="http://placehold.it/1055x700" alt=""></a>
+                            <a href="#"><img src="{{ url('http://placehold.it/1055x700')}}" alt=""></a>
                         </div>
                         <h3 class="title"><a href="#">Wedding Bands</a></h3>
                     </div>
@@ -272,7 +272,7 @@
 
     <!-- preloader -->
     <div class="nile-preloader">
-        <div class="logo"> <img src="assets/img/loading-1.svg" alt=""> </div>
+        <div class="logo"> <img src="{{ asset('theme/theme20/assets/img/loading-1.svg')}}" alt=""> </div>
     </div>
     <!-- end preloader -->
     <footer class="layout-3">
@@ -284,7 +284,7 @@
                     <div class="col-lg-3">
                         <div class="nile-widget about-me-widget">
                             <div class="about-me">
-                                <div class="image"><img src="assets/img/logo-1.svg" alt=""></div>
+                                <div class="image"><img src="{{ asset('theme/theme20/assets/img/logo-1.svg')}}" alt=""></div>
 
                                 <div class="text-about margin-tb-25px">
                                     A great city, whose image dwells in the memory of man, is the type of some great idea. Rome represents conquest; Faith hovers over the towers of Jerusalem; and Athens embodies the pre-eminent quality of the antique world, Art.
@@ -302,7 +302,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">How To Market Your Consulting Business ...</a>
@@ -312,7 +312,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">SAP Business One Technical Versus Functional ...</a>
@@ -322,7 +322,7 @@
                                 <!-- item -->
                                 <li>
                                     <div class="img_in">
-                                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                                     </div>
                                     <a class="date" href="#"> May 22, 2018</a>
                                     <a class="title" href="#">How To Choose An IT Consulting Firm</a>
@@ -349,15 +349,15 @@
                         <div class="nile-widget layout-1 niletheme_projects_widget">
                             <h2 class="title">Our Projects</h2>
                             <ul class="projects-feed">
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
 
         <div class="nile-widget about-me-widget">
             <div class="about-me">
-                <div class="image"><img src="assets/img/logo-light.svg" alt=""></div>
+                <div class="image"><img src="{{ asset('theme/theme20/assets/img/logo-light.svg')}}" alt=""></div>
 
                 <div class="text-about margin-tb-25px">
                     A great city, whose image dwells in the memory of man, is the type of some great idea. Rome represents conquest; Faith hovers over the towers of Jerusalem; and Athens embodies the pre-eminent quality of the antique world, Art.
@@ -410,7 +410,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">How To Market Your Consulting Business ...</a>
@@ -420,7 +420,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">SAP Business One Technical Versus Functional ...</a>
@@ -430,7 +430,7 @@
                 <!-- item -->
                 <li>
                     <div class="img_in">
-                        <a href="#"><img src="http://placehold.it/120x120" alt=""></a>
+                        <a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a>
                     </div>
                     <a class="date" href="#"> May 22, 2018</a>
                     <a class="title" href="#">How To Choose An IT Consulting Firm</a>
@@ -453,15 +453,15 @@
         <div class="nile-widget layout-1 niletheme_projects_widget">
             <h2 class="title">Our Projects</h2>
             <ul class="projects-feed">
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
-                <li><a href="#"><img src="http://placehold.it/500x500" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{ url('http://placehold.it/500x500')}}" alt=""></a></li>
             </ul>
         </div>
 

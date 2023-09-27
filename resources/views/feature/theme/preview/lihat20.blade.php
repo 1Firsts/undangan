@@ -22,7 +22,7 @@
             <h3 class="cart-title">Your Cart</h3>
             <ul class="list">
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_1.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Beaded Flower Headband</p>
                         <p class="product-price">$145.00</p>
@@ -30,7 +30,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_2.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_2.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$145.00</p>
@@ -38,7 +38,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_1.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$85.00</p>
@@ -46,7 +46,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_2.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_2.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$85.00</p>
@@ -54,7 +54,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#" title="" class="cart-product-image"><img src="img/cart_1.jpg" alt="Product"></a>
+                    <a href="#" title="" class="cart-product-image"><img src="{{ asset('theme/theme12/img/cart_1.jpg')}}" alt="Product"></a>
                     <div class="text">
                         <p class="product-name">Brid in the Cage 299pln</p>
                         <p class="product-price">$85.00</p>
@@ -185,12 +185,12 @@
                         </div>
                         
                         <div class="has-element popup-element">
-                            <a href="#" class="cart open-cart"><img src="img/icon-cart.png" alt=""><span class="count cart-count v1">2</span></a>
-                            <a href="#" class="search-popup dropdown " data-toggle="modal" data-target="#myModal"><img src="img/icon-search.png" alt=""></a>
+                            <a href="#" class="cart open-cart"><img src="{{ asset('theme/theme12/img/icon-cart.png')}}" alt=""><span class="count cart-count v1">2</span></a>
+                            <a href="#" class="search-popup dropdown " data-toggle="modal" data-target="#myModal"><img src="{{ asset('theme/theme12/img/icon-search.png')}}" alt=""></a>
                         </div>
                     </div>
                     <div class="topbar-right">
-                        <div class="logo v1"><img src="img/vow-pink-logo.png" alt="logo"></div>
+                        <div class="logo v1"><img src="{{ asset('theme/theme12/img/vow-pink-logo.png')}}" alt="logo"></div>
                         <button type="button" class="navbar-toggle vow-icon-menu v4 c-v3 js-menu icon-mobile hidden-lg hidden-md" data-toggle="collapse" data-target="#myNavbar">
                             <span class="vow-iconbar"></span>
                             <span class="vow-iconbar"></span>
@@ -284,7 +284,7 @@
         <div class="slider-home3">
             <div class="js-slider-home3">
                 <div class="items">
-                    <img src="img/slider/h3_slide_1.jpg" alt="images">
+                    <img src="{{ asset('theme/theme12/img/slider/h3_slide_1.jpg')}}" alt="images">
                     <div class="container">
                         <div class="box-content-right text-ver2 white">
                             <p class="h3-slide-desc">Start &nbsp; planning</p>
@@ -293,7 +293,7 @@
                     </div>
                 </div>
                 <div class="items">
-                    <img src="img/slider/h3_slide_2.jpg" alt="images">
+                    <img src="{{ asset('theme/theme12/img/slider/h3_slide_2.jpg')}}" alt="images">
                     <div class="container">
                         <div class="box-content-left text-ver2 pink">
                             <p class="h3-slide-desc v2">Spring 2018</p>
@@ -308,7 +308,7 @@
             <div class="container">
                     <div class="single-colect">
                         <a href="#" class="hover-images img-colect">
-                            <img src="img/collection/h3_c4.jpg" alt="" class="img-responsive">
+                            <img src="{{ asset('theme/theme12/img/collection/h3_c4.jpg')}}" alt="" class="img-responsive">
                             <div class="colect-content">
                                 <h3>PARADISE FOUND</h3>
                                 <p>first the packing, then the bliss</p>
@@ -319,7 +319,7 @@
                     <div class="flex-colect">
                         <div class="flex-two">
                             <a href="#" class="hover-images img-colect">
-                                <img src="img/collection/h3_c3.jpg" alt="" class="img-responsive">
+                                <img src="{{ asset('theme/theme12/img/collection/h3_c3.jpg')}}" alt="" class="img-responsive">
                                 <div class="colect-content v2">
                                     <h3>SHOES & ACCESSORIES</h3>
                                 </div>
@@ -327,8 +327,8 @@
                         </div>
                         <div class="flex-one">
                             <div class="colect-img">
-                                <a href="#" class="hover-images"><img src="img/collection/h3_c1.jpg" alt="" class="img-responsive"></a>
-                                <a href="#" class="hover-images"><img src="img/collection/h3_c2.jpg" alt="" class="img-responsive"></a>
+                                <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/collection/h3_c1.jpg')}}" alt="" class="img-responsive"></a>
+                                <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/collection/h3_c2.jpg')}}" alt="" class="img-responsive"></a>
                             </div>
                             <div class="colect-newsletter">
                                 <span>Register for latest news & discounts</span>
@@ -348,7 +348,7 @@
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
                             <div class="feature-img">
-                                <img src="img/icon/gift_h3.png" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/icon/gift_h3.png')}}" alt="" class="img-reponsive">
                             </div>
                             <div class="feature-info">
                                 <h3>Packing</h3>
@@ -357,7 +357,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
                             <div class="feature-img">
-                                <img src="img/icon/policy_h3.png" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/icon/policy_h3.png')}}" alt="" class="img-reponsive">
                             </div>
                             <div class="feature-info">
                                 <h3>Return policy</h3>
@@ -366,7 +366,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
                             <div class="feature-img">
-                                <img src="img/icon/shipping_h3.png" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/icon/shipping_h3.png')}}" alt="" class="img-reponsive">
                             </div>
                             <div class="feature-info">
                                 <h3>Shipping & taxes</h3>
@@ -375,7 +375,7 @@
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 feature-inner">
                             <div class="feature-img">
-                                <img src="img/icon/telephone_h3.png" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/icon/telephone_h3.png')}}" alt="" class="img-reponsive">
                             </div>
                             <div class="feature-info">
                                 <h3>Contact</h3>
@@ -391,25 +391,25 @@
                     <div class="row">
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/collection/h3_colect1.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/collection/h3_colect1.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title v4">wedding</h3>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/collection/h3_colect2.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/collection/h3_colect2.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title v4">Groom</h3>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/collection/h3_colect3.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/collection/h3_colect3.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title v4">Bride</h3>
                         </div>
                         <div class="col-xs-6 col-sm-3 col-md-3 c-item">
                             <a href="#" class="hover-images">
-                                <img src="img/collection/h3_colect4.jpg" alt="" class="img-reponsive">
+                                <img src="{{ asset('theme/theme12/img/collection/h3_colect4.jpg')}}" alt="" class="img-reponsive">
                             </a>
                             <h3 class="h-colect-title v4">Secret garden</h3>
                         </div>
@@ -421,7 +421,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 flex-img">
                         <div class="product-img">
-                            <img src="img/h3_bride.jpg" alt="" class="img-responsive">
+                            <img src="{{ asset('theme/theme12/img/h3_bride.jpg')}}" alt="" class="img-responsive">
                             <div class="ribbon">HOT
                             </div>
                         </div>
@@ -446,7 +446,7 @@
                 <div class="row">
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_1.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_1.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
 
                         <div class="product-info v3">
@@ -455,7 +455,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_2.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_2.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
 
                         <div class="product-info v3">
@@ -464,7 +464,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_3.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_3.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
                         <div class="product-info v3">
                             <h3 class="product-title"><a href="#">Beaded Flower Headband</a></h3>
@@ -472,7 +472,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_4.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_4.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
 
                         <div class="product-info v3">
@@ -481,7 +481,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_5.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_5.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
                         <div class="product-info v3">
                             <h3 class="product-title"><a href="#">Jewelled Box Clutch Bag</a></h3>
@@ -489,7 +489,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_6.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_6.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
                         
                         <div class="product-info v3">
@@ -498,7 +498,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_7.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_7.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
                         
                         <div class="product-info v3">
@@ -507,7 +507,7 @@
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 product-item v3">
                         <div class="product-img v3">
-                            <a class="hover-images" href="#"><img src="img/products/pd_8.jpg" alt="" class="img-reponsive"></a>
+                            <a class="hover-images" href="#"><img src="{{ asset('theme/theme12/img/products/pd_8.jpg')}}" alt="" class="img-reponsive"></a>
                         </div>
                         
                         <div class="product-info v3">
@@ -528,7 +528,7 @@
                                 <div class="test-item-list">
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test1.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test1.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">Mekirin</h3>
                                         </div>
                                         <div class="test-text">
@@ -537,7 +537,7 @@
                                     </div>
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test2.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test2.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">Shival-k</h3>
                                         </div>
                                         <div class="test-text">
@@ -546,7 +546,7 @@
                                     </div>
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test3.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test3.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">jin simple</h3>
                                         </div>
                                         <div class="test-text">
@@ -557,7 +557,7 @@
                                 <div class="test-item-list">
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test1.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test1.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">Mekirin</h3>
                                         </div>
                                         <div class="test-text">
@@ -566,7 +566,7 @@
                                     </div>
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test2.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test2.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">Shival-k</h3>
                                         </div>
                                         <div class="test-text">
@@ -575,7 +575,7 @@
                                     </div>
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test3.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test3.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">jin simple</h3>
                                         </div>
                                         <div class="test-text">
@@ -586,7 +586,7 @@
                                 <div class="test-item-list">
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test1.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test1.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">Mekirin</h3>
                                         </div>
                                         <div class="test-text">
@@ -595,7 +595,7 @@
                                     </div>
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test2.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test2.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">Shival-k</h3>
                                         </div>
                                         <div class="test-text">
@@ -604,7 +604,7 @@
                                     </div>
                                     <div class="test-item">
                                         <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="img/h3_test3.jpg" alt="" class="img-responsive"></a>
+                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test3.jpg')}}" alt="" class="img-responsive"></a>
                                             <h3 class="test-name">jin simple</h3>
                                         </div>
                                         <div class="test-text">
@@ -620,7 +620,7 @@
                             <h3 class="vow-title v4">Lastest Blog post</h3>
                             <div class="blog-item">
                                 <div class="post-img">
-                                    <a href="#" class="hover-images"><img src="img/h3_blog1.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_blog1.jpg')}}" alt="" class="img-responsive"></a>
                                 </div>
                                 <div class="post-info v2">
                                     <div class="post-date v2 f-14">18 August 2018</div>
@@ -631,7 +631,7 @@
 
                             <div class="blog-item">
                                 <div class="post-img">
-                                    <a href="#" class="hover-images"><img src="img/h3_blog2.jpg" alt="" class="img-responsive"></a>
+                                    <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_blog2.jpg')}}" alt="" class="img-responsive"></a>
                                 </div>
                                 <div class="post-info v2">
                                     <div class="post-date v2 f-14">18 August 2018</div>

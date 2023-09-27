@@ -181,13 +181,13 @@
 
                 <div id="custom-owl-slider" class="owl-slide" data-scroll-speed="2">
                     <div class="item">
-                        <img src="images/slider/1.jpg" alt="">
+                        <img src="{{ asset('theme/theme8/images/slider/1.jpg')}}" alt="">
                     </div>
                     <div class="item">
-                        <img src="images/slider/2.jpg" alt="">
+                        <img src="{{ asset('theme/theme8/images/slider/2.jpg')}}" alt="">
                     </div>
                     <div class="item">
-                        <img src="images/slider/3.jpg" alt="">
+                        <img src="{{ asset('theme/theme8/images/slider/3.jpg')}}" alt="">
                     </div>
                 </div>
             </section>
@@ -200,7 +200,7 @@
                     <div class="row">
 
                         <div class="col-md-5 col-md-offset-1 text-center">
-                            <img src="images/misc/1.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft" data-wow-delay=".2s" />
+                            <img src="{{ asset('theme/theme8/images/misc/1.jpg')}}" alt="" class="img-responsive img-rounded wow fadeInLeft" data-wow-delay=".2s" />
                             <div class="padding40">
                                 <h2>Laurie</h2>
                                 <p>Singer, writter, chef. Love music, reading and cooking. "Love isn't something you find. Love
@@ -218,7 +218,7 @@
                         </div>
 
                         <div class="col-md-5 text-center">
-                            <img src="images/misc/2.jpg" alt="" class="img-responsive img-rounded wow fadeInRight" data-wow-delay=".2s" />
+                            <img src="{{ asset('theme/theme8/images/misc/2.jpg')}}" alt="" class="img-responsive img-rounded wow fadeInRight" data-wow-delay=".2s" />
                             <div class="padding40">
                                 <h2>Briant</h2>
                                 <p>Hipster, designer, ilustrator. Love music and adventure. "There is only one happiness in
@@ -280,12 +280,12 @@
                             <div class="timeline-panel">
 
                                 <div class="picframe img-rounded mb20">
-                                    <a class="image-popup" href="images/story/1.jpg">
+                                    <a class="image-popup" href="{{ asset('theme/theme8/images/story/1.jpg')}}">
 										<span class="overlay-v">
 											<i></i>
 										</span>
 									</a>
-                                    <img src="images/story/1.jpg" class="img-responsive img-rounded" alt="">
+                                    <img src="{{ asset('theme/theme8/images/story/1.jpg')}}" class="img-responsive img-rounded" alt="">
                                 </div>
 
                                 <div class="timeline-heading">
@@ -306,12 +306,12 @@
                             <div class="timeline-badge"><i class="fa fa-heart"></i></div>
                             <div class="timeline-panel">
                                 <div class="picframe img-rounded mb20">
-                                    <a class="image-popup" href="images/story/2.jpg">
+                                    <a class="image-popup" href="{{ asset('theme/theme8/images/story/2.jpg')}}">
 										<span class="overlay-v">
 											<i></i>
 										</span>
 									</a>
-                                    <img src="images/story/2.jpg" class="img-responsive img-rounded" alt="">
+                                    <img src="{{ asset('theme/theme8/images/story/2.jpg')}}" class="img-responsive img-rounded" alt="">
                                 </div>
 
                                 <div class="timeline-heading">
@@ -330,12 +330,12 @@
                             <div class="timeline-badge"><i class="fa fa-heart"></i></div>
                             <div class="timeline-panel">
                                 <div class="picframe img-rounded mb20">
-                                    <a class="image-popup" href="images/story/3.jpg">
+                                    <a class="image-popup" href="{{ asset('theme/theme8/images/story/3.jpg')}}">
 										<span class="overlay-v">
 											<i></i>
 										</span>
 									</a>
-                                    <img src="images/story/3.jpg" class="img-responsive img-rounded" alt="">
+                                    <img src="{{ asset('theme/theme8/images/story/3.jpg')}}" class="img-responsive img-rounded" alt="">
                                 </div>
 
                                 <div class="timeline-heading">
@@ -354,12 +354,12 @@
                             <div class="timeline-badge"><i class="fa fa-heart"></i></div>
                             <div class="timeline-panel">
                                 <div class="picframe img-rounded mb20">
-                                    <a class="image-popup" href="images/story/4.jpg">
+                                    <a class="image-popup" href="{{ asset('theme/theme8/images/story/4.jpg')}}">
 										<span class="overlay-v">
 											<i></i>
 										</span>
 									</a>
-                                    <img src="images/story/4.jpg" class="img-responsive img-rounded" alt="">
+                                    <img src="{{ asset('theme/theme8/images/story/4.jpg')}}" class="img-responsive img-rounded" alt="">
                                 </div>
 
                                 <div class="timeline-heading">
@@ -380,12 +380,12 @@
                             <div class="timeline-badge"><i class="fa fa-heart"></i></div>
                             <div class="timeline-panel">
                                 <div class="picframe img-rounded mb20">
-                                    <a class="image-popup" href="images/story/5.jpg">
+                                    <a class="image-popup" href="{{ asset('theme/theme8/images/story/5.jpg')}}">
 										<span class="overlay-v">
 											<i></i>
 										</span>
 									</a>
-                                    <img src="images/story/5.jpg" class="img-responsive img-rounded" alt="">
+                                    <img src="{{ asset('theme/theme8/images/story/5.jpg')}}" class="img-responsive img-rounded" alt="">
                                 </div>
 
                                 <div class="timeline-heading">
@@ -437,13 +437,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="images/misc/3.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft">
+                            <img src="{{ asset('theme/theme8/images/misc/3.jpg')}}" alt="" class="img-responsive img-rounded wow fadeInLeft">
                         </div>
 
                         <div class="col-md-5 col-md-offset-1 pt40 pb40 wow fadeIn" data-wow-delay=".5s">
                             <h3>Wedding Ceremony</h3>
                             Saturday, 27 November 2021<br> 13:00 PM - 14:00 PM<br> 100 Mainstreet Center, Sydney<br>
-                            <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+                            <a href="{{ url('https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom')}}"
                                 class="btn btn-custom mt30 popup-gmaps">View on map</a>
                         </div>
                     </div>
@@ -454,12 +454,12 @@
                         <div class="col-md-5 pt40 pb40 text-right wow fadeIn" data-wow-delay=".5s">
                             <h3>Wedding Reception</h3>
                             Saturday, 27 November 2021<br> 14:00 PM - 16:00 PM<br> 100 Mainstreet Center, Sydney<br>
-                            <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+                            <a href="{{ url('https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom')}}"
                                 class="btn btn-custom mt30 popup-gmaps">View on map</a>
                         </div>
 
                         <div class="col-md-6 col-md-offset-1">
-                            <img src="images/misc/4.jpg" alt="" class="img-responsive img-rounded wow fadeInRight">
+                            <img src="{{ asset('theme/theme8/images/misc/4.jpg')}}" alt="" class="img-responsive img-rounded wow fadeInRight">
                         </div>
                     </div>
                 </div>
@@ -558,12 +558,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/1.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/1.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/1.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/1.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Mr. Jeremy</h3>
                                                 <small>Laurie's Father</small>
@@ -574,12 +574,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/2.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/2.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/2.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/2.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Mrs. Jeremy</h3>
                                                 <small>Laurie's Mother</small>
@@ -590,12 +590,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/3.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/3.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/3.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/3.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Mr. Arthur</h3>
                                                 <small>Briant's Father</small>
@@ -606,12 +606,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/4.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/4.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/4.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/4.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Mrs. Arthur</h3>
                                                 <small>Briant's Mother</small>
@@ -628,12 +628,12 @@
                                         <div class="row">
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/5.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/5.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/5.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/5.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Tina</h3>
                                                 <small>Maid of Honor</small>
@@ -644,12 +644,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/6.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/6.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/6.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/6.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Alicia</h3>
                                                 <small>Best Friend</small>
@@ -660,12 +660,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/7.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/7.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/7.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/7.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Ashley</h3>
                                                 <small>Room Mate</small>
@@ -676,12 +676,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/8.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/8.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/8.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/8.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Kelley</h3>
                                                 <small>Class Mate</small>
@@ -703,7 +703,7 @@
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/9.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/9.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Clark</h3>
                                                 <small>Groomsmen</small>
@@ -714,12 +714,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/10.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/10.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/10.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/10.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Stellan</h3>
                                                 <small>Groomsmen</small>
@@ -730,12 +730,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/11.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/11.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/11.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/11.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Kenneth</h3>
                                                 <small>Groomsmen</small>
@@ -746,12 +746,12 @@
 
                                             <div class="col-md-3 text-center">
                                                 <figure class="picframe img-rounded mb20">
-                                                    <a class="image-popup" href="images/people/12.jpg">
+                                                    <a class="image-popup" href="{{ asset('theme/theme8/images/people/12.jpg')}}">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-                                                    <img src="images/people/12.jpg" class="img-responsive img-rounded" alt="">
+                                                    <img src="{{ asset('theme/theme8/images/people/12.jpg')}}" class="img-responsive img-rounded" alt="">
                                                 </figure>
                                                 <h3>Jamie</h3>
                                                 <small>Groomsmen</small>

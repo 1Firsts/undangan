@@ -80,7 +80,7 @@
       <div class="sections">
         <!-- Home Section -->
         <section id="home" class="home-section clearfix">
-          <div id="hs-image-block" class="hs-image-block" style="background-image: url(images/main_photo_1.jpg); background-attachment: fixed; background-position: 50% 0;" data-stellar-background-ratio="0.3">
+          <div id="hs-image-block" class="hs-image-block" style="background-image: url({{ asset('theme/theme17/images/main_photo_1.jpg')}}); background-attachment: fixed; background-position: 50% 0;" data-stellar-background-ratio="0.3">
             <div class="hs-mask"></div>
           </div>
 
@@ -106,7 +106,7 @@
                   </div>
 
                   <div class="photo">
-                    <img src="images/photo_1.jpg" alt="">
+                    <img src="{{ asset('theme/theme17/images/photo_1.jpg')}}" alt="">
                   </div>
                 </div>
                 <div class="bottom-block">
@@ -115,7 +115,7 @@
               </div>
 
               <div class="heart">
-                <img src="images/heart_img.png" alt="">
+                <img src="{{ asset('theme/theme17/images/heart_img.png')}}" alt="">
               </div>
 
               <div class="about-us-block second-block">
@@ -134,7 +134,7 @@
                   </div>
 
                   <div class="photo">
-                    <img src="images/photo_2.jpg" alt="">
+                    <img src="{{ asset('theme/theme17/images/photo_2.jpg')}}" alt="">
                   </div>
                 </div>
                 <div class="bottom-block">
@@ -173,7 +173,7 @@
             <div class="row story-row">
               <div class="col-sm-12 col-md-5 story-block text-center">
                 <div class="story-image scale-image-effect">
-                  <img src="images/story_photo_1.jpg" alt="">
+                  <img src="{{ asset('theme/theme17/images/story_photo_1.jpg')}}" alt="">
                 </div>
               </div>
               <div class="col-sm-12 col-md-2 story-block text-center">
@@ -194,7 +194,7 @@
             <div class="row story-row">
               <div class="col-sm-12 col-md-5 col-md-push-7 story-block text-center">
                 <div class="story-image scale-image-effect">
-                  <img src="images/story_photo_2.jpg" alt="">
+                  <img src="{{ asset('theme/theme17/images/story_photo_2.jpg')}}" alt="">
                 </div>
               </div>
               <div class="col-sm-12 col-md-2 story-block text-center">
@@ -215,7 +215,7 @@
             <div class="row story-row">
               <div class="col-sm-12 col-md-5 story-block text-center">
                 <div class="story-image scale-image-effect">
-                  <img src="images/story_photo_3.jpg" alt="">
+                  <img src="{{ asset('theme/theme17/images/story_photo_3.jpg')}}" alt="">
                 </div>
               </div>
               <div class="col-sm-12 col-md-2 story-block text-center">
@@ -248,7 +248,7 @@
               <!-- Ceremony Block -->
               <div class="col-md-6 event-block">
                 <div class="event-photo scale-image-effect">
-                  <img src="images/photo_the_ceremony.jpg" alt="">
+                  <img src="{{ asset('theme/theme17/images/photo_the_ceremony.jpg')}}" alt="">
                 </div>
 
                 <div class="event-title">
@@ -267,7 +267,7 @@
               <!-- Party Block -->
               <div class="col-md-6 event-block">
                 <div class="event-photo scale-image-effect">
-                  <img src="images/photo_the_party.jpg" alt="">
+                  <img src="{{ asset('theme/theme17/images/photo_the_party.jpg')}}" alt="">
                 </div>
 
                 <div class="event-title">
@@ -297,56 +297,56 @@
             <!-- Gallery Items -->
             <div class="row gallery-grid">
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_1.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_1.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_1.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_1.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_2.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_2.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_2.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_2.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_3.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_3.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_3.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_3.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_4.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_4.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_4.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_4.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_5.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_5.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_5.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_5.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_6.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_6.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_6.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_6.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_7.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_7.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_7.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_7.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_8.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_8.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_8.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_8.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
               <div class="col-sm-6 col-md-4 gallery-item">
-                <a href="images/gallery/gallery_photo_9.jpg" title="The Cleaner">
-                  <img src="images/gallery/gallery_photo_9.jpg" alt="">
+                <a href="{{ asset('theme/theme17/images/gallery/gallery_photo_9.jpg')}}" title="The Cleaner">
+                  <img src="{{ asset('theme/theme17/images/gallery/gallery_photo_9.jpg')}}" alt="">
                   <div class="mask"></div>
                 </a>
               </div>
@@ -417,7 +417,7 @@
 
         <!-- Footer (Thank You block) -->
         <footer id="thanks" class="footer">
-          <div id="footer-image-block" class="footer-image-block" style="background-image: url(images/footer_photo.jpg); background-attachment: fixed; background-position: 50%;" data-stellar-background-ratio="0.3">
+          <div id="footer-image-block" class="footer-image-block" style="background-image: url({{ asset('theme/theme17/images/footer_photo.jpg')}}); background-attachment: fixed; background-position: 50%;" data-stellar-background-ratio="0.3">
             <div class="footer-mask"></div>
           </div>
 
