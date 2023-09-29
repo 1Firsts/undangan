@@ -32,6 +32,7 @@
       <link rel="shortcut icon" href="{{ asset('theme/theme6/favicon.ico') }}" type="image/x-icon">
    </head>
    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">    
+   @yield('content')
       <!-- Preloader -->
       <div id="preloader">
          <div class="spinner">

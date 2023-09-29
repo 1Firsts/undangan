@@ -30,7 +30,7 @@
 </head>
 
 <body id="homepage">
-
+@yield('content')
     <div id="wrapper">
 
         <!-- header begin -->

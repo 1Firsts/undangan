@@ -1,3 +1,4 @@
-<div>
-    <!-- He who is contented is rich. - Laozi -->
-</div>
+@extends('feature/theme/preview/lihat27')
+@section('content')
+
+@endsection

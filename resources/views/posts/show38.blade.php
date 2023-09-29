@@ -1,3 +1,4 @@
-<div>
-    <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
-</div>
+@extends('feature/theme/preview/lihat38')
+@section('content')
+
+@endsection

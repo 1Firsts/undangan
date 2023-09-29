@@ -47,7 +47,7 @@
                                             <select class="form-select" name="category" id="categorySelect" aria-label="Pilih Tema">
                                                 <option value="" selected>Pilih Tema</option> <!-- Initial placeholder option -->
                                                 @for ($i = 1; $i <= 45; $i++)
-                                                    <option value="Tema {{ $i }}">Tema {{ $i }}</option>
+                                                    <option value="{{ $i }}">Tema {{ $i }}</option>
                                                 @endfor
                                             </select>
                                             @error('category')
@@ -94,7 +94,6 @@
                                             }
                                         });
                                     </script>
-
 
                                     <button type="submit" class="btn btn-primary">Create</button>
                                 </form>

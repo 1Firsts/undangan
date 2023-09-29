@@ -19,6 +19,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
 </head>
 
 <body>
+@yield('content')
     <!-- Preloader-->
     <!-- <div id="preloader">
         <div id="status">

@@ -29,6 +29,7 @@
 </head>
 
 <body class="home page  body_filled  scheme_original">
+@yield('content')
     <!--.body_wrap -->
     <div class="body_wrap">
        <!--.page_wrap -->

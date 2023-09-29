@@ -53,7 +53,7 @@ Route::post('/buat_tema/{theme}', [UndanganController::class, 'buat_tema'])->nam
 // Create Data Theme Routes
 for ($i = 1; $i <= 45; $i++) {
     Route::delete("/seeorder{$i}/delete/{id}", [SeeorderController::class, "delete_seeorder{$i}"])->name("seeorder{$i}.delete");
-    Route::get("/feature/seeorder/seeorder{$i}", [SeeorderController::class, "seeorder{$i}"])->name("seeorder{$i}.seeorder{$i}");
+    Route::get("/feature/seeorder/seeorder{$i}", [SeeorderController::class, "seeorder{$i}"])->name("feature.seeorder.seeorder{$i}");
     Route::get("/posts/show{$i}/{id}", [SeeorderController::class, "show_seeorder{$i}"])->name("posts.show{$i}");
 }
 

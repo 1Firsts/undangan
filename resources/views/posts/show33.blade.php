@@ -1,3 +1,4 @@
-<div>
-    <!-- Simplicity is the essence of happiness. - Cedric Bledsoe -->
-</div>
+@extends('feature/theme/preview/lihat33')
+@section('content')
+
+@endsection

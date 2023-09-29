@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="{{ asset('theme/theme5/css/style.css') }}">
    </head>
    <body>
+   @yield('content')
       <!-- == WRAPPER ================== -->
       <div class="wrapper home">
          <!-- == HEADER ================== -->

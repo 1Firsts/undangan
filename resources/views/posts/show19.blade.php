@@ -1,3 +1,4 @@
-<div>
-    <!-- Simplicity is the consequence of refined emotions. - Jean D'Alembert -->
-</div>
+@extends('feature/theme/preview/lihat19')
+@section('content')
+
+@endsection

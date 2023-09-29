@@ -1,3 +1,4 @@
-<div>
-    <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
-</div>
+@extends('feature/theme/preview/lihat32')
+@section('content')
+
+@endsection

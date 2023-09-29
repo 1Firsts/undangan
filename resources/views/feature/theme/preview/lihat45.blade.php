@@ -38,7 +38,7 @@
 </head>
 
 <body class="background-white">
-
+@yield('content')
 
 
     <!-- ============ HEADER ============ -->

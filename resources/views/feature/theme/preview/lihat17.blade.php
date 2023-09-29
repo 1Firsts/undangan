@@ -29,7 +29,7 @@
 <link rel="stylesheet" href="{{ asset('theme/theme11/css/font-awesome.min.css') }}">
 </head>
 <body onLoad="load()" onUnload="GUnload()">
-
+@yield('content')
 <!--wrapper start-->
 <div class="wrapper" id="wrapper"> 
   <!-- Preloader -->

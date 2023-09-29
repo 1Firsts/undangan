@@ -22,6 +22,7 @@
   </head>
 
   <body>
+  @yield('content')
     <!-- Loading animation -->
     <div class="preloader">
       <div class="preloader-animation">

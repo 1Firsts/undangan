@@ -1,3 +1,4 @@
-<div>
-    <!-- It is quality rather than quantity that matters. - Lucius Annaeus Seneca -->
-</div>
+@extends('feature/theme/preview/lihat44')
+@section('content')
+
+@endsection

@@ -1,3 +1,4 @@
-<div>
-    <!-- Happiness is not something readymade. It comes from your own actions. - Dalai Lama -->
-</div>
+@extends('feature/theme/preview/lihat31')
+@section('content')
+
+@endsection

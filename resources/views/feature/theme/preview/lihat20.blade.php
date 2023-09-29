@@ -15,6 +15,7 @@
 </head>
 
 <body>
+@yield('content')
     <!--push menu cart -->
     <div class="pushmenu pushmenu-left cart-box-container">
         <div class="cart-list">

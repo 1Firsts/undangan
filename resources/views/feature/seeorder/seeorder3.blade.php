@@ -34,6 +34,7 @@
                                                     @method('DELETE')
                                                     <button type="submit" class="btn btn-danger">Hapus</button>
                                                 </form>
+
                                                 <form action="{{ route('posts.show3', ['id' => $seeorder->id], false) }}">
                                                     <button type="submit" class="btn btn-info">Lihat</button>
                                                 </form>

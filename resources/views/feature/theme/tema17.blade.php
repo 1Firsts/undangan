@@ -35,6 +35,8 @@
                                     @enderror
                                   </div>
 
+                                  <label for="nama_panggilan" class="col-sm-2 col-form-label text-info">Foto Pasangan</label>
+
                                   <div class="row mb-3">
                                     <label for="foto" class="col-sm-2 col-form-label">Foto</label>
                                     <div class="col-sm-10">
@@ -46,6 +48,96 @@
                                     </span>
                                     @enderror
                                   </div>
+
+                                  <div class="row mb-3">
+                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <div class="col-sm-10">
+                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                    </div>
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+
+                                  <!-- Gallery Start -->
+                                  <label for="nama_panggilan" class="col-sm-2 col-form-label text-info">Foto Gallery</label>
+
+                                  <div class="row mb-3">
+                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <div class="col-sm-10">
+                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                    </div>
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+
+                                  <div class="row mb-3">
+                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <div class="col-sm-10">
+                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                    </div>
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+
+                                  <div class="row mb-3">
+                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <div class="col-sm-10">
+                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                    </div>
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+
+                                  <div class="row mb-3">
+                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <div class="col-sm-10">
+                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                    </div>
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+
+                                  <div class="row mb-3">
+                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <div class="col-sm-10">
+                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                    </div>
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+
+                                  <div class="row mb-3">
+                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <div class="col-sm-10">
+                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                    </div>
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+
+
+                                  <!-- Gallery End -->
 
                                   <div class="row mb-3">
                                     <label for="media_sosial" class="col-sm-2 col-form-label">Media Sosial</label>

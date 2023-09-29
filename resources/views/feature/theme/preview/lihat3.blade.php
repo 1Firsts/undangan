@@ -53,7 +53,8 @@
         <![endif]-->
     </head>
     <body id="bd" class="home page page-id-13 page-template page-template-template-vc page-template-template-vc-php  wpb-js-composer js-comp-ver-4.4.2 vc_responsive tribe-theme-everline">
-        <div class="livedemo">
+    @yield('content')    
+    <div class="livedemo">
             <h6 class="live_title">
                 <em>Skill style</em>
                 <span class="live_icon">

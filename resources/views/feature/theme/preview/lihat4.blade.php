@@ -15,6 +15,7 @@
       <link href="{{ url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700') }}" rel="stylesheet">
    </head>
    <body>
+   @yield('content')
       <!-- Preloader -->
       <div class="loader">
          <!-- Preloader inner -->

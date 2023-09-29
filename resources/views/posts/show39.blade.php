@@ -1,3 +1,4 @@
-<div>
-    <!-- Order your soul. Reduce your wants. - Augustine -->
-</div>
+@extends('feature/theme/preview/lihat39')
+@section('content')
+
+@endsection

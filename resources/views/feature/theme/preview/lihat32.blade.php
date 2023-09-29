@@ -54,6 +54,7 @@
 </head>
 
 <body>
+@yield('content')
 	<!-- ======================= wrapper starts ======================= -->
     <div class="wrapper">
     	<!-- ======================= header starts ======================= -->

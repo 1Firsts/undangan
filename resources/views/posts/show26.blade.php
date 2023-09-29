@@ -1,3 +1,4 @@
-<div>
-    <!-- You must be the change you wish to see in the world. - Mahatma Gandhi -->
-</div>
+@extends('feature/theme/preview/lihat26')
+@section('content')
+
+@endsection

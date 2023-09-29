@@ -39,6 +39,8 @@
 </head>
 
 <body class="js">
+
+@yield('content')
     <!-- Page loader -->
     <div id="preloader"></div>
     <!-- Home Section START -->

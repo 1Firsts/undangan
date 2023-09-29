@@ -20,6 +20,7 @@
 		<link rel="apple-touch-icon-precomposed" href="{{ asset('theme/theme13/images/icons/favicon-180x180.png') }}" />
 	</head>
 	<body class="home home-7 home-menu-black">
+	@yield('content')
 		<div class="menu-mask">
 			<!-- MOBILE MENU HOLDER -->
 			<div class="container mobile-menu-holder">
