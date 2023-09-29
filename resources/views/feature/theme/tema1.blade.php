@@ -108,7 +108,7 @@
                                     @enderror
                                   </div>
                                   
-                                  <input type="hidden" name="link_undangan" id="link_undangan" value="test.com">
+                                  <input type="hidden" name="link_undangan" id="link_undangan" value="{{ $generatedURL }}">
                                   <input type="hidden" name="tema_category" id="tema_category" value="Tema 1">
 
                                   <button type="submit" class="btn btn-success">Buat</button>

@@ -766,32 +766,7 @@
                     <a href="#" class="effect_img2"><img src="{{ asset('theme/theme12/img/home1_banner.jpg')}}" alt="" class="img-responsive"></a>
                 </div>
             </div>
-            <div class="blog">
-                <div class="container">
-                    <h3 class="vow-title v5">Lastest Blog post</h3>
-                    <div class="row row-flex">
-                        <div class="col-xs-12 col-sm-4 col-md-4 blog-item">
-                            <div class="post-info">
-                                <div class="post-date">18 August 2018</div>
-                                <h3 class="post-title"><a href="#">Paris, jet’aime: jeremy’s adventures at maison & objet</a></h3>
-                                <div class="post-desc">Aenean imperdiet. Etiam ultricies nisi vel augueNam eget dui</div>
-                                <a href="#" class="btn-find">FIND OUT MORE »</a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 blog-item">
-                            <div class="post-info">
-                                <div class="post-date">18 August 2018</div>
-                                <h3 class="post-title"><a href="#">When candles aren’t enough - on the subject of professional lighting</a></h3>
-                                <div class="post-desc">Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi Nam eget dui. Etiam </div>
-                                <a href="#" class="btn-find">FIND OUT MORE »</a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 blog-item">
-                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/home1_blog.jpg')}}" alt="" class="img-responsive"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div class="vow-connect">
                 <div class="container">
                     <div class="row">

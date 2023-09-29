@@ -433,8 +433,7 @@
 							
 								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img1.jpg')}}" alt=" " />
 								<h5 class="margin-b30">01. We love what we do</h5>
-								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img3.jpg')}}" alt=" " />
-								<h5 class="margin-bm30">02. We're transparent</h5>
+								
 							
 						</div>
 						<!-- /col-lg-3 -->
@@ -442,8 +441,7 @@
 	
 								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img2.jpg')}}" alt=" " />
 								<h5 class="margin-b30">03. We're storytellers</h5>
-								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img4.jpg')}}" alt=" " />
-								<h5>04. We're respectful</h5>
+								
 
 						</div>
 						<!-- /col-lg-3 -->

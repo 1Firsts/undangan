@@ -202,7 +202,6 @@
 					</div>
 					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
-					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
@@ -363,7 +362,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Wedding Photography</h1>
-							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span> 
 						</div>
 					</div>
 				</div>
@@ -372,7 +371,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Timeless Locations</h1>
-							<span class="post-subtitle"> Modo detracto appareat qui te.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Modo detracto appareat qui te.</span> 
 						</div>
 					</div>
 				</div>
@@ -381,7 +380,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Family Portraits</h1>
-							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span>
 						</div>
 					</div>
 				</div>
@@ -556,26 +555,7 @@
 							<h2 class="display-4 margin-b30">Awards & Honors</h2>
 							<p>Veri ubique cu eam, vero dicta ridens ei quo, ex putent menandri accommodare sed. Suscipit lobortis prodesset ut eam. Sale dicta dolore pri et, an aliquam albucius volutpat est.</p>
 						</div>
-						<!-- /col-lg-6 -->
-						<div class="col-lg-6">
-							<div class="margin-l50">
-								<div class="row">
-									<div class="col-6">
-										<img class="img-fluid width80 margin-b30" src="{{ asset('theme/theme13/images/home/awards-1.png')}}" alt=" " />
-										<img class="img-fluid width80" src="{{ asset('theme/theme13/images/home/awards-2.png')}}" alt=" " />
-									</div>
-									<!-- /col-lg-6 -->
-									<div class="col-6">
-										<img class="img-fluid width80 margin-b30" src="{{ asset('theme/theme13/images/home/awards-3.png')}}" alt=" " />
-										<img class="img-fluid width80" src="{{ asset('theme/theme13/images/home/awards-1.png')}}" alt=" " />
-									</div>
-									<!-- /col-lg-6 -->
-								</div>
-								<!-- /row -->
-							</div>
-							<!-- /margin-l50 -->
-						</div>
-						<!-- /col-lg-6 -->
+						
 					</div>
 					<!-- /row -->
 				</div>
@@ -710,48 +690,7 @@
 				<!-- /container -->
 			</div>
 			<!-- /SECTION 5 -->
-			<!-- SECTION 6 -->
-			<div id="home-section-6-6" class="section-holder home-section-6-6">
-				<div class="container">
-					<div class="row align-items-center margin-b30less">
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz8.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz2.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz3.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz4.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz5.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz6.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz7.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz1.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-					</div>
-					<!-- /row -->
-				</div>
-				<!-- /container -->
-			</div>
-			<!-- /SECTION 6 -->
+			
 			<!-- SECTION 7 -->
 			<div id="home-section-6-7" class="section-holder home-section-6-7 section-info padding-tb100 section-nomargin">
 				<div class="container">

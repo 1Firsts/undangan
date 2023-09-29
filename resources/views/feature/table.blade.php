@@ -11,13 +11,13 @@
                               <table id="complex-header" class="display" style="width:100%">
                                   <thead>
                                       <tr>
-                                          <th rowspan="2">Name</th>
-                                          <th colspan="3" style="text-align:center">Data Information</th>
+                                          <th rowspan="2">Nama Pelanggan</th>
+                                          <th colspan="3" style="text-align:center">Data Informasi</th>
                                       </tr>
                                       <tr>
-                                          <th>Category</th>
-                                          <th>Start Date</th>
-                                          <th>End Date</th>
+                                          <th>Kategori</th>
+                                          <th>Waktu Mulai</th>
+                                          <th>Selesai</th>
                                       </tr>
                                   </thead>
                                   <tbody>

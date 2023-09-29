@@ -10,10 +10,10 @@
                         $previewPrefix = 'feature/theme/preview/lihat';
                         @endphp
 
-                        @for ($i = 1; $i <= 46; $i++)
+                        @for ($i = 1; $i <= 45; $i++)
                         <div class="col-md-12 col-lg-4">
                             <div class="card">
-                                <img src="{{ asset('coba/images/card-bg.png') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('coba/images/gambar' . $i . '.png') }}" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <div class="card-meet-header">
                                         <div class="card-meet-day">

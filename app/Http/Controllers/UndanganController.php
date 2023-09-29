@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\File;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Facades\URL;
 
 class UndanganController extends Controller
 {
@@ -74,6 +75,15 @@ class UndanganController extends Controller
         $theme->save();
         // dd($theme);
 
-        return view('feature.table');
+        $currentURL = 'http://127.0.0.1:8000/posts/show'; // Define the base URL without ID
+        $generatedURLs = []; // Initialize an array to store generated URLs
+
+        // Generate URLs for IDs from 1 to 45
+        for ($i = 1; $i <= 45; $i++) {
+            $generatedURL = "{$currentURL}{$i}/{$themeNumber}";
+            $generatedURLs[] = $generatedURL;
+        }
+
+        return view('feature.table', compact('generatedURLs'));
     }
 }

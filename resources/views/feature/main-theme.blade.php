@@ -21,28 +21,25 @@
                     
                         @foreach ($cobas as $coba)
                         <div class="col-md-12 col-lg-4">
-                          <div class="card">
-                            
-                            <img src="{{ asset('/' . $coba->file) }}" class="card-img-top" alt="Uploaded photo">
-                            
-                            <div class="card-body">
-                              <div class="card-meet-header">
-                                <div class="card-meet-text">
-                                  <h6>{{ $coba->quote }}</h6>
-                                  <p>{{ $coba->judul }}</p>
+                            <div class="card">
+                                <img src="{{ $coba->file }}" class="card-img-top" alt="Uploaded photo">
+                                <div class="card-body">
+                                    <div class="card-meet-header">
+                                        <div class="card-meet-text">
+                                            <h6>{{ $coba->quote }}</h6>
+                                            <p>{{ $coba->judul }}</p>
+                                        </div>
+                                    </div>
+                                    <p class="card-text m-b-md">{{ $coba->deskripsi }}</p>
+                                    <form action="{{ route('coba.delete', $coba->id) }}" method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-danger">Hapus</button>
+                                    </form>
                                 </div>
-                              </div>
-                              <p class="card-text m-b-md">{{ $coba->deskripsi }}</p>
-                              <form action="{{ route('coba.delete', $coba->id) }}" method="POST">
-                                  @csrf
-                                  @method('DELETE')
-                                  <button type="submit" class="btn btn-danger">Hapus</button>
-                              </form>
                             </div>
-                          </div>
                         </div>
-                      @endforeach
-
+                        @endforeach
                         
                      </div>
                     </div>

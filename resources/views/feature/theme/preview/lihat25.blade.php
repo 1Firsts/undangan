@@ -202,7 +202,6 @@
 					</div>
 					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
-					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
@@ -360,11 +359,421 @@
 		<!-- WRAP CONTENT -->
 		<div id="wrap-content" class="page-content custom-page-template">
 			<!-- SECTION 1 -->
-				<div class="portfolio-fullscreen-container"><div class="portfolio-fs-holder"><div class="portfolio-fs-item"><h2 class="fs-item-title display-2"><a href="gallery-grid-3-cols.html"><sup>1</sup>Tracy &amp; Aaron</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-1.jpg);"></div></div><div class="portfolio-fs-item"><h2 class="fs-item-title display-2"><a href="gallery-grid-4-cols.html"><sup>2</sup>Jane &amp; Paul</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-2.jpg);"></div></div><div class="portfolio-fs-item"><h2 class="fs-item-title display-2"><a href="gallery-masonry-3-cols.html"><sup>3</sup>Angela &amp; Zach</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-3.jpg);"></div></div><div class="portfolio-fs-item"><h2 class="fs-item-title display-2"><a href="gallery-masonry-4cols.html"><sup>4</sup>Diana &amp; Max</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-4.jpg);"></div></div><div class="portfolio-fs-item"><h2 class="fs-item-title display-2"><a href="gallery-grid-2-cols.html"><sup>5</sup>Tina &amp; Robi</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-5.jpg);"></div></div><div class="portfolio-fs-item"><h2 class="fs-item-title display-2"><a href="gallery-masonry-2-cols.html"><sup>6</sup>Clara &amp; Andrew</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-6.jpg);"></div></div><div class="portfolio-fs-item active"><h2 class="fs-item-title display-2"><a href="gallery-grid-3-cols.html"><sup>7</sup>Street People</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-7.jpg);"></div></div><div class="portfolio-fs-item"><h2 class="fs-item-title display-2"><a href="gallery-masonry-4-cols.html"><sup>8</sup>Ballet Dancers</a></h2><div class="fs-item-bkg" style="background-image:url(images/home/home4-8.jpg);"></div></div></div></div>
+			<div class="portfolio-fullscreen-container">
+				<div class="portfolio-fs-holder">
+					<div class="portfolio-fs-item">
+						<h2 class="fs-item-title display-2">
+							<a href="gallery-grid-3-cols.html"><sup>1</sup>Tracy & Aaron</a>
+						</h2>
+						<div class="fs-item-bkg" style="background-image:url(images/home/home4-1.jpg);"></div>
+					</div>
+
+					<div class="portfolio-fs-item">
+						<h2 class="fs-item-title display-2">
+							<a href="gallery-grid-4-cols.html"><sup>2</sup>Jane & Paul</a>
+						</h2>
+						<div class="fs-item-bkg" style="background-image:url(images/home/home4-2.jpg);"></div>
+					</div>
+
+					<!-- Add more portfolio-fs-item sections here for other items -->
+
+					<div class="portfolio-fs-item active">
+						<h2 class="fs-item-title display-2">
+							<a href="gallery-grid-3-cols.html"><sup>7</sup>Street People</a>
+						</h2>
+						<div class="fs-item-bkg" style="background-image:url(images/home/home4-7.jpg);"></div>
+					</div>
+
+					<div class="portfolio-fs-item">
+						<h2 class="fs-item-title display-2">
+							<a href="gallery-masonry-4-cols.html"><sup>8</sup>Ballet Dancers</a>
+						</h2>
+						<div class="fs-item-bkg" style="background-image:url(images/home/home4-8.jpg);"></div>
+					</div>
+				</div>
+			</div>
 			<!-- /SECTION 1 -->	
 			
+			
+			<!-- SECTION 3 -->
+			<div id="home-section-3-3" class="section-holder home-section-3-3 margin-b50">
+				<div class="row g-0 align-items-center">
+					<div class="col-lg-6 margin-bm50">
+						<img class="img-fluid radius-right250" src="{{ asset('theme/theme13/images/pages/contact-page.jpg')}}" alt=" ">
+					</div>
+					<!-- /col-lg-6 -->
+					<div class="col-lg-6">
+						<div class="padding-50">
+							<div class="testimonials">
+								<div class="testimonial-quote">
+									<svg version="1.1" class="icon-quote2" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M84.2,437.2c-7.2,0-14.2-3.2-18.9-9.1c-6.7-8.4-6.9-20.3-0.7-29c16.6-22.9,28-49.4,33.1-77C72,316.2,48.6,302.3,31,282.2
+													c-20-22.8-31-52-31-82.3c0-69,56.1-125.1,125.1-125.1s125.1,56.1,125.1,125.1c0,103.2-61.6,195.6-156.8,235.4
+													C90.4,436.6,87.3,437.2,84.2,437.2z M125.1,94.1c-58.4,0-105.9,47.5-105.9,105.9c0,52.4,39.1,97.4,90.9,104.8l9.5,1.3l-1.3,9.5
+													c-4.7,34-17.8,66.8-38.1,94.8c-1.3,1.8-1.2,4.1,0.1,5.8c1.3,1.7,3.6,2.3,5.6,1.5c88.1-36.8,145-122.2,145-217.7
+													C231,141.5,183.5,94.1,125.1,94.1z M346,437.2c-7.2,0-14.2-3.2-18.9-9.1c-6.7-8.4-6.9-20.3-0.7-29c16.6-22.9,27.9-49.4,33.1-77
+													c-25.8-5.8-49.2-19.7-66.8-39.8c-20-22.8-31-52-31-82.3c0-69,56.1-125.1,125.1-125.1S512,130.9,512,199.9
+													c0,103.2-61.6,195.6-156.8,235.4C352.2,436.6,349.1,437.2,346,437.2z M386.9,94.1c-58.4,0-105.9,47.5-105.9,105.9
+													c0,52.4,39.1,97.4,90.9,104.8l9.5,1.3l-1.3,9.5c-4.7,34-17.8,66.8-38.1,94.8c-1.3,1.8-1.2,4.1,0.1,5.8c1.3,1.7,3.6,2.3,5.6,1.5
+													c88.1-36.8,145-122.2,145-217.7C492.8,141.5,445.3,94.1,386.9,94.1z"></path>
+											</g>
+										</g>
+									</svg>
+								</div>
+								<!-- /testimonial-quote -->
+								<div class="testimonial-slider">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide testimonial-info">
+											<h4 class="testimonial-desc">Working with Tilia team sit amet orci eget eros faucibus tincidunt. Duis leo. Sed ringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc vitae.</h4>
+											<div class="testimonial-client">Joana Griffin</div>
+											<div class="testimonial-company">Bride</div>
+										</div>
+										<!-- /testimonial-info -->
+										<div class="swiper-slide testimonial-info">
+											<h4 class="testimonial-desc">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero officiis debitis.</h4>
+											<div class="testimonial-client">Angela Ray</div>
+											<div class="testimonial-company">Rays Family</div>
+										</div>
+										<!-- /testimonial-info -->
+										<div class="swiper-slide testimonial-info">
+											<h4 class="testimonial-desc">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum elis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula.</h4>
+											<div class="testimonial-client">Laura Foster</div>
+											<div class="testimonial-company">Bride</div>
+										</div>
+										<!-- /testimonial-info -->
+										<div class="swiper-slide testimonial-info">
+											<h4 class="testimonial-desc">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis justo.</h4>
+											<div class="testimonial-client">Marie Smith</div>
+											<div class="testimonial-company">The Smiths</div>
+										</div>
+										<!-- /testimonial-info -->
+									</div>
+									<!-- /swiper-wrapper-->
+									<div class="swiper-pagination"></div>
+								</div>
+								<!-- /testimonial-slider -->
+							</div>
+							<!-- /testimonials -->
+						</div>
+						<!-- /padding-50 -->
+					</div>
+					<!-- /col-lg-6 -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /SECTION 3 -->	
+
+			<!-- SECTION 2 -->
+			<div id="home-section-3-2" class="section-holder home-section-3-2 margin-b50">
+				<div class="portfolio-grid-container portfolio-grid-container-v2 portfolio-grid-container-fs">
+					<div class="portfolio-grid portfolio-grid-v2 portfolio-layout-masonry">
+						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-1-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Tracy &amp; Aaron</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Wedding</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-2-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-4-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-4-cols.html">Jane &amp; Paul</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Wedding</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-3-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-2-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-2-cols.html">Angela &amp; Zach</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Wedding</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols wedding">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-4-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-5-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-5-cols.html">Diana &amp; Max</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Wedding</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle wedding">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-5-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Tina &amp; Robi</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Lifestyle</a></li>
+										<li><a href="#">Wedding</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle wedding">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-6-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-4-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-4-cols.html">Clara &amp; Andrew</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Lifestyle</a></li>
+										<li><a href="#">Wedding</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols portrait">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-7-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-2-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-2-cols.html">Street People</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Portrait</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-8-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Ballet Dancers</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Lifestyle</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols lifestyle portrait">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-9-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-3-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-3-cols.html">Black & White</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Lifestyle</a></li>
+										<li><a href="#">Portrait</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+						<div class="item-portfolio item-portfolio-v2 item-5cols portrait">
+							<div class="item-portfolio-holder-v2">
+								<div class="post-image item-grid-image-v2"><img loading="lazy" src="{{ asset('theme/theme13/images/portfolio/featured-images/gal-10-grid.jpg')}}" class="img-grid-v2" alt=" " width="750" height="750"> <a href="gallery-grid-5-cols.html"> </a></div>
+								<div class="item-text-holder-v2">
+									<h2 class="item-title display-6"><a href="gallery-grid-5-cols.html">Studio Photos</a></h2>
+									<ul class="portfolio-categ portfolio-categ-v2">
+										<li><a href="#">Portrait</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /item-portfolio -->
+					</div>
+					<!-- /portfolio-grid -->
+				</div>
+				<!-- /portfolio-grid-container -->
+				<div class="margin-t50 alignc">
+					<a href="#" class="read-more">View Portfolio</a>
+				</div>
+			</div>
+			<!-- /SECTION 2 -->	
+
+			<!-- SECTION 4 -->
+			<div id="home-section-3-4" class="section-holder home-section-3-4">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="padding-lr200 alignc">
+								<div class="el-smalltitle">Our Blog</div>
+								<h2 class="display-4 margin-b50">Latest News</h2>
+							</div>
+						</div>
+						<!-- /col-lg-12 -->
+					</div>
+					<!-- /row -->
+					<div class="row layout-masonry margin-b50less">
+						<div class="col-md-6 col-lg-4 blog-item-masonry">
+							<article class="blog-item blog-item-2col-grid">
+								<div class="post-image"> <img loading="lazy" src="{{ asset('theme/theme13/images/blog/blog-9.jpg')}}" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
+								<div class="post-holder">
+									<h2 class="article-title display-6"><a href="blog-single-post.html">Into the Forest: Katy Evening Dress</a></h2>
+									<div class="meta-info">
+										<div class="meta-categ-all-v2"><a href="#" rel="category tag">Fashion</a></div>
+										<div class="meta-date-all">January 11, 2022</div>
+									</div>
+									<div class="article-excerpt"> Arnare varius mauris eu commodo. Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et ...</div>
+									
+								</div>
+							</article>
+						</div>
+						<!-- /blog-item-masonry -->
+						<div class="col-md-6 col-lg-4 blog-item-masonry">
+							<article class="blog-item blog-item-2col-grid">
+								<div class="post-image"> <img loading="lazy" src="{{ asset('theme/theme13/images/blog/blog-8.jpg')}}" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
+								<div class="post-holder">
+									<h2 class="article-title display-6"><a href="blog-single-post.html">Jessica & Jake : Love Story in New York</a></h2>
+									<div class="meta-info">
+										<div class="meta-categ-all-v2"><a href="#" rel="category tag">Street</a></div>
+										<div class="meta-date-all">January 10, 2022</div>
+									</div>
+									<div class="article-excerpt"> Arnare varius mauris eu commodo. Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et ...</div>
+									
+								</div>
+							</article>
+						</div>
+						<!-- /blog-item-masonry -->
+						<div class="col-md-6 col-lg-4 blog-item-masonry">
+							<article class="blog-item blog-item-2col-grid">
+								<div class="post-image"> <img loading="lazy" src="{{ asset('theme/theme13/images/blog/blog-7.jpg')}}" class="img-fluid" alt=" " width="750" height="750"> <a class="cursor-eye" href="blog-single-post.html"> </a></div>
+								<div class="post-holder">
+									<h2 class="article-title display-6"><a href="blog-single-post.html">Lovely Engagement Photos of Sandra & Peter</a></h2>
+									<div class="meta-info">
+										<div class="meta-categ-all-v2"><a href="#" rel="category tag">Lifestyle</a></div>
+										<div class="meta-date-all">January 9, 2022</div>
+									</div>
+									<div class="article-excerpt"> Arnare varius mauris eu commodo. Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et ...</div>
+									
+								</div>
+							</article>
+						</div>
+						<!-- /blog-item-masonry -->
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /SECTION 4 -->
+			<!-- SECTION 5 -->
+			<div id="home-section-3-5" class="section-holder section-info padding-tb100 section-nomargin home-section-3-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="padding-lr200 alignc">
+								<div class="el-smalltitle">Contact</div>
+								<h2 class="display-4 margin-b30">Looking for a photograher / videographer?</h2>
+								<p>Te vis veniam detracto, tollit alterum graecis his ut. At pro essent aliquip qualisque, vis splendide posidonium ex. Nec et error quodsi deleniti.</p>
+								
+							</div>
+						</div>
+						<!-- /col-lg-12 -->
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /SECTION 5 -->		
+
 		</div>
 		<!-- /WRAP CONTENT -->
+
+		<!-- FOOTER -->
+		<div id="footer-instagram">
+			<ul class="instagram-pics instagram-size-small">
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-1.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-2.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-3.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-4.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-5.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-6.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-7.jpg')}}" alt=""/></a></li>
+				<li class=""><a href="#" target="_blank" class=""><img src="{{ asset('theme/theme13/images/insta/insta-8.jpg')}}" alt=""/></a></li>
+			</ul>
+			<p class="clear"><a href="#" rel="me" target="_blank" class="">Follow Us!</a></p>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="footer-widgets">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="foo-block">
+								<div class="widget_text widget widget-footer">
+									<h5 class="widgettitle">About Us</h5>
+									<div class="textwidget">
+										<p>We're Tilia, a team of photographers & videographers. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Est sale definitiones id. Ut quo quem harum munere, eu labore voluptatum mei.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /col-lg-3 -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="foo-block">
+								<div class="widget_text widget widget-footer">
+									<h5 class="widgettitle">Contact Us</h5>
+									<ul class="footer-contact">
+										<li><i class="fas fa-map-marker-alt"></i><span>40 Park Ave, Brooklyn, New York</span></li>
+										<li><i class="fas fa-mobile-alt"></i><span>1-800-111-2222</span></li>
+										<li><i class="fas fa-mobile-alt"></i><span>1-800-111-3333</span></li>
+										<li><i class="far fa-envelope"></i><span>contact@example.com</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /col-lg-3 -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="foo-block">
+								<div class="widget_text widget widget-footer">
+									<h5 class="widgettitle">Quick Links</h5>
+									<ul>
+										<li><a href="https://matchthemes.com/demohtml/tilia/">Home</a></li>
+										<li><a href="https://matchthemes.com/demohtml/tilia/about-us.html">About</a></li>
+										<li><a href="https://matchthemes.com/demohtml/tilia/portfolio-grid-v1-3-cols.html">Portfolio</a></li>
+										<li><a href="https://matchthemes.com/demohtml/tilia/faq-page.html">FAQ</a></li>
+										<li><a href="https://matchthemes.com/demohtml/tilia/contact.html">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6">
+							<div class="foo-block foo-last">
+								<div class="widget widget-footer">
+									<h5 class="widgettitle">Follow</h5>
+									<ul>
+										<li><a href="#">Facebook</a></li>
+										<li><a href="#">Twitter</a></li>
+										<li><a href="#">Instagram</a></li>
+										<li><a href="#">Youtube</a></li>
+										<li><a href="#">Vimeo</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="footer-copy"> <span class="footer-year">2022</span> &copy; Tilia. Designed by MatchThemes.</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /FOOTER -->
+		<div class="scrollup">
+			<a class="scrolltop" href="#">
+			<i class="fa fa-chevron-up"></i>
+			</a>
+		</div>
 		
 		<!-- JS --> 
 		<script src="{{ asset('theme/theme13/js/jquery.js') }}"></script>

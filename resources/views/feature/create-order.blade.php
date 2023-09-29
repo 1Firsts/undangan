@@ -6,7 +6,7 @@
                   <div class="col">
                       <div class="card">
                           <div class="card-body">
-                              <h5 class="card-title">Create Data Order</h5>
+                              <h5 class="card-title">Buat Data Pesanan</h5>
                               <p class="card-description">Membuat Data Kerja Tema.</p>
 
                               @if ($errors->any())
@@ -22,7 +22,7 @@
                               <form action="{{ route('store_order') }}" enctype="multipart/form-data" method="POST">
                                 @csrf   
                                 <div class="row mb-3">
-                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Customers</label>
+                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Pelanggan</label>
                                     <div class="col-sm-10">
                                       <input type="text" class="form-control" name="customer" id="customer" placeholder="Jane Doe">
                                       @error('customer')
@@ -30,15 +30,22 @@
                                         @enderror
                                     </div>
                                   </div>
+
                                   <div class="row mb-3">
-                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Category</label>
-                                    <div class="col-sm-10">
-                                      <input type="text" class="form-control" name="category" id="category" placeholder="Theme 1">
-                                      @error('category')
+                                        <label for="category" class="col-sm-2 col-form-label">Kategori</label>
+                                        <div class="col-sm-10">
+                                            <select class="form-select" name="category" id="categorySelect" aria-label="Pilih Tema">
+                                                <option value="" selected>Pilih Tema</option> <!-- Initial placeholder option -->
+                                                @for ($i = 1; $i <= 45; $i++)
+                                                    <option value="Tema {{ $i }}">Tema {{ $i }}</option>
+                                                @endfor
+                                            </select>
+                                            @error('category')
                                             <span class="text-danger">{{ $message }}</span>
-                                        @enderror
+                                            @enderror
+                                        </div>
                                     </div>
-                                  </div>
+
                                   <div class="row mb-3">
                                     <label for="inputEmail3" class="col-sm-2 col-form-label">Jumlah</label>
                                     <div class="col-sm-10">

@@ -424,79 +424,7 @@
                 <div class="navbar-wrapper v5 fix-height">
                     <nav class="main-menu v5 hidden-xs hidden-sm">
                         <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav v3 js-menubar js-menubar3">
-                                <li class="level1 active dropdown"><a href="#">Home <span class="fa fa-caret-down f-10"></span></a>
-                                    <ul class="dropdown-menu menu-level-1 v3">
-                                        <li class="level2"><a href="home-1.html" title="Homepage">Home 1</a></li>
-                                        <li class="level2"><a href="home-2.html" title="Homepage">Home 2</a></li>
-                                        <li class="level2"><a href="home-3.html" title="Homepage">Home 3</a></li>
-                                        <li class="level2"><a href="home-4.html" title="Homepage">Home 4</a></li>
-                                    </ul>
-                                </li>
-                                <li class="level1 active dropdown">
-                                    <a href="about.html">About</a>
-                                </li>
-                                <li class="level1 dropdown hassub"><a href="#">Shop <span class="fa fa-caret-down f-10"></span></a>
-                                    <div class="menu-level-1 v3 dropdown-menu">
-                                        <ul class="level1">
-                                            <li class="level2 col-4">
-                                                <a href="#">Shop pages</a>
-                                                <ul class="menu-level-2 ">
-                                                    <li class="level3"><a href="shop_full.html" title="">Shop — Full</a></li>
-                                                    <li class="level3"><a href="shop_grid.html" title="">Shop — Grid</a></li>
-                                                    <li class="level3"><a href="shop_list.html" title="">Shop — List</a></li>
-                                                    <li class="level3"><a href="shopping_cart.html" title="Shopping Cart ">Shopping Cart</a></li>
-                                                    <li class="level3"><a href="wishlist.html" title="Wishlist ">Wishlist</a></li>
-                                                    <li class="level3"><a href="checkout.html" title="Checkout ">Checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2 col-4">
-                                                <a href="# ">Collection</a>
-                                                <ul class="menu-level-2 ">
-                                                    <li class="level3"><a href="collection_detail.html" title="Shop Collection">Collection Detail</a></li>
-                                                    <li class="level3"><a href="collection_detail2.html" title="Shop Collection">Collection Detail 2</a></li>
-                                                    <li class="level3"><a href="collection_detail3.html" title="Shop Collection">Collection Detail 3</a></li>
-                                                    <li class="level3"><a href="collection-full.html" title="Shop Collection">Collection Full</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2 col-4">
-                                                <a href="#">Detail</a>
-                                                <ul class="menu-level-2 ">
-                                                    <li class="level3"><a href="#" title="">Groom</a></li>
-                                                    <li class="level3"><a href="#" title="">Bride</a></li>
-                                                    <li class="level3"><a href="#" title="">Bridesmaids</a></li>
-                                                    <li class="level3"><a href="#" title="">Wedding</a></li>
-                                                    <li class="level3"><a href="#" title="">Secret garden</a></li>
-                                                    <li class="level3"><a href="shop_detail.html" title="Shop Detail ">Shop Detail</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="level2 col-4">
-                                                <a href="#">Banner 1</a>
-                                                <div class="mega-banner">
-                                                    <a href="#"><img src="{{ asset('theme/theme12/img/Untitled-1.jpg')}}" alt="" class="img-reponsive"></a>
-                                                </div>
-                                                <a href="#">Banner 2</a>
-                                                <div class="mega-banner ">
-                                                    <a href="#"><img src="{{ asset('theme/theme12/img/Untitled-2.jpg')}}" alt="" class="img-reponsive"></a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </li>
-                                <li class="level1 active dropdown">
-                                    <a href="#">Blog <span class="fa fa-caret-down f-10"></span></a>
-                                    <ul class="dropdown-menu menu-level-1 v3">
-                                        <li class="level2"><a href="news.html" title="Blog Grid 3 Column">Blog Grid 3 Column</a></li>
-                                        <li class="level2"><a href="news2.html" title="Blog Grid 4 Column">Blog Grid 4 Column</a></li>
-                                        <li class="level2"><a href="news-sidebar.html" title="Blog Sidebar Left">Blog Sidebar Left</a></li>
-                                        <li class="level2"><a href="news_detail.html" title="Blog Detail">Blog Detail</a></li>
-                                    </ul>
-                                </li>
-                                <li class="level1 active dropdown">
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                            </ul>
+                            
                         </div>
                     </nav>
                     <div class="social-menu v5 hidden-xs hidden-sm">
@@ -797,37 +725,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="blog v2">
-                    <div class="container">
-                        <h3 class="vow-title v2">Lastest Blog post</h3>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-md-4 blog-item">
-                                <div class="post-info">
-                                    <div class="post-date v2">18 August 2018</div>
-                                    <h3 class="post-title v2"><a href="#">Paris, jet’aime: jeremy’s adventures at maison &amp; objet</a></h3>
-                                    <div class="post-desc v2">Aenean imperdiet. Etiam ultricies nisi vel augueNam eget dui</div>
-                                    <a href="#" class="btn-find v2">FIND OUT MORE »</a>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 col-md-4 blog-item">
-                                <div class="post-info">
-                                    <div class="post-date v2">18 August 2018</div>
-                                    <h3 class="post-title v2"><a href="#">When candles aren’t enough - on the subject of professional lighting</a></h3>
-                                    <div class="post-desc v2">Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi Nam eget dui. Etiam </div>
-                                    <a href="#" class="btn-find v2">FIND OUT MORE »</a>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 col-md-4 blog-item">
-                                <div class="post-info">
-                                    <div class="post-date v2">18 August 2018</div>
-                                    <h3 class="post-title v2"><a href="#">When candles aren’t enough - on the subject of professional lighting</a></h3>
-                                    <div class="post-desc v2">Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi Nam eget dui. Etiam </div>
-                                    <a href="#" class="btn-find v2">FIND OUT MORE »</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </section>
             <footer class="footer-v1">
                 <a href="#" class="scroll-top v5"><i class="ion-ios-arrow-up"></i></a>

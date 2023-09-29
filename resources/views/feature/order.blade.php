@@ -14,16 +14,16 @@
                                   <table id="complex-header" class="display" style="width:100%">
                                       <thead>
                                           <tr>
-                                              <th rowspan="2">Customer</th>
-                                              <th colspan="6" style="text-align:center">Data Information</th>
+                                              <th rowspan="2">Pelanggan</th>
+                                              <th colspan="6" style="text-align:center">Data Informasi</th>
                                           </tr>
                                           <tr>
-                                              <th>Category</th>
+                                              <th>Kategori</th>
                                               <th>Jumlah</th>
-                                              <th>Start Date</th>
-                                              <th>End Date</th>
+                                              <th>Waktu Mulai</th>
+                                              <th>Selesai</th>
                                               <th>Status</th>
-                                              <th>Action</th>
+                                              <th>Aksi</th>
                                           </tr>
                                       </thead>
                                       <tbody>

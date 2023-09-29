@@ -106,7 +106,7 @@
                   </div>
 
                   <div class="photo">
-                    <img src="images/photo_1.jpg" alt="">
+                    <img src="{{ asset('theme/theme18/images/photo_1.jpg')}}" alt="">
                   </div>
                 </div>
                 <div class="bottom-block">
@@ -115,7 +115,7 @@
               </div>
 
               <div class="heart">
-                <img src="images/heart_img.png" alt="">
+                <img src="{{ asset('theme/theme18/images/heart_img.png')}}" alt="">
               </div>
 
               <div class="about-us-block second-block">
@@ -134,7 +134,7 @@
                   </div>
 
                   <div class="photo">
-                    <img src="images/photo_2.jpg" alt="">
+                    <img src="{{ asset('theme/theme18/images/photo_2.jpg')}}" alt="">
                   </div>
                 </div>
                 <div class="bottom-block">
@@ -356,64 +356,7 @@
         </section>
         <!-- /Gallery Section -->
 
-        <!-- RSVP Section -->
-        <section id="rsvp" class="rsvp section-boxed">
-          <div class="container">
-            <div class="section-title">
-              <h2>RSVP</h2>
-              <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id tellus pretium quam sodales luctus. Nunc nec lacus ac arcu iaculis accumsan dictum a nulla. Nullam malesuada pellentesque turpis, eu elementum risus sagittis in. Nunc sit amet arcu justo.</p>
-            </div>
-
-            <div class="row">
-                <!-- RSVP Form -->
-                <form id="rsvp-form" class="rsvp-form" method="post" action="rsvp_form/rsvp_form.php" novalidate>
-                  <div class="col-md-12">
-                    <div class="messages"></div>
-                  </div>
-
-                  <div class="controls">
-                    <div class="col-sm-12 col-md-6">
-                      <div class="form-group">
-                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
-                          <i class="form-control-icon fa fa-user"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-
-                      <div class="form-group">
-                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
-                          <i class="form-control-icon fa fa-envelope"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-
-                      <div class="form-group">
-                          <select multiple id="form_events" name="events" class="form-control" required="required" data-error="Please select Event">
-                            <option selected value="Wedding Day">Wedding Day</option>
-                            <option value="The Ceremony">The Ceremony</option>
-                            <option value="The Party">The Party</option>
-                          </select>
-                          <i class="form-control-icon fa fa-check-square"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6">
-                      <div class="form-group message-group">
-                          <textarea id="form_message" name="message" class="form-control" placeholder="Leave Your Message" rows="4" required="required" data-error="Please, leave a message."></textarea>
-                          <i class="form-control-icon fa fa-comment"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-12 text-center">
-                      <input type="submit" class="button btn-send disabled" value="Submit">
-                    </div>
-                  </div>
-                </form>
-                <!-- /RSVP Form -->
-            </div>
-          </div>
-        </section>
-        <!-- /RSVP Section -->
+       
 
         <!-- Footer (Thank You block) -->
         <footer id="thanks" class="footer">

@@ -58,7 +58,7 @@
 			<div class="container">
 			    <nav id="navbar-main" class="navbar navbar-expand-lg">
 			        <a class="navbar-brand" href="index.html">
-						<img src="images/logo.png" alt="" />
+						<img src="{{ asset('theme/theme1/images/logo.png')}}" alt="" />
 					</a>
 			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			            <span class="navbar-toggler-icon"></span>
@@ -100,7 +100,7 @@
 	<div id="home" class="banner">
     	<div class="owl-carousel owl-theme full-screen">
 	    	<div class="item">
-	        	<img src="images/dummy-img-1920x900.jpg" alt="Slider">
+	        	<img src="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}" alt="Slider">
 	        	<div class="overlay-bg"></div>
 	        	<div class="container d-flex align-items-center h-center">
 	            	<div class="wrap-caption">
@@ -112,7 +112,7 @@
 	            </div>
 	    	</div>
 	    	<div class="item">
-	            <img src="images/dummy-img-1920x900.jpg" alt="Slider">
+	            <img src="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}" alt="Slider">
 	            <div class="overlay-bg"></div>
 	            <div class="container d-flex align-items-center h-center">
 	            	<div class="wrap-caption">
@@ -261,103 +261,7 @@
 		</div>
 	</div>
 
-    <!-- OUR PEOPLE -->
-	<div id="people" class="section">
-		<div class="content-wrap">
-
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<h2 class="section-heading text-center">
-							Our People
-						</h2>
-						<div class="separator-section text-center"><div class="fa fa-heart"></div></div>
-						
-					</div>
-				</div>
-				<div class="row mt-5">
-
-					<div class="col-sm-12 col-md-12 col-lg-6">
-
-						<div class="pita pita-primary">
-							The Bride's Side
-						</div>
-						<div class="box-people row-reverse">
-							<div class="people">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
-							</div>
-							<div class="people-info">
-								<div class="name">JOHN JOEL</div>
-								<h3 class="position">Father</h3>
-								<p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam sem vitae sollicitudin scelerisque.</p>
-							</div>
-						</div>
-						<div class="box-people row-reverse">
-							<div class="people">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
-							</div>
-							<div class="people-info">
-								<div class="name">DONNA JOEL</div>
-								<h3 class="position">Mother</h3>
-								<p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam sem vitae sollicitudin scelerisque.</p>
-							</div>
-						</div>
-						<div class="box-people row-reverse">
-							<div class="people">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg') }}" alt="" class="rounded-circle">
-							</div>
-							<div class="people-info">
-								<div class="name">MADAM JOEL</div>
-								<h3 class="position">Brother</h3>
-								<p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam sem vitae sollicitudin scelerisque.</p>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-sm-12 col-md-12 col-lg-6">
-
-						<div class="pita pita-secondary">
-							The Groom's Side
-						</div>
-						<div class="box-people">
-							<div class="people">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
-							</div>
-							<div class="people-info">
-								<div class="name">LUFFY DOEL</div>
-								<h3 class="position">Father</h3>
-								<p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam sem vitae sollicitudin scelerisque.</p>
-							</div>
-						</div>
-						<div class="box-people">
-							<div class="people">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
-							</div>
-							<div class="people-info">
-								<div class="name">CATIKA DOEL</div>
-								<h3 class="position">Mother</h3>
-								<p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam sem vitae sollicitudin scelerisque.</p>
-							</div>
-						</div>
-						<div class="box-people">
-							<div class="people">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x600.jpg')}}" alt="" class="rounded-circle">
-							</div>
-							<div class="people-info">
-								<div class="name">RAMBO DOEL</div>
-								<h3 class="position">Brother</h3>
-								<p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam sem vitae sollicitudin scelerisque.</p>
-							</div>
-						</div>
-
-					</div>
-					
-				</div>
-
-			</div>
-		</div>
-	</div>
+    
 
     <!-- CTA -->
 	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
@@ -408,17 +312,6 @@
 								</div>
 							</div>
 
-							<div class="box-event bgi-cover-center" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
-								<div class="event-location">
-									<a href="#"><i class="fa fa-facebook"></i></a> Check location here
-								</div>
-								<div class="event-info col-md-5 offset-md-1">
-									<h2>Bachelor Party</h2>
-									<p class="font-weight-bold">CAFE ROMELO<br> Jl. Subrantas Timur no.10<br>Pekanbaru, Riau</p> 
-									<p class="mb-0">September 10, 2019</p>
-									<p> 14:00 - 17:00 pm</p>
-								</div>
-							</div>
 						</div>
 
 					</div>
@@ -429,25 +322,7 @@
 		</div>
 	</div>
 
-	<!-- CTA -->
-	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
-		<div class="content-wrap">
-			<div class="container">
-
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<h1 class="text-center text-white">
-							Are You Attending?
-						</h1>
-						<div class="text-center">
-							<a href="#" class="btn btn-primary">R.S.V.P</a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
+	
 
 	<!-- PORTFOLIO -->
 	<div id="gallery" class="section">
@@ -569,58 +444,7 @@
 							</a>
 						</div>
 					</div>
-					<!-- Item 9 -->
-					<div class="col-sm-6 col-md-3">
-						<div class="box-gallery">
-							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #9">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
-								<div class="project-info">
-									<div class="project-icon">
-										<span class="fa fa-search"></span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- Item 10 -->
-					<div class="col-sm-6 col-md-3">
-						<div class="box-gallery">
-							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #10">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
-								<div class="project-info">
-									<div class="project-icon">
-										<span class="fa fa-search"></span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- Item 11 -->
-					<div class="col-sm-6 col-md-3">
-						<div class="box-gallery">
-							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #11">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
-								<div class="project-info">
-									<div class="project-icon">
-										<span class="fa fa-search"></span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- Item 12 -->
-					<div class="col-sm-6 col-md-3">
-						<div class="box-gallery">
-							<a href="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" title="Gallery #12">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x500.jpg')}}" alt="" class="img-fluid">
-								<div class="project-info">
-									<div class="project-icon">
-										<span class="fa fa-search"></span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
+					
 				</div>
 
 			</div>
@@ -715,138 +539,7 @@
 		</div>
 	</div>
 
-	<!-- OUR JURNAL -->
-	<div id="jurnal" class="section">
-		<div class="content-wrap">
-			<div class="container">
-
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<h2 class="section-heading text-center">
-							Our Jurnal
-						</h2>
-						<div class="separator-section text-center"><div class="fa fa-heart"></div></div>
-						
-					</div>
-				</div>
-
-				<div class="row mt-5">
-					
-					<!-- Item 1 -->
-					<div class="col-sm-12 col-md-12 col-lg-4">
-						<div class="rs-news-1 mb-1">
-							<div class="media">
-								<a href="news-single.html">
-									<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg')}}" alt="" class="img-fluid">
-								</a>
-							</div>
-							<div class="body">
-								<div class="title"><a href="news-single.html">Preparations for Our Wedding</a></div>
-								<div class="meta-date">May 12, 2019</div>
-								<p>Dignissimos ccusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores....</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Item 2 -->
-					<div class="col-sm-12 col-md-12 col-lg-4">
-						<div class="rs-news-1 mb-1">
-							<div class="media">
-								<a href="news-single.html">
-									<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg')}}" alt="" class="img-fluid">
-								</a>
-							</div>
-							<div class="body">
-								<div class="title"><a href="news-single.html">Our Beautiful Bridesmaids</a></div>
-								<div class="meta-date">May 12, 2019</div>
-								<p>Dignissimos ccusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores....</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Item 3 -->
-					<div class="col-sm-12 col-md-12 col-lg-4">
-						<div class="rs-news-1 mb-1">
-							<div class="media">
-								<a href="news-single.html">
-									<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg')}}" alt="" class="img-fluid">
-								</a>
-							</div>
-							<div class="body">
-								<div class="title"><a href="news-single.html">Planing our Honeymoon</a></div>
-								<div class="meta-date">May 12, 2019</div>
-								<p>Dignissimos ccusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores....</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="spacer-50"></div>
-
-			</div>
-		</div>
-	</div>
-
-	<!-- RSVP -->
-	<div id="rsvp" class="section bgi-cover-center" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900-2.jpg')}}">
-		<div class="content-wrap">
-			<div class="container">
-				
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<h2 class="section-heading text-center">
-							R.S.V.P
-						</h2>
-						<div class="separator-section text-center"><div class="fa fa-heart"></div></div>
-						<p class="mt-3 subheading text-center">Claritas est etiam processus dynamicus qui sequitur mutationem consuetudium lectorum notare quam littera gothica</p>
-					</div>
-				</div>
-
-				<div class="row mt-5">
-					<div class="col-sm-12 col-md-10 col-lg-8 offset-lg-2">
-						
-						<form action="#" class="form-contact" id="contactForm">
-							<div class="form-group">
-								<label for="p_name">Name:</label>
-								<input type="text" class="form-control" id="p_name" placeholder="Enter Name" required="">
-								<div class="help-block with-errors"></div>
-							</div>
-							<div class="form-group">
-								<label for="p_email">Email:</label>
-								<input type="email" class="form-control" id="p_email" placeholder="Enter Email" required="">
-								<div class="help-block with-errors"></div>
-							</div>
-							<div class="form-group">
-								<label for="p_quest">Quest:</label>
-								<input type="email" class="form-control" id="p_quest" placeholder="Enter No Quest" required="">
-								<div class="help-block with-errors"></div>
-							</div>
-							<div class="form-group">
-								<div class="form-check form-check-inline">
-								  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-								  <label class="form-check-label" for="inlineCheckbox1">BACHELOR PARTY</label>
-								</div>
-								<div class="form-check form-check-inline">
-								  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-								  <label class="form-check-label" for="inlineCheckbox2">WEDDING CEREMONY</label>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="text-center">
-									<div id="success"></div>
-									<button type="submit" class="btn btn-primary">I'M ATTENDING</button>
-								</div>
-							</div>
-						</form>	
-
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</div>
+	
 
 	<!-- GIFT -->
 	<div class="section">
@@ -964,22 +657,22 @@
 	</div>
 	
 	<!-- JS VENDOR -->
-	<script src="{{ asset('../../../js/vendor/jquery.min.js') }}"></script>
-	<script src="{{ asset('../../../js/vendor/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('../../../js/vendor/owl.carousel.js') }}"></script>
-	<script src="{{ asset('../../../js/vendor/jquery.magnific-popup.min.js') }}"></script>
-	<script src="{{ asset('../../../js/vendor/isotope.pkgd.min.js') }}"></script>
-	<script src="{{ asset('../../../js/vendor/imagesloaded.pkgd.min.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/jquery.min.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/owl.carousel.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/jquery.magnific-popup.min.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/isotope.pkgd.min.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/imagesloaded.pkgd.min.js') }}"></script>
 
 	<!-- SENDMAIL -->
-	<script src="{{ asset('../../../js/vendor/validator.min.js') }}"></script>
-	<script src="{{ asset('../../../js/vendor/form-scripts.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/validator.min.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/vendor/form-scripts.js') }}"></script>
 
 	<!-- GOOGLEMAP -->
-	<script src="{{ asset('../../../js/googlemap-setting.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/googlemap-setting.js') }}"></script>
 	<script async defer src="{{ url('https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU&callback=initMap') }}"> </script>
 
-	<script src="{{ asset('../../../js/script.js') }}"></script>
+	<script src="{{ asset('theme/theme1/js/script.js') }}"></script>
 
 </body>
 </html>

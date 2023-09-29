@@ -307,13 +307,13 @@
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-3.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-3.jpg')}}" alt="">
                 <div class="gallhover">
                     <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-3.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
             </div>
             <div class="single-gallery">
-                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-2.jpg" alt="">
+                <img src="{{ asset('theme/theme2/images/gallery/gallery-thumb-2.jpg')}}" alt="">
                 <div class="gallhover">
                     <a class="maginfic" href="{{ asset('theme/theme2/images/gallery/gallery-photo-2.jpg')}}"><img src="{{ asset('theme/theme2/images/plus.png')}}" alt=""></a>
                 </div>
@@ -379,82 +379,7 @@
         </div>
     </section>
     <!-- END Designers Section -->
-    <!-- START Appointment Section -->
-    <section class="contact-section" id="appointment">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <div class="section-title contact-title">
-                        <h2>Make an Appointment</h2>
-                        <img src="{{ asset('theme/theme2/images/contact-flower.png')}}" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-8">
-                    <div class="contact-form">
-                        <form id="contact-form">
-                            <!-- IF MAIL SENT SUCCESSFULLY -->
-                            <div class="single-form success">
-                                <i class="fa fa-check-circle"></i> Your message has been sent successfully.
-                            </div>
-                            <!-- IF MAIL SENDING UNSUCCESSFULL -->
-                            <div class="single-form error">
-                                <i class="fa fa-info-circle"></i> E-mail must be valid and message must be longer than 1 character.
-                            </div>
-                            <div class="single-input inputcaret fullinput">
-                                <select id="contact_reason" name="contact_reason">
-                                    <option value="Reason of Contact">Reason of Contact</option>
-                                    <option value="Reason of Contact">Reason of Contact</option>
-                                </select>
-                            </div>
-                            <div class="single-input inputhalp">
-                                <input type="text" id="first_name" name="first_name" placeholder="First Name" required="required">
-                            </div>
-                            <div class="single-input margin-right0 inputhalp">
-                                <input type="text" id="last_name" name="last_name" placeholder="Last Name">
-                            </div>
-                            <div class="single-input inputhalp">
-                                <input type="email" id="email_address" name="email_address" placeholder="Email Address">
-                            </div>
-                            <div class="single-input margin-right0 inputhalp">
-                                <input type="text" id="phone_number" name="phone_number" placeholder="Phone Number">
-                            </div>
-                            <div class="single-input inputcaret fullinput">
-                                <select id="contact_method" name="contact_method">
-                                    <option value="Method of Contact">Method of Contact</option>
-                                    <option value="Method of Contact">Method of Contact</option>
-                                </select>
-                            </div>
-                            <div class="single-input inputhalp">
-                                <input type="text" id="contact_time" name="contact_time" placeholder="Best Time to Contact You">
-                            </div>
-                            <div class="single-input inputcarettime margin-right0 inputhalp">
-                                <select id="time_zone" name="time_zone">
-                                    <option value="Time Zone">Time Zone</option>
-                                    <option value="Time Zone">Time Zone</option>
-                                </select>
-                            </div>
-                            <div class="single-input message">
-                                <textarea id="message" name="message" placeholder="Message Here ..."></textarea>
-                            </div>
-
-                            <div class="single-input submitbutton">
-                               <button type="submit" name="submit" id="submit">Submit</button>
-                            </div>
-                            
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="google-map">
-                        <div class="map" id="map"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END Appointment Section -->
+    
     <!-- START Bottom Contact Address Section -->
     <div class="bottom-content">
         <div class="container">

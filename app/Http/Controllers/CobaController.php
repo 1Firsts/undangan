@@ -12,8 +12,7 @@ use App\Models\Order;
 use App\Models\Link;
 use App\Models\Undangan;
 
-use Intervention\Image\ImageManager;
-use Intervention\Image\Facades\Image;
+use Intervention\Image\ImageManagerStatic as Image;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
@@ -32,35 +31,24 @@ class CobaController extends Controller
     
     public function store_theme(Request $request)
     {
-        $imageManager = new ImageManager([
-            'driver' => 'gd',
-        ]);
-
         // Validate the request data
         $request->validate([
             'judul' => 'required',
             'deskripsi' => 'required',
             'category' => 'required',
-            'file' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048', // Image validation rules
+            'file' => 'required', // Add image validation rules here
         ]);
 
-        // Resize and crop the uploaded image
-        $image = $imageManager->make($request->file('file'))->resize(673, 517)->crop(673, 517);
+            $coba = new Coba();
+            $coba->judul = $request->input('judul');
+            $coba->deskripsi = $request->input('deskripsi');
+            $coba->category = $request->input('category');
+            $coba->file = $request->input('file');
+            
+            $coba->save();
 
-        // Save the image to the `uploads` directory
-        $imagePath = $request->file('file')->store('storage/uploads', 'public');
+        return redirect()->route('feature.main-theme')->with('success', 'Created successfully.');
 
-        // Create a new theme record in the database
-        $coba = new Coba();
-        $coba->judul = $request->input('judul');
-        $coba->deskripsi = $request->input('deskripsi');
-        $coba->category = $request->input('category');
-        $coba->file = $imagePath;
-
-        // Save the theme data to the database
-        $coba->save();
-
-        return view('feature/main-theme');
     }
 
     public function index()

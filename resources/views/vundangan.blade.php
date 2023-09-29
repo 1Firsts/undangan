@@ -473,7 +473,7 @@
 									@foreach ($undangans as $undangan)
 									<div class="col-md-6">
 										<div class="blog-post author-post">
-										<img src="{{ asset('/' . $undangan->file) }}" alt="" />
+										<img src="{{ $undangan->file }}" alt="" />
 										<div class="blog-post-padd">
 											<div class="blog-post-padd-inner">
 											<div class="post-detail">
@@ -607,6 +607,7 @@
 				</div>
 			</div>
 		</footer>
+
 		<div class="bottom-line">
 		</div>
 
@@ -672,6 +673,6 @@
 	<script src="{{ asset('undangan/js/map-int1.js') }}" type="text/javascript"></script><!-- Map Int -->
 	<script src="{{ asset('undangan/js/script.js') }}" type="text/javascript"></script><!-- Custom -->
     <script src="{{ url('https://maps.googleapis.com/maps/api/js?v=3.exp') }}"></script><!-- Google Map -->
-	<script src="{{ url('https://w.soundcloud.com/player/api.js" type="text/javascript') }}"></script>
+	<!-- <script src="{{ url('https://w.soundcloud.com/player/api.js" type="text/javascript') }}"></script> -->
 </body>
 </html>

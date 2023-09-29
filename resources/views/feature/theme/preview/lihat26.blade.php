@@ -505,24 +505,7 @@
 								<div class="el-smalltitle">Tilia Photography Studio</div>
 								<h2 class="display-4 margin-b30">We Love to Capture Beauty, Emotions and Magic Moments from Your Events</h2>
 								<p>We love photography and travel for meeting new beautiful people all over the world. Propriae voluptaria dissentias nam ei, posse diceret inciderint cum ut, gubergren sadipscing ei vim. Ancillae torquatos in nec, impetus nostrum.</p>
-								<div class="row margin-t50">
-									<div class="col-6 col-lg-3 margin-bm30">
-										<img class="img-fluid" src="{{ asset('theme/theme13/images/home/awards-1.png')}}" alt=" " />
-									</div>
-									<!-- /col-lg-3 -->
-									<div class="col-6 col-lg-3 margin-bm30">
-										<img class="img-fluid" src="{{ asset('theme/theme13/images/home/awards-2.png')}}" alt=" " />
-									</div>
-									<!-- /col-lg-3 -->
-									<div class="col-6 col-lg-3">
-										<img class="img-fluid" src="{{ asset('theme/theme13/images/home/awards-3.png')}}" alt=" " />
-									</div>
-									<!-- /col-lg-3 -->
-									<div class="col-6 col-lg-3">
-										<img class="img-fluid" src="{{ asset('theme/theme13/images/home/awards-1.png')}}" alt=" " />
-									</div>
-									<!-- /col-lg-3 -->
-								</div>
+								
 								<!-- /row -->	
 							</div>
 							<!-- /padding-lr200 -->	

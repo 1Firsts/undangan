@@ -202,11 +202,10 @@
 					</div>
 					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
-					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
-							<svg version="1.1" id="btn-menu-open" xmlns="{{ url('http://www.w3.org/2000/svg" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+							<svg version="1.1" id="btn-menu-open" xmlns="{{ url('http://www.w3.org/2000/svg')}}" xmlns:xlink="{{ url('http://www.w3.org/1999/xlink')}}" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 								<g>
 									<path d="M2,4L2,4C0.9,4,0,3.1,0,2v0c0-1.1,0.9-2,2-2h0c1.1,0,2,0.9,2,2v0C4,3.1,3.1,4,2,4z"></path>
 									<path d="M8,4L8,4C6.9,4,6,3.1,6,2v0c0-1.1,0.9-2,2-2h0c1.1,0,2,0.9,2,2v0C10,3.1,9.1,4,8,4z"></path>
@@ -358,6 +357,7 @@
 		<!-- /HEADER -->
 		<!-- WRAP CONTENT -->
 		<div id="wrap-content" class="page-content custom-page-template">
+			
 			<!-- SECTION 1 -->
 			<div id="home-section-9-1" class="section-holder home-section-9-1">
 				<div class="container">
@@ -373,6 +373,48 @@
 				<!-- /container -->	
 			</div>
 			<!-- /SECTION 1 -->	
+
+			<!-- SECTION 1 -->
+			<div id="home-section-8-1" class="section-holder home-section-8-1">
+				<div class="container">
+					<div class="row">
+							
+						<div class="col-lg-6 margin-bm50">
+							<div class="margin-r50">
+							<div class="el-smalltitle">Tilia Studio</div>
+							<h2 class="display-4 margin-b30">A Wedding & Portrait Studio based in New York</h2>
+							<p>We love photography and travel for meeting new beautiful people all over the world. Propriae voluptaria dissentias nam ei, posse diceret inciderint cum ut, gubergren sadipscing ei vim. Ancillae torquatos in nec, impetus nostrum.</p>
+							<p>Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et gravida. Maecenas id enim pharetra, sollicitudin dui eget, blandit lorem. Nunc vitae blandit lectus.</p>
+							<div class="margin-t30">
+								<a href="#" class="read-more">Read More</a>
+							</div>
+							</div>
+							<!-- /margin-r50 -->	
+						</div>
+						<!-- /col-lg-6 -->	
+						<div class="col-lg-3">
+							
+								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img1.jpg')}}" alt=" " />
+								<h5 class="margin-b30">01. We love what we do</h5>
+								
+							
+						</div>
+						<!-- /col-lg-3 -->
+						<div class="col-lg-3">
+	
+								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img2.jpg')}}" alt=" " />
+								<h5 class="margin-b30">03. We're storytellers</h5>
+								
+
+						</div>
+						<!-- /col-lg-3 -->
+					</div>
+					<!-- /row -->	
+				</div>
+				<!-- /container -->	
+			</div>
+			<!-- /SECTION 1 -->	
+			
 			<!-- SECTION 2 -->
 			<div id="home-section-9-2" class="section-holder home-section-9-2">
 				<div class="container">

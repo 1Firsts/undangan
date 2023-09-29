@@ -36,7 +36,6 @@ class SeeorderController extends Controller
 
         if ($seeorders1) {
             $seeorders1->delete();
-
             return redirect()->route('feature.seeorder.seeorder1')->with('success', 'Order deleted successfully.');
         } else {
             return redirect()->route('feature.seeorder.seeorder1')->with('error', 'Order not found.');
@@ -1448,38 +1447,6 @@ class SeeorderController extends Controller
             return redirect()->route('feature.seeorder.seeorder45')->with('success', 'Order deleted successfully.');
         } else {
             return redirect()->route('feature.seeorder.seeorder45')->with('error', 'Order not found.');
-        }
-    }
-
-    // Seeorder 46
-    public function seeorder46()
-    {
-        $seeorders46 = DB::table('data_undangan')
-            ->where('tema_category', 'Tema 46')
-            ->get(); // Retrieve the data
-
-        return view('feature.seeorder.seeorder46', [
-            'seeorders46' => $seeorders46,
-        ]);
-    }
-
-    public function show_seeorder46($id)
-    {
-        $seeorders46 = Tema::find($id);
-        
-        return view('posts.show46', compact('seeorders46'));
-    }
-
-    public function delete_seeorder46(Request $request, $id)
-    {
-        $seeorders46 = Tema::find($id);
-
-        if ($seeorders46) {
-            $seeorders46->delete();
-
-            return redirect()->route('feature.seeorder.seeorder46')->with('success', 'Order deleted successfully.');
-        } else {
-            return redirect()->route('feature.seeorder.seeorder46')->with('error', 'Order not found.');
         }
     }
 }

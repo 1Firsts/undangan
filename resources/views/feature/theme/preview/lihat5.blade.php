@@ -18,10 +18,8 @@
             <div class="header__body">
                <div class="header__top">
                   <div class="header__top-column" data-da="header__menu,last,600">
-                     <strong>30%</strong> <strong>off</strong> on all products enter code: joolie2020
                   </div>
                   <div class="header__top-column">
-                     Call us: <a href="tel:18004527887">+1 800 452 78 87</a>
                   </div>
                </div>
                <div class="header__main">
@@ -862,97 +860,7 @@
                </div>
             </section>
             <!-- == // GET YOUR GIFT BLOCK ================== -->
-            <!-- == LATEST ARTICLES ================== -->
-            <section class="latest-articles _parallax">
-               <div class="latest-articles__decor layer" data-depth="0.15">
-                  <img src="{{ asset('theme/theme5/img/photo/decor.jpg')}}" alt="flowers">
-               </div>
-               <div class="container">
-                  <div class="latest-articles__head head">
-                     <div class="head__suptitle suptitle">
-                        our
-                        <span><img src="{{ asset('theme/theme5/img/icons/icon-circles.svg')}}" alt="icon"></span>
-                        blog
-                     </div>
-                     <h3 class="head__title title-3"> 
-                        the latest in joolie
-                     </h3>
-                     <div class="head__text text">Cupidatat ad in qui est aliqua consectetur incididunt irure. Nostrud magna anim officia ad labore.</div>
-                  </div>
-                  <div class="latest-articles__list swiper-container" data-mobile="false">
-                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                           <div class="latest-articles__item card-article">
-                              <div class="card-article__img ibg">
-                                 <a href="blog-detail.html">
-                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x250.jpg')}}" src="{{ asset('theme/theme5/img/card-article/placeholder.jpg')}}" alt="img">
-                                 </a>
-                              </div>
-                              <div class="card-article__row">
-                                 <div class="card-article__photo">
-                                    <img src="{{ asset('theme/theme5/img/card-article/author-mini.png')}}" alt="photo">
-                                 </div>
-                                 <div class="card-article__author">Mary Lanoris</div>
-                                 <div class="card-article__date">Sep 22, 2020</div>
-                                 <a href="#" class="card-article__share">
-                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/icon-share.svg')}}" alt="share">
-                                 </a>
-                              </div>
-                              <h5 class="card-article__title title-5">
-                                 <a href="#">How to prepare everything on the high level</a>
-                              </h5>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="latest-articles__item card-article">
-                              <div class="card-article__img ibg">
-                                 <a href="blog-detail.html">
-                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x250.jpg')}}" src="{{ asset('theme/theme5/img/card-article/placeholder.jpg')}}" alt="img">
-                                 </a>
-                              </div>
-                              <div class="card-article__row">
-                                 <div class="card-article__photo">
-                                    <img src="{{ asset('theme/theme5/img/card-article/author-mini.png')}}" alt="photo">
-                                 </div>
-                                 <div class="card-article__author">Mary Lanoris</div>
-                                 <div class="card-article__date">Sep 22, 2020</div>
-                                 <a href="#" class="card-article__share">
-                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/icon-share.svg')}}" alt="share">
-                                 </a>
-                              </div>
-                              <h5 class="card-article__title title-5">
-                                 <a href="#">Modern and trading decorations for wedding 2020</a>
-                              </h5>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="latest-articles__item card-article">
-                              <div class="card-article__img ibg">
-                                 <a href="blog-detail.html">
-                                 <img class="lazy" data-src="{{ asset('theme/theme5/img/placeholder/360x250.jpg')}}" src="{{ asset('theme/theme5/img/card-article/placeholder.jpg')}}" alt="img">
-                                 </a>
-                              </div>
-                              <div class="card-article__row">
-                                 <div class="card-article__photo">
-                                    <img src="{{ asset('theme/theme5/img/card-article/author-mini.png')}}" alt="photo">
-                                 </div>
-                                 <div class="card-article__author">Mary Lanoris</div>
-                                 <div class="card-article__date">Sep 22, 2020</div>
-                                 <a href="#" class="card-article__share">
-                                 <img class="img-svg" src="{{ asset('theme/theme5/img/icons/icon-share.svg')}}" alt="share">
-                                 </a>
-                              </div>
-                              <h5 class="card-article__title title-5">
-                                 <a href="#">The most important things when you choose the flowers</a>
-                              </h5>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="slider-pagination"></div>
-                  </div>
-               </div>
-            </section>
-            <!-- == // LATEST ARTICLES ================== -->
+            
             <!-- == TESTIMONIALS SLIDER ================== -->
             <section class="testimonials-slider _parallax">
                <div class="testimonials-slider__decor layer" data-depth="0.15">

@@ -202,7 +202,6 @@
 					</div>
 					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
-					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
@@ -363,7 +362,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Wedding Photography</h1>
-							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span>
 						</div>
 					</div>
 				</div>
@@ -372,7 +371,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Timeless Locations</h1>
-							<span class="post-subtitle"> Modo detracto appareat qui te.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Modo detracto appareat qui te.</span> 
 						</div>
 					</div>
 				</div>
@@ -381,7 +380,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Family Portraits</h1>
-							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span> 
 						</div>
 					</div>
 				</div>
@@ -560,6 +559,52 @@
 				<!-- /container -->
 			</div>
 			<!-- /SECTION 2 -->
+
+			<!-- SECTION 5 -->
+			<div id="home-section-1-5" class="section-holder home-section-1-5">
+				<div class="container">
+					<div class="row justify-content-center align-items-center margin-b50">
+						<div class="col-lg-6 text-center">
+							<div class="el-smalltitle">Our Team</div>
+							<h2 class="display-4">The Creatives</h2>
+						</div>
+						<!-- /col-lg-6 -->	
+					</div>
+					<!-- /row -->	
+					<div class="row justify-content-center margin-b30less">
+						<div class="col-md-6 col-lg-3 margin-b30 text-center">
+							<div class="mt-img-scale margin-b15">
+								<a href="#"><img class="img-fluid radius10" src="{{ asset('theme/theme13/images/team/team-1.jpg')}}" alt=" " /></a>
+							</div>
+							<h5 class="margin-b10">April Ryan</h5>
+							<div class="team-position">Photographer</div>
+							<ul class="social-media social-team">
+								<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+						<!-- /col-lg-3 -->
+						<div class="col-md-6 col-lg-3 margin-b30 text-center">
+							<div class="mt-img-scale margin-b15">
+								<a href="#"><img class="img-fluid radius10" src="{{ asset('theme/theme13/images/team/team-2.jpg')}}" alt=" " /></a>
+							</div>
+							<h5 class="margin-b10">Robin Smith</h5>
+							<div class="team-position">Photographer</div>
+							<ul class="social-media social-team">
+								<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+						
+					</div>
+					<!-- /row -->	
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /SECTION 5 -->
+
 			<!-- SECTION 3 -->
 			<div id="home-section-1-3" class="section-holder home-section-1-3">
 				<div class="container">
@@ -764,23 +809,24 @@
 				<!-- /container -->
 			</div>
 			<!-- /SECTION 4 -->	
+			
 			<!-- SECTION 5 -->
 			<div id="home-section-1-5" class="section-holder home-section-1-5">
 				<div class="container">
-					<div class="row align-items-center margin-b50">
-						<div class="col-lg-6">
+					<div class="row justify-content-center align-items-center margin-b50">
+						<div class="col-lg-6 text-center">
 							<div class="el-smalltitle">Our Team</div>
 							<h2 class="display-4">The Creatives</h2>
 						</div>
 						<!-- /col-lg-6 -->	
 					</div>
 					<!-- /row -->	
-					<div class="row margin-b30less">
-						<div class="col-md-6 col-lg-3 margin-b30">
+					<div class="row justify-content-center margin-b30less">
+						<div class="col-md-6 col-lg-3 margin-b30 text-center">
 							<div class="mt-img-scale margin-b15">
 								<a href="#"><img class="img-fluid radius10" src="{{ asset('theme/theme13/images/team/team-1.jpg')}}" alt=" " /></a>
 							</div>
-							<h5 class="margin-b10"> April Ryan</h5>
+							<h5 class="margin-b10">April Ryan</h5>
 							<div class="team-position">Photographer</div>
 							<ul class="social-media social-team">
 								<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -789,7 +835,7 @@
 							</ul>
 						</div>
 						<!-- /col-lg-3 -->
-						<div class="col-md-6 col-lg-3 margin-b30">
+						<div class="col-md-6 col-lg-3 margin-b30 text-center">
 							<div class="mt-img-scale margin-b15">
 								<a href="#"><img class="img-fluid radius10" src="{{ asset('theme/theme13/images/team/team-2.jpg')}}" alt=" " /></a>
 							</div>
@@ -802,7 +848,7 @@
 							</ul>
 						</div>
 						<!-- /col-lg-3 -->
-						<div class="col-md-6 col-lg-3 margin-b30">
+						<div class="col-md-6 col-lg-3 margin-b30 text-center">
 							<div class="mt-img-scale margin-b15">
 								<a href="#"><img class="img-fluid radius10" src="{{ asset('theme/theme13/images/team/team-3.jpg')}}" alt=" " /></a>
 							</div>
@@ -814,68 +860,14 @@
 								<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
-						<!-- /col-lg-3 -->
-						<div class="col-md-6  col-lg-3 margin-b30">
-							<div class="mt-img-scale margin-b15">
-								<a href="#"><img class="img-fluid radius10" src="{{ asset('theme/theme13/images/team/team-4.jpg')}}" alt=" " /></a>
-							</div>
-							<h5 class="margin-b10">Jeremy Welch</h5>
-							<div class="team-position">Retoucher</div>
-							<ul class="social-media social-team">
-								<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							</ul>
-						</div>
-						<!-- /col-lg-3 -->
 					</div>
 					<!-- /row -->	
 				</div>
 				<!-- /container -->
 			</div>
-			<!-- /SECTION 5 -->		
-			<!-- SECTION 6 -->
-			<div id="home-section-1-6" class="section-holder home-section-1-6">
-				<div class="container">
-					<div class="row align-items-center margin-b30less">
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz8.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz2.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz3.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz4.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz5.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz6.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz7.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-						<div class="col-6 col-md-3 alignc margin-b30">
-							<img class="img-fluid" src="{{ asset('theme/theme13/images/home/logo-biz1.png')}}" alt=" " width="150" />
-						</div>
-						<!-- /col-md-3 -->
-					</div>
-					<!-- /row -->
-				</div>
-				<!-- /container -->
-			</div>
-			<!-- /SECTION 6 -->	
+			<!-- /SECTION 5 -->
+
+			
 			<!-- SECTION 7 -->
 			<div id="home-section-1-7" class="section-holder home-section-1-7 section-nomargin parallax" style="background-image:url({{ asset('theme/theme13/images/pages/portfolio1-page.jpg')}});">
 				<div class="container">

@@ -40,44 +40,45 @@
                         <div class="content_wrap">
                             <div class="columns_wrap columns_fluid">
                                 <div class="column-1_5 contact_field contact_phone">
-                                     <span class="contact_icon icon-icon_phone"></span>
-                                     <span class="contact_us">Call Us</span>
-                                     <span class="contact_label contact_phone">800-123-4567</span>
+                                    <span class="contact_icon icon-icon_phone"></span>
+                                    <span class="contact_us">Call Us</span>
+                                    <span class="contact_label contact_phone">800-123-4567</span>
                                 </div>
                                 <div class="column-3_5 contact_logo">
                                     <div class="logo">
-                                        <a href="#"><img src="{{ asset('theme/theme7/images/logo.png')}}" class="logo_main" alt="">
-                                        <img src="{{ asset('theme/theme7/images/logo.png')}}" class="logo_fixed" alt=""></a>
+                                        <a href="#"><img src="{{ asset('theme/theme7/images/logo.png') }}" class="logo_main" alt="Main Logo">
+                                            <img src="{{ asset('theme/theme7/images/logo.png') }}" class="logo_fixed" alt="Fixed Logo"></a>
                                     </div>
                                 </div>
                                 <div class="column-1_5 contact_field contact_cart">
-                                    <a href="#" class="top_panel_cart_button"> 
+                                    <a href="#" class="top_panel_cart_button">
                                         <span class="contact_icon icon-icon_cart"></span>
-                                        <span class="contact_label contact_cart_label">Your cart:</span> 
+                                        <span class="contact_label contact_cart_label">Your cart:</span>
                                         <span class="contact_cart_totals">
-                                        <span class="cart_items">(2)</span> - <span class="cart_summa">&#36;120.00</span>
+                                            <span class="cart_items">(2)</span> - <span class="cart_summa">$120.00</span>
                                         </span>
                                     </a>
-                                       <ul class="widget_area sidebar_cart sidebar">
+                                    <ul class="widget_area sidebar_cart sidebar">
                                         <li>
                                             <div class="widget woocommerce widget_shopping_cart">
                                                 <div class="hide_cart_widget_if_empty">
                                                     <div class="widget_shopping_cart_content">
                                                         <!-- product list -->
-                                                        <ul class="cart_list product_list_widget ">
-                                                            <li class="mini_cart_item"> <a href="#" class="remove" title="Remove this item">×</a>
-                                                                <a href="#"><img src="{{ asset('theme/theme7/images/product4-180x180.jpg')}}">Flower Decor&nbsp; </a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>55.00</span>
-                                                                </span>
+                                                        <ul class="cart_list product_list_widget">
+                                                            <li class="mini_cart_item">
+                                                                <a href="#" class="remove" title="Remove this item">×</a>
+                                                                <a href="#"><img src="{{ asset('theme/theme7/images/product4-180x180.jpg') }}" alt="Product Image">Flower Decor</a>
+                                                                <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>55.00</span></span>
                                                             </li>
-                                                            <li class="mini_cart_item"> <a href="#" class="remove" title="Remove this item">×</a>
-                                                                <a href="#"><img src="{{ asset('theme/theme7/images/product1-180x180.jpg')}}">Love Balloons&nbsp; </a> <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>65.00</span>
-                                                                </span>
+                                                            <li class="mini_cart_item">
+                                                                <a href="#" class="remove" title="Remove this item">×</a>
+                                                                <a href="#"><img src="{{ asset('theme/theme7/images/product1-180x180.jpg') }}" alt="Product Image">Love Balloons</a>
+                                                                <span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>65.00</span></span>
                                                             </li>
                                                         </ul>
                                                         <!-- end product list -->
-                                                        <p class="total"><strong>Subtotal:</strong> <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>120.00</span>
-                                                        </p>
-                                                        <p class="buttons"><a href="#" class="button wc-forward">View Cart</a><a href="#" class="button checkout wc-forward">Checkout</a> </p>
+                                                        <p class="total"><strong>Subtotal:</strong> <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>120.00</span></p>
+                                                        <p class="buttons"><a href="#" class="button wc-forward">View Cart</a><a href="#" class="button checkout wc-forward">Checkout</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -98,60 +99,7 @@
                                             <li class="menu-item"><a href="home-boxed.html"><span>Home Boxed</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>About</span></a>
-                                        <ul class="sub-menu fadeOutDown animated fast">
-                                            <li class="menu-item"><a href="about-us.html"><span>About Us</span></a></li>
-                                            <li class="menu-item menu-item-has-children"><a href="#"><span>Portfolio</span></a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="gallery-grid.html"><span>Grid</span></a></li>
-                                                    <li class="menu-item"><a href="gallery-cobbles.html"><span>Cobbles</span></a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Features</span></a>
-                                        <ul class="sub-menu fadeOutDown animated fast">
-                                            <li class="menu-item menu-item-has-children"><a href="#"><span>Tools</span></a>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="features-shortcodes.html"><span>Shortcodes</span></a></li>
-                                                    <li class="menu-item"><a href="features-typography.html"><span>Typography</span></a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children"><a href="#"><span>Support</span></a>
-                                                <ul class="sub-menu fadeOutDown animated fast">
-                                                    <li class="menu-item"><a href="features-support.html"><span>Support</span></a></li>
-                                                    <li class="menu-item"><a href="features-customization.html"><span>Customization</span></a></li>
-                                                    <li class="menu-item"><a href="features-video-tutorials.html"><span>Video Tutorials</span></a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="shop.html"><span>Shop</span></a></li>
-                                    <li class="menu-item"><a href="our-team.html"><span>Team</span></a></li>
-                                    <li class="menu-item menu-item-has-children "><a href="#"><span>Services</span></a>
-                                        <ul class="sub-menu fadeOutDown animated fast">
-                                            <li class="menu-item"><a href="services-our.html"><span>Our Services</span></a></li>
-                                            <li class="menu-item"><a href="services-single.html"><span>Single Service</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Blog</span></a>
-                                        <ul class="sub-menu fadeOutDown animated fast">
-                                            <li class="menu-item"><a href="blog-classic.html"><span>Classic</span></a></li>
-                                            <li class="menu-item menu-item-has-children"><a href="#"><span>Style Masonry</span></a>
-                                                <ul class="sub-menu fadeOutDown animated fast">
-                                                    <li class="menu-item"><a href="blog-masonry-2-columns.html"><span>Masonry 2 Columns</span></a></li>
-                                                    <li class="menu-item"><a href="blog-masonry-3-columns.html"><span>Masonry 3 Columns</span></a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children"><a href="#"><span>Style Portfolio</span></a>
-                                                <ul class="sub-menu fadeOutDown animated fast">
-                                                    <li class="menu-item"><a href="blog-portfolio-2-columns.html"><span>Portfolio 2 Columns</span></a></li>
-                                                    <li class="menu-item"><a href="blog-portfolio-3-columns.html"><span>Portfolio 3 Columns</span></a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="contacts.html"><span>Contacts</span></a></li>
+                                    <!-- ... Tambahkan bagian ini untuk menu About, Features, Shop, Team, Services, Blog, dan Contacts ... -->
                                 </ul>
                             </nav>
                         </div>
@@ -282,9 +230,9 @@
                     <div id="rev_slider_2_1" class="rev_slider fullwidthabanner" data-version="5.3.0.2">
                         <ul>
                             <!-- SLIDE  -->
-                            <li data-index="rs-5" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slide1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <li data-index="rs-5" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('theme/theme7/images/slide1-100x50.jpg')}}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                 <!-- MAIN IMAGE -->
-                                <img src="images/slide1.jpg" alt="" title="slide1" width="1920" height="820" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                                <img src="{{ asset('theme/theme7/images/slide1.jpg')}}" alt="" title="slide1" width="1920" height="820" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption Title-slider tp-resizeme revslider-param-type-a" 
@@ -322,13 +270,13 @@
                                      data-paddingright="[0,0,0,0]" 
                                      data-paddingbottom="[0,0,0,0]" 
                                      data-paddingleft="[0,0,0,0]">
-                                     <img src="images/divider_white.png" alt="" data-ww="260px" data-hh="26px" width="260" height="26" data-no-retina>
+                                     <img src="{{ asset('theme/theme7/images/divider_white.png')}}" alt="" data-ww="260px" data-hh="26px" width="260" height="26" data-no-retina>
                                 </div>
                             </li>
                             <!-- SLIDE  -->
-                            <li data-index="rs-9" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slide2-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <li data-index="rs-9" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('theme/theme7/images/slide2-100x50.jpg')}}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                 <!-- MAIN IMAGE -->
-                                <img src="images/slide2.jpg" alt="" title="slide2" width="1920" height="820" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                                <img src="{{ asset('theme/theme7/images/slide2.jpg')}}" alt="" title="slide2" width="1920" height="820" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption Title-slider tp-resizeme  revslider-param-type-c" 
@@ -370,9 +318,9 @@
                                 </div>
                             </li>
                             <!-- SLIDE  -->
-                            <li data-index="rs-10" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slide3-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <li data-index="rs-10" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{ asset('theme/theme7/images/slide3-100x50.jpg')}}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                                 <!-- MAIN IMAGE -->
-                                <img src="images/slide3.jpg" alt="" title="slide3" width="1920" height="820" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                                <img src="{{ asset('theme/theme7/images/slide3.jpg')}}" alt="" title="slide3" width="1920" height="820" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
                                 <!-- LAYER NR. 5 -->
                                 <div class="tp-caption Title-slider tp-resizeme revslider-param-type-e" 
@@ -433,9 +381,6 @@
                                                             <div class="sc_call_to_action_info">
                                                                 <h2 class="sc_call_to_action_title sc_item_title sc_item_title_without_descr">ORDER Full Package Plan &amp; Get -25% discount!</h2>
                                                             </div>
-                                                            <div class="sc_call_to_action_buttons sc_item_buttons">
-                                                                <div class="sc_call_to_action_button sc_item_button"><a href="shop.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small call_to ">send request</a></div>
-                                                            </div>
                                                         </div> 
                                                     </div>
                                                 </div>
@@ -457,11 +402,11 @@
                                                             <h3 class="sc_services_title sc_item_title sc_item_title_without_descr">Let's Plan Your Perfect Wedding</h3>
                                                             <h6 class="sc_services_subtitle sc_item_subtitle">welcome</h6>
                                                             <div class="sc_columns columns_wrap">
-                                                                <div class="column-1_3 column_padding_bottom">
+                                                                <div class="column-1_2 column_padding_bottom">
                                                                     <div class="sc_services_item odd first">
                                                                         <div class="sc_services_item_featured post_featured">
                                                                             <div class="post_thumb" data-image="" data-title="Bouquets &amp; Style">
-                                                                                <a class="hover_icon hover_icon_link" href="services-our.html"><img class="post-image" alt="img1.jpg" src="images/img1-370x240.jpg"></a>
+                                                                                <a class="hover_icon hover_icon_link" href="services-our.html"><img class="post-image" alt="img1.jpg" src="{{ asset('theme/theme7/images/img1-370x240.jpg')}}"></a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="sc_services_item_content">
@@ -469,11 +414,11 @@
                                                                             <div class="sc_services_item_description"> <a href="services-our.html" class="sc_button sc_button_square sc_button_style_hovered sc_button_size_small">order now</a> </div>
                                                                         </div>
                                                                     </div>
-                                                                </div><div class="column-1_3 column_padding_bottom">
+                                                                </div><div class="column-1_2 column_padding_bottom">
                                                                     <div class="sc_services_item even">
                                                                         <div class="sc_services_item_featured post_featured">
                                                                             <div class="post_thumb" data-image="" data-title="Wedding Planning">
-                                                                                <a class="hover_icon hover_icon_link" href="shop.html"><img class="post-image" alt="img2.jpg" src="images/img2-370x240.jpg"></a>
+                                                                                <a class="hover_icon hover_icon_link" href="shop.html"><img class="post-image" alt="img2.jpg" src="{{ asset('theme/theme7/images/img2-370x240.jpg')}}"></a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="sc_services_item_content">
@@ -481,19 +426,8 @@
                                                                             <div class="sc_services_item_description"> <a href="shop.html" class="sc_button sc_button_square sc_button_style_hovered sc_button_size_small">shop now</a> </div>
                                                                         </div>
                                                                     </div>
-                                                                </div><div class="column-1_3 column_padding_bottom">
-                                                                    <div class="sc_services_item odd">
-                                                                        <div class="sc_services_item_featured post_featured">
-                                                                            <div class="post_thumb" data-image="" data-title="Catering &amp; Decoration">
-                                                                                <a class="hover_icon hover_icon_link" href="shop.html"><img class="post-image" alt="img3.jpg" src="images/img3-370x240.jpg"></a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="sc_services_item_content">
-                                                                            <h4 class="sc_services_item_title"><a href="shop.html">Catering &amp; Decoration</a></h4>
-                                                                            <div class="sc_services_item_description"> <a href="shop.html" class="sc_button sc_button_square sc_button_style_hovered sc_button_size_small">shop now</a> </div>
-                                                                        </div>
-                                                                    </div>
                                                                 </div>
+                                                                
                                                             </div>
                                                         </div>
                                                         <!-- end .sc_services -->
@@ -620,7 +554,21 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img  src="{{ asset('theme/theme7/images/product4-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product4" title="product4" srcset="images/product4-555x615.jpg 555w, images/product4-271x300.jpg 271w, images/product4-768x851.jpg 768w, images/product4-924x1024.jpg 924w, images/product4-706x783.jpg 706w, images/product4.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                        <a class="hover_icon hover_icon_link" href="shop-single.html">
+                                                                                            <img
+                                                                                                src="{{ asset('theme/theme7/images/product4-555x615.jpg') }}"
+                                                                                                alt="product4"
+                                                                                                title="product4"
+                                                                                                srcset="
+                                                                                                    {{ asset('theme/theme7/images/product4-555x615.jpg') }} 555w,
+                                                                                                    {{ asset('theme/theme7/images/product4-271x300.jpg') }} 271w,
+                                                                                                    {{ asset('theme/theme7/images/product4-768x851.jpg') }} 768w,
+                                                                                                    {{ asset('theme/theme7/images/product4-924x1024.jpg') }} 924w,
+                                                                                                    {{ asset('theme/theme7/images/product4-706x783.jpg') }} 706w,
+                                                                                                    {{ asset('theme/theme7/images/product4.jpg') }} 1000w"
+                                                                                                sizes="(max-width: 555px) 100vw, 555px"
+                                                                                            />
+                                                                                        </a>   
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -633,7 +581,21 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product1-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product1" title="product1" srcset="images/product1-555x615.jpg 555w, images/product1-271x300.jpg 271w, images/product1-768x851.jpg 768w, images/product1-924x1024.jpg 924w, images/product1-706x783.jpg 706w, images/product1.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                        <a class="hover_icon hover_icon_link" href="shop-single.html">
+                                                                                            <img
+                                                                                                src="{{ asset('theme/theme7/images/product1-555x615.jpg') }}"
+                                                                                                alt="product1"
+                                                                                                title="product1"
+                                                                                                srcset="
+                                                                                                    {{ asset('theme/theme7/images/product1-555x615.jpg') }} 555w,
+                                                                                                    {{ asset('theme/theme7/images/product1-271x300.jpg') }} 271w,
+                                                                                                    {{ asset('theme/theme7/images/product1-768x851.jpg') }} 768w,
+                                                                                                    {{ asset('theme/theme7/images/product1-924x1024.jpg') }} 924w,
+                                                                                                    {{ asset('theme/theme7/images/product1-706x783.jpg') }} 706w,
+                                                                                                    {{ asset('theme/theme7/images/product1.jpg') }} 1000w"
+                                                                                                sizes="(max-width: 555px) 100vw, 555px"
+                                                                                            />
+                                                                                        </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -646,7 +608,21 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product2-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product2" title="product2" srcset="images/product2-555x615.jpg 555w, images/product2-271x300.jpg 271w, images/product2-768x851.jpg 768w, images/product2-924x1024.jpg 924w, images/product2-706x783.jpg 706w, images/product2.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                        <a class="hover_icon hover_icon_link" href="shop-single.html">
+                                                                                            <img
+                                                                                                src="{{ asset('theme/theme7/images/product2-555x615.jpg') }}"
+                                                                                                alt="product2"
+                                                                                                title="product2"
+                                                                                                srcset="
+                                                                                                    {{ asset('theme/theme7/images/product2-555x615.jpg') }} 555w,
+                                                                                                    {{ asset('theme/theme7/images/product2-271x300.jpg') }} 271w,
+                                                                                                    {{ asset('theme/theme7/images/product2-768x851.jpg') }} 768w,
+                                                                                                    {{ asset('theme/theme7/images/product2-924x1024.jpg') }} 924w,
+                                                                                                    {{ asset('theme/theme7/images/product2-706x783.jpg') }} 706w,
+                                                                                                    {{ asset('theme/theme7/images/product2.jpg') }} 1000w"
+                                                                                                sizes="(max-width: 555px) 100vw, 555px"
+                                                                                            />
+                                                                                        </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -659,7 +635,21 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product5-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product5" title="product5" srcset="images/product5-555x615.jpg 555w, images/product5-271x300.jpg 271w, images/product5-768x851.jpg 768w, images/product5-924x1024.jpg 924w, images/product5-706x783.jpg 706w, images/product5.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                        <a class="hover_icon hover_icon_link" href="shop-single.html">
+                                                                                            <img
+                                                                                                src="{{ asset('theme/theme7/images/product2-555x615.jpg') }}"
+                                                                                                alt="product2"
+                                                                                                title="product2"
+                                                                                                srcset="
+                                                                                                    {{ asset('theme/theme7/images/product2-555x615.jpg') }} 555w,
+                                                                                                    {{ asset('theme/theme7/images/product2-271x300.jpg') }} 271w,
+                                                                                                    {{ asset('theme/theme7/images/product2-768x851.jpg') }} 768w,
+                                                                                                    {{ asset('theme/theme7/images/product2-924x1024.jpg') }} 924w,
+                                                                                                    {{ asset('theme/theme7/images/product2-706x783.jpg') }} 706w,
+                                                                                                    {{ asset('theme/theme7/images/product2.jpg') }} 1000w"
+                                                                                                sizes="(max-width: 555px) 100vw, 555px"
+                                                                                            />
+                                                                                        </a>    
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -672,7 +662,21 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="shop-single.html"> <img src="{{ asset('theme/theme7/images/product3-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product3" title="product3" srcset="images/product3-555x615.jpg 555w, images/product3-271x300.jpg 271w, images/product3-768x851.jpg 768w, images/product3-924x1024.jpg 924w, images/product3-706x783.jpg 706w, images/product3.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                        <a class="hover_icon hover_icon_link" href="shop-single.html">
+                                                                                            <img
+                                                                                                src="{{ asset('theme/theme7/images/product2-555x615.jpg') }}"
+                                                                                                alt="product2"
+                                                                                                title="product2"
+                                                                                                srcset="
+                                                                                                    {{ asset('theme/theme7/images/product2-555x615.jpg') }} 555w,
+                                                                                                    {{ asset('theme/theme7/images/product2-271x300.jpg') }} 271w,
+                                                                                                    {{ asset('theme/theme7/images/product2-768x851.jpg') }} 768w,
+                                                                                                    {{ asset('theme/theme7/images/product2-924x1024.jpg') }} 924w,
+                                                                                                    {{ asset('theme/theme7/images/product2-706x783.jpg') }} 706w,
+                                                                                                    {{ asset('theme/theme7/images/product2.jpg') }} 1000w"
+                                                                                                sizes="(max-width: 555px) 100vw, 555px"
+                                                                                            />
+                                                                                        </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -685,7 +689,21 @@
                                                                                 <div class="post_item_wrap">
                                                                                     <div class="post_featured">
                                                                                         <div class="post_thumb">
-                                                                                            <a class="hover_icon hover_icon_link" href="#"> <img src="{{ asset('theme/theme7/images/product6-555x615.jpg')}}" class="attachment-shop_catalog size-shop_catalog post-image" alt="product6" title="product6" srcset="images/product6-555x615.jpg 555w, images/product6-271x300.jpg 271w, images/product6-768x851.jpg 768w, images/product6-924x1024.jpg 924w, images/product6-706x783.jpg 706w, images/product6.jpg 1000w" sizes="(max-width: 555px) 100vw, 555px" /> </a>
+                                                                                        <a class="hover_icon hover_icon_link" href="shop-single.html">
+                                                                                            <img
+                                                                                                src="{{ asset('theme/theme7/images/product2-555x615.jpg') }}"
+                                                                                                alt="product2"
+                                                                                                title="product2"
+                                                                                                srcset="
+                                                                                                    {{ asset('theme/theme7/images/product2-555x615.jpg') }} 555w,
+                                                                                                    {{ asset('theme/theme7/images/product2-271x300.jpg') }} 271w,
+                                                                                                    {{ asset('theme/theme7/images/product2-768x851.jpg') }} 768w,
+                                                                                                    {{ asset('theme/theme7/images/product2-924x1024.jpg') }} 924w,
+                                                                                                    {{ asset('theme/theme7/images/product2-706x783.jpg') }} 706w,
+                                                                                                    {{ asset('theme/theme7/images/product2.jpg') }} 1000w"
+                                                                                                sizes="(max-width: 555px) 100vw, 555px"
+                                                                                            />
+                                                                                        </a>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="post_content">
@@ -761,7 +779,7 @@
                                                                     </div>
                                                                     <div class="swiper-slide w100" data-style="width:100%;">
                                                                         <div class="sc_testimonial_item">
-                                                                            <div class="sc_testimonial_avatar"><img class="post-image" alt="Melissa &#038; Ryan Smith" src="images/testimonials-3-102x102.jpg"></div>
+                                                                            <div class="sc_testimonial_avatar"><img class="post-image" alt="Melissa &#038; Ryan Smith" src="{{ asset('theme/theme7/images/testimonials-3-102x102.jpg')}}"></div>
                                                                             <div class="sc_testimonial_content">
                                                                                 <p>The ceremony was amazing! We are grateful for the creative caring approach.</p>
                                                                             </div>
@@ -783,105 +801,7 @@
                                     </div> 
                                 </div>
                             </section>
-                            <section class="no-col-padding">
-                                <div class="container-fluid">    
-                                    <div class="content_container">
-                                        <div class="columns_wrap">
-                                            <div class="column_container column-1_1">
-                                                <div class="column-inner">
-                                                    <div class="m_wrapper">
-                                                        <div class="sc_blogger layout_classic_3 template_masonry margin_top_small  sc_blogger_horizontal no_description sc_home-margin-type-h">
-                                                            <h3 class="sc_blogger_title sc_item_title sc_item_title_without_descr">Articles from the Blog</h3>
-                                                            <h6 class="sc_blogger_subtitle sc_item_subtitle">blog</h6>
-                                                            <div class="isotope_wrap" data-columns="3">
-                                                               <!--.isotope_item -->
-                                                                <div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3">
-                                                                    <!--.post_item -->
-                                                                    <div class="post_item post_item_classic post_item_classic_3	post_format_standard odd">
-                                                                        <div class="post_featured">
-                                                                            <div class="post_thumb" data-image="images/blog_img1.jpg" data-title="An occasion that joins two hearts in a symphony">
-                                                                                <a class="hover_icon hover_icon_link" href="blog-standart-post.html"><img class="post-image" alt="An occasion that joins two hearts in a symphony" src="images/blog_img1-370x240.jpg"></a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!--.post_content -->
-                                                                        <div class="post_content isotope_item_content">
-                                                                            <div class="post_info"> <span class="post_info_item post_info_posted"> <a href="blog-standart-post.html" class="post_info_date">Jul 27, 2016</a></span> </div>
-                                                                            <h5 class="post_title"><a href="blog-standart-post.html">An occasion that joins two hearts in a symphony</a></h5>
-                                                                            <div class="post-info-bottom">
-                                                                                <div class="post_info"> <span class="post_info_item post_info_posted_by">By <a href="#" class="post_info_author">Cindy Jefferson</a></span> <span class="post_info_item post_info_counters"> <a class="post_counters_item post_counters_comments" title="Comments - 3" href="#"><span class="post_counters_number">3 comments</span></a> </span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="post_descr">
-                                                                                <p></p>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- end .post_content -->
-                                                                    </div>
-                                                                    <!-- end .post_item -->
-                                                                </div>
-                                                                <!-- end .isotope_item -->
-                                                                <!--.isotope_item -->
-                                                                <div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3">
-                                                                   <!--.post_item -->
-                                                                    <div class="post_item post_item_classic post_item_classic_3	post_format_standard even">
-                                                                        <div class="post_featured">
-                                                                            <div class="post_thumb" data-image="images/blog_img2.jpg" data-title="The role of your bouquette in wedding compositions">
-                                                                                <a class="hover_icon hover_icon_link" href="blog-standart-post.html"><img class="post-image" alt="The role of your bouquette in wedding compositions" src="{{ asset('theme/theme7/images/blog_img2-370x240.jpg')}}"></a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!--.post_content -->
-                                                                        <div class="post_content isotope_item_content">
-                                                                            <div class="post_info"> <span class="post_info_item post_info_posted"> <a href="blog-standart-post.html" class="post_info_date">Jul 18, 2016</a></span> </div>
-                                                                            <h5 class="post_title"><a href="blog-standart-post.html">The role of your bouquette in wedding compositions</a></h5>
-                                                                            <div class="post-info-bottom">
-                                                                                <div class="post_info"> <span class="post_info_item post_info_posted_by">By <a href="#" class="post_info_author">Cindy Jefferson</a></span> <span class="post_info_item post_info_counters"> <a class="post_counters_item post_counters_comments" title="Comments - 1" href="#"><span class="post_counters_number">1 comment</span></a> </span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="post_descr">
-                                                                                <p></p>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!--end .post_content -->
-                                                                    </div>
-                                                                    <!--end .post_item -->
-                                                                </div>
-                                                                <!-- end .isotope_item -->
-                                                                <!--.isotope_item -->
-                                                                <div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3">
-                                                                   <!--.post_item -->
-                                                                    <div class="post_item post_item_classic post_item_classic_3 post_format_standard odd last">
-                                                                        <div class="post_featured">
-                                                                            <div class="post_thumb" data-image="images/blog_img3.jpg" data-title="10 reasons why you should hire a wedding planner">
-                                                                                <a class="hover_icon hover_icon_link" href="blog-standart-post.html"><img class="post-image" alt="10 reasons why you should hire a wedding planner" src="{{ asset('theme/theme7/images/blog_img3-370x240.jpg')}}"></a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!--.post_content -->
-                                                                        <div class="post_content isotope_item_content">
-                                                                            <div class="post_info"> <span class="post_info_item post_info_posted"> <a href="blog-standart-post.html" class="post_info_date">Jul 9, 2016</a></span> </div>
-                                                                            <h5 class="post_title"><a href="blog-standart-post.html">10 reasons why you should hire a wedding planner</a></h5>
-                                                                            <div class="post-info-bottom">
-                                                                                <div class="post_info"> <span class="post_info_item post_info_posted_by">By <a href="#" class="post_info_author">Cindy Jefferson</a></span> <span class="post_info_item post_info_counters"> <a class="post_counters_item post_counters_comments" title="Comments - 2" href="#"><span class="post_counters_number">2 comments</span></a> </span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="post_descr">
-                                                                                <p></p>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- end .post_content -->
-                                                                    </div>
-                                                                    <!-- end .post_item -->
-                                                                </div>
-                                                                <!-- end .isotope_item -->
-                                                            </div>
-                                                            <div class="sc_blogger_button sc_item_button"><a href="blog-masonry-3-columns.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">more posts</a></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                            </section>
+                            
                             <section class="no-col-padding">
                                 <div class="container-fluid sc_home-bg-type-d">    
                                     <div class="content_container">
@@ -1167,26 +1087,7 @@
                                                 <div class="column-inner">
                                                     <div class="m_wrapper">
                                                         <div class="sc_form_wrap">
-                                                            <div class="sc_form sc_form_style_form_1 aligncenter sc_home-param-type-g">
-                                                                <h3 class="sc_form_title sc_item_title sc_item_title_without_descr">Give Us a Feedback</h3>
-                                                                <h6 class="sc_form_subtitle sc_item_subtitle">contact form</h6>
-                                                                <form class="sc_input_hover_default" data-formtype="form_1" method="post" action="include/contact-form.php">
-                                                                    <div class="sc_form_info columns_wrap">
-                                                                        <div class="sc_form_item sc_form_field label_over column-1_2">
-                                                                            <input id="sc_form_username" type="text" name="username" placeholder="Name *" aria-required="true">
-                                                                        </div><div class="sc_form_item sc_form_field label_over column-1_2">
-                                                                            <input id="sc_form_email" type="text" name="email" placeholder="E-mail *" aria-required="true">
-                                                                        </div>
-                                                                        <div class="sc_form_item sc_form_message column-1_1">
-                                                                            <textarea id="sc_form_message" name="message" placeholder="Message" aria-required="true"></textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="sc_form_item sc_form_button">
-                                                                        <button>Send Message</button>
-                                                                    </div>
-                                                                    <div class="result sc_infobox"></div>
-                                                                </form> 
-                                                            </div>
+                                                            
                                                         </div>   
                                                     </div>
                                                 </div>

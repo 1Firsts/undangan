@@ -301,291 +301,133 @@
 
 
 
-    <div class="page-output background-white padding-tb-100px">
+    <section class="padding-top-60px padding-bottom-65px">
         <div class="container">
+            <div class="section-title layout-1">
+                <div class="discription">We’re Getting Married!</div>
+                <h2 class="title">Bestselling Products</h2>
+                <div class="affter"></div>
+            </div>
+
+
             <div class="row">
 
-
-                <div class="col-lg-8">
-
-                    <!-- Blog item -->
-                    <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
-                        <div class="img-in">
-                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
-                            <!--  Social -->
-                            <ul class="social-media">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <!-- // Social -->
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
                         </div>
-                        <div class="post-info">
-                            <div class="cats"><a href="#">Technology</a>, <a href="#">Nonprofit</a></div>
-                            <a href="#" class="title font-2">7 Ways to Stimulate Creative Thinking</a>
-                            <div class="excerpt">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy....</p>
-                            </div>
-                            <a href="#" class="read_more">Read More</a>
-                        </div>
-                    </div>
-                    <!-- END Blog item -->
-
-
-                    <!-- Blog item -->
-                    <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
-                        <div class="img-in">
-                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
-                            <!--  Social -->
-                            <ul class="social-media">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <!-- // Social -->
-                        </div>
-                        <div class="post-info">
-                            <div class="cats"><a href="#">Technology</a>, <a href="#">Nonprofit</a></div>
-                            <a href="#" class="title font-2">Fun and Family Stimulates Creative Thinking</a>
-                            <div class="excerpt">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy....</p>
-                            </div>
-                            <a href="#" class="read_more">Read More</a>
-                        </div>
-                    </div>
-                    <!-- END Blog item -->
-
-
-                    <!-- Blog item -->
-                    <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
-                        <div class="img-in">
-                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
-                            <!--  Social -->
-                            <ul class="social-media">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <!-- // Social -->
-                        </div>
-                        <div class="post-info">
-                            <div class="cats"><a href="#">Technology</a>, <a href="#">Nonprofit</a></div>
-                            <a href="#" class="title font-2">4 Factors to Consider While Choosing Right PRP Kit</a>
-                            <div class="excerpt">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy....</p>
-                            </div>
-                            <a href="#" class="read_more">Read More</a>
-                        </div>
-                    </div>
-                    <!-- END Blog item -->
-
-
-                    <!-- Blog item -->
-                    <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
-                        <div class="img-in">
-                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
-                            <!--  Social -->
-                            <ul class="social-media">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <!-- // Social -->
-                        </div>
-                        <div class="post-info">
-                            <div class="cats"><a href="#">Technology</a>, <a href="#">Nonprofit</a></div>
-                            <a href="#" class="title font-2">How EcoAllene Can Stimulate Sales of Personalised Pens</a>
-                            <div class="excerpt">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy....</p>
-                            </div>
-                            <a href="#" class="read_more">Read More</a>
-                        </div>
-                    </div>
-                    <!-- END Blog item -->
-
-
-                    <!-- Blog item -->
-                    <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
-                        <div class="img-in">
-                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
-                            <!--  Social -->
-                            <ul class="social-media">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <!-- // Social -->
-                        </div>
-                        <div class="post-info">
-                            <div class="cats"><a href="#">Technology</a>, <a href="#">Nonprofit</a></div>
-                            <a href="#" class="title font-2">Fun and Family Stimulates Creative Thinking</a>
-                            <div class="excerpt">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy....</p>
-                            </div>
-                            <a href="#" class="read_more">Read More</a>
-                        </div>
-                    </div>
-                    <!-- END Blog item -->
-
-
-                    <!-- Blog item -->
-                    <div class="nile-blog-entry layout-2 margin-bottom-35px clearfix">
-                        <div class="img-in">
-                            <img src="{{ url('http://placehold.it/500x500')}}" alt="">
-                            <!--  Social -->
-                            <ul class="social-media">
-                                <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <!-- // Social -->
-                        </div>
-                        <div class="post-info">
-                            <div class="cats"><a href="#">Technology</a>, <a href="#">Nonprofit</a></div>
-                            <a href="#" class="title font-2">7 Ways to Stimulate Creative Thinking</a>
-                            <div class="excerpt">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy....</p>
-                            </div>
-                            <a href="#" class="read_more">Read More</a>
-                        </div>
-                    </div>
-                    <!-- END Blog item -->
-
-
-                    <!-- pagination -->
-                    <div class="margin-tb-30px">
-                        <ul class="pagination pagination-md pagination-style-1 color">
-                            <li><a class="page-link" href="#" tabindex="-1"><i class="fa fa-chevron-left"></i></a></li>
-                            <li><a class="page-link" href="#">1</a></li>
-                            <li><a class="page-link" href="#">2</a></li>
-                            <li><a class="page-link" href="#">3</a></li>
-                            <li><a class="page-link " href="#"><i class="fa fa-chevron-right"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- // pagination -->
-
-
-                </div>
-
-
-                <div class="col-lg-4">
-                    <div id="nile-blog-sidebar" class="nile-blog-sidebar">
-
-
-                        <!-- Search -->
-                        <div class="nile-widget layout-1 widget_about">
-                            <div class="about-out">
-                                <div class="img_in">
-                                    <img src="{{ url('http://placehold.it/320x320')}}" alt="">
-                                </div>
-                                <h3>I am a Cemmet Moh</h3>
-                                <div class="content">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ...
-                                </div>
-                                <ul class="d-none d-xl-block social-media">
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- End Search -->
-
-
-
-                        <!-- Search -->
-                        <div class="nile-widget layout-1 widget_search">
-                            <div class="widget-title">Search</div>
-                            <form role="search" method="get" class="search-form" action="#">
-                                <input type="search" class="search-field" placeholder="Search..." value="" name="s" title="Search for:" required="">
-                                <input type="submit" class="search-submit" value="Search">
-                            </form>
-                        </div>
-                        <!-- End Search -->
-
-                        <!-- Latest Posts -->
-                        <div class="nile-widget layout-1 nile_latest_news_widget">
-                            <div class="widget-title">Latest Posts</div>
-
-                            <!-- post item -->
-                            <div class="post">
-                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
-                                <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
-                                <a href="#" class="title">7 Ways to Stimulate Creative Thinking</a>
-                            </div>
-                            <!-- END post item -->
-
-                            <!-- post item -->
-                            <div class="post">
-                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
-                                <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
-                                <a href="#" class="title">Fun and Family Stimulates Creative Thinking</a>
-                            </div>
-                            <!-- END post item -->
-
-                            <!-- post item -->
-                            <div class="post">
-                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
-                                <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
-                                <a href="#" class="title">4 Factors to Consider While Choosing Right PRP Kit</a>
-                            </div>
-                            <!-- END post item -->
-
-                            <!-- post item -->
-                            <div class="post">
-                                <div class="post-thum"><a href="#"><img src="{{ url('http://placehold.it/120x120')}}" alt=""></a></div>
-                                <div class="date"><span class="icon_clock_alt"></span> May 22, 2018</div>
-                                <a href="#" class="title">How EcoAllene Can Stimulate Sales of Personalised Pens</a>
-                            </div>
-                            <!-- END post item -->
-                        </div>
-                        <!-- End Latest Posts -->
-
-
-                        <!-- widget categories -->
-                        <div class="nile-widget layout-1 widget_categories">
-                            <div class="widget-title">Categories</div>
-                            <ul>
-                                <li><a href="#">Creativity &amp; design</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Money &amp; business</a></li>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Nonprofit</a></li>
-                            </ul>
-                        </div>
-                        <!-- End widget categories -->
-
-
-                        <!-- widget meta -->
-                        <div class="nile-widget layout-1 widget_meta">
-                            <div class="widget-title">Meta</div>
-                            <ul>
-                                <li><a href="#">Creativity &amp; design</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Money &amp; business</a></li>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Nonprofit</a></li>
-                            </ul>
-                        </div>
-                        <!-- End widget meta -->
-
-
+                        <h3 class="title"><a href="#">Tulle Lace Wedding Dress</a></h3>
+                        <div class="price">$124</div>
                     </div>
                 </div>
+                <!-- // item -->
+
+
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
+                        </div>
+                        <h3 class="title"><a href="#">With Beading Sequins</a></h3>
+                        <div class="price">$200</div>
+                    </div>
+                </div>
+                <!-- // item -->
+
+
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
+                        </div>
+                        <h3 class="title"><a href="#">Dress With Ruffle</a></h3>
+                        <div class="price">$756</div>
+                    </div>
+                </div>
+                <!-- // item -->
+
+
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
+                        </div>
+                        <h3 class="title"><a href="#">Train Tulle Lace</a></h3>
+                        <div class="price">$254</div>
+                    </div>
+                </div>
+                <!-- // item -->
+
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
+                        </div>
+                        <h3 class="title"><a href="#">Tulle Lace Wedding Dress</a></h3>
+                        <div class="price">$124</div>
+                    </div>
+                </div>
+                <!-- // item -->
+
+
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
+                        </div>
+                        <h3 class="title"><a href="#">With Beading Sequins</a></h3>
+                        <div class="price">$300</div>
+                    </div>
+                </div>
+                <!-- // item -->
+
+
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
+                        </div>
+                        <h3 class="title"><a href="#">Dress With Ruffle</a></h3>
+                        <div class="price">$124</div>
+                    </div>
+                </div>
+                <!-- // item -->
+
+
+                <!-- item -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="shop-item layout-1">
+                        <div class="img_in">
+                            <a href="#"><img src="{{ url('http://placehold.it/450x600')}}" alt=""></a>
+                            <a href="#" class="add_cart">Add to cart</a>
+                        </div>
+                        <h3 class="title"><a href="#">Train Tulle Lace</a></h3>
+                        <div class="price">$944</div>
+                    </div>
+                </div>
+                <!-- // item -->
+
 
             </div>
-        </div>
-    </div>
 
+
+        </div>
+    </section>
 
 
     <section class="padding-tb-100px section-ba-4">

@@ -15,6 +15,7 @@ class TableController extends Controller
     {
         // dd('Inside the index method'); // Add this line
         $tables = Tema::all();
+        
         return view('feature.table', [
             'tables' => $tables,
         ]);

@@ -202,7 +202,6 @@
 					</div>
 					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
-					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
@@ -363,7 +362,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Wedding Photography</h1>
-							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span> 
 						</div>
 					</div>
 				</div>
@@ -372,7 +371,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Timeless Locations</h1>
-							<span class="post-subtitle"> Modo detracto appareat qui te.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Modo detracto appareat qui te.</span> 
 						</div>
 					</div>
 				</div>
@@ -381,7 +380,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Family Portraits</h1>
-							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span>
 						</div>
 					</div>
 				</div>
@@ -550,6 +549,48 @@
 
 			</div>
 			<!-- /SECTION 1 -->	
+
+			<!-- SECTION 1 -->
+			<div id="home-section-8-1" class="section-holder home-section-8-1">
+				<div class="container">
+					<div class="row">
+							
+						<div class="col-lg-6 margin-bm50">
+							<div class="margin-r50">
+							<div class="el-smalltitle">Tilia Studio</div>
+							<h2 class="display-4 margin-b30">A Wedding & Portrait Studio based in New York</h2>
+							<p>We love photography and travel for meeting new beautiful people all over the world. Propriae voluptaria dissentias nam ei, posse diceret inciderint cum ut, gubergren sadipscing ei vim. Ancillae torquatos in nec, impetus nostrum.</p>
+							<p>Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et gravida. Maecenas id enim pharetra, sollicitudin dui eget, blandit lorem. Nunc vitae blandit lectus.</p>
+							<div class="margin-t30">
+								<a href="#" class="read-more">Read More</a>
+							</div>
+							</div>
+							<!-- /margin-r50 -->	
+						</div>
+						<!-- /col-lg-6 -->	
+						<div class="col-lg-3">
+							
+								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img1.jpg')}}" alt=" " />
+								<h5 class="margin-b30">01. We love what we do</h5>
+								
+							
+						</div>
+						<!-- /col-lg-3 -->
+						<div class="col-lg-3">
+	
+								<img class="img-fluid radius10 margin-b15" src="{{ asset('theme/theme13/images/home/home2-img2.jpg')}}" alt=" " />
+								<h5 class="margin-b30">03. We're storytellers</h5>
+								
+
+						</div>
+						<!-- /col-lg-3 -->
+					</div>
+					<!-- /row -->	
+				</div>
+				<!-- /container -->	
+			</div>
+			<!-- /SECTION 1 -->	
+
 		</div>
 		<!-- /WRAP CONTENT -->
 		<!-- FOOTER -->

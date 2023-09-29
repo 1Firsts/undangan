@@ -332,12 +332,7 @@
                             </div>
                             <div class="colect-newsletter">
                                 <span>Register for latest news & discounts</span>
-                                <form action="#" class="f-newsletter h3-newsletter">
-                                    <input type="text" name="s" placeholder="Your e-mail" class="form-control">
-                                    <button type="submit" class="btn f-btn-submit">
-                                        <i class="fa fa-check" aria-hidden="true"></i>
-                                    </button>
-                                </form>
+                                
                             </div>
                     </div>
                 </div>
@@ -385,37 +380,7 @@
                     </div>
                 </div>
         </div>
-        <div class="new-collection v3">
-                <div class="container">
-                    <h3 class="vow-title v3">New collections</h3>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-3 col-md-3 c-item">
-                            <a href="#" class="hover-images">
-                                <img src="{{ asset('theme/theme12/img/collection/h3_colect1.jpg')}}" alt="" class="img-reponsive">
-                            </a>
-                            <h3 class="h-colect-title v4">wedding</h3>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 col-md-3 c-item">
-                            <a href="#" class="hover-images">
-                                <img src="{{ asset('theme/theme12/img/collection/h3_colect2.jpg')}}" alt="" class="img-reponsive">
-                            </a>
-                            <h3 class="h-colect-title v4">Groom</h3>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 col-md-3 c-item">
-                            <a href="#" class="hover-images">
-                                <img src="{{ asset('theme/theme12/img/collection/h3_colect3.jpg')}}" alt="" class="img-reponsive">
-                            </a>
-                            <h3 class="h-colect-title v4">Bride</h3>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 col-md-3 c-item">
-                            <a href="#" class="hover-images">
-                                <img src="{{ asset('theme/theme12/img/collection/h3_colect4.jpg')}}" alt="" class="img-reponsive">
-                            </a>
-                            <h3 class="h-colect-title v4">Secret garden</h3>
-                        </div>
-                    </div>
-                </div>
-        </div>
+        
         <div class="product-countdown">
             <div class="container">
                 <div class="row">
@@ -518,132 +483,7 @@
             </div>
         </div>       
                 
-        <div class="vow-connect v2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6">
-                        <div class="testimonial">
-                            <h3 class="vow-title v4">Testimonial</h3>
-                            <div class="owl-carousel owl-theme js-owl-test">
-                                <div class="test-item-list">
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test1.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">Mekirin</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“I invited these event planner to arrange a bachelor party for my best friend!”</p>
-                                        </div>
-                                    </div>
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test2.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">Shival-k</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“Perfect decoration and perfect buffet for my little sister’s birthday party!”</p>
-                                        </div>
-                                    </div>
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test3.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">jin simple</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“My family and i are beyond happy to have them plan our wedding day”</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="test-item-list">
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test1.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">Mekirin</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“I invited these event planner to arrange a bachelor party for my best friend!”</p>
-                                        </div>
-                                    </div>
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test2.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">Shival-k</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“Perfect decoration and perfect buffet for my little sister’s birthday party!”</p>
-                                        </div>
-                                    </div>
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test3.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">jin simple</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“My family and i are beyond happy to have them plan our wedding day”</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="test-item-list">
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test1.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">Mekirin</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“I invited these event planner to arrange a bachelor party for my best friend!”</p>
-                                        </div>
-                                    </div>
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test2.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">Shival-k</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“Perfect decoration and perfect buffet for my little sister’s birthday party!”</p>
-                                        </div>
-                                    </div>
-                                    <div class="test-item">
-                                        <div class="test-img">
-                                            <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_test3.jpg')}}" alt="" class="img-responsive"></a>
-                                            <h3 class="test-name">jin simple</h3>
-                                        </div>
-                                        <div class="test-text">
-                                            <p>“My family and i are beyond happy to have them plan our wedding day”</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 border-center">
-                        <div class="blog v3">
-                            <h3 class="vow-title v4">Lastest Blog post</h3>
-                            <div class="blog-item">
-                                <div class="post-img">
-                                    <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_blog1.jpg')}}" alt="" class="img-responsive"></a>
-                                </div>
-                                <div class="post-info v2">
-                                    <div class="post-date v2 f-14">18 August 2018</div>
-                                    <h3 class="post-title v2"><a href="#">Paris, jet’aime: jeremy’s adventures at maison &amp; objet</a></h3>
-                                    <a href="#" class="btn-find v3">FIND OUT MORE »</a>
-                                </div>
-                            </div>
-
-                            <div class="blog-item">
-                                <div class="post-img">
-                                    <a href="#" class="hover-images"><img src="{{ asset('theme/theme12/img/h3_blog2.jpg')}}" alt="" class="img-responsive"></a>
-                                </div>
-                                <div class="post-info v2">
-                                    <div class="post-date v2 f-14">18 August 2018</div>
-                                    <h3 class="post-title v2"><a href="#">When candles aren’t enough - on the sub-<br>ject of professional lighting</a></h3>
-                                    <a href="#" class="btn-find v3">FIND OUT MORE »</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <footer class="footer-v1">
         <a href="#" class="scroll-top v1"><i class="ion-ios-arrow-up"></i></a>
         <div class="top-footer v1 bg-v1">

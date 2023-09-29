@@ -239,101 +239,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                     </div>
                 </div>
                 <!-- STORY SECTION END -->
-                <!-- FAMILY SECTION START -->
-                <div class="wd_story_section" id="3">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <!-- <div class="wd_section_heading">
-                                <h1 class="text-center">Family Members</h1>
-                                <span class="wd_dot_heading"></span>
-                            </div> -->
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 bottom_padder40">
-                                <div class="wd_section_heading">
-                                    <h1 class="text-center">Family Members</h1>
-                                    <span class="wd_dot_heading"></span>
-                                </div>
-                                <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                            </div>
-
-                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 upper_spacer50">
-                                <div class="wd_family_section">
-                                    <h2>Christeme Family</h2>
-                                    <div id="owl_man_family" class="owl-carousel owl-theme">
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Bill Swan</h3>
-                                                <h4>Father</h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Christena Swan</h3>
-                                                <h4>Mother</h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Max Swan</h3>
-                                                <h4>Brother</h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Marry Swan</h3>
-                                                <h4>Sister</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-center">
-                                <div class="wd_family_section">
-                                    <img src="{{ url('http://placehold.it/275x543')}}" alt="" />
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 upper_spacer50">
-                                <div class="wd_family_section">
-                                    <h2>William Family</h2>
-                                    <div id="owl_woman_family" class="owl-carousel owl-theme">
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Bill Swan</h3>
-                                                <h4>Father</h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Christena Swan</h3>
-                                                <h4>Mother</h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Max Swan</h3>
-                                                <h4>Brother</h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="wd_family_member">
-                                                <img class="img-responsive" src="{{ url('http://placehold.it/134x134')}}" alt="" />
-                                                <h3>Marry Swan</h3>
-                                                <h4>Sister</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- FAMILY SECTION END -->
+                
                 <!-- EVENT SECTION START -->
                 <div class="wd_story_section" id="4">
                     <div class="container">
@@ -573,67 +479,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
                     </div>
                 </div>
                 <!-- GALLERY SECTION END -->
-                <!-- RSVP SECTION START -->
-                <div class="wd_story_section bottom_padder80" id="6">
-                    <div class="wd_section_heading">
-                        <h1 class="text-center">RSVP</h1>
-                        <span class="wd_dot_heading"></span>
-                    </div>
-                    <div class="container">
-                        <div class="row mb-0 justify-content-center">
-                            <div class="col-lg-12 col-md-12 text-center">
-                                <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo, dui ipsum tristique dolor, in ullamcorper tellus velit quis nisl. In placerat volutpat elit quis dictum.</p>
-                            </div>
-                            <div class="wd_rsvp_section">
-                                <form id="theForm" class="simform" autocomplete="off" action="" method="post">
-                                    <input type="hidden" name="recipient" value="upasana.jain@himanshusofttech.com">
-                                    <input type="hidden" name="subject" value="Wedding Planner" />
-                                    <div class="simform-inner">
-                                        <ol class="questions">
-                                            <li>
-                                                <span><label for="q1">What's Your Name?</label></span>
-                                                <input id="q1" name="name" type="text" />
-                                            </li>
-                                            <li>
-                                                <span><label for="q2">What's Your Email?</label></span>
-                                                <input id="q2" name="email" type="text" data-validate="email" />
-                                            </li>
-                                            <li>
-                                                <span><label for="q3">What's Your Mobile Number?</label></span>
-                                                <input id="q3" name="mobile_no" type="text" data-validate="number" />
-                                            </li>
-                                            <li>
-                                                <span><label for="q4">No. Of Members?</label></span>
-                                                <input id="q4" name="no_of_member" type="text" data-validate="mnumber" />
-                                            </li>
-                                            <li>
-                                                <span><label for="q5">Will Attent Event(Ceremony,Wedding,Party)</label></span>
-                                                <input id="q5" name="events" type="text" />
-                                            </li>
-                                        </ol>
-                                        <!-- /questions -->
-                                        <button class="submit" type="submit">Send answers</button>
-                                        <div class="controls">
-                                            <button class="next fa fa-long-arrow-right"></button>
-                                            <div class="progress"></div>
-                                            <span class="number">
-								<span class="number-current"></span>
-                                            <span class="number-total"></span>
-                                            </span>
-                                            <span class="error-message"></span>
-                                        </div>
-                                        <!-- / controls -->
-                                    </div>
-                                    <!-- /simform-inner -->
-                                    <span class="final-message"></span>
-                                </form>
-                                <!-- /simform -->
-                            </div>
-                        </div>
-                        <!--form -->
-                    </div>
-                </div>
-                <!-- RSVP SECTION START -->
+                
                 <!-- FOOTER SECTION START -->
                 <div class="wd_footer_section">
                     <div class="container text-center">
@@ -677,7 +523,7 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <script src="{{ asset('theme/theme9/assets/js/plugins/rsvp/step_form.js') }}"></script>
     <script src="{{ asset('theme/theme9/assets/js/jquery.easing.min.js') }}"></script>
     <!-- <script src="assets/js/plugins/stellar/jquery.stellar.js"></script> -->
-    <script src="{{ asset('theme/theme8/assets/js/plugins/rsvp/modernizr.hover.js') }}"></script>
+    <script src="{{ asset('theme/theme9/assets/js/plugins/rsvp/modernizr.hover.js') }}"></script>
     <script type="text/javascript" src="{{ asset('theme/theme9/assets/js/custom.js') }}"></script>
 </body>
 

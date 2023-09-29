@@ -59,7 +59,7 @@
           <li class="{{ Request::is($activePages) || Request::is($createRoute) ? 'active-page' : '' }}">
               <a href="{{ url($createRoute) }}" class="{{ Request::is($createRoute) ? 'active' : '' }}"><i data-feather="edit"></i>Buat<i class="fas fa-chevron-right dropdown-icon"></i></a>
               <ul class="">
-                  @for ($i = 1; $i <= 46; $i++)
+                  @for ($i = 1; $i <= 45; $i++)
                       @php
                       $routeName = 'feature/theme/tema' . $i;
                       $isActive = Request::is($routeName);
@@ -81,7 +81,7 @@
           <li class="{{ Request::is($activePages) || Request::is($createRoute) ? 'active-page' : '' }}">
               <a href="{{ url('#') }}" class="{{ Request::is($createRoute) ? 'active' : '' }}"><i data-feather="list"></i>Lihat<i class="fas fa-chevron-right dropdown-icon"></i></a>
               <ul class="">
-                  @for ($i = 1; $i <= 46; $i++)
+                  @for ($i = 1; $i <= 45; $i++)
                       @php
                           $routeName = 'feature/seeorder/seeorder' . $i;
                           $isActive = Request::is($routeName);

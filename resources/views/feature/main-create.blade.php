@@ -30,6 +30,7 @@
                                             @enderror
                                         </div>
                                     </div>
+
                                     <div class="row mb-3">
                                         <label for="deskripsi" class="col-sm-2 col-form-label">Deskripsi</label>
                                         <div class="col-sm-10">
@@ -43,10 +44,11 @@
                                     <div class="row mb-3">
                                         <label for="category" class="col-sm-2 col-form-label">Kategori</label>
                                         <div class="col-sm-10">
-                                            <select class="form-select" name="category" aria-label="Pilih Tema">
-                                            @for ($i = 1; $i <= 46; $i++)
-                                                <option value="Tema {{ $i }}">Tema {{ $i }}</option>
-                                            @endfor
+                                            <select class="form-select" name="category" id="categorySelect" aria-label="Pilih Tema">
+                                                <option value="" selected>Pilih Tema</option> <!-- Initial placeholder option -->
+                                                @for ($i = 1; $i <= 45; $i++)
+                                                    <option value="Tema {{ $i }}">Tema {{ $i }}</option>
+                                                @endfor
                                             </select>
                                             @error('category')
                                             <span class="text-danger">{{ $message }}</span>
@@ -54,15 +56,46 @@
                                         </div>
                                     </div>
 
+                                    @for ($i = 1; $i <= 45; $i++)
+                                        <input type="hidden" name="file" class="form-control theme-photo" id="photo{{ $i }}" value="{{ asset('coba/images/gambar' . $i . '.png') }}">
+                                    @endfor
+
                                     <div class="row mb-3">
-                                        <label for="photo" class="col-sm-2 col-form-label">Photo</label>
+                                        <div class="col-sm-2"></div>
                                         <div class="col-sm-10">
-                                            <input type="file" class="form-control" id="file" name="file" accept="image/*">
-                                            @error('foto')
-                                                <span class="text-danger">{{ $message }}</span>
-                                            @enderror
+                                            <img id="selectedImage" src="" class="card-img-top" alt="Gambar belum dipilih">
+                                            <p id="imageInfoMessage" class="text-danger"></p> <!-- Initial information message -->
                                         </div>
                                     </div>
+
+                                    <script>
+                                        // Get references to the category select element and image elements
+                                        const categorySelect = document.getElementById('categorySelect');
+                                        const selectedImage = document.getElementById('selectedImage');
+                                        const imageInfoMessage = document.getElementById('imageInfoMessage');
+
+                                        // Add an event listener to the category select element
+                                        categorySelect.addEventListener('change', () => {
+                                            // Get the selected category value
+                                            const selectedCategory = categorySelect.value;
+
+                                            // Get the corresponding photo URL based on the selected category
+                                            const photoInput = document.getElementById(`photo${selectedCategory}`);
+                                            const photoURL = photoInput ? photoInput.value : "";
+
+                                            if (!photoURL) {
+                                                // Display the "Gambar belum dipilih" message
+                                                selectedImage.src = ""; // Clear the image
+                                                imageInfoMessage.textContent = "Gambar belum dipilih";
+                                            } else {
+                                                // Set the src attribute of the image element to the selected photo URL
+                                                selectedImage.src = photoURL;
+                                                imageInfoMessage.textContent = ""; // Clear the message
+                                            }
+                                        });
+                                    </script>
+
+
                                     <button type="submit" class="btn btn-primary">Create</button>
                                 </form>
                             </div>
@@ -118,43 +151,6 @@
                                 </form>
                             @endforeach
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                            <h5 class="card-title">Ubah Lagu</h5>
-                            <p class="card-description">Page ini akan muncul di halaman depan.</p>
-
-                            @if ($errors->any())
-                                <div class="alert alert-danger">
-                                    <ul>
-                                        @foreach ($errors->all() as $error)
-                                            <li>{{ $error }}</li>
-                                        @endforeach
-                                    </ul>
-                                </div>
-                            @endif
-
-                            <form action="" enctype="multipart/form-data" method="POST">
-                                @csrf
-                                @method('put')
-                                <div class="row mb-3">
-                                    <label for="nomor" class="col-sm-2 col-form-label">Lagu</label>
-                                    <div class="col-sm-10">
-                                        <input type="url" class="form-control" id="lagu" name="lagu" placeholder="test.com">
-                                        @error('nomor')
-                                            <span class="text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Create</button>
-                            </form>
                             </div>
                         </div>
                     </div>

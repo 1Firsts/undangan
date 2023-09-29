@@ -641,8 +641,8 @@
             </div>
             <div class="vc_row wpb_row vc_row-fluid vc_custom_1423198729821">
                 <div class="container">
-                    <div class="row">
-                        <div class="vc_col-sm-12 vc_col-lg-4 vc_col-md-4 wpb_column vc_column_container ">
+                    <div class="row justify-content-center"> <!-- Center the columns -->
+                        <div class="vc_col-sm-12 wpb_column vc_column_container text-center"> <!-- Added text-center class -->
                             <div class="wpb_wrapper">
                                 <div class="tzintroduct">
                                     <h3>WEDDING DECOR</h3>
@@ -653,7 +653,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="vc_col-sm-12 vc_col-lg-4 vc_col-md-4 wpb_column vc_column_container ">
+                        <div class="vc_col-sm-12 wpb_column vc_column_container text-center"> <!-- Added text-center class -->
                             <div class="wpb_wrapper">
                                 <div class="tzintroduct">
                                     <h3>BRIDE &amp; GROOM</h3>
@@ -664,20 +664,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="vc_col-sm-12 vc_col-lg-4 vc_col-md-4 wpb_column vc_column_container ">
-                            <div class="wpb_wrapper">
-                                <div class="tzintroduct">
-                                    <h3>THE PROPOSE</h3>
-                                    <div class="tzintroduct-img">
-                                        <img src="{{ url('http://placehold.it/370x370')}}" class="attachment-full" alt="introduct3" />
-                                    </div>
-                                    <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly appreciated!</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
+
             <div class="vc_row wpb_row vc_row-fluid">
                 <div class="nocontainer">
                     <div class="vc_col-sm-12 wpb_column vc_column_container ">
@@ -909,85 +899,7 @@
                     </div>
                 </div>
             </div>
-            <div class="vc_row wpb_row vc_row-fluid vc_custom_1423134011704">
-                <div class="container">
-                    <div class="row">
-                        <div class="vc_col-sm-12 wpb_column vc_column_container ">
-                            <div class="wpb_wrapper">
-                                <div class="container-custom">
-                                    <h2 class="elementblog-title elementblog-title2">FROM OUR BLOG</h2>
-                                    <div class="row">
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="blog-item ">
-                                                <div class="blog-image">
-                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome4" />
-                                                </div>
-                                                <div class="blog-description">
-                                                    <h3><a href="#">Nulla facilisis vitae</a></h3>
-                                                    <span class="tzblog_meta">
-                                                        February 5, 2015                                /
-                                                        <a href="#" title="Comment on Nulla facilisis vitae">Leave a comment</a>
-                                                    </span>
-                                                    <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly.</p>
-                                                    <a class="tzblog_readmore" href="#">READ MORE</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="blog-item ">
-                                                <div class="blog-image">
-                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome3" />
-                                                </div>
-                                                <div class="blog-description">
-                                                    <h3><a href="#">Mauris viverra ipsum</a></h3>
-                                                    <span class="tzblog_meta">
-                                                        February 5, 2015                                /
-                                                        <a href="#" title="Comment on Mauris viverra ipsum">Leave a comment</a>
-                                                    </span>
-                                                    <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly.</p>
-                                                    <a class="tzblog_readmore" href="#">READ MORE</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="blog-item ">
-                                                <div class="blog-image">
-                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome2" />
-                                                </div>
-                                                <div class="blog-description">
-                                                    <h3><a href="#">YOUR HONEYMOON</a></h3>
-                                                    <span class="tzblog_meta">
-                                                        February 5, 2015                                /
-                                                        <a href="#" title="Comment on YOUR HONEYMOON">Leave a comment</a>
-                                                    </span>
-                                                    <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly.</p>
-                                                    <a class="tzblog_readmore" href="#">READ MORE</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                            <div class="blog-item ">
-                                                <div class="blog-image">
-                                                    <img src="{{ url('http://placehold.it/270x170')}}" class="attachment-medium wp-post-image" alt="bloghome1" />
-                                                </div>
-                                                <div class="blog-description">
-                                                    <h3><a href="#">PLAN YOUR TRIP</a></h3>
-                                                    <span class="tzblog_meta">
-                                                        February 5, 2015                                /
-                                                        <a href="#" title="Comment on PLAN YOUR TRIP">Leave a comment</a>
-                                                    </span>
-                                                    <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly.</p>
-                                                    <a class="tzblog_readmore" href="#">READ MORE</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <footer class="tz-footer">
                 <div class="container">
                     <div class="row">

@@ -37,9 +37,6 @@ Route::view('/feature/create-order', 'feature/create-order');
 Route::view('/feature/create', 'feature/create');
 Route::view('/feature/order', 'feature/order');
 
-Route::get("/feature/table", [TableController::class, "index"]);
-
-
 Route::middleware('auth')->group(function () {
     Route::get('/vcoba', [CobaController::class, 'index'])->name('vcoba');
     
@@ -54,17 +51,45 @@ Route::post('/store_theme', [CobaController::class, 'store_theme'])->name('store
 Route::post('/buat_tema/{theme}', [UndanganController::class, 'buat_tema'])->name('buat_tema');
 
 // Create Data Theme Routes
-for ($i = 1; $i <= 46; $i++) {
+for ($i = 1; $i <= 45; $i++) {
     Route::delete("/seeorder{$i}/delete/{id}", [SeeorderController::class, "delete_seeorder{$i}"])->name("seeorder{$i}.delete");
     Route::get("/feature/seeorder/seeorder{$i}", [SeeorderController::class, "seeorder{$i}"])->name("seeorder{$i}.seeorder{$i}");
     Route::get("/posts/show{$i}/{id}", [SeeorderController::class, "show_seeorder{$i}"])->name("posts.show{$i}");
 }
 
 // Define a single route for all tema views with a parameter
-for ($i = 1; $i <= 46; $i++) {
-    Route::view("/feature/theme/tema{$i}", "feature/theme/tema{$i}");
+for ($i = 1; $i <= 45; $i++) {
     Route::view("/feature/theme/preview/lihat{$i}", "feature/theme/preview/lihat{$i}");
 }
+
+Route::get("/feature/table", [TableController::class, "index"]);
+
+// Start Showing
+
+$currentURL = 'http://127.0.0.1:8000/posts/show'; // Define the base URL without ID
+$generatedURLs = []; // Initialize an array to store generated URLs
+
+for ($i = 1; $i <= 45; $i++) {
+    $themeNumber = $i; // Assign the current theme number
+
+    // Define the route for each theme
+    Route::get("/feature/theme/tema{$i}", function () use ($i, $currentURL, &$generatedURLs) {
+        $generatedURL = "{$currentURL}{$i}";
+
+        // Pass $generatedURL to the view
+        return view("feature/theme/tema{$i}", compact('generatedURL'));
+    });
+
+    // Store the generated URL in the array
+    $generatedURLs[] = "{$currentURL}{$i}";
+}
+
+// Define a single route to display the table with all generated URLs
+Route::get("/feature/table", function () use ($generatedURLs) {
+    return view("feature/table", compact('generatedURLs'));
+});
+
+// End Showing
 
 Route::put('/data_links/{dataLink}/update', [CobaController::class, 'updateLink'])->name('updateLink');
 Route::delete('/cobas/delete/{id}', [CobaController::class, 'delete_theme'])->name('coba.delete');

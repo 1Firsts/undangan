@@ -202,7 +202,6 @@
 					</div>
 					<div class="logo logo-5 logo-white"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
 					<div class="logo logo-5 logo-dark"><a href="index.html"><img class="img-fluid" src="{{ asset('theme/theme13/images/logo-dark-tilia.png')}}" alt="Tilia" width="139" height="90"></a></div>
-					<div class="btn-header btn-header-5"> <a href="contact.html" class="read-more">Book Now</a></div>
 					<!-- mobile menu button -->
 					<div class="nav-button-holder nav-button-holder-5">
 						<button type="button" class="nav-button">
@@ -363,7 +362,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Wedding Photography</h1>
-							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Ancillae torquatos in nec, impetus nostrum ea eos.</span> 
 						</div>
 					</div>
 				</div>
@@ -372,7 +371,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Timeless Locations</h1>
-							<span class="post-subtitle"> Modo detracto appareat qui te.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Modo detracto appareat qui te.</span> 
 						</div>
 					</div>
 				</div>
@@ -381,7 +380,7 @@
 					<div class="container slider-caption">
 						<div class="slider-text">
 							<h1 class="display-2">Family Portraits</h1>
-							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span> <a href="#" class="read-more white-btn">Find More</a>
+							<span class="post-subtitle"> Propriae voluptaria dissentias nam ei.</span> 
 						</div>
 					</div>
 				</div>
@@ -675,7 +674,7 @@
 										<div class="meta-date-all">January 11, 2022</div>
 									</div>
 									<div class="article-excerpt"> Arnare varius mauris eu commodo. Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et ...</div>
-									<a class="read-more-v2 margin-t30" href="blog-single-post.html">Read More</a>
+									
 								</div>
 							</article>
 						</div>
@@ -690,7 +689,7 @@
 										<div class="meta-date-all">January 10, 2022</div>
 									</div>
 									<div class="article-excerpt"> Arnare varius mauris eu commodo. Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et ...</div>
-									<a class="read-more-v2 margin-t30" href="blog-single-post.html">Read More</a>
+									
 								</div>
 							</article>
 						</div>
@@ -705,7 +704,7 @@
 										<div class="meta-date-all">January 9, 2022</div>
 									</div>
 									<div class="article-excerpt"> Arnare varius mauris eu commodo. Aenean nibh risus, rhoncus eget consectetur ac. Consectetur adipiscing elit. Vivamus auctor condimentum sem et ...</div>
-									<a class="read-more-v2 margin-t30" href="blog-single-post.html">Read More</a>
+									
 								</div>
 							</article>
 						</div>
@@ -725,7 +724,7 @@
 								<div class="el-smalltitle">Contact</div>
 								<h2 class="display-4 margin-b30">Looking for a photograher / videographer?</h2>
 								<p>Te vis veniam detracto, tollit alterum graecis his ut. At pro essent aliquip qualisque, vis splendide posidonium ex. Nec et error quodsi deleniti.</p>
-								<a href="contact.html" class="read-more margin-t30">Get in Touch</a>
+								
 							</div>
 						</div>
 						<!-- /col-lg-12 -->
