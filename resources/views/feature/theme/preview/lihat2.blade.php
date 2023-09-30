@@ -48,31 +48,11 @@
         <!-- Header slider section -->
         <div class="home-slider">
             <div class="single-slider">
-                <img src="{{ asset('theme/theme2/images/slider-img/slide-1.jpg')}}" alt="">
-            </div>
-            <div class="single-slider">
-                <img src="{{ asset('theme/theme2/images/slider-img/slide-2.jpg')}}" alt="">
-            </div>
-            <div class="single-slider">
-                <img src="{{ asset('theme/theme2/images/slider-img/slide-3.jpg')}}" alt="">
+                <img src="{{ url('https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80')}}" alt="">
             </div>
         </div>
         <!-- END Header slider section -->
-        <!-- Top Right Quote area -->
-        <div class="top-quote">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 col-sm-offset-8 text-right">
-                        <div class="single-quote text-center">
-                            <p><span>Make a Reservation</span></p>
-                            <h2>(012) 345 - 6789</h2>
-                            <p class="small-font"><span>Or Fill Out</span> The Form</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END Top Right Quote area -->
+       
         <!-- MENU section START -->
         <div class="nav-area">
             <nav class="navbar">
@@ -114,7 +94,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="single-features wow fadeInUp" data-wow-duration="1s">
-                        <img src="{{ asset('theme/theme2/images/feature-img-1.png')}}" alt="">
+                        <img src="{{ url('https://images.unsplash.com/photo-1455541053858-f5c756ccb2e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}" alt="">
                         <div class="img-up">
                             <img src="{{ asset('theme/theme2/images/flower.png')}}" alt="">
                         </div>
@@ -122,7 +102,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-features wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                        <img src="{{ asset('theme/theme2/images/feature-img-2.png')}}" alt="">
+                        <img src="{{ url('https://images.unsplash.com/photo-1520860335182-b40a5c3cc4ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}" alt="">
                         <div class="img-up">
                             <img src="{{ asset('theme/theme2/images/flower.png')}}" alt="">
                         </div>
@@ -130,7 +110,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-features wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                        <img src="{{ asset('theme/theme2/images/feature-img-3.png')}}" alt="">
+                        <img src="{{ url('https://images.unsplash.com/photo-1519657502999-ab785d28a1f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}" alt="">
                         <div class="img-up">
                             <img src="{{ asset('theme/theme2/images/flower.png')}}" alt="">
                         </div>
@@ -341,46 +321,7 @@
         </div>
     </section>
     <!-- END Perfect Dresses Section -->
-    <!-- START Designers Section -->
-    <section class="designer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="section-title">
-                        <h2 class="title-heading">Our Designers</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row brand-slider text-center">
-                <div class="col-sm-2">
-                    <div class="single-designer">
-                        <a href=""><img src="{{ asset('theme/theme2/images/designers/brandname.png')}}" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="single-designer">
-                        <a href=""><img src="{{ asset('theme/theme2/images/designers/hosoreno.png')}}" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="single-designer">
-                        <a href=""><img src="{{ asset('theme/theme2/images/designers/premium.png')}}" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="single-designer">
-                        <a href=""><img src="{{ asset('theme/theme2/images/designers/premium_product.png')}}" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <div class="single-designer">
-                        <a href=""><img src="{{ asset('theme/theme2/images/designers/prestige.png')}}" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END Designers Section -->
+    
     
     <!-- START Bottom Contact Address Section -->
     <div class="bottom-content">

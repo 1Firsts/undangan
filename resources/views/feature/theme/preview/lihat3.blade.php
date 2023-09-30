@@ -356,7 +356,7 @@
                                             <!-- SLIDE  -->
                                             <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
                                                 <!-- MAIN IMAGE -->
-                                                <img src="{{ url('http://placehold.it/1920x923')}}"  alt="everline"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                                                <img src="{{ url('https://images.unsplash.com/photo-1429080355161-3c071e2e27a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}"  alt="everline"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                                 <!-- LAYERS -->
 
                                                 <!-- LAYER NR. 1 -->
@@ -415,7 +415,7 @@
                                             <!-- SLIDE  -->
                                             <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
                                                 <!-- MAIN IMAGE -->
-                                                <img src="{{ url('http://placehold.it/1920x926')}}"  alt="home121"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="110" data-bgfitend="100" data-bgpositionend="center center">
+                                                <img src="{{ url('https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80')}}"  alt="home121"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="110" data-bgfitend="100" data-bgpositionend="center center">
                                                 <!-- LAYERS -->
 
                                                 <!-- LAYER NR. 1 -->
@@ -512,7 +512,7 @@
                                             <!-- SLIDE  -->
                                             <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
                                                 <!-- MAIN IMAGE -->
-                                                <img src="{{ url('http://placehold.it/1920x1104')}}"  alt="home212"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                                                <img src="{{ url('https://images.unsplash.com/photo-1511405889574-b01de1da5441?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}"  alt="home212"  data-bgposition="center top" data-kenburns="on" data-duration="10000" data-ease="Power0.easeIn" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                                 <!-- LAYERS -->
 
                                                 <!-- LAYER NR. 1 -->
@@ -884,17 +884,12 @@
                         <div class="wpb_wrapper">
                             <div class="tz-video">
                                 <div class="tz-video-content">
-                                    <button class="tzautoplay"><i class="fa fa-video-camera"></i></button>
-                                    <button class="tzpause"><i class="fa fa-pause"></i></button>
                                     <h3>“The Power of Love”</h3>
                                     <p>JENNIFER AND JAMES WEDDING VIDEO</p>
                                 </div>
-                                <div class="bg-video bg-video-home-1"></div>
-                                <video class="videoID">
-                                    <source type="video/mp4" src="{{ asset('theme/theme3/video/video.mp4')}}" />
-                                    <source type="video/ogg" src="{{ asset('theme/theme3/video/video.ogv')}}" />
-                                    <source type="video/webm" src="{{ asset('theme/theme3/video/video.webm')}}" />
-                                </video>
+                                <div class="videoID">
+                                    <img src="{{ url('https://images.unsplash.com/photo-1634268014879-ec7b2c982c5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80')}}" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -66,22 +66,22 @@
 			        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 			            <ul class="navbar-nav ml-auto">
 			                <li class="nav-item">
-			                    <a class="nav-link" href="#home">Home</a>
+			                    <a class="nav-link" href="#home"></a>
 			                </li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href="#story">Our Story</a>
+			                    <a class="nav-link" href="#story"></a>
 			                </li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href="#events">Events</a>
+			                    <a class="nav-link" href="#events"></a>
 			                </li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href="#gallery">Gallery</a>
+			                    <a class="nav-link" href="#gallery"></a>
 			                </li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href="#jurnal">Jurnal</a>
+			                    <a class="nav-link" href="#jurnal"></a>
 			                </li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href="#rsvp">RSVP</a>
+			                    <a class="nav-link" href="#rsvp"></a>
 			                </li>
 			            </ul>
 			            <div class="sosmed-icon no-bg-hover float-right d-inline-flex">
@@ -100,7 +100,7 @@
 	<div id="home" class="banner">
     	<div class="owl-carousel owl-theme full-screen">
 	    	<div class="item">
-	        	<img src="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}" alt="Slider">
+	        	<img src="{{ url('https://images.unsplash.com/photo-1494955870715-979ca4f13bf0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}" alt="Slider">
 	        	<div class="overlay-bg"></div>
 	        	<div class="container d-flex align-items-center h-center">
 	            	<div class="wrap-caption">
@@ -112,7 +112,7 @@
 	            </div>
 	    	</div>
 	    	<div class="item">
-	            <img src="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}" alt="Slider">
+	            <img src="{{ url('https://images.unsplash.com/photo-1529636798458-92182e662485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80')}}" alt="Slider">
 	            <div class="overlay-bg"></div>
 	            <div class="container d-flex align-items-center h-center">
 	            	<div class="wrap-caption">
@@ -188,7 +188,7 @@
 	</div>
 
     <!-- OUR PEOPLE -->
-	<div class="section bgi-cover-center" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900-2.jpg') }}">
+	<div class="section bgi-cover-center" data-background="{{ url('https://images.unsplash.com/photo-1495345679747-53991aedf9c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80') }}">
 		<div class="content-wrap">
 
 			<div class="container">
@@ -219,21 +219,21 @@
 						<div class="tab-content" id="pills-tabContent">
 						  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 						  	<div class="text-center">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg') }}" alt="" class="shadow-lg img-fluid mb-3">
+								<img src="{{ url('https://images.unsplash.com/photo-1668692376563-9ab7f24a4f32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80') }}" alt="" class="shadow-lg img-fluid mb-3">
 								<h2>We meet in Bali</h2>
 								<p>Morbi cursus efficitur felis quis placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, Morbi cursus efficitur felis quis placerat. Duis posuere auctor erat nec lobortis. Morbi cursus efficitur felis quis placerat. Duis pellentesque fermentum ex sed auctor. In id enim imperdiet, mollis ante a, fringilla ligula. Pellentesque vel ipsum et nulla scelerisque eleifend nec id dui.</p>
 							</div>
 						  </div>
 						  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 							<div class="text-center">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg') }}" alt="" class="shadow-lg img-fluid mb-3">
+								<img src="{{ url('https://images.unsplash.com/photo-1445575722865-82118e5084ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80') }}" alt="" class="shadow-lg img-fluid mb-3">
 								<h2>Endless park is our first date</h2>
 								<p>Morbi cursus efficitur felis quis placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, Morbi cursus efficitur felis quis placerat. Duis posuere auctor erat nec lobortis. Morbi cursus efficitur felis quis placerat. Duis pellentesque fermentum ex sed auctor. In id enim imperdiet, mollis ante a, fringilla ligula. Pellentesque vel ipsum et nulla scelerisque eleifend nec id dui.</p>
 							</div>
 						  </div>
 						  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 							<div class="text-center">
-								<img src="{{ asset('theme/theme1/images/dummy-img-600x400.jpg') }}" alt="" class="shadow-lg img-fluid mb-3">
+								<img src="{{ url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80') }}" alt="" class="shadow-lg img-fluid mb-3">
 								<h2>The best moment for our</h2>
 								<p>Morbi cursus efficitur felis quis placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum, sem vitae sollicitudin scelerisque, Morbi cursus efficitur felis quis placerat. Duis posuere auctor erat nec lobortis. Morbi cursus efficitur felis quis placerat. Duis pellentesque fermentum ex sed auctor. In id enim imperdiet, mollis ante a, fringilla ligula. Pellentesque vel ipsum et nulla scelerisque eleifend nec id dui.</p>
 							</div>
@@ -264,7 +264,7 @@
     
 
     <!-- CTA -->
-	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
+	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ url('https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}">
 		<div class="content-wrap">
 			<div class="container">
 
@@ -539,70 +539,8 @@
 		</div>
 	</div>
 
-	
-
-	<!-- GIFT -->
-	<div class="section">
-		<div class="content-wrap">
-			<div class="container">
-
-				<div class="row">
-					<div class="col-sm-12 col-md-12">
-						<h2 class="section-heading text-center">
-							Gift
-						</h2>
-						<div class="separator-section text-center"><div class="fa fa-heart"></div></div>
-						<p class="mt-3 subheading text-center">Claritas est etiam processus dynamicus qui sequitur mutationem consuetudium lectorum notare quam littera gothica</p>
-					</div>
-				</div>
-
-				<div class="row mt-5">
-					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
-						<div class="client-img">
-							<a href="#">
-								<img src="{{ asset('theme/theme1/images/client1.png')}}" alt="" class="img-fluid">
-							</a>
-						</div>
-					</div>
-
-					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
-						<div class="client-img">
-							<a href="#"><img src="{{ asset('theme/theme1/images/client2.png')}}" alt="" class="img-fluid"></a>
-						</div>
-					</div>
-
-					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
-						<div class="client-img">
-							<a href="#"><img src="{{ asset('theme/theme1/images/client3.png')}}" alt="" class="img-fluid"></a>
-						</div>
-					</div>
-
-					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
-						<div class="client-img">
-							<a href="#"><img src="{{ asset('theme/theme1/images/client4.png')}}" alt="" class="img-fluid"></a>
-						</div>
-					</div>
-
-					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
-						<div class="client-img">
-							<a href="#"><img src="{{ asset('theme/theme1/images/client5.png')}}" alt="" class="img-fluid"></a>
-						</div>
-					</div>
-
-					<div class="col-6 col-sm-4 col-md-4 col-lg-2">
-						<div class="client-img">
-							<a href="#"><img src="{{ asset('theme/theme1/images/client6.png')}}" alt="" class="img-fluid"></a>
-						</div>
-					</div>
-					
-				</div>
-
-			</div>
-		</div>
-	</div>
-
 	<!-- CTA -->
-	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ asset('theme/theme1/images/dummy-img-1920x900.jpg')}}">
+	<div class="section bgi-cover-center bg-overlay-secondary" data-background="{{ url('https://images.unsplash.com/photo-1519657502999-ab785d28a1f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80')}}">
 		<div class="content-wrap">
 			<div class="container">
 

@@ -35,14 +35,14 @@
                                     @enderror
                                   </div>
 
-                                  <label for="nama_panggilan" class="col-sm-2 col-form-label text-info">Foto Pasangan</label>
+                                  <label class="col-sm-2 col-form-label text-info">Foto Pasangan</label>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_pasangan1" class="col-sm-2 col-form-label">Foto Pasangan</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_pasangan1') is-invalid @enderror" type="file" name="foto_pasangan1" id="foto_pasangan1" value="{{ old('foto_pasangan1') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_pasangan1')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -50,11 +50,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_pasangan2" class="col-sm-2 col-form-label">Foto Pasangan</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_pasangan2') is-invalid @enderror" type="file" name="foto_pasangan2" id="foto_pasangan2" value="{{ old('foto_pasangan2') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_pasangan2')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -65,11 +65,11 @@
                                   <label for="nama_panggilan" class="col-sm-2 col-form-label text-info">Foto Gallery</label>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri1" class="col-sm-2 col-form-label">Foto Galeri 1</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri1') is-invalid @enderror" type="file" name="foto_galeri1" id="foto_galeri1" value="{{ old('foto_galeri1') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri1')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -77,11 +77,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri2" class="col-sm-2 col-form-label">Foto Galeri 2</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri2') is-invalid @enderror" type="file" name="foto_galeri2" id="foto_galeri2" value="{{ old('foto_galeri2') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri2')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -89,11 +89,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri3" class="col-sm-2 col-form-label">Foto Galeri 3</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri3') is-invalid @enderror" type="file" name="foto_galeri3" id="foto_galeri3" value="{{ old('foto_galeri3') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri3')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -101,11 +101,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri4" class="col-sm-2 col-form-label">Foto Galeri 4</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri4') is-invalid @enderror" type="file" name="foto_galeri4" id="foto_galeri4" value="{{ old('foto_galeri4') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri4')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -113,11 +113,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri5" class="col-sm-2 col-form-label">Foto Galeri 5</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri5') is-invalid @enderror" type="file" name="foto_galeri5" id="foto_galeri5" value="{{ old('foto_galeri5') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri5')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -125,11 +125,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri6" class="col-sm-2 col-form-label">Foto Galeri 6</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri6') is-invalid @enderror" type="file" name="foto_galeri6" id="foto_galeri6" value="{{ old('foto_galeri6') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri6')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -137,11 +137,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri7" class="col-sm-2 col-form-label">Foto Galeri 7</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri7') is-invalid @enderror" type="file" name="foto_galeri7" id="foto_galeri7" value="{{ old('foto_galeri7') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri7')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -149,11 +149,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri8" class="col-sm-2 col-form-label">Foto Galeri 8</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri8') is-invalid @enderror" type="file" name="foto_galeri8" id="foto_galeri8" value="{{ old('foto_galeri8') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri8')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -161,11 +161,11 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri9" class="col-sm-2 col-form-label">Foto Galeri 9</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri9') is-invalid @enderror" type="file" name="foto_galeri9" id="foto_galeri9" value="{{ old('foto_galeri9') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri9')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -173,18 +173,16 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto" class="col-sm-2 col-form-label">Foto</label>
+                                    <label for="foto_galeri10" class="col-sm-2 col-form-label">Foto Galeri 10</label>
                                     <div class="col-sm-10">
-                                      <input class="form-control @error('foto') is-invalid @enderror" type="file" name="foto" id="foto" value="{{ old('foto') }}">
+                                      <input class="form-control @error('foto_galeri10') is-invalid @enderror" type="file" name="foto_galeri10" id="foto_galeri10" value="{{ old('foto_galeri10') }}">
                                     </div>
-                                    @error('foto')
+                                    @error('foto_galeri10')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
                                     @enderror
                                   </div>
-
-
 
                                   <!-- Gallery End -->
 

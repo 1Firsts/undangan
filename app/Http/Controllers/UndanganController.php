@@ -42,7 +42,6 @@ class UndanganController extends Controller
         $request->validate([
             'nama_lengkap' => 'required',
             'nama_panggilan' => 'required',
-            'foto' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
             'media_sosial' => 'required|url',
             'hari_tgl' => 'required|date',
             'waktu' => 'required|date_format:H:i',
@@ -50,19 +49,41 @@ class UndanganController extends Controller
             'tema_pernikahan' => 'required',
             'link_undangan' => 'required',
             'tema_category' => 'required',
+            'foto_pasangan1' => 'sometimes|image|mimes:jpeg,png,jpg,gif',
+            'foto_pasangan2' => 'sometimes|image|mimes:jpeg,png,jpg,gif',
         ]);
 
-        // Resize and crop the uploaded image
-        $image = $imageManager->make($request->file('foto'))->resize(673, 517)->crop(673, 517);
+        // Initialize an array to store file paths
+        $filePaths = [];
 
-        // Save the image to the `uploads` directory
-        $imagePath = $request->file('foto')->store("storage/uploads/tema{$themeNumber}", 'public');
+        // Loop through the 'foto_pasangan' fields and handle image uploads
+        for ($i = 1; $i <= 2; $i++) {
+            $fieldName = "foto_pasangan{$i}";
+
+            if ($request->hasFile($fieldName)) {
+                // Validate and store the image
+                $file = $request->file($fieldName);
+                $filePath = $file->store("storage/uploads/tema{$themeNumber}", 'public');
+                $filePaths[$fieldName] = $filePath;
+            }
+        }
+
+        // Loop through the 'foto_galeri' fields and handle image uploads
+        for ($i = 1; $i <= 10; $i++) {
+            $fieldName = "foto_galeri{$i}";
+
+            if ($request->hasFile($fieldName)) {
+                // Validate and store the image
+                $file = $request->file($fieldName);
+                $filePath = $file->store("storage/uploads/tema{$themeNumber}", 'public');
+                $filePaths[$fieldName] = $filePath;
+            }
+        }
 
         // Create a new theme record in the database
         $theme = new Tema();
         $theme->nama_lengkap = $request->input('nama_lengkap');
         $theme->nama_panggilan = $request->input('nama_panggilan');
-        $theme->foto = $imagePath;
         $theme->media_sosial = $request->input('media_sosial');
         $theme->hari_tgl = $request->input('hari_tgl');
         $theme->waktu = $request->input('waktu');
@@ -71,9 +92,14 @@ class UndanganController extends Controller
         $theme->link_undangan = $request->input('link_undangan');
         $theme->tema_category = $request->input('tema_category');
 
+        // Assign uploaded file paths to the theme model
+        foreach ($filePaths as $fieldName => $filePath) {
+            $theme->$fieldName = $filePath;
+        }
+
         // Save the theme data to the database
         $theme->save();
-        // dd($theme);
+        dd($theme);
 
         $currentURL = 'http://127.0.0.1:8000/posts/show'; // Define the base URL without ID
         $generatedURLs = []; // Initialize an array to store generated URLs
