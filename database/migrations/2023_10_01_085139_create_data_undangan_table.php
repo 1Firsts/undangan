@@ -13,8 +13,11 @@ return new class extends Migration
     {
         Schema::create('data_undangan', function (Blueprint $table) {
             $table->id();
-            $table->string('nama_lengkap');
-            $table->string('nama_panggilan');
+            $table->string('nama_pelanggan');
+            $table->string('nama_lengkap_pria');
+            $table->string('nama_panggilan_pria');
+            $table->string('nama_lengkap_wanita');
+            $table->string('nama_panggilan_wanita');
             $table->string('foto_pasangan1')->nullable();
             $table->string('foto_pasangan2')->nullable();
             $table->string('foto_galeri1')->nullable();

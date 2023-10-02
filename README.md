@@ -1,9 +1,20 @@
 # Website Aplikasi Pembuatan Undangan Pernikahan 
 Aplikasi ini kamu bisa membuat undangan digital yang akhir hasilnya akan menggenerate link berupa tema dan informasi yang ingin dibuat.
 
-# Installations
+# Proses Instalasi
+1. Install Web Server (XAMPP / Windows)
+2. Install Composer https://getcomposer.org/Composer-Setup.exe (Windows)
+3. Install Git https://git-scm.com/download/win (Windows)
+4. Install Code Editor (Visual Studio Code)
+5. Buka Code Editor (Visual Studio Code)
+6. Buat Folder dan masuk ke directory folder tersebut
+7. Download Repository https://github.com/1Firsts/undangan.git di Code Editor (Visual Studio Code)
+Dengan mengetikan gitclone https://github.com/1Firsts/undangan.git ke Directory Folder yang sudah dibuat.
+8. Masuk ke Git Repository tadi, lakukan copy project file .env
 
-copy .env.example .env or (linux command) cp .env.example .env
+    copy .env.example .env atau (linux command) cp .env.example .env
+
+9. Lakukan Update dengan menggunakan Command dibawah ini
 
     composer update
     composer install
@@ -11,15 +22,20 @@ copy .env.example .env or (linux command) cp .env.example .env
     php artisan migrate
     php artisan db:seed
     php artisan serve 
-    
-(See Project) http://127.0.0.1:8000/
 
-# Make Seeder Database
-Seeder yang saya buat ini untuk contoh data dummy login
+10. Jika sudah semua Project sudah bisa dilihat
+
+Lihat Project Utama http://127.0.0.1:8000/
+Lihat Project Admin http://127.0.0.1:8000/vcoba
+
+# Langkah Membuat Seeder Database
+Seeder yang saya buat ini untuk contoh data dummy login, sandi default adalah password
+1. Masuk ke Directory tadi, ketikan command ini untuk membuat Seeder
 
     php artisan make:seeder DatabaseSeeder
 
-Edit file ProductsTableSeeder
+2. Edit file ProductsTableSeeder, isi dengan Code dibawah ini
+Jika code sudah ada, silahkan bisa abaikan saja
     
     <?php
     namespace Database\Seeders;
@@ -45,18 +61,20 @@ Edit file ProductsTableSeeder
         }
     }    
     
-DatabaseSeeder.php in the database/seeders directory.
+3. Buka DatabaseSeeder.php ada di database/seeders
+Ketikan Command dibawah ini dalam directory sebelumnya
     
     php artisan db:seed --class=DatabaseSeeder
     php artisan db:seed
     
-Let's See!
+4. Database Seeder sudah selesai dibuat
+Anda bisa melakukan pengecekan data di localhost/phpmyadmin
 
 # Landing Page
 ![image](https://github.com/1Firsts/undangan/assets/26076138/98a227c1-5d49-4f4a-a48f-ea810f34012e)
 
 Default Root Address
-http://127.0.0.1:8000 or localhost/undangan
+http://127.0.0.1:8000 atau localhost/undangan
 
 # Dashboard Admin
 ![image](https://github.com/1Firsts/undangan/assets/26076138/8b2326a3-3eb2-4d1c-ad67-fd1dd1a2df73)
@@ -72,10 +90,8 @@ http://127.0.0.1:8000/vcoba
 - Buat Orderan Tema
 - Lihat Orderan Tema
 
-Selama masih pengembangan beberapa feature tidak bekerja, Feature akan ditambahkan seiring berjalannya waktu.
-
 # Build Spesificiation
 - Build with Laravel 10
 - PHP 8.2.4
 - Composer Version 2.6.2
-- Xampp 8.2.4
+- XAMPP 8.2.4

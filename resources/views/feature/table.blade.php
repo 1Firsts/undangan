@@ -12,12 +12,11 @@
                                   <thead>
                                       <tr>
                                           <th rowspan="2">Nama Pelanggan</th>
-                                          <th colspan="3" style="text-align:center">Data Informasi</th>
+                                          <th colspan="2" style="text-align:center">Data Informasi</th>
                                       </tr>
                                       <tr>
                                           <th>Kategori</th>
-                                          <th>Waktu Mulai</th>
-                                          <th>Selesai</th>
+                                          <th>Dibuat</th>
                                       </tr>
                                   </thead>
                                   <tbody>
@@ -28,10 +27,9 @@
                                   @endphp
                                   @foreach ($tables as $table)
                                       <tr>
-                                          <td>{{ $table->nama_lengkap }}</td>
+                                          <td>{{ $table->nama_pelanggan }}</td>
                                           <td>{{ $table->tema_category }}</td>
-                                          <td>2011/04/25</td>
-                                          <td>2011/04/25</td>
+                                          <td>{{ $table->created_at }}</td>
                                       </tr>
                                   @endforeach
                                       

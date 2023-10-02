@@ -10,8 +10,11 @@ class Tema extends Model
     protected $table = 'data_undangan'; // Specify the table name
 
     protected $fillable = [
-        'nama_lengkap', 
-        'nama_panggilan',
+        'nama_pelanggan',
+        'nama_lengkap_pria', 
+        'nama_panggilan_pria',
+        'nama_lengkap_wanita', 
+        'nama_panggilan_wanita',
         'foto_pasangan1',
         'foto_pasangan2',
         'foto_galeri1',

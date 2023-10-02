@@ -25,18 +25,23 @@ use Illuminate\Support\Facades\Route;
  * Register all web routes for the application.
  */
 
+// Default route for the application's homepage
 Route::get('/', [UndanganController::class, 'index']);
+
+// Various routes for different features
 Route::get('/feature/main-theme', [CobaController::class, 'main_theme'])->name('feature.main-theme');
 Route::get('/feature/main-create', [CobaController::class, 'create_theme'])->name('feature.main-create');
 Route::get('/orders', [OrderController::class, 'index'])->name('orders');
 Route::get('/lockscreen', [AuthenticatedSessionController::class, 'showLockScreen'])->name('lockscreen');
 Route::post('/unlock', [AuthenticatedSessionController::class, 'unlock'])->name('unlock');
 
+// Example of simple view routes
 Route::view('/feature/theme', 'feature/theme');
 Route::view('/feature/create-order', 'feature/create-order');
 Route::view('/feature/create', 'feature/create');
 Route::view('/feature/order', 'feature/order');
 
+// Routes within a middleware group that requires authentication
 Route::middleware('auth')->group(function () {
     Route::get('/vcoba', [CobaController::class, 'index'])->name('vcoba');
     
@@ -47,57 +52,33 @@ Route::middleware('auth')->group(function () {
     Route::delete('/feature/profile/main-profile', [ProfileController::class, 'destroy'])->name('main-profile.destroy');
 });
 
+// Routes for creating themes and orders
 Route::post('/store_theme', [CobaController::class, 'store_theme'])->name('store_theme');  
 Route::post('/buat_tema/{theme}', [UndanganController::class, 'buat_tema'])->name('buat_tema');
 
-// Create Data Theme Routes
+// Dynamic route generation for seeorder and theme views
 for ($i = 1; $i <= 45; $i++) {
     Route::delete("/seeorder{$i}/delete/{id}", [SeeorderController::class, "delete_seeorder{$i}"])->name("seeorder{$i}.delete");
     Route::get("/feature/seeorder/seeorder{$i}", [SeeorderController::class, "seeorder{$i}"])->name("feature.seeorder.seeorder{$i}");
     Route::get("/posts/show{$i}/{id}", [SeeorderController::class, "show_seeorder{$i}"])->name("posts.show{$i}");
 }
 
-// Define a single route for all tema views with a parameter
+// Dynamic route generation for tema views with parameters
 for ($i = 1; $i <= 45; $i++) {
-    Route::view("/feature/theme/preview/lihat{$i}", "feature/theme/preview/lihat{$i}");
+    route::view("feature/theme/tema{$i}", "feature/theme/tema{$i}");
 }
 
+// Define a single route for the table view
 Route::get("/feature/table", [TableController::class, "index"]);
 
-// Start Showing
-
-$currentURL = 'http://127.0.0.1:8000/posts/show'; // Define the base URL without ID
-$generatedURLs = []; // Initialize an array to store generated URLs
-
-for ($i = 1; $i <= 45; $i++) {
-    $themeNumber = $i; // Assign the current theme number
-
-    // Define the route for each theme
-    Route::get("/feature/theme/tema{$i}", function () use ($i, $currentURL, &$generatedURLs) {
-        $generatedURL = "{$currentURL}{$i}";
-
-        // Pass $generatedURL to the view
-        return view("feature/theme/tema{$i}", compact('generatedURL'));
-    });
-
-    // Store the generated URL in the array
-    $generatedURLs[] = "{$currentURL}{$i}";
-}
-
-// Define a single route to display the table with all generated URLs
-Route::get("/feature/table", function () use ($generatedURLs) {
-    return view("feature/table", compact('generatedURLs'));
-});
-
-// End Showing
-
+// Other routes for updating, deleting, and creating data
 Route::put('/data_links/{dataLink}/update', [CobaController::class, 'updateLink'])->name('updateLink');
 Route::delete('/cobas/delete/{id}', [CobaController::class, 'delete_theme'])->name('coba.delete');
 Route::get('/create_theme', [CobaController::class, 'create_theme'])->name('create_theme');
 Route::get('/cobas', [CobaController::class, 'index'])->name('cobas');
-
 Route::delete('/orders/delete/{id}', [OrderController::class, 'delete_order'])->name('order.delete');
 Route::get('/create_order', [OrderController::class, 'create_order'])->name('create_order');
 Route::post('/store_order', [OrderController::class, 'store_order'])->name('store_order');
 
+// Authentication routes
 require __DIR__.'/auth.php';

@@ -12,11 +12,26 @@
                               <form action="{{ route('buat_tema', 20) }}" enctype="multipart/form-data" method="POST">
                                 @csrf
                                 <div class="row mb-3">
-                                    <label for="nama_lengkap" class="col-sm-2 col-form-label">Nama Lengkap</label>
+                                    <label for="nama_pelanggan" class="col-sm-2 col-form-label">Nama Pelanggan</label>
                                     <div class="col-sm-10">
-                                      <input type="text" class="form-control @error('nama_lengkap') is-invalid @enderror" name="nama_lengkap" id="nama_lengkap" placeholder="Jane Doe" value="{{ old('nama_lengkap') }}">
+                                      <input type="text" class="form-control @error('nama_pelanggan') is-invalid @enderror" name="nama_pelanggan" id="nama_pelanggan" placeholder="Jane Doe" value="{{ old('nama_pelanggan') }}">
                                     </div>
-                                    @error('nama_lengkap')
+                                    @error('nama_pelanggan')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+                                
+                                <label class="col-sm-2 col-form-label text-info">Pria</label>
+                                
+                                <!-- Nama Lengkap Pria -->
+                                <div class="row mb-3">
+                                    <label for="nama_lengkap_pria" class="col-sm-2 col-form-label">Nama Lengkap Pria</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control @error('nama_lengkap_pria') is-invalid @enderror" name="nama_lengkap_pria" id="nama_lengkap_pria" placeholder="Jane Doe" value="{{ old('nama_lengkap_pria') }}">
+                                    </div>
+                                    @error('nama_lengkap_pria')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
@@ -24,21 +39,51 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="nama_panggilan" class="col-sm-2 col-form-label">Nama Panggilan</label>
+                                    <label for="nama_panggilan_pria" class="col-sm-2 col-form-label">Nama Panggilan Pria</label>
                                     <div class="col-sm-10">
-                                      <input type="text" class="form-control @error('nama_panggilan') is-invalid @enderror" id="nama_panggilan" name="nama_panggilan" placeholder="Doe" value="{{ old('nama_panggilan') }}">
+                                      <input type="text" class="form-control @error('nama_panggilan_pria') is-invalid @enderror" id="nama_panggilan_pria" name="nama_panggilan_pria" placeholder="Doe" value="{{ old('nama_panggilan_pria') }}">
                                     </div>
-                                    @error('nama_panggilan')
+                                    @error('nama_panggilan_pria')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+                                  <!-- End Nama Lengkap -->
+                                  
+                                  <label class="col-sm-2 col-form-label text-info">Wanita</label>
+                                  
+                                  <!-- Nama Lengkap Wanita -->
+                                  <div class="row mb-3">
+                                    <label for="nama_lengkap_wanita" class="col-sm-2 col-form-label">Nama Lengkap Wanita</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control @error('nama_lengkap_wanita') is-invalid @enderror" name="nama_lengkap_wanita" id="nama_lengkap" placeholder="Jany allica" value="{{ old('nama_lengkap_wanita') }}">
+                                    </div>
+                                    @error('nama_lengkap_wanita')
                                     <span class="invalid-feedback" role="alert">
                                         {{ $message }}
                                     </span>
                                     @enderror
                                   </div>
 
+                                  <div class="row mb-3">
+                                    <label for="nama_panggilan_wanita" class="col-sm-2 col-form-label">Nama Panggilan Wanita</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control @error('nama_panggilan_wanita') is-invalid @enderror" id="nama_panggilan_wanita" name="nama_panggilan_wanita" placeholder="Allica" value="{{ old('nama_panggilan_wanita') }}">
+                                    </div>
+                                    @error('nama_panggilan_wanita')
+                                    <span class="invalid-feedback" role="alert">
+                                        {{ $message }}
+                                    </span>
+                                    @enderror
+                                  </div>
+                                  <!-- End Nama Wanita -->
+
+                                  <!-- Start Foto Pasangan -->
                                   <label class="col-sm-2 col-form-label text-info">Foto Pasangan</label>
 
                                   <div class="row mb-3">
-                                    <label for="foto_pasangan1" class="col-sm-2 col-form-label">Foto Pasangan</label>
+                                    <label for="foto_pasangan1" class="col-sm-2 col-form-label">Foto Pasangan Pria</label>
                                     <div class="col-sm-10">
                                       <input class="form-control @error('foto_pasangan1') is-invalid @enderror" type="file" name="foto_pasangan1" id="foto_pasangan1" value="{{ old('foto_pasangan1') }}">
                                     </div>
@@ -50,7 +95,7 @@
                                   </div>
 
                                   <div class="row mb-3">
-                                    <label for="foto_pasangan2" class="col-sm-2 col-form-label">Foto Pasangan</label>
+                                    <label for="foto_pasangan2" class="col-sm-2 col-form-label">Foto Pasangan Wanita</label>
                                     <div class="col-sm-10">
                                       <input class="form-control @error('foto_pasangan2') is-invalid @enderror" type="file" name="foto_pasangan2" id="foto_pasangan2" value="{{ old('foto_pasangan2') }}">
                                     </div>
@@ -60,6 +105,7 @@
                                     </span>
                                     @enderror
                                   </div>
+                                  <!-- End Foto Pasangan -->
 
                                   <!-- Gallery Start -->
                                   <label for="nama_panggilan" class="col-sm-2 col-form-label text-info">Foto Gallery</label>

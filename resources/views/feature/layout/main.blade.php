@@ -47,54 +47,6 @@
               <a href="{{ url('feature/theme') }}"><i data-feather="user"></i>Daftar Tema</a>
           </li>
 
-          <li class="sidebar-title">
-              Proses
-          </li>
-          
-          @php
-          $activePages = 'feature/theme/tema*';
-          $createRoute = 'feature/theme/create'; // Adjust the route for the "Create" menu item as needed
-          @endphp
-
-          <li class="{{ Request::is($activePages) || Request::is($createRoute) ? 'active-page' : '' }}">
-              <a href="{{ url($createRoute) }}" class="{{ Request::is($createRoute) ? 'active' : '' }}"><i data-feather="edit"></i>Buat<i class="fas fa-chevron-right dropdown-icon"></i></a>
-              <ul class="">
-                  @for ($i = 1; $i <= 45; $i++)
-                      @php
-                      $routeName = 'feature/theme/tema' . $i;
-                      $isActive = Request::is($routeName);
-                      @endphp
-                      <li>
-                          <a href="{{ url($routeName) }}" class="{{ $isActive ? 'active' : '' }}">
-                              <i class="far fa-circle"></i>Tema {{ $i }}
-                          </a>
-                      </li>
-                  @endfor
-              </ul>
-          </li>
-
-          @php
-          $activePages = 'feature/seeorder/seeorder*';
-          $createRoute = 'feature/seeorder/create'; // Adjust the route for the "Create" menu item as needed
-          @endphp
-
-          <li class="{{ Request::is($activePages) || Request::is($createRoute) ? 'active-page' : '' }}">
-              <a href="{{ url('#') }}" class="{{ Request::is($createRoute) ? 'active' : '' }}"><i data-feather="list"></i>Lihat<i class="fas fa-chevron-right dropdown-icon"></i></a>
-              <ul class="">
-                  @for ($i = 1; $i <= 45; $i++)
-                      @php
-                          $routeName = 'feature/seeorder/seeorder' . $i;
-                          $isActive = Request::is($routeName);
-                      @endphp
-                      <li>
-                          <a href="{{ url($routeName) }}" class="{{ $isActive ? 'active' : '' }}">
-                              <i class="far fa-circle"></i>Tema {{ $i }}
-                          </a>
-                      </li>
-                  @endfor
-              </ul>
-          </li>
-
           </ul>
           </div>
         

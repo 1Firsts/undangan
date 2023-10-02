@@ -20,8 +20,6 @@
                                           <tr>
                                               <th>Kategori</th>
                                               <th>Jumlah</th>
-                                              <th>Waktu Mulai</th>
-                                              <th>Selesai</th>
                                               <th>Status</th>
                                               <th>Aksi</th>
                                           </tr>
@@ -32,8 +30,6 @@
                                                   <td>{{ $order->customer }}</td>
                                                   <td>{{ $order->category }}</td>
                                                   <td>{{ $order->jumlah }}</td>
-                                                  <td>{{ $order->created_at }}</td>
-                                                  <td>{{ $order->updated_at }}</td>
                                                   <td>
                                                       @php
                                                           $statusClasses = [
@@ -77,54 +73,81 @@
                             </div>
                         </div>
 
-                  <div class="card stat-widget">
-                      <div class="card-body">
-                          <h5 class="card-title"></h5>
-                          <canvas id="myPieChart" width="auto" height="auto"></canvas>
-                      </div>
-                  </div>
+                        <div class="card stat-widget">
+                            <div class="card-body">
+                                <h5 class="card-title">Laporan Data</h5>
+                                <p>Informasi Laporan Grafik</p>
+                                <canvas id="myPieChart" width="auto" height="auto"></canvas>
+                            </div>
+                        </div>
 
-                </div>
+                        </div>
 
-                <script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js') }}"></script>
+                        <script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js') }}"></script>
 
-                <script>
-                    // Sample data (replace with your actual data)
-                    var labels = ['Selesai', 'Dikerjakan'];
-                    var selesaiCount = {{ $selesaiCount ?? 0 }};
-                    var dikerjakanCount = {{ $dikerjakanCount ?? 0 }};
+                        <script>
+                            // Sample data (replace with your actual data)
+                            var labels = ['Selesai', 'Dikerjakan'];
+                            var selesaiCount = {{ $selesaiCount ?? 0 }};
+                            var dikerjakanCount = {{ $dikerjakanCount ?? 0 }};
 
-                    var ctx = document.getElementById('myPieChart').getContext('2d');
+                            // Check if both counts are zero
+                            @if ($selesaiCount == 0 && $dikerjakanCount == 0)
+                                var ctx = document.getElementById('myPieChart').getContext('2d');
+                                var data = {
+                                    labels: ['Tidak ada data tersedia'],
+                                    datasets: [
+                                        {
+                                            data: [1], // Set the data to 1 to avoid chart rendering errors
+                                            backgroundColor: ['#dddddd'],
+                                            borderWidth: 2,
+                                        },
+                                    ],
+                                };
 
-                    var data = {
-                        labels: labels,
-                        datasets: [
-                            {
-                                data: [selesaiCount, dikerjakanCount],
-                                backgroundColor: ['#d3fbf9', '#7888fc'],
-                                borderWidth: 2,
-                            },
-                        ],
-                    };
+                                // Create the Pie Chart
+                                var pieChart = new Chart(ctx, {
+                                    type: 'pie',
+                                    data: data,
+                                    options: {
+                                        responsive: true,
+                                        plugins: {
+                                            legend: {
+                                                display: false,
+                                            }
+                                        },
+                                    },
+                                });
+                            @else
+                                var ctx = document.getElementById('myPieChart').getContext('2d');
 
-                    // Create the Pie Chart
-                    var pieChart = new Chart(ctx, {
-                        type: 'pie',
-                        data: data,
-                        options: {
-                            responsive: true,
-                            plugins: {
-                                legend: {
-                                    position: 'top',
-                                },
-                                title: {
-                                    display: true,
-                                    text: 'Laporan Data',
-                                },
-                            },
-                        },
-                    });
-                </script>
+                                var data = {
+                                    labels: labels,
+                                    datasets: [
+                                        {
+                                            data: [selesaiCount, dikerjakanCount],
+                                            backgroundColor: ['#d3fbf9', '#7888fc'],
+                                            borderWidth: 2,
+                                        },
+                                    ],
+                                };
+
+                                // Create the Pie Chart
+                                var pieChart = new Chart(ctx, {
+                                    type: 'pie',
+                                    data: data,
+                                    options: {
+                                        responsive: true,
+                                        plugins: {
+                                            legend: {
+                                                position: 'top',
+                                            }
+                                        },
+                                    },
+                                });
+                            @endif
+                        </script>
+
 
                 </div>
         @endsection

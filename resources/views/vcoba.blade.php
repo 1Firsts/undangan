@@ -136,38 +136,42 @@
                     });
                 </script>
 
-              <div class="col-sm-6 col-xl-4">
-                 <div class="card stat-widget">
-                    <div class="card-body">
-                        <h5 class="card-title">Data Pelanggan</h5>
-                        
-                        @foreach ($orders as $order)
-                        <div class="transactions-list">
-                            <div class="tr-item">
-                                <div class="tr-company-name">
-                                    <div class="tr-icon tr-card-icon
-                                        @if ($order->status === 'Selesai')
-                                            tr-card-bg-success text-success
-                                        @elseif ($order->status === 'Batal')
-                                            tr-card-bg-danger text-danger
-                                        @elseif ($order->status === 'Dikerjakan')
-                                            tr-card-bg-primary text-primary
-                                        @endif">
-                                        <i data-feather="user"></i>
-                                    </div>
-                                    <div class="tr-text">
-                                        <a href="#"><h4>{{ $order->customer }}</h4></a>
-                                        <p>{{ $order->status }}</p>
+                <div class="col-sm-6 col-xl-4">
+                    <div class="card stat-widget">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Pelanggan</h5>
+
+                            @if(count($orders) > 0)
+                                @foreach ($orders as $order)
+                                <div class="transactions-list">
+                                    <div class="tr-item">
+                                        <div class="tr-company-name">
+                                            <div class="tr-icon tr-card-icon
+                                                @if ($order->status === 'Selesai')
+                                                    tr-card-bg-success text-success
+                                                @elseif ($order->status === 'Batal')
+                                                    tr-card-bg-danger text-danger
+                                                @elseif ($order->status === 'Dikerjakan')
+                                                    tr-card-bg-primary text-primary
+                                                @endif">
+                                                <i data-feather="user"></i>
+                                            </div>
+                                            <div class="tr-text">
+                                                <a href="#"><h4>{{ $order->customer }}</h4></a>
+                                                <p>{{ $order->status }}</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                @endforeach
+                            @else
+                                <p>Tidak ada data pelanggan.</p>
+                            @endif
+
                         </div>
-                        @endforeach
-
-
-                      </div>
                     </div>
-                  </div>
+                </div>
+
             </div>         
 
 @endsection
