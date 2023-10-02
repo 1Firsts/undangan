@@ -9,19 +9,21 @@ Aplikasi ini kamu bisa membuat undangan digital yang akhir hasilnya akan menggen
 5. Buka Code Editor (Visual Studio Code)
 6. Buat Folder dan masuk ke directory folder tersebut
 7. Download Repository https://github.com/1Firsts/undangan.git di Code Editor (Visual Studio Code)
-Dengan mengetikan gitclone https://github.com/1Firsts/undangan.git ke Directory Folder yang sudah dibuat.
+Dengan mengetikan Command ```git clone https://github.com/1Firsts/undangan.git``` ke Directory Folder yang sudah dibuat.
 8. Masuk ke Git Repository tadi, lakukan copy project file .env
 
-    copy .env.example .env atau (linux command) cp .env.example .env
+    ```copy .env.example .env atau (linux command) cp .env.example .env```
 
 9. Lakukan Update dengan menggunakan Command dibawah ini
 
+    ```
     composer update
     composer install
     php artisan key:generate
     php artisan migrate
     php artisan db:seed
     php artisan serve 
+    ```
 
 10. Jika sudah semua Project sudah bisa dilihat
 
@@ -29,14 +31,17 @@ Lihat Project Utama http://127.0.0.1:8000/
 Lihat Project Admin http://127.0.0.1:8000/vcoba
 
 # Langkah Membuat Seeder Database
-Seeder yang saya buat ini untuk contoh data dummy login, sandi default adalah password
+Seeder yang saya buat ini untuk contoh data dummy login, sandi default adalah **password**
 1. Masuk ke Directory tadi, ketikan command ini untuk membuat Seeder
 
+    ```
     php artisan make:seeder DatabaseSeeder
-
-2. Edit file ProductsTableSeeder, isi dengan Code dibawah ini
-Jika code sudah ada, silahkan bisa abaikan saja
+    ```
     
+3. Edit file **ProductsTableSeeder**, isi dengan Code dibawah ini
+Jika code sudah ada, silahkan bisa abaikan saja
+
+    ```
     <?php
     namespace Database\Seeders;
     use Illuminate\Database\Seeder;
@@ -59,16 +64,19 @@ Jika code sudah ada, silahkan bisa abaikan saja
                 'remember_token' => Str::random(10),
             ]);
         }
-    }    
+    }
+    ```
     
-3. Buka DatabaseSeeder.php ada di database/seeders
+4. Buka **DatabaseSeeder.php** ada di **database/seeders**
 Ketikan Command dibawah ini dalam directory sebelumnya
-    
+
+    ```
     php artisan db:seed --class=DatabaseSeeder
     php artisan db:seed
+    ```
     
-4. Database Seeder sudah selesai dibuat
-Anda bisa melakukan pengecekan data di localhost/phpmyadmin
+5. Database Seeder sudah selesai dibuat
+Anda bisa melakukan pengecekan data di **localhost/phpmyadmin**
 
 # Landing Page
 ![image](https://github.com/1Firsts/undangan/assets/26076138/98a227c1-5d49-4f4a-a48f-ea810f34012e)
